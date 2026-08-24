@@ -528,186 +528,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized_Small_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_Small_US"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized capacitor, small US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_US_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -0.762)
-					(mid 0 -0.3734)
-					(end 1.524 -0.762)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_US_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -1642,16 +1462,6 @@
 			)
 		)
 		(uuid "7e054c92-9b4a-4eaf-8677-ec54a0c92407")
-	)
-	(text "Placeholder shield mount"
-		(exclude_from_sim no)
-		(at 198.374 117.094 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8b84f740-6a68-4dee-9a18-e9c302c190cb")
 	)
 	(junction
 		(at 137.16 58.42)
@@ -3490,7 +3300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03910c42-f23a-4ed4-a26b-0c925f3507f5")
-		(property "Reference" "#PWR0190"
+		(property "Reference" "#PWR0210"
 			(at 151.13 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3551,7 +3361,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "#PWR0190")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -3569,7 +3379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "090d62e3-4058-4388-ac55-c81d5d0d409f")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR0207"
 			(at 125.73 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3630,7 +3440,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "#PWR0187")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -3648,7 +3458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2667adf7-cfe8-4006-b0c6-872e2067451b")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR0209"
 			(at 137.16 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3709,7 +3519,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "#PWR0189")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -3727,7 +3537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "320fe906-a7ba-49df-b1c4-12990d976006")
-		(property "Reference" "U22"
+		(property "Reference" "U23"
 			(at 150.7333 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3855,7 +3665,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "U22")
+					(reference "U23")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -3875,7 +3685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3970a005-611f-40d3-b608-e9531c424286")
-		(property "Reference" "C82"
+		(property "Reference" "C91"
 			(at 138.684 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3960,7 +3770,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "C82")
+					(reference "C91")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -3981,7 +3791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64514735-540e-4dc7-a069-4710b8cc54c9")
-		(property "Reference" "J12"
+		(property "Reference" "J14"
 			(at 201.93 82.8431 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4067,7 +3877,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "J12")
+					(reference "J14")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4092,7 +3902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68fe1d6c-f471-490a-a5da-853a57cdc090")
-		(property "Reference" "J11"
+		(property "Reference" "J13"
 			(at 106.68 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4183,7 +3993,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "J11")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -4200,7 +4010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "738478f6-de9e-400c-a41d-c8c3cbbe60dc")
-		(property "Reference" "C81"
+		(property "Reference" "C90"
 			(at 127.254 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4285,7 +4095,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "C81")
+					(reference "C90")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4306,7 +4116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81f304bc-d584-4a81-8c75-381bfd3ee0b0")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR0204"
 			(at 93.98 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4377,7 +4187,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "#PWR0184")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -4395,7 +4205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e8e3dac-d118-431d-b36d-128eb19a744b")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR0206"
 			(at 113.03 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4456,7 +4266,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "#PWR0186")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -4474,7 +4284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93d15eff-9298-4c97-b248-f8c47c5b7f74")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR0208"
 			(at 125.73 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4535,7 +4345,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "#PWR0188")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -4553,7 +4363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "975ec153-557a-44bc-aba1-85e5a445e3ca")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR0212"
 			(at 198.12 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4614,113 +4424,8 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "#PWR0192")
+					(reference "#PWR0212")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 113.03 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9d7624d6-c810-41e0-8a06-0afc4382953b")
-		(property "Reference" "C80"
-			(at 115.062 61.214 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 115.57 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
-			(at 113.03 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10uF 16V 3Ω@100kHz ±10% Tantalum Capacitors"
-			(at 113.03 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C7171"
-			(at 113.03 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vmax" "16V"
-			(at 117.094 65.786 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ef147b23-30fa-4af3-92bf-32287059ac81")
-		)
-		(pin "1"
-			(uuid "f6119ca9-778d-4889-b05a-a89447c3d4cd")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "C80")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -4737,7 +4442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4ec583d-e2fd-46b9-a675-d43c139d9a5b")
-		(property "Reference" "#PWR0191"
+		(property "Reference" "#PWR0211"
 			(at 189.23 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4798,7 +4503,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "#PWR0191")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -4816,7 +4521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d59e22e7-f4e4-42c5-bda2-c0f6e4de5eac")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR0205"
 			(at 99.06 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4887,7 +4592,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
-					(reference "#PWR0185")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -4902,7 +4607,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f7d7c256-3d5f-4abb-bb8e-c5ed361cc4c8")
 		(property "Reference" "H1"
 			(at 195.326 120.65 0)
@@ -4960,6 +4665,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 203.2 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8116bab0-aeb6-4b03-9dcb-5b4198b27d0d")
 		)
@@ -4968,6 +4684,115 @@
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
 					(reference "H1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 113.03 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fcbcccb1-1043-4caa-b406-6739dd95d87c")
+		(property "Reference" "C89"
+			(at 115.062 61.214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 115.57 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 113.03 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF 16V X7R ±10% 0805 Capacitor"
+			(at 113.03 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C95841"
+			(at 113.03 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "16V"
+			(at 117.094 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bb826710-23a5-402c-a3a6-5344080ee39a")
+		)
+		(pin "1"
+			(uuid "83f060a1-9fc9-4491-ad0d-96cbb5cf4682")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/c7b423e7-02ab-4541-aadd-dd3010a8b6d4"
+					(reference "C89")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(field
+							(name "Value")
+							(value "10uF")
+						)
+					)
 				)
 			)
 		)

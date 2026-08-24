@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 1.0,
+          "corner_radius": 2.0,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.025,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.75
+          "thermal_relief_gap": 0.3,
+          "thermal_relief_spoke_width": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -305,23 +305,11 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_to_pin|1092200|558800|4862b63c-7b97-45d0-85ed-8db3f7207ed7|abbe52b5-a18f-4510-b4e6-e9cf2473bf33|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/131e6866-b704-4779-91a7-8b3d7291eb1f|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/131e6866-b704-4779-91a7-8b3d7291eb1f|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/131e6866-b704-4779-91a7-8b3d7291eb1f",
+        "pin_to_pin|1092200|558800|4862b63c-7b97-45d0-85ed-8db3f7207ed7|abbe52b5-a18f-4510-b4e6-e9cf2473bf33|||",
         ""
       ],
       [
-        "pin_to_pin|1104900|1155700|abbe52b5-a18f-4510-b4e6-e9cf2473bf33|601db365-0509-4ab0-b24a-7b4df89781ab|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/131e6866-b704-4779-91a7-8b3d7291eb1f|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/131e6866-b704-4779-91a7-8b3d7291eb1f|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/f288bc23-b601-40a4-a5c4-57efb057c084",
-        ""
-      ],
-      [
-        "pin_to_pin|1155700|1206500|601db365-0509-4ab0-b24a-7b4df89781ab|abbe52b5-a18f-4510-b4e6-e9cf2473bf33|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/f288bc23-b601-40a4-a5c4-57efb057c084|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/f288bc23-b601-40a4-a5c4-57efb057c084|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/131e6866-b704-4779-91a7-8b3d7291eb1f",
-        ""
-      ],
-      [
-        "pin_to_pin|1155700|635000|cc0abf30-0f01-42fb-bc59-7300eed7aa4a|601db365-0509-4ab0-b24a-7b4df89781ab|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/f288bc23-b601-40a4-a5c4-57efb057c084|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/f288bc23-b601-40a4-a5c4-57efb057c084|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/f288bc23-b601-40a4-a5c4-57efb057c084",
-        ""
-      ],
-      [
-        "pin_to_pin|1676400|622300|63596d6f-f96c-436f-add4-fdbf820521e7|7f6cb283-9173-4c6a-8eff-acf54d2ba955|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/4cdeebf2-2794-42a5-a6f3-4e4e1c9cca5c/79712eae-cba0-4e97-9155-2256f09182e6|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/4cdeebf2-2794-42a5-a6f3-4e4e1c9cca5c/79712eae-cba0-4e97-9155-2256f09182e6|/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/11209d22-a009-46a9-8087-507ed7be20d3",
+        "pin_to_pin|1104900|1155700|abbe52b5-a18f-4510-b4e6-e9cf2473bf33|601db365-0509-4ab0-b24a-7b4df89781ab|||",
         ""
       ],
       [
@@ -535,7 +523,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -843,14 +831,32 @@
           "label": "Pitch",
           "name": "Pitch",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ratio",
+          "name": "ratio",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint_Size",
+          "name": "Footprint_Size",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "10",
       "group_symbols": false,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "bus_aliases": {
       "IDC": [
@@ -910,6 +916,11 @@
           "name": "JLCPCB Part #",
           "url": false,
           "visible": false
+        },
+        {
+          "name": "Footprint_Size",
+          "url": false,
+          "visible": true
         }
       ],
       "hop_over_size_choice": 0,
@@ -1030,19 +1041,19 @@
       "DAQ"
     ],
     [
-      "f288bc23-b601-40a4-a5c4-57efb057c084",
-      "TC3"
+      "7817f44f-2f57-4643-bdac-4e1683514017",
+      "TC1"
     ],
     [
-      "131e6866-b704-4779-91a7-8b3d7291eb1f",
-      "TC1"
+      "74cbe742-bebc-4a7c-a639-71262d0c3c53",
+      "TC2"
     ],
     [
       "444e461c-c8f4-4d9c-bcc4-48f2a5a25e3c",
       "PT1"
     ],
     [
-      "7871b2fc-f4fc-46d0-b742-81e8dc52192d",
+      "248d12c0-4a4e-4531-9116-c7efcdd9088f",
       "PT2"
     ],
     [
@@ -1050,7 +1061,7 @@
       "LC1"
     ],
     [
-      "c294e903-e682-4dd2-823a-bd317b0fb802",
+      "01d9761a-bb6b-463e-9cfc-e5f412239f3b",
       "LC2"
     ],
     [

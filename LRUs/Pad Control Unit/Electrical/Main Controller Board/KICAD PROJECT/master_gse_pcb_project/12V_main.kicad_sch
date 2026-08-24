@@ -10,6 +10,187 @@
 		(rev "A")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1533,7 +1714,7 @@
 	)
 	(text "Vstart = 13.2V\nVstop = 12.8V\n"
 		(exclude_from_sim no)
-		(at 92.202 90.932 0)
+		(at 91.44 81.026 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1541,6 +1722,17 @@
 			(justify right)
 		)
 		(uuid "4e2f1348-3117-421d-928f-d472df1e0fad")
+	)
+	(text "12V Inhibit\n"
+		(exclude_from_sim no)
+		(at 78.74 88.392 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a415e2f-6ff5-4d91-b351-8f92ebffac88")
 	)
 	(text "33% ripple @ 1A"
 		(exclude_from_sim no)
@@ -1575,6 +1767,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1883fb6e-399c-4d80-9a25-3de5e22e58f7")
+	)
+	(junction
+		(at 95.25 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40480b83-2efa-41e2-a175-94ab3e82ee03")
 	)
 	(junction
 		(at 232.41 72.39)
@@ -1838,7 +2036,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 80.01) (xy 95.25 85.09)
+			(xy 95.25 80.01) (xy 95.25 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1918,6 +2116,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 83.82) (xy 95.25 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61eb315a-2a52-4dcd-ac41-c850abdd727e")
+	)
+	(wire
+		(pts
 			(xy 198.12 78.74) (xy 198.12 80.01)
 		)
 		(stroke
@@ -1975,6 +2183,16 @@
 			(type default)
 		)
 		(uuid "7b852e71-4434-4f18-a366-f75c79b003e0")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44) (xy 87.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d02888d-da70-4fbd-82d2-da268ae23e99")
 	)
 	(wire
 		(pts
@@ -2058,6 +2276,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 96.52) (xy 87.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0d23fa-4607-4adc-b485-a398a9efa0a2")
+	)
+	(wire
+		(pts
 			(xy 246.38 82.55) (xy 246.38 87.63)
 		)
 		(stroke
@@ -2075,6 +2303,16 @@
 			(type default)
 		)
 		(uuid "b3540dfa-4759-4be1-96d1-737ce4f3ade4")
+	)
+	(wire
+		(pts
+			(xy 86.36 91.44) (xy 87.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b1ccf8-1cd8-4760-91e5-43d2ad4f24dd")
 	)
 	(wire
 		(pts
@@ -2148,6 +2386,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 93.98) (xy 86.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ee01fc-6b0f-40e6-a302-292048650693")
+	)
+	(wire
+		(pts
 			(xy 255.27 100.33) (xy 255.27 77.47)
 		)
 		(stroke
@@ -2195,6 +2443,16 @@
 			(type default)
 		)
 		(uuid "da4d10b2-7993-4a6d-8d13-9fc0d75b8f37")
+	)
+	(wire
+		(pts
+			(xy 87.63 83.82) (xy 95.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1b0521-3d0d-42f4-be8b-0cc1da775cdf")
 	)
 	(wire
 		(pts
@@ -3473,7 +3731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0070343d-d0f7-414b-a478-f8120e007b07")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 138.43 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3534,7 +3792,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/779859f4-0b97-4cb0-b8a9-2b70a56bf208"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3864,7 +4122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c78984b-1e9f-43da-a8e6-b4bba2167aa8")
-		(property "Reference" "D9"
+		(property "Reference" "D7"
 			(at 103.886 143.256 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3960,7 +4218,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/779859f4-0b97-4cb0-b8a9-2b70a56bf208"
-					(reference "D9")
+					(reference "D7")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4312,7 +4570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "382fb195-43a7-4249-95d4-84732c3cb80c")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 232.41 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4373,7 +4631,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/779859f4-0b97-4cb0-b8a9-2b70a56bf208"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4391,7 +4649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39e1a1fe-67a7-4b23-b627-b1e8b23bb3a4")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 246.38 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4462,7 +4720,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/779859f4-0b97-4cb0-b8a9-2b70a56bf208"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4480,7 +4738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4277588e-5c8e-436f-8e66-ddf1082ee4bc")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 198.12 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4541,7 +4799,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/779859f4-0b97-4cb0-b8a9-2b70a56bf208"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4662,7 +4920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48f54c3c-74c6-40c6-aff2-9673fb577290")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 176.53 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4723,7 +4981,86 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/779859f4-0b97-4cb0-b8a9-2b70a56bf208"
-					(reference "#PWR043")
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a459051-e85b-4e2d-a9a7-2f94d1390e05")
+		(property "Reference" "#PWR039"
+			(at 87.63 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72e87a2c-4f7b-43a7-87d8-0c3426b2f893")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/779859f4-0b97-4cb0-b8a9-2b70a56bf208"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5688,7 +6025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f291fa3-3983-4e1f-b944-26fa91dd1a37")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 95.25 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5749,7 +6086,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/779859f4-0b97-4cb0-b8a9-2b70a56bf208"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5951,7 +6288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a468b648-ebc5-432a-81e0-8a9c074947d6")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 101.6 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -6012,7 +6349,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/779859f4-0b97-4cb0-b8a9-2b70a56bf208"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6852,6 +7189,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 81.28 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ea51e88c-5593-44fb-9d5c-ced9be48f0a7")
+		(property "Reference" "J5"
+			(at 76.454 91.186 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 62.738 93.472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 81.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 81.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 81.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" "2.54mm"
+			(at 74.676 95.504 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fbc9d2a2-59a9-499e-b7b2-7f244771e8d8")
+		)
+		(pin "1"
+			(uuid "43ff43bf-99ef-4e20-bb89-a3c3c2612d9d")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/779859f4-0b97-4cb0-b8a9-2b70a56bf208"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 187.96 80.01 0)
 		(unit 1)
@@ -6863,7 +7302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edc7a9d4-84b3-47c8-bd86-d7c2da0a15d2")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 187.96 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6924,7 +7363,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/779859f4-0b97-4cb0-b8a9-2b70a56bf208"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7063,7 +7502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa1ee0fa-d1ce-4302-99a3-68291f349b3a")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 123.19 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7124,7 +7563,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/779859f4-0b97-4cb0-b8a9-2b70a56bf208"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

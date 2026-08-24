@@ -3287,7 +3287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0227b271-133c-4abf-b355-bb84b17c19a1")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR085"
 			(at 143.51 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3348,7 +3348,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR082")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -3366,7 +3366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1728ecdb-0ffa-4ca2-ac4c-013e1e2c6974")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR082"
 			(at 129.54 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3427,7 +3427,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR079")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -3759,7 +3759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "330f946a-6123-4e3e-ac41-2d98d3babbaa")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR080"
 			(at 107.95 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -3819,7 +3819,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR077")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -4154,7 +4154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5139a04a-85f1-4973-a8c7-a3d829db3003")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR086"
 			(at 143.51 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4215,7 +4215,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR083")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -4439,7 +4439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "590ede08-9b46-43bb-9cf5-4bf9c633ae49")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR083"
 			(at 129.54 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -4500,7 +4500,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR080")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -4518,7 +4518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e27ef3d-01c7-4be6-8eca-c35134994ea6")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR092"
 			(at 176.53 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -4589,7 +4589,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR089")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -4607,7 +4607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7535004a-45cd-409f-9f8d-ca5a1f8f00b7")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR091"
 			(at 176.53 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4678,7 +4678,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR088")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -4696,7 +4696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78599f70-3359-4700-9b55-073c6fbbd468")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR087"
 			(at 143.51 127 0)
 			(hide yes)
 			(show_name no)
@@ -4757,7 +4757,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR084")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -4880,7 +4880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "848a8cdf-be52-4dc4-b88b-83de98db9216")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR081"
 			(at 129.54 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4941,7 +4941,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR078")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -4958,7 +4958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8541326e-1f2f-44d6-bb0f-c3cbfd5ce801")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR078"
 			(at 107.95 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5019,7 +5019,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR075")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -5140,7 +5140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94d1a72f-6513-4d30-ba84-4edad739e655")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR084"
 			(at 130.81 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5201,7 +5201,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR081")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5271,6 +5271,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2681320"
+			(at 143.51 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "634a086a-660a-43f4-ba8a-5128af9d6e00")
 		)
@@ -5310,7 +5321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beaf6dca-f8dd-4d1c-a756-f2eaa72ea6fa")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR088"
 			(at 143.51 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5371,7 +5382,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR085")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -5388,7 +5399,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0323df3-a943-4e6c-84dd-2f2e42e7b243")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR077"
 			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5449,7 +5460,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR074")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -5519,6 +5530,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2681320"
+			(at 143.51 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "798ae7d1-ac65-42d3-80ea-cfce26bf172e")
 		)
@@ -5558,7 +5580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d83c7be3-4068-4966-9cd2-2db14eda5d82")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR090"
 			(at 176.53 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5629,7 +5651,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR087")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -5805,6 +5827,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C2681320"
+			(at 143.51 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "8a5abf68-c9b7-4c55-b7ad-7e53e7999bbc")
 		)
@@ -5843,7 +5876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4af6650-e380-4dd6-887e-99d8b713daf6")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR079"
 			(at 107.95 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5904,7 +5937,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR076")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -6027,7 +6060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbd17cd0-ad14-40ad-a21c-a5ba6067fee5")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR089"
 			(at 176.53 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6098,7 +6131,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "#PWR086")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -6158,6 +6191,17 @@
 			)
 		)
 		(property "Description" "1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6"
+			(at 143.51 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2681320"
 			(at 143.51 36.83 0)
 			(hide yes)
 			(show_name no)

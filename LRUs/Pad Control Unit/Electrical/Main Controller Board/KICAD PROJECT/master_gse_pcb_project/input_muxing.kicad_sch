@@ -1819,12 +1819,6 @@
 		(uuid "a80edfd8-696a-468a-bf89-6684e79f1669")
 	)
 	(junction
-		(at 77.47 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa8411c7-65b4-4c00-83b2-264a772c42b0")
-	)
-	(junction
 		(at 123.19 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1835,6 +1829,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3188540-ef0c-4487-af35-1bdd5fcb6234")
+	)
+	(junction
+		(at 77.47 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b31e3cd2-1b7c-4672-b13d-0d30b864d774")
 	)
 	(junction
 		(at 46.99 93.98)
@@ -1867,16 +1867,16 @@
 		(uuid "db0e2f7b-344c-4103-af05-2ec6baa9b518")
 	)
 	(junction
-		(at 76.2 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e84e3ef8-3b33-4cc8-b5dc-722f2903fb04")
-	)
-	(junction
 		(at 57.15 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea76135b-b1b9-4a7e-998f-88613b2c11af")
+	)
+	(junction
+		(at 76.2 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f330b87f-6024-4d0a-b455-6bd231094acf")
 	)
 	(junction
 		(at 101.6 134.62)
@@ -1916,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 54.61) (xy 95.25 54.61)
+			(xy 57.15 54.61) (xy 76.2 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1996,23 +1996,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 156.21) (xy 77.47 158.75)
+			(xy 77.47 146.05) (xy 77.47 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "12546527-653a-48cc-a81f-5f0688f7f27a")
-	)
-	(wire
-		(pts
-			(xy 76.2 64.77) (xy 76.2 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "125ac685-b331-4098-9132-e84f7a8bc9e6")
 	)
 	(wire
 		(pts
@@ -2116,23 +2106,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 134.62) (xy 77.47 137.16)
+			(xy 77.47 134.62) (xy 77.47 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "230126d5-4a28-4d13-847a-98b57a6fcadc")
-	)
-	(wire
-		(pts
-			(xy 57.15 54.61) (xy 76.2 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2646c1df-633f-4491-8b18-4c90d3e0a64c")
 	)
 	(wire
 		(pts
@@ -2163,16 +2143,6 @@
 			(type default)
 		)
 		(uuid "2dbd7895-e27a-4628-8ccd-c799e90f9d2f")
-	)
-	(wire
-		(pts
-			(xy 77.47 144.78) (xy 77.47 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dcfa04b-2d7b-43fa-b5e2-0036b182c743")
 	)
 	(wire
 		(pts
@@ -2496,6 +2466,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 54.61) (xy 76.2 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7743000b-4558-42ac-ae62-fd0a45c42dc4")
+	)
+	(wire
+		(pts
 			(xy 55.88 189.23) (xy 55.88 191.77)
 		)
 		(stroke
@@ -2693,16 +2673,6 @@
 			(type default)
 		)
 		(uuid "a3d8c490-483d-4acc-ac18-8487479f671f")
-	)
-	(wire
-		(pts
-			(xy 76.2 54.61) (xy 76.2 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a527898f-5a2a-458c-bc94-36ab88bac8dc")
 	)
 	(wire
 		(pts
@@ -3016,7 +2986,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 76.2) (xy 76.2 78.74)
+			(xy 76.2 67.31) (xy 76.2 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3063,6 +3033,16 @@
 			(type default)
 		)
 		(uuid "ee031f08-35fb-4004-b193-e0a145ece640")
+	)
+	(wire
+		(pts
+			(xy 76.2 54.61) (xy 95.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efbc7ab1-ceb3-44f2-8294-c8416a0ee294")
 	)
 	(wire
 		(pts
@@ -4553,111 +4533,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 77.47 140.97 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2b71f9ff-3e90-473c-b4f7-cf0de3827115")
-		(property "Reference" "D3"
-			(at 79.502 138.684 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAT70A-13-F"
-			(at 80.01 140.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 77.47 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V Clamp 3.5A Ipp Tvs Diode Surface Mount SMA"
-			(at 77.47 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VR" "70V"
-			(at 81.28 143.51 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C135026"
-			(at 77.47 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "758e6c61-009f-466c-9fe6-7e6c16b41f7d")
-		)
-		(pin "2"
-			(uuid "e4d92738-c6d1-4f57-b0be-e350cb36163e")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/4cdeebf2-2794-42a5-a6f3-4e4e1c9cca5c"
-					(reference "D3")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:SiR696DP")
 		(at 139.7 137.16 270)
 		(mirror x)
@@ -5347,7 +5222,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 158.75 0)
+		(at 77.47 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5358,7 +5233,7 @@
 		(fields_autoplaced yes)
 		(uuid "49b834cf-eb1d-4c51-abad-aef47a5be5bb")
 		(property "Reference" "#PWR012"
-			(at 77.47 165.1 0)
+			(at 77.47 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5369,7 +5244,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 163.83 0)
+			(at 77.47 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5380,7 +5255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 158.75 0)
+			(at 77.47 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5391,7 +5266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 158.75 0)
+			(at 77.47 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5402,7 +5277,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 158.75 0)
+			(at 77.47 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5593,7 +5468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bd37d7f-8e3e-434d-9726-b3787de045fd")
-		(property "Reference" "D7"
+		(property "Reference" "D5"
 			(at 125.73 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5676,7 +5551,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/4cdeebf2-2794-42a5-a6f3-4e4e1c9cca5c"
-					(reference "D7")
+					(reference "D5")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -5871,111 +5746,6 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 76.2 60.96 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6120a408-b814-464b-b192-c098d2856016")
-		(property "Reference" "D1"
-			(at 78.232 58.674 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAT70A-13-F"
-			(at 78.74 60.96 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 76.2 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V Clamp 3.5A Ipp Tvs Diode Surface Mount SMA"
-			(at 76.2 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VR" "70V"
-			(at 80.01 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C135026"
-			(at 76.2 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "850722d9-63be-44cd-9f30-791f0fffb920")
-		)
-		(pin "2"
-			(uuid "35c4e4ca-69ea-4e1f-adb7-e76650b96ace")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/4cdeebf2-2794-42a5-a6f3-4e4e1c9cca5c"
-					(reference "D1")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
 		(at 121.92 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -5985,7 +5755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66bcf6c5-6a70-4ed4-ae1a-18150cf7e306")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 115.824 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6070,7 +5840,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/4cdeebf2-2794-42a5-a6f3-4e4e1c9cca5c"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -6475,7 +6245,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 78.74 0)
+		(at 76.2 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6486,7 +6256,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d43ebcb-af71-474d-b29c-bf4f30246aa8")
 		(property "Reference" "#PWR011"
-			(at 76.2 85.09 0)
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6497,7 +6267,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 83.82 0)
+			(at 76.2 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6508,7 +6278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 78.74 0)
+			(at 76.2 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6519,7 +6289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 78.74 0)
+			(at 76.2 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6530,7 +6300,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 78.74 0)
+			(at 76.2 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7001,7 +6771,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 77.47 152.4 270)
+		(at 77.47 142.24 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7011,8 +6781,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97a63d57-0a16-42a8-b6f2-c7afc5fb4b9e")
-		(property "Reference" "D4"
-			(at 78.994 149.86 90)
+		(property "Reference" "D2"
+			(at 78.994 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7023,7 +6793,7 @@
 			)
 		)
 		(property "Value" "SMAJ24A"
-			(at 79.756 152.4 90)
+			(at 79.756 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7034,7 +6804,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 77.47 152.4 0)
+			(at 77.47 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7045,7 +6815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 152.4 0)
+			(at 77.47 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7056,7 +6826,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 24VWM 38.9VC DO214AC"
-			(at 77.47 152.4 0)
+			(at 77.47 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7067,7 +6837,7 @@
 			)
 		)
 		(property "VR" "24V"
-			(at 81.026 154.94 90)
+			(at 81.026 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7077,7 +6847,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C10769"
-			(at 77.47 152.4 90)
+			(at 77.47 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,7 +6866,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/4cdeebf2-2794-42a5-a6f3-4e4e1c9cca5c"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7632,7 +7402,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 76.2 72.39 270)
+		(at 76.2 63.5 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7642,8 +7412,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5274f7e-98c7-4186-9e35-3dd7d514bafa")
-		(property "Reference" "D2"
-			(at 77.724 69.85 90)
+		(property "Reference" "D1"
+			(at 77.724 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7654,7 +7424,7 @@
 			)
 		)
 		(property "Value" "SMAJ24A"
-			(at 78.486 72.39 90)
+			(at 78.486 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7665,7 +7435,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 76.2 72.39 0)
+			(at 76.2 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7676,7 +7446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 72.39 0)
+			(at 76.2 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7687,7 +7457,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 24VWM 38.9VC DO214AC"
-			(at 76.2 72.39 0)
+			(at 76.2 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7698,7 +7468,7 @@
 			)
 		)
 		(property "VR" "24V"
-			(at 79.756 74.93 90)
+			(at 79.756 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7708,7 +7478,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C10769"
-			(at 76.2 72.39 90)
+			(at 76.2 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7727,7 +7497,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/4cdeebf2-2794-42a5-a6f3-4e4e1c9cca5c"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8259,7 +8029,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b59e5c23-cd5e-4717-8803-cb162a6e5920")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 117.094 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8344,7 +8114,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/4cdeebf2-2794-42a5-a6f3-4e4e1c9cca5c"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9077,7 +8847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6aeb0b5-6e0d-4340-8a13-ca2be75fcbe4")
-		(property "Reference" "D8"
+		(property "Reference" "D6"
 			(at 127 61.468 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9160,7 +8930,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/4cdeebf2-2794-42a5-a6f3-4e4e1c9cca5c"
-					(reference "D8")
+					(reference "D6")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")

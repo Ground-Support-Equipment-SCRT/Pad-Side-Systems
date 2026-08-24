@@ -1784,12 +1784,6 @@
 		(uuid "85fcabc7-415c-4197-ace9-780ac006573a")
 	)
 	(junction
-		(at 220.98 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d989270-6f1a-48f1-becc-b47344e4df22")
-	)
-	(junction
 		(at 185.42 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1848,6 +1842,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e80c1bae-a063-4af2-80a7-c33b271b9194")
+	)
+	(junction
+		(at 220.98 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff541afe-aa21-449f-8c83-134e303a89f0")
 	)
 	(wire
 		(pts
@@ -1931,7 +1931,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 105.41) (xy 220.98 107.95)
+			(xy 220.98 104.14) (xy 220.98 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2371,7 +2371,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 100.33) (xy 220.98 97.79)
+			(xy 220.98 99.06) (xy 220.98 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6579,7 +6579,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 220.98 102.87 0)
+		(at 220.98 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6589,7 +6589,7 @@
 		(dnp no)
 		(uuid "c51b19b8-fb56-4c12-9e71-8c65c0de3c13")
 		(property "Reference" "C11"
-			(at 222.758 100.33 0)
+			(at 222.758 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6600,7 +6600,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 223.266 103.124 0)
+			(at 223.266 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6611,7 +6611,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 220.98 102.87 0)
+			(at 220.98 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6622,7 +6622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 102.87 0)
+			(at 220.98 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6633,7 +6633,7 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0402 Capacitor"
-			(at 220.98 102.87 0)
+			(at 220.98 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6644,7 +6644,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 224.536 105.918 0)
+			(at 224.536 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6654,7 +6654,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C307331"
-			(at 220.98 102.87 0)
+			(at 220.98 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7157,7 +7157,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 107.95 0)
+		(at 220.98 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7168,7 +7168,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7f38a24-4283-4c5d-b99b-9d4e1588a97b")
 		(property "Reference" "#PWR035"
-			(at 220.98 114.3 0)
+			(at 220.98 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7179,7 +7179,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 113.03 0)
+			(at 220.98 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7190,7 +7190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 107.95 0)
+			(at 220.98 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7201,7 +7201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 107.95 0)
+			(at 220.98 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7212,7 +7212,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 107.95 0)
+			(at 220.98 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

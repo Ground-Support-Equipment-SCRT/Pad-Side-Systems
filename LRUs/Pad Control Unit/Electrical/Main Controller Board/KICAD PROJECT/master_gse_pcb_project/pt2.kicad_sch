@@ -5450,7 +5450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d5593dd-46ef-43d1-8d1c-fb4d36af5ce6")
-		(property "Reference" "R152"
+		(property "Reference" "R149"
 			(at 107.442 154.686 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5535,7 +5535,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "R152")
+					(reference "R149")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -5555,7 +5555,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e0dbf09-aeaa-4528-8e8f-03df55254187")
-		(property "Reference" "D41"
+		(property "Reference" "D40"
 			(at 226.06 36.068 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5631,7 +5631,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "D41")
+					(reference "D40")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -5652,7 +5652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "121ea662-3016-48a3-abac-2fcdbc63b6b8")
-		(property "Reference" "TP41"
+		(property "Reference" "TP51"
 			(at 247.904 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5753,7 +5753,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "TP41")
+					(reference "TP51")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -5773,7 +5773,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "159a9a21-9933-4b6a-b0dd-d45638fb6e4c")
-		(property "Reference" "R151"
+		(property "Reference" "R148"
 			(at 91.694 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5856,7 +5856,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "R151")
+					(reference "R148")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -5876,7 +5876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19a543b9-7e50-4175-b78e-e7288a3cc3dc")
-		(property "Reference" "C130"
+		(property "Reference" "C133"
 			(at 117.094 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5961,7 +5961,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "C130")
+					(reference "C133")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -5981,7 +5981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1efa27ae-5d27-4800-bde4-b7287e6af277")
-		(property "Reference" "C131"
+		(property "Reference" "C134"
 			(at 118.872 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6066,7 +6066,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "C131")
+					(reference "C134")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -6245,7 +6245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2383e321-501b-4f6f-a59f-10a0e4b71ddb")
-		(property "Reference" "C135"
+		(property "Reference" "C138"
 			(at 179.324 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6330,119 +6330,10 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "C135")
+					(reference "C138")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 212.09 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2566914a-ce00-4965-81c9-4957b84d93d7")
-		(property "Reference" "C136"
-			(at 214.122 78.994 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 214.63 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
-			(at 212.09 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10uF 16V 3Ω@100kHz ±10% Tantalum Capacitors"
-			(at 212.09 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C7171"
-			(at 212.09 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vmax" "16V"
-			(at 216.154 83.566 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0975c696-c0b5-492b-ae44-6c92e6125d0f")
-		)
-		(pin "1"
-			(uuid "4e681a91-bb75-4588-b3f6-f12f5fc28e4d")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "C136")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "10uF")
-						)
 					)
 				)
 			)
@@ -6528,6 +6419,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 156.21 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2c41cc41-5908-4e2e-8dd3-2aaf62bf0bbe")
+		(property "Reference" "C137"
+			(at 158.242 40.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 158.75 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 156.21 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF 16V X7R ±10% 0805 Capacitor"
+			(at 156.21 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C95841"
+			(at 156.21 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "16V"
+			(at 160.274 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8f8b20e3-1d7d-4a31-b3af-7bceb1cdd31b")
+		)
+		(pin "1"
+			(uuid "c042b90b-5b63-4459-bb96-10c162e73f24")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
+					(reference "C137")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(field
+							(name "Value")
+							(value "10uF")
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 203.2 97.79 270)
 		(unit 1)
@@ -6538,7 +6538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2dc29fd7-883e-4beb-a96c-3197a7401547")
-		(property "Reference" "R156"
+		(property "Reference" "R153"
 			(at 200.914 96.266 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6623,7 +6623,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "R156")
+					(reference "R153")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -6643,7 +6643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31f873ea-84c4-4bdf-937d-a4800e17d17d")
-		(property "Reference" "JP7"
+		(property "Reference" "JP6"
 			(at 91.186 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6779,7 +6779,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "JP7")
+					(reference "JP6")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -6980,7 +6980,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42d7b642-d3f5-4eee-bdf5-4ca6dbb605a6")
-		(property "Reference" "J20"
+		(property "Reference" "J19"
 			(at 252.984 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7072,7 +7072,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "J20")
+					(reference "J19")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7171,7 +7171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45d19b82-2886-4b0a-a8f1-ee42cd0d3fd3")
-		(property "Reference" "R154"
+		(property "Reference" "R151"
 			(at 183.134 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7256,7 +7256,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "R154")
+					(reference "R151")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7517,7 +7517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60104597-6d6c-4460-bfc0-522d6c09dab9")
-		(property "Reference" "C133"
+		(property "Reference" "C136"
 			(at 148.844 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7602,7 +7602,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "C133")
+					(reference "C136")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7750,6 +7750,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 101.6 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "615ca40c-b961-4125-9cd2-1e286507cbb1")
+		(property "Reference" "C132"
+			(at 103.632 40.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 104.14 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 101.6 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF 16V X7R ±10% 0805 Capacitor"
+			(at 101.6 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C95841"
+			(at 101.6 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "16V"
+			(at 105.664 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4ba301d9-30c1-4100-ab31-40f6f08c1e29")
+		)
+		(pin "1"
+			(uuid "09d13366-f9f3-4c00-a20c-a6fae5029f4c")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
+					(reference "C132")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(field
+							(name "Value")
+							(value "10uF")
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 170.18 0)
 		(unit 1)
@@ -7839,7 +7948,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "689b25a5-6b60-43d5-89f1-0c695e9bf3e3")
-		(property "Reference" "R157"
+		(property "Reference" "R154"
 			(at 200.914 106.426 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7924,7 +8033,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "R157")
+					(reference "R154")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8102,7 +8211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76c11fd3-3262-4970-8ff5-65b8c13634fb")
-		(property "Reference" "JP8"
+		(property "Reference" "JP7"
 			(at 133.35 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8165,7 +8274,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "JP8")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -8351,7 +8460,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d1c3328-0dce-4e2b-a783-03e23b2d93c3")
-		(property "Reference" "C128"
+		(property "Reference" "C131"
 			(at 89.662 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8436,119 +8545,10 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "C128")
+					(reference "C131")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 156.21 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "906ff8a2-7770-4357-8d19-f3d3178136c4")
-		(property "Reference" "C134"
-			(at 158.242 40.894 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 158.75 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
-			(at 156.21 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10uF 16V 3Ω@100kHz ±10% Tantalum Capacitors"
-			(at 156.21 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C7171"
-			(at 156.21 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vmax" "16V"
-			(at 160.274 45.466 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0854a3e7-1d0c-4e84-b281-c2caf89d3bcd")
-		)
-		(pin "1"
-			(uuid "f16ab856-acdc-4d8f-b1d7-1888d2d806ef")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "C134")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "10uF")
-						)
 					)
 				)
 			)
@@ -8723,7 +8723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a27b8716-899d-4fce-90e2-cfe8f06b703c")
-		(property "Reference" "C132"
+		(property "Reference" "C135"
 			(at 141.224 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8808,7 +8808,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "C132")
+					(reference "C135")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8829,7 +8829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afd8d2df-da14-448c-98d8-b98446b014be")
-		(property "Reference" "TP42"
+		(property "Reference" "TP52"
 			(at 247.65 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8930,7 +8930,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "TP42")
+					(reference "TP52")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9177,115 +9177,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 101.6 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c1fabd6d-1351-4873-a44e-2183cf77f109")
-		(property "Reference" "C129"
-			(at 103.632 40.894 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 104.14 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
-			(at 101.6 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10uF 16V 3Ω@100kHz ±10% Tantalum Capacitors"
-			(at 101.6 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C7171"
-			(at 101.6 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vmax" "16V"
-			(at 105.664 45.466 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cfbd8575-c676-46cc-b581-843caa57ab14")
-		)
-		(pin "1"
-			(uuid "9e666544-0ced-4e35-a36f-1d9d68a2f29e")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "C129")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "10uF")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 88.9 97.79 0)
 		(unit 1)
@@ -9374,7 +9265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6154b02-bfbe-42c8-acb9-e24abea82faf")
-		(property "Reference" "R155"
+		(property "Reference" "R152"
 			(at 184.404 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9457,7 +9348,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "R155")
+					(reference "R152")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9477,7 +9368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c75a01a6-54d3-483a-886f-627aa41d8f41")
-		(property "Reference" "JP9"
+		(property "Reference" "JP8"
 			(at 133.35 153.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9540,7 +9431,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "JP9")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -9557,7 +9448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbd938ba-071f-4471-ac98-b0f22a782a94")
-		(property "Reference" "R153"
+		(property "Reference" "R150"
 			(at 119.634 161.036 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9642,7 +9533,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "R153")
+					(reference "R150")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9741,7 +9632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d627fa74-e7ec-4e43-b684-26d1054ed383")
-		(property "Reference" "#FLG015"
+		(property "Reference" "#FLG019"
 			(at 146.05 61.595 0)
 			(hide yes)
 			(show_name no)
@@ -9801,7 +9692,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "#FLG015")
+					(reference "#FLG019")
 					(unit 1)
 				)
 			)
@@ -9897,7 +9788,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df842813-44b2-434c-a2ef-a337a4f14fb6")
-		(property "Reference" "JP10"
+		(property "Reference" "JP9"
 			(at 232.41 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10031,10 +9922,119 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "JP10")
+					(reference "JP9")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 212.09 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1273368-36ef-45e8-b246-46d4ac5bf028")
+		(property "Reference" "C139"
+			(at 214.122 78.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 214.63 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 212.09 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF 16V X7R ±10% 0805 Capacitor"
+			(at 212.09 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C95841"
+			(at 212.09 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "16V"
+			(at 216.154 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5d5ad227-d509-441f-a4ba-0037d8f4044a")
+		)
+		(pin "1"
+			(uuid "e2a94a10-84ca-49c4-a90b-fc9305ea9609")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
+					(reference "C139")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(field
+							(name "Value")
+							(value "10uF")
+						)
 					)
 				)
 			)
@@ -10051,7 +10051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef1eb2ec-1658-49d9-b777-a0523fbaaa3f")
-		(property "Reference" "D40"
+		(property "Reference" "D39"
 			(at 226.06 19.558 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10127,7 +10127,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "D40")
+					(reference "D39")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10250,7 +10250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb96e347-0042-45fd-8541-16e4224c6d28")
-		(property "Reference" "C137"
+		(property "Reference" "C140"
 			(at 225.044 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10335,7 +10335,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/fd0dc7ea-ec0f-495e-8cd0-f5a75701f898/7871b2fc-f4fc-46d0-b742-81e8dc52192d"
-					(reference "C137")
+					(reference "C140")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")

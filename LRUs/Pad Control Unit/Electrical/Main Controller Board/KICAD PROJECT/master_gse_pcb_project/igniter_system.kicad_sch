@@ -8563,7 +8563,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "016e3ac3-dd56-43a7-9b02-36c3879d7b95")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0241"
 			(at 322.58 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -8623,7 +8623,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0221")
+					(reference "#PWR0241")
 					(unit 1)
 				)
 			)
@@ -8640,7 +8640,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02ac98f0-8840-4ebd-a98b-3d13582e4d83")
-		(property "Reference" "R118"
+		(property "Reference" "R128"
 			(at 159.004 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8723,7 +8723,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R118")
+					(reference "R128")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8743,7 +8743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02c061f4-ae18-4cca-ac25-db2110135ad1")
-		(property "Reference" "C84"
+		(property "Reference" "C93"
 			(at 109.474 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8828,7 +8828,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "C84")
+					(reference "C93")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8849,7 +8849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04338304-818f-418f-86de-92354d937a57")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0240"
 			(at 316.23 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8910,7 +8910,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0220")
+					(reference "#PWR0240")
 					(unit 1)
 				)
 			)
@@ -8928,7 +8928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07ef9a85-5bc3-4ff9-ba39-0299808f88ed")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0231"
 			(at 210.82 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -8999,7 +8999,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0211")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -9016,7 +9016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "086f387f-4509-4b9f-af2e-2d88e1e7f0b3")
-		(property "Reference" "D32"
+		(property "Reference" "D31"
 			(at 269.24 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9182,7 +9182,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "D32")
+					(reference "D31")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9202,7 +9202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08a28805-d6b8-4e45-a1ee-29078ef16cb5")
-		(property "Reference" "C86"
+		(property "Reference" "C95"
 			(at 176.784 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9287,10 +9287,119 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "C86")
+					(reference "C95")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 337.82 218.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d06f1ad-2d53-4173-8fa4-526870884fd2")
+		(property "Reference" "C101"
+			(at 339.852 216.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 340.36 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 337.82 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF 16V X7R ±10% 0805 Capacitor"
+			(at 337.82 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C95841"
+			(at 337.82 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "16V"
+			(at 341.884 220.726 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab983a79-aa2c-4e82-bdb4-682a7355df54")
+		)
+		(pin "1"
+			(uuid "85981b8c-c2b6-47ce-a90a-6cd3ab55a756")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
+					(reference "C101")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(field
+							(name "Value")
+							(value "10uF")
+						)
 					)
 				)
 			)
@@ -9307,7 +9416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0dab5526-ce03-4f93-a51d-d44f59c64014")
-		(property "Reference" "D28"
+		(property "Reference" "D27"
 			(at 158.496 233.426 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9403,7 +9512,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "D28")
+					(reference "D27")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9423,7 +9532,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ed0915a-aa60-4dcb-9063-0a1c074968d8")
-		(property "Reference" "TP29"
+		(property "Reference" "TP38"
 			(at 67.31 224.282 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9524,7 +9633,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "TP29")
+					(reference "TP38")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9544,7 +9653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f7d2c1c-db15-4104-9780-e5206acac8c3")
-		(property "Reference" "R135"
+		(property "Reference" "R145"
 			(at 358.14 165.862 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9629,7 +9738,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R135")
+					(reference "R145")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9650,7 +9759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10169a37-2b74-4e17-8063-a810a6ea5f2a")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR0216"
 			(at 97.79 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9711,7 +9820,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0196")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -9728,7 +9837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11cd3792-4dff-4229-b2bb-c091dc00fabc")
-		(property "Reference" "R123"
+		(property "Reference" "R133"
 			(at 197.358 232.156 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9813,7 +9922,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R123")
+					(reference "R133")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9834,7 +9943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12f3db66-bf5c-41c7-9b3e-50f083e8ae14")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0245"
 			(at 337.82 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9895,7 +10004,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0225")
+					(reference "#PWR0245")
 					(unit 1)
 				)
 			)
@@ -9912,7 +10021,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15450279-c030-40a4-a8c3-5c52929a03ae")
-		(property "Reference" "C93"
+		(property "Reference" "C102"
 			(at 368.554 170.434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9997,7 +10106,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "C93")
+					(reference "C102")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10017,7 +10126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15a0cd2f-71eb-4d3a-9b18-5b8acbbcd652")
-		(property "Reference" "J16"
+		(property "Reference" "J18"
 			(at 384.302 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10102,7 +10211,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "J16")
+					(reference "J18")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10123,7 +10232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19f77886-3985-482c-a092-e80e40a34bc3")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0222"
 			(at 144.78 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -10184,7 +10293,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0202")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -10202,7 +10311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f5f454d-3aa4-4f6e-a189-cac79755ea1a")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0232"
 			(at 210.82 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -10263,7 +10372,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0212")
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
@@ -10281,7 +10390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f5fd951-9a93-42b7-be18-6148f5815fc9")
-		(property "Reference" "J14"
+		(property "Reference" "J16"
 			(at 211.328 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10372,7 +10481,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "J14")
+					(reference "J16")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10393,7 +10502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21967114-b50c-4a44-bfdc-53c9b85b25d3")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0239"
 			(at 306.07 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10454,7 +10563,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0219")
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -10471,7 +10580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24767046-4f6d-4a37-8972-cf2e9b1ad110")
-		(property "Reference" "TP28"
+		(property "Reference" "TP37"
 			(at 67.31 219.202 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10572,110 +10681,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "TP28")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 210.82 222.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2482535e-a9ff-4e1d-b45c-ddb474ca5831")
-		(property "Reference" "R124"
-			(at 214.122 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 214.122 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 210.82 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2.2k 1% 0603 Resistor"
-			(at 210.82 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 213.106 224.536 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C4190"
-			(at 210.82 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "694f8aba-9a69-48bf-8a68-6b91333b44fd")
-		)
-		(pin "2"
-			(uuid "6476a3d2-4adc-4a2a-a6b3-385285eb3a13")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R124")
+					(reference "TP37")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10696,7 +10702,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24bbd1d0-5288-4d0e-bb61-df1359c6fa21")
-		(property "Reference" "R127"
+		(property "Reference" "R137"
 			(at 249.428 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10779,7 +10785,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R127")
+					(reference "R137")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10799,7 +10805,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "289571e2-92d0-45a7-8bb5-fb430cdb08d4")
-		(property "Reference" "C85"
+		(property "Reference" "C94"
 			(at 119.634 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10884,7 +10890,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "C85")
+					(reference "C94")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10905,7 +10911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a002031-22bd-48ac-8211-eb34d8384900")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR0215"
 			(at 88.9 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10966,7 +10972,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0195")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -10983,7 +10989,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a6ff0e9-bd35-42e7-b757-05433961d27e")
-		(property "Reference" "TP31"
+		(property "Reference" "TP40"
 			(at 67.31 234.442 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11084,7 +11090,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "TP31")
+					(reference "TP40")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -11104,7 +11110,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ab55f36-af25-4c22-93fe-112e085237a7")
-		(property "Reference" "R130"
+		(property "Reference" "R140"
 			(at 289.814 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11189,7 +11195,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R130")
+					(reference "R140")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -11210,7 +11216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e89a181-defe-4866-869e-a0398a3314a6")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0233"
 			(at 222.25 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11271,7 +11277,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0213")
+					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
@@ -11288,7 +11294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3080c276-c713-447f-b64e-2fd77149a137")
-		(property "Reference" "TP38"
+		(property "Reference" "TP47"
 			(at 99.06 229.362 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11389,7 +11395,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "TP38")
+					(reference "TP47")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -11410,7 +11416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3331bd6a-ed78-4506-8a37-d4eb281b424c")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0243"
 			(at 326.39 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11471,7 +11477,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0223")
+					(reference "#PWR0243")
 					(unit 1)
 				)
 			)
@@ -11488,7 +11494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "343f8730-9d71-4cac-96ee-0df517fd3c32")
-		(property "Reference" "D31"
+		(property "Reference" "D30"
 			(at 225.806 233.426 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11584,7 +11590,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "D31")
+					(reference "D30")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -11604,7 +11610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35a2a09c-7200-4d9e-82a9-bedfeed1920d")
-		(property "Reference" "TP27"
+		(property "Reference" "TP36"
 			(at 67.31 214.122 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11705,7 +11711,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "TP27")
+					(reference "TP36")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -11726,7 +11732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35dae8ab-b45d-454b-8b61-cee215aebe67")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0242"
 			(at 322.58 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -11787,7 +11793,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0222")
+					(reference "#PWR0242")
 					(unit 1)
 				)
 			)
@@ -11805,7 +11811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36540c08-c778-4123-92ce-7e1cd2338ed2")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0224"
 			(at 168.91 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -11866,7 +11872,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0204")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -11883,7 +11889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "391762a3-3f14-46f2-b1a9-90943532ab93")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR0235"
 			(at 255.27 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11943,7 +11949,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0215")
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
@@ -11961,7 +11967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "392e8765-f6c8-4d03-806b-5db49f7e2241")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR0218"
 			(at 109.22 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -12022,7 +12028,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0198")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -12039,7 +12045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3eb8dfd9-3464-46aa-a665-e737e99d9363")
-		(property "Reference" "R120"
+		(property "Reference" "R130"
 			(at 185.42 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12124,7 +12130,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R120")
+					(reference "R130")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12145,7 +12151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44abaa55-56cb-4294-9f14-5710435b7edb")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR0219"
 			(at 118.11 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12206,7 +12212,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0199")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -12223,7 +12229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45fcb8f0-9ad9-4a13-b9e7-09a11134c18e")
-		(property "Reference" "R134"
+		(property "Reference" "R144"
 			(at 314.452 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12308,7 +12314,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R134")
+					(reference "R144")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12328,7 +12334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52b9d7da-0da9-48e9-b3da-89ad468e72c0")
-		(property "Reference" "C83"
+		(property "Reference" "C92"
 			(at 99.06 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12413,7 +12419,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "C83")
+					(reference "C92")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12433,7 +12439,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5550c42e-11d4-4a63-9ebf-4e715f6a450d")
-		(property "Reference" "TP30"
+		(property "Reference" "TP39"
 			(at 67.31 229.362 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12534,7 +12540,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "TP30")
+					(reference "TP39")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12555,7 +12561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "574149a5-104c-4ae6-995d-aa2fd6d8fbd6")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0246"
 			(at 337.82 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -12616,7 +12622,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0226")
+					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -12633,7 +12639,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a03dbfc-ca87-4e1b-8380-33d5f1276a75")
-		(property "Reference" "D29"
+		(property "Reference" "D28"
 			(at 171.196 233.426 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12729,7 +12735,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "D29")
+					(reference "D28")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12749,7 +12755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e35eebf-2ae3-4387-8c31-78362bdf5b95")
-		(property "Reference" "D27"
+		(property "Reference" "D26"
 			(at 147.066 233.426 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12845,7 +12851,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "D27")
+					(reference "D26")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12865,7 +12871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ee02ff1-9990-4387-8d6b-020588ae1ac7")
-		(property "Reference" "R110"
+		(property "Reference" "R120"
 			(at 81.534 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12948,7 +12954,120 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R110")
+					(reference "R120")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 210.82 222.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f0a4437-e8ad-44cd-b5ea-2d0bc46643f4")
+		(property "Reference" "R?"
+			(at 213.868 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 214.63 221.488 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 210.82 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2k 1% 0603 Resistor"
+			(at 210.82 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 213.868 223.266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C4190"
+			(at 210.82 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 214.884 225.044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d2fef63-7517-4b23-af9e-2dc69d6232f1")
+		)
+		(pin "2"
+			(uuid "a38489e9-0f3c-43fc-9efd-eb3c5746ca43")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
+					(reference "R?")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12968,7 +13087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "628d9759-b573-4230-be83-ff40737f00ed")
-		(property "Reference" "J15"
+		(property "Reference" "J17"
 			(at 354.838 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13053,7 +13172,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "J15")
+					(reference "J17")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -13074,7 +13193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "666dc0eb-bf98-45b0-97cc-d6294639c1fa")
-		(property "Reference" "#PWR0200"
+		(property "Reference" "#PWR0220"
 			(at 119.38 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -13135,7 +13254,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0200")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -13152,7 +13271,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6707a9f7-218b-4fee-8c8f-7a8d71a1c41f")
-		(property "Reference" "R111"
+		(property "Reference" "R121"
 			(at 89.916 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13237,7 +13356,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R111")
+					(reference "R121")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -13258,7 +13377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67d8a73b-e804-410c-9a3f-b277f360617c")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0226"
 			(at 175.26 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -13319,7 +13438,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0206")
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -13336,7 +13455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68d328fc-284c-4556-8dbf-ff117207f6f3")
-		(property "Reference" "R133"
+		(property "Reference" "R143"
 			(at 316.484 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13419,7 +13538,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R133")
+					(reference "R143")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -13439,7 +13558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6984db28-a088-456b-9898-3021fb30b31a")
-		(property "Reference" "R132"
+		(property "Reference" "R142"
 			(at 317.246 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13522,7 +13641,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R132")
+					(reference "R142")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -13542,7 +13661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f23daa6-f53d-4caa-913d-a8c3c2978fc7")
-		(property "Reference" "C87"
+		(property "Reference" "C96"
 			(at 196.85 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13627,110 +13746,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "C87")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 144.78 226.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7208b73e-1588-48aa-a98d-d399e48a0157")
-		(property "Reference" "R116"
-			(at 148.082 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 148.082 226.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 144.78 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2.2k 1% 0603 Resistor"
-			(at 144.78 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 147.066 228.346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C4190"
-			(at 144.78 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "011fe95e-6240-4d3d-87e3-4a17ba477c69")
-		)
-		(pin "2"
-			(uuid "e1d69786-2864-4934-94bd-a080580f7f45")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R116")
+					(reference "C96")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -13751,7 +13767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "726fbd67-97f3-4a43-a322-f60a722e5f9a")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0236"
 			(at 264.16 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -13812,7 +13828,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0216")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -13829,7 +13845,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73935881-eb94-46ff-a983-e3ac2cfaf542")
-		(property "Reference" "R113"
+		(property "Reference" "R123"
 			(at 110.49 120.904 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13914,7 +13930,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R113")
+					(reference "R123")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -13934,7 +13950,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73df68f3-c527-4877-a73b-ffe59dc8c7b7")
-		(property "Reference" "R131"
+		(property "Reference" "R141"
 			(at 289.56 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14019,7 +14035,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R131")
+					(reference "R141")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -14149,7 +14165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b43d5f1-5150-42e6-8e0f-72a1046c9b8b")
-		(property "Reference" "TP32"
+		(property "Reference" "TP41"
 			(at 67.31 239.522 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14250,7 +14266,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "TP32")
+					(reference "TP41")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -14270,7 +14286,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ea5f02b-92ec-4800-b921-f055dc7751cb")
-		(property "Reference" "R129"
+		(property "Reference" "R139"
 			(at 277.876 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14353,119 +14369,10 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R129")
+					(reference "R139")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 337.82 218.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8093c31f-1c64-472d-be64-6cdf73c315ae")
-		(property "Reference" "C92"
-			(at 339.852 216.154 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 340.36 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
-			(at 337.82 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10uF 16V 3Ω@100kHz ±10% Tantalum Capacitors"
-			(at 337.82 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C7171"
-			(at 337.82 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vmax" "16V"
-			(at 341.884 220.726 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9428a309-07be-4d66-a20b-7b5f11754bc9")
-		)
-		(pin "1"
-			(uuid "9db2c82e-a7c3-4744-bfe4-b37b50796821")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "C92")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "10uF")
-						)
 					)
 				)
 			)
@@ -14483,7 +14390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "825d21c8-5b35-41e7-8ec5-0d3a0ae5ffc7")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0225"
 			(at 171.45 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -14544,7 +14451,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0205")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -14561,7 +14468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84bb6720-e9e7-403a-b3f5-2b7d4b2486bf")
-		(property "Reference" "D30"
+		(property "Reference" "D29"
 			(at 212.344 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14644,7 +14551,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "D30")
+					(reference "D29")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -14773,7 +14680,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a931361-baef-47fc-8489-78f67e508410")
-		(property "Reference" "R128"
+		(property "Reference" "R138"
 			(at 263.144 133.096 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14858,7 +14765,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R128")
+					(reference "R138")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -14878,7 +14785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d265952-6b12-4640-ab88-7b58f9248998")
-		(property "Reference" "TP34"
+		(property "Reference" "TP43"
 			(at 99.06 209.042 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14979,7 +14886,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "TP34")
+					(reference "TP43")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -15000,7 +14907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1c6fdfa-5491-4a60-80ba-85db689ebb90")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0223"
 			(at 156.21 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -15061,7 +14968,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0203")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -15078,7 +14985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a53d937a-256a-4bca-b3fc-a36e73db0a63")
-		(property "Reference" "C90"
+		(property "Reference" "C99"
 			(at 327.914 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15163,7 +15070,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "C90")
+					(reference "C99")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -15184,7 +15091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd007d6-b122-400f-8902-ce7c69dca641")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR0214"
 			(at 78.74 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -15245,7 +15152,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0194")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -15263,7 +15170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae2e52d3-25a6-4d8c-8469-4292e8a82834")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0238"
 			(at 288.29 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -15324,7 +15231,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0218")
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -15342,7 +15249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2577b32-cb76-4bc0-8596-704e277b2984")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR0227"
 			(at 184.15 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -15403,7 +15310,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0207")
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -15420,7 +15327,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "b6c3ba66-e129-41a1-b76d-75f4c78761d2")
-		(property "Reference" "R114"
+		(property "Reference" "R124"
 			(at 120.65 120.904 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15505,7 +15412,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R114")
+					(reference "R124")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -15525,7 +15432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b73a7348-d2f0-4bde-af9d-e1a579955e14")
-		(property "Reference" "R115"
+		(property "Reference" "R125"
 			(at 136.144 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15608,7 +15515,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R115")
+					(reference "R125")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -15629,7 +15536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b81fca04-9660-4ed1-91ab-bf065d1ecd9b")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0244"
 			(at 327.66 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -15690,7 +15597,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0224")
+					(reference "#PWR0244")
 					(unit 1)
 				)
 			)
@@ -15708,7 +15615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b928e5f9-2a06-4d8c-8e41-6a3ea3b6618c")
-		(property "Reference" "#PWR0228"
+		(property "Reference" "#PWR0248"
 			(at 373.38 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -15769,8 +15676,121 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0228")
+					(reference "#PWR0248")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 144.78 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb6c6d40-fd9d-45ab-b4f6-53e2fd681a9f")
+		(property "Reference" "R?"
+			(at 148.844 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 148.59 225.298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 144.78 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2k 1% 0603 Resistor"
+			(at 144.78 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 147.828 227.076 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C4190"
+			(at 144.78 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 148.844 228.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c00fdb42-891f-4c74-9e65-e60cb8b36014")
+		)
+		(pin "2"
+			(uuid "05eb9403-e044-4e0b-a24c-ec220c5e89ef")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
+					(reference "R?")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
 				)
 			)
 		)
@@ -15786,7 +15806,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc29a1eb-da7e-4950-81ef-9bf48a711217")
-		(property "Reference" "R121"
+		(property "Reference" "R131"
 			(at 190.754 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15869,7 +15889,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R121")
+					(reference "R131")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -15889,7 +15909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf771e27-f071-41c7-863d-b73da7da5565")
-		(property "Reference" "TP33"
+		(property "Reference" "TP42"
 			(at 67.31 244.602 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15990,7 +16010,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "TP33")
+					(reference "TP42")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -16175,7 +16195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6fbfa23-2c28-4edf-89f9-4910b23b4796")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0234"
 			(at 223.52 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -16236,7 +16256,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0214")
+					(reference "#PWR0234")
 					(unit 1)
 				)
 			)
@@ -16253,7 +16273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7d771c0-81e8-49dc-9b1b-ab55e1a44cbc")
-		(property "Reference" "R126"
+		(property "Reference" "R136"
 			(at 233.934 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16338,7 +16358,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R126")
+					(reference "R136")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -16358,7 +16378,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8d8298d-3f65-4407-ac1a-ce9f49e7cc97")
-		(property "Reference" "C91"
+		(property "Reference" "C100"
 			(at 329.184 162.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16443,7 +16463,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "C91")
+					(reference "C100")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -16463,7 +16483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c923c36b-5197-41e6-8342-690c2da5868d")
-		(property "Reference" "U23"
+		(property "Reference" "U24"
 			(at 136.144 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16720,7 +16740,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "U23")
+					(reference "U24")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -16853,7 +16873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce30c3cb-5e57-4dc1-ae4d-f3cf8b7975d9")
-		(property "Reference" "TP35"
+		(property "Reference" "TP44"
 			(at 99.06 214.122 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16954,7 +16974,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "TP35")
+					(reference "TP44")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -16974,7 +16994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cff6947a-abcd-4ad8-a1a7-0c73cbed7fec")
-		(property "Reference" "R125"
+		(property "Reference" "R135"
 			(at 228.346 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17057,7 +17077,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R125")
+					(reference "R135")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -17077,7 +17097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d42687cc-7d77-4aa0-936c-de3ea974596b")
-		(property "Reference" "R117"
+		(property "Reference" "R127"
 			(at 146.558 61.976 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17162,7 +17182,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R117")
+					(reference "R127")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -17182,7 +17202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d676065c-cf6b-4df6-ada0-020085eebe65")
-		(property "Reference" "C88"
+		(property "Reference" "C97"
 			(at 307.34 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17267,7 +17287,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "C88")
+					(reference "C97")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -17288,7 +17308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8ae5eec-4c47-439b-8f7d-18019803ebe3")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0221"
 			(at 133.35 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -17349,7 +17369,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0201")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -17367,7 +17387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8dc0236-a55c-48a2-af7d-e628df89fbcd")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR0230"
 			(at 195.58 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17428,7 +17448,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0210")
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -17445,7 +17465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da4ca80b-606c-4f5c-9452-760f75f7ecba")
-		(property "Reference" "TP26"
+		(property "Reference" "TP35"
 			(at 67.31 209.042 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17546,7 +17566,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "TP26")
+					(reference "TP35")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -17675,7 +17695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e07ec193-2cf4-41c0-bd6a-a4f126a6b6d1")
-		(property "Reference" "TP36"
+		(property "Reference" "TP45"
 			(at 99.06 219.202 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17776,7 +17796,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "TP36")
+					(reference "TP45")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -17796,7 +17816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6e874d0-91d2-4e65-9183-1cf2ff1f1f06")
-		(property "Reference" "C89"
+		(property "Reference" "C98"
 			(at 317.5 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17881,7 +17901,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "C89")
+					(reference "C98")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -17902,7 +17922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e71098a6-cc4a-4421-b575-ac0bff1077bc")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR0213"
 			(at 52.07 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -17963,7 +17983,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0193")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -17981,7 +18001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e91e5d17-66b7-4ff6-9f88-e9afa02736f7")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR0217"
 			(at 107.95 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -18042,7 +18062,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0197")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -18060,7 +18080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e96a6ddb-b1e1-44bf-82f4-f82f84a45867")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR0247"
 			(at 367.03 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -18121,7 +18141,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0227")
+					(reference "#PWR0247")
 					(unit 1)
 				)
 			)
@@ -18139,7 +18159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d9da98-f876-47a6-b4cc-f9e1226f32f1")
-		(property "Reference" "J13"
+		(property "Reference" "J15"
 			(at 43.815 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18283,7 +18303,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "J13")
+					(reference "J15")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -18304,7 +18324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaa477a5-9257-42f5-ad66-5c1ecaf4a82d")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0237"
 			(at 274.32 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -18365,7 +18385,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0217")
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -18382,7 +18402,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebc8e61e-52f9-417a-b7fc-356fd4445a43")
-		(property "Reference" "R112"
+		(property "Reference" "R122"
 			(at 92.71 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18465,7 +18485,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R112")
+					(reference "R122")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -18489,7 +18509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eeac8465-24e0-41bd-b24b-f0c49e9e1952")
-		(property "Reference" "TP37"
+		(property "Reference" "TP46"
 			(at 99.06 224.282 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18590,7 +18610,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "TP37")
+					(reference "TP46")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -18610,7 +18630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1f80476-0c8c-4fe2-8f9c-fbd5b1fdcd31")
-		(property "Reference" "D26"
+		(property "Reference" "D25"
 			(at 135.636 233.426 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18706,7 +18726,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "D26")
+					(reference "D25")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -18726,7 +18746,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f27768cf-7579-46de-9671-7cb6ccbfabe2")
-		(property "Reference" "D33"
+		(property "Reference" "D32"
 			(at 339.852 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18811,7 +18831,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "D33")
+					(reference "D32")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -18832,7 +18852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3bdeb27-81a9-4d34-b2dd-d4df65c933b0")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0228"
 			(at 187.96 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -18903,7 +18923,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0208")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -18921,7 +18941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5bea998-36ea-4f4c-85e8-3316c62a2fe4")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0229"
 			(at 194.31 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -18982,7 +19002,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "#PWR0209")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -19108,8 +19128,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9bc36d5-be85-4223-8e2c-c1ac6ec61957")
-		(property "Reference" "R122"
-			(at 195.834 125.73 0)
+		(property "Reference" "R132"
+			(at 195.58 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19120,7 +19140,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 196.088 128.27 0)
+			(at 195.58 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19164,7 +19184,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 197.104 130.81 0)
+			(at 197.104 129.032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19184,6 +19204,16 @@
 				)
 			)
 		)
+		(property "size" "0603"
+			(at 198.12 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "982d9fbc-2277-4056-8123-b1321d538fb1")
 		)
@@ -19193,7 +19223,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R122")
+					(reference "R132")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -19213,8 +19243,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fde82eca-163d-4205-84d0-e0e4f07117c9")
-		(property "Reference" "R119"
-			(at 172.212 223.52 0)
+		(property "Reference" "R129"
+			(at 172.974 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19224,7 +19254,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 172.212 226.06 0)
+			(at 172.72 225.298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19267,7 +19297,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 171.196 228.346 0)
+			(at 171.958 227.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19287,6 +19317,16 @@
 				)
 			)
 		)
+		(property "Footprint_Size" "0603"
+			(at 172.974 228.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72ae9488-4078-4ce3-9050-adaff0739b3f")
 		)
@@ -19296,7 +19336,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/2ebfc833-bfa1-4c87-a466-1d49e2396d7f"
-					(reference "R119")
+					(reference "R129")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")

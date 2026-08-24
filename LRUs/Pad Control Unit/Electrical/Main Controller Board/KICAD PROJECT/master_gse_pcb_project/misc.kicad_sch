@@ -964,866 +964,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x10_Row_Letter_First"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 1.27 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_02x10_Row_Letter_First"
-				(at 1.27 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, double row, 02x10, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_02x10_Row_Letter_First_1_1"
-				(rectangle
-					(start -1.27 11.43)
-					(end 3.81 -13.97)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 10.287)
-					(end 0 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -12.573)
-					(end 0 -12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 10.287)
-					(end 2.54 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 7.747)
-					(end 2.54 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 5.207)
-					(end 2.54 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -7.493)
-					(end 2.54 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -10.033)
-					(end 2.54 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -12.573)
-					(end 2.54 -12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 10.16 0)
-					(length 3.81)
-					(name "Pin_a1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_a2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_a3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_a4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_a5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_a6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_a7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_a8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_a9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_a10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "a10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 180)
-					(length 3.81)
-					(name "Pin_b1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 3.81)
-					(name "Pin_b2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_b3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_b4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_b5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_b6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_b7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 3.81)
-					(name "Pin_b8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -10.16 180)
-					(length 3.81)
-					(name "Pin_b9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -12.7 180)
-					(length 3.81)
-					(name "Pin_b10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "b10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Polarized_Small_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_Small_US"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized capacitor, small US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_US_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -0.762)
-					(mid 0 -0.3734)
-					(end 1.524 -0.762)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_US_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -4275,7 +3415,7 @@
 	)
 	(text "Valve connector\n"
 		(exclude_from_sim no)
-		(at 35.052 77.724 0)
+		(at 23.368 76.962 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4285,7 +3425,7 @@
 	)
 	(text "Backplane interface connector"
 		(exclude_from_sim no)
-		(at 202.184 76.962 0)
+		(at 195.072 77.216 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4295,7 +3435,7 @@
 	)
 	(text "Audio DAC connector\n"
 		(exclude_from_sim no)
-		(at 163.576 32.258 0)
+		(at 106.172 32.258 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4348,10 +3488,16 @@
 		(uuid "1e566175-88bd-4c52-9688-2121ce77a75c")
 	)
 	(junction
+		(at 209.55 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20474419-3496-409f-9dc0-06b27773f4a8")
+	)
+	(junction
 		(at 207.01 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "231f4508-7143-40b7-8d2c-9bdc371e0594")
+		(uuid "23bebbf0-6508-40ab-96f3-af9f96c50ec0")
 	)
 	(junction
 		(at 116.84 43.18)
@@ -4384,16 +3530,16 @@
 		(uuid "4ce66111-4f85-49be-942c-8433a2e9b2a7")
 	)
 	(junction
-		(at 209.55 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fb5df57-2f53-4c52-acfe-d800380be354")
-	)
-	(junction
 		(at 83.82 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58849008-addd-45ba-bf26-178d3406a218")
+	)
+	(junction
+		(at 209.55 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5889b417-549b-49d2-90a0-7829a11c5367")
 	)
 	(junction
 		(at 123.19 83.82)
@@ -4406,6 +3552,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89466769-f763-45f7-9df1-dc55c00e2ff0")
+	)
+	(junction
+		(at 209.55 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "931b0b09-4013-40a6-9b8f-f1535fda1112")
 	)
 	(junction
 		(at 68.58 96.52)
@@ -4426,28 +3578,16 @@
 		(uuid "a83f9ea6-136a-4e68-93c4-37bd3d0da446")
 	)
 	(junction
-		(at 209.55 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b182a92c-ee3b-4fc8-a15b-dc581b88e465")
-	)
-	(junction
 		(at 111.76 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba938422-8e9f-466a-b4eb-5e1594fe3dc0")
 	)
 	(junction
-		(at 209.55 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c79fc2cb-8f15-493f-a67a-e780f18599ba")
-	)
-	(junction
 		(at 209.55 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e41b179d-81fc-4d34-a59d-a728119fbece")
+		(uuid "c91c3753-febb-49ee-b3c5-6064825dffce")
 	)
 	(junction
 		(at 228.6 96.52)
@@ -4617,6 +3757,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 109.22) (xy 212.09 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072488f9-555f-419b-b222-1eff5d897e3b")
+	)
+	(wire
+		(pts
+			(xy 209.55 104.14) (xy 212.09 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075c8e52-afb3-4151-a274-696c585e7463")
+	)
+	(wire
+		(pts
 			(xy 137.16 99.06) (xy 160.02 99.06)
 		)
 		(stroke
@@ -4637,13 +3797,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 96.52) (xy 207.01 96.52)
+			(xy 209.55 88.9) (xy 209.55 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c4d8bf9-b457-44f0-9235-a08a56953f58")
+		(uuid "08fb97ab-477b-4434-88d1-434b3a6bbc1d")
 	)
 	(wire
 		(pts
@@ -4654,6 +3814,16 @@
 			(type default)
 		)
 		(uuid "0c76f663-7de1-4f34-b934-17dbb46bc45a")
+	)
+	(wire
+		(pts
+			(xy 209.55 93.98) (xy 212.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce97535-e1e9-4ef4-b1d5-e67b10f73706")
 	)
 	(wire
 		(pts
@@ -4707,6 +3877,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 99.06) (xy 209.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a218ff-957b-4bf1-b731-58b3f632d333")
+	)
+	(wire
+		(pts
 			(xy 35.56 139.7) (xy 48.26 139.7)
 		)
 		(stroke
@@ -4734,16 +3914,6 @@
 			(type default)
 		)
 		(uuid "1b5df253-9ac5-42c1-87f2-715bdb9ce6e2")
-	)
-	(wire
-		(pts
-			(xy 209.55 88.9) (xy 212.09 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c656dc5-014c-41fb-98ec-2d25cec36d66")
 	)
 	(wire
 		(pts
@@ -4794,16 +3964,6 @@
 			(type default)
 		)
 		(uuid "26da48b3-f281-4d56-a620-b4ba5f3f5a64")
-	)
-	(wire
-		(pts
-			(xy 209.55 99.06) (xy 212.09 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2729115b-479c-4045-9b23-e6461ffa1002")
 	)
 	(wire
 		(pts
@@ -4887,16 +4047,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 96.52) (xy 207.01 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41faf45e-3ccb-4a41-96ae-bc9631dd5250")
-	)
-	(wire
-		(pts
 			(xy 111.76 83.82) (xy 111.76 85.09)
 		)
 		(stroke
@@ -4914,36 +4064,6 @@
 			(type default)
 		)
 		(uuid "44d67467-5a43-4607-a26c-b732d8c09326")
-	)
-	(bus
-		(pts
-			(xy 162.56 95.25) (xy 162.56 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d846e2-814a-4fcb-96fd-3be4e5856f02")
-	)
-	(wire
-		(pts
-			(xy 209.55 93.98) (xy 212.09 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48b68daf-cc4b-4290-9f50-4a41ee120e83")
-	)
-	(wire
-		(pts
-			(xy 207.01 91.44) (xy 212.09 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48bae22e-205e-45be-8a32-94ac277fa359")
 	)
 	(wire
 		(pts
@@ -4964,6 +4084,16 @@
 			(type default)
 		)
 		(uuid "4a278b7d-cd91-47f8-b98e-f3e15ba858f9")
+	)
+	(wire
+		(pts
+			(xy 195.58 101.6) (xy 212.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b102722-34a0-4517-8ec5-3e92fa119b70")
 	)
 	(wire
 		(pts
@@ -4997,16 +4127,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 109.22) (xy 209.55 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58aa2bc9-74e5-4521-bc16-5cc0d3be4bab")
-	)
-	(wire
-		(pts
 			(xy 83.82 121.92) (xy 83.82 119.38)
 		)
 		(stroke
@@ -5034,6 +4154,16 @@
 			(type default)
 		)
 		(uuid "64684a97-8a31-4034-b882-311c9b1823d7")
+	)
+	(wire
+		(pts
+			(xy 209.55 104.14) (xy 209.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f16dce-2d85-41d3-946d-32797cc363bb")
 	)
 	(wire
 		(pts
@@ -5127,6 +4257,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 91.44) (xy 212.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b9553d-f388-4681-a351-ae7373ef586e")
+	)
+	(wire
+		(pts
 			(xy 224.79 109.22) (xy 231.14 109.22)
 		)
 		(stroke
@@ -5137,13 +4277,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 113.03) (xy 209.55 109.22)
+			(xy 205.74 111.76) (xy 212.09 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bac9181-a182-4b81-ae94-755a21143b4a")
+		(uuid "7b4cc107-9663-44b9-9271-902e7d6d6d47")
 	)
 	(bus
 		(pts
@@ -5187,6 +4327,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 96.52) (xy 212.09 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d5dfef-4a4b-48af-bc81-ecf0c27bb88e")
+	)
+	(wire
+		(pts
 			(xy 123.19 83.82) (xy 123.19 85.09)
 		)
 		(stroke
@@ -5194,16 +4344,6 @@
 			(type default)
 		)
 		(uuid "83b15e78-7450-4fe5-be65-d9965fb1c4d5")
-	)
-	(wire
-		(pts
-			(xy 205.74 111.76) (xy 212.09 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "849a656f-535a-413b-97d8-381c8fccc236")
 	)
 	(wire
 		(pts
@@ -5247,6 +4387,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 88.9) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb34d0a-be52-41c3-8f31-ccf7827ded42")
+	)
+	(wire
+		(pts
 			(xy 87.63 119.38) (xy 83.82 119.38)
 		)
 		(stroke
@@ -5267,6 +4417,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 91.44) (xy 207.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b4f4a6-003f-4ec7-9202-3bc6f17488a7")
+	)
+	(wire
+		(pts
 			(xy 135.89 55.88) (xy 144.78 55.88)
 		)
 		(stroke
@@ -5274,16 +4434,6 @@
 			(type default)
 		)
 		(uuid "98c94e36-f334-4b69-8224-e9c08d1bd629")
-	)
-	(wire
-		(pts
-			(xy 195.58 106.68) (xy 212.09 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "995711c3-660e-46da-ae1d-ee4b56d3ed47")
 	)
 	(wire
 		(pts
@@ -5347,16 +4497,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 93.98) (xy 209.55 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5cea301-e619-4370-b6aa-cad8b482b205")
-	)
-	(wire
-		(pts
 			(xy 224.79 93.98) (xy 231.14 93.98)
 		)
 		(stroke
@@ -5364,16 +4504,6 @@
 			(type default)
 		)
 		(uuid "a6d1f697-7c01-4966-92d8-25616d0eeb18")
-	)
-	(wire
-		(pts
-			(xy 209.55 104.14) (xy 209.55 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8dcfdf7-1deb-42e7-9e4a-70051f2429cc")
 	)
 	(wire
 		(pts
@@ -5407,26 +4537,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 101.6) (xy 212.09 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b00ecf32-9a33-4656-9ace-889bf1ae9570")
-	)
-	(wire
-		(pts
-			(xy 209.55 104.14) (xy 212.09 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0db703f-a61c-43c9-b6c8-bd2e00257e5d")
-	)
-	(wire
-		(pts
 			(xy 224.79 106.68) (xy 228.6 106.68)
 		)
 		(stroke
@@ -5444,6 +4554,16 @@
 			(type default)
 		)
 		(uuid "b687dfd6-424c-4795-a666-4d096c758dbb")
+	)
+	(bus
+		(pts
+			(xy 162.56 101.6) (xy 162.56 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6fdd3da-9904-412c-9b88-0c237d3173f7")
 	)
 	(wire
 		(pts
@@ -5484,16 +4604,6 @@
 			(type default)
 		)
 		(uuid "bd4f6c45-0e4a-47dc-b508-3a5477443b8c")
-	)
-	(wire
-		(pts
-			(xy 209.55 99.06) (xy 209.55 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd51b34d-ffaf-4ab9-9a09-a37c30537c0f")
 	)
 	(wire
 		(pts
@@ -5627,6 +4737,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 99.06) (xy 212.09 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce635f06-1b30-48f9-a094-57933a576e81")
+	)
+	(wire
+		(pts
 			(xy 83.82 119.38) (xy 83.82 114.3)
 		)
 		(stroke
@@ -5664,6 +4784,16 @@
 			(type default)
 		)
 		(uuid "d90f7ed7-9c3b-455d-b6af-eeb80dc3d92e")
+	)
+	(wire
+		(pts
+			(xy 195.58 106.68) (xy 212.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9211963-f053-4949-aeeb-c85f0c0399e8")
 	)
 	(wire
 		(pts
@@ -5707,6 +4837,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 109.22) (xy 209.55 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11c4f94-d6f4-4fdf-8734-e0505fe8af2f")
+	)
+	(wire
+		(pts
 			(xy 71.12 116.84) (xy 87.63 116.84)
 		)
 		(stroke
@@ -5714,16 +4854,6 @@
 			(type default)
 		)
 		(uuid "e13feb54-e4ac-4d0f-8534-0e82bf019540")
-	)
-	(wire
-		(pts
-			(xy 209.55 109.22) (xy 212.09 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e29eeef0-47ab-4034-9afb-55975851ecbb")
 	)
 	(wire
 		(pts
@@ -5814,6 +4944,16 @@
 			(type default)
 		)
 		(uuid "ee22a5b4-003f-44f3-9213-69108544c7ae")
+	)
+	(wire
+		(pts
+			(xy 209.55 93.98) (xy 209.55 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee956b3c-2754-47c7-a859-d4b1b7b94b6d")
 	)
 	(wire
 		(pts
@@ -7358,7 +6498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "024c83a5-7009-47f6-a345-1a1437fedbab")
-		(property "Reference" "#PWR0355"
+		(property "Reference" "#PWR0375"
 			(at 83.82 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7419,7 +6559,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0355")
+					(reference "#PWR0375")
 					(unit 1)
 				)
 			)
@@ -7436,7 +6576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "083604a1-2210-44be-a820-b3fb6bf03f70")
-		(property "Reference" "R174"
+		(property "Reference" "R184"
 			(at 70.104 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7521,7 +6661,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "R174")
+					(reference "R184")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7545,7 +6685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ef169dc-6f51-4271-b715-23a82499edbe")
-		(property "Reference" "J26"
+		(property "Reference" "J28"
 			(at 151.384 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7640,7 +6780,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "J26")
+					(reference "J28")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7803,111 +6943,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 116.84 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2de7f0d7-fb76-414c-9e77-d9d7392e5315")
-		(property "Reference" "C157"
-			(at 118.872 44.704 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 119.38 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
-			(at 116.84 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10uF 16V 3Ω@100kHz ±10% Tantalum Capacitors"
-			(at 116.84 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C7171"
-			(at 116.84 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vmax" "16V"
-			(at 120.904 49.276 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f71719f7-4ab8-4cd1-bb9d-1ca9911920ac")
-		)
-		(pin "1"
-			(uuid "4372de74-0518-4559-8528-2d6fa5343976")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "C157")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 111.76 87.63 0)
 		(unit 1)
@@ -7918,7 +6953,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33cf29dd-b3fb-459e-ae29-e15bd1cf8bea")
-		(property "Reference" "C156"
+		(property "Reference" "C165"
 			(at 113.284 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8003,7 +7038,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "C156")
+					(reference "C165")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8013,8 +7048,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Row_Letter_First")
-		(at 217.17 99.06 0)
+		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
+		(at 219.71 99.06 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8023,7 +7059,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35338a39-7637-41a9-ade9-fc0fa0dcb4ba")
-		(property "Reference" "J27"
+		(property "Reference" "J29"
 			(at 218.44 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8043,8 +7079,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_DIN:DIN41612_B3_2x10_Female_Vertical_THT"
-			(at 217.17 99.06 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
+			(at 219.71 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8055,7 +7091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 99.06 0)
+			(at 219.71 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8066,7 +7102,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 217.17 99.06 0)
+			(at 219.71 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8077,7 +7113,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 217.17 99.06 0)
+			(at 219.71 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8097,70 +7133,70 @@
 				)
 			)
 		)
-		(pin "a2"
+		(pin "3"
 			(uuid "9448cc9b-4e08-4240-89d7-21425bb75dbd")
 		)
-		(pin "a9"
+		(pin "4"
 			(uuid "0a289e21-115f-491b-a105-8207e7edf162")
 		)
-		(pin "a6"
+		(pin "1"
 			(uuid "30d47169-bce1-48f0-ac8e-e47e24afd14a")
 		)
-		(pin "a10"
+		(pin "20"
 			(uuid "8f578b5a-7cac-4495-a7b5-87469784a233")
 		)
-		(pin "a1"
+		(pin "9"
 			(uuid "bca07bf9-fe80-478f-8b8e-15244abca49c")
 		)
-		(pin "a5"
+		(pin "7"
 			(uuid "68eeade2-15a9-4fac-a919-44889f0bd288")
 		)
-		(pin "a3"
+		(pin "11"
 			(uuid "bf0c96a1-3781-4af3-9b2f-b756acc772c3")
 		)
-		(pin "b8"
+		(pin "5"
 			(uuid "03e25604-a5d7-468d-9c0b-37642aa10c1a")
 		)
-		(pin "a7"
+		(pin "18"
 			(uuid "bff419c0-864a-49d3-bbc3-167b2271fbc9")
 		)
-		(pin "a8"
+		(pin "17"
 			(uuid "5f6ab50c-3c0c-4b25-ab29-595bc7615e21")
 		)
-		(pin "b3"
+		(pin "13"
 			(uuid "09c4d7e9-8ca2-414a-aebe-13a7436fcb25")
 		)
-		(pin "b2"
+		(pin "15"
 			(uuid "c738f419-e6e6-4c98-9b9a-9f21737d3d85")
 		)
-		(pin "b5"
+		(pin "2"
 			(uuid "e425ca2c-5a5c-41c8-990e-4b97063de48e")
 		)
-		(pin "a4"
+		(pin "12"
 			(uuid "c916bdc7-a49b-4291-919e-247b6bc490b5")
 		)
-		(pin "b4"
+		(pin "19"
 			(uuid "2cdf523e-c08a-4593-8eb6-1ecbc4563bd5")
 		)
-		(pin "b9"
+		(pin "16"
 			(uuid "dba67cf3-e2cf-4ee6-970a-2eb0dee3e307")
 		)
-		(pin "b10"
+		(pin "6"
 			(uuid "62883076-ae28-43de-8b69-5bccb45de67b")
 		)
-		(pin "b7"
+		(pin "8"
 			(uuid "facdd737-5e2a-4325-b52a-3fb376eedd9a")
 		)
-		(pin "b6"
+		(pin "14"
 			(uuid "f24232bf-fdce-43d1-98ad-1a6964e0e9c5")
 		)
-		(pin "b1"
+		(pin "10"
 			(uuid "9f737194-e681-4a5f-97fd-1dbb1f554717")
 		)
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "J27")
+					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -8178,7 +7214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "439c086f-aae2-4735-9d7b-54967d563bbc")
-		(property "Reference" "#PWR0357"
+		(property "Reference" "#PWR0377"
 			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8239,7 +7275,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0357")
+					(reference "#PWR0377")
 					(unit 1)
 				)
 			)
@@ -8257,7 +7293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "462298df-964a-44c3-8a05-04f3f602db87")
-		(property "Reference" "#PWR0371"
+		(property "Reference" "#PWR0391"
 			(at 213.36 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8318,7 +7354,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0371")
+					(reference "#PWR0391")
 					(unit 1)
 				)
 			)
@@ -8336,7 +7372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c10d4d0-b52f-4623-8112-6819bca4b1a4")
-		(property "Reference" "#PWR0372"
+		(property "Reference" "#PWR0392"
 			(at 213.36 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8397,7 +7433,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0372")
+					(reference "#PWR0392")
 					(unit 1)
 				)
 			)
@@ -8414,7 +7450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4caaee9f-bb3a-4249-a2b4-3e2a4700b77a")
-		(property "Reference" "#PWR0360"
+		(property "Reference" "#PWR0380"
 			(at 123.19 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8475,7 +7511,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0360")
+					(reference "#PWR0380")
 					(unit 1)
 				)
 			)
@@ -8492,7 +7528,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ef0d22a-469f-4b3d-9c60-938ebcd6fa4f")
-		(property "Reference" "R178"
+		(property "Reference" "R188"
 			(at 66.294 115.316 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8577,7 +7613,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "R178")
+					(reference "R188")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8598,7 +7634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f372ffd-3ac9-41f1-87a6-7f6878a860c4")
-		(property "Reference" "#PWR0359"
+		(property "Reference" "#PWR0379"
 			(at 116.84 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8659,7 +7695,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0359")
+					(reference "#PWR0379")
 					(unit 1)
 				)
 			)
@@ -8677,7 +7713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67f6b731-562e-47d8-805f-d0cfd4338493")
-		(property "Reference" "#PWR0356"
+		(property "Reference" "#PWR0376"
 			(at 104.14 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8738,7 +7774,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0356")
+					(reference "#PWR0376")
 					(unit 1)
 				)
 			)
@@ -8756,7 +7792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e56d663-a747-4490-b060-4a9557ef06b7")
-		(property "Reference" "#PWR0364"
+		(property "Reference" "#PWR0384"
 			(at 146.05 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -8817,7 +7853,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0364")
+					(reference "#PWR0384")
 					(unit 1)
 				)
 			)
@@ -8835,7 +7871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7185bc35-7e4a-41fd-a198-83cd1a63686f")
-		(property "Reference" "#PWR0373"
+		(property "Reference" "#PWR0393"
 			(at 213.36 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8896,7 +7932,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0373")
+					(reference "#PWR0393")
 					(unit 1)
 				)
 			)
@@ -8913,7 +7949,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cf3d871-0d2f-4e8c-877a-f496a6f491a0")
-		(property "Reference" "R179"
+		(property "Reference" "R189"
 			(at 118.364 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8998,7 +8034,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "R179")
+					(reference "R189")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9019,7 +8055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f7f3d19-011f-48ba-bf36-b9317126c129")
-		(property "Reference" "U33"
+		(property "Reference" "U34"
 			(at 146.05 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9131,7 +8167,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "U33")
+					(reference "U34")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9151,7 +8187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82143987-7868-49f7-9591-ea723031e798")
-		(property "Reference" "#PWR0363"
+		(property "Reference" "#PWR0383"
 			(at 137.16 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9212,7 +8248,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0363")
+					(reference "#PWR0383")
 					(unit 1)
 				)
 			)
@@ -9230,7 +8266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d2645c7-dd1f-4c3f-8772-e1e779d6b851")
-		(property "Reference" "#PWR0370"
+		(property "Reference" "#PWR0390"
 			(at 209.55 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9291,7 +8327,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0370")
+					(reference "#PWR0390")
 					(unit 1)
 				)
 			)
@@ -9309,7 +8345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ff0ac64-af03-4076-a0bb-dcc9a6d71453")
-		(property "Reference" "#PWR0369"
+		(property "Reference" "#PWR0389"
 			(at 207.01 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9380,7 +8416,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0369")
+					(reference "#PWR0389")
 					(unit 1)
 				)
 			)
@@ -9540,6 +8576,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 116.84 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93bb99d2-55cf-4917-aa55-ede85435c295")
+		(property "Reference" "C166"
+			(at 118.872 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 119.38 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 116.84 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF 16V X7R ±10% 0805 Capacitor"
+			(at 116.84 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C95841"
+			(at 116.84 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "16V"
+			(at 120.904 49.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e3e0d0ce-4b7b-46fe-9743-730676942bd5")
+		)
+		(pin "1"
+			(uuid "909e8799-928d-484c-bfe2-7d40d5ec9e3a")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
+					(reference "C166")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(field
+							(name "Value")
+							(value "10uF")
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 68.58 106.68 270)
 		(unit 1)
@@ -9550,7 +8695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99ef97e9-40df-457e-a643-c49984a55355")
-		(property "Reference" "R176"
+		(property "Reference" "R186"
 			(at 66.294 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9635,7 +8780,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "R176")
+					(reference "R186")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9655,7 +8800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1798d6d-4482-490d-8d5c-82d3c76c980a")
-		(property "Reference" "R182"
+		(property "Reference" "R192"
 			(at 118.364 117.856 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9740,7 +8885,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "R182")
+					(reference "R192")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9760,7 +8905,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa8a6833-410b-432e-bd40-26910d260309")
-		(property "Reference" "#PWR0358"
+		(property "Reference" "#PWR0378"
 			(at 116.84 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9821,7 +8966,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0358")
+					(reference "#PWR0378")
 					(unit 1)
 				)
 			)
@@ -9838,7 +8983,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad95214c-b5d3-4e18-b686-2530b4caa496")
-		(property "Reference" "C159"
+		(property "Reference" "C168"
 			(at 128.524 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9923,7 +9068,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "C159")
+					(reference "C168")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10097,7 +9242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7d998b2-d0d2-49c2-9749-b133109dfe9c")
-		(property "Reference" "#PWR0361"
+		(property "Reference" "#PWR0381"
 			(at 123.19 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10158,113 +9303,8 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0361")
+					(reference "#PWR0381")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 123.19 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b8910dd5-4551-46d6-a4a2-bc1fbda8d789")
-		(property "Reference" "C158"
-			(at 125.222 85.344 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 125.73 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
-			(at 123.19 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10uF 16V 3Ω@100kHz ±10% Tantalum Capacitors"
-			(at 123.19 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C7171"
-			(at 123.19 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vmax" "16V"
-			(at 127.254 89.916 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6568c4e5-0057-4c70-b18b-e35ab68d4450")
-		)
-		(pin "1"
-			(uuid "8c158ad3-42ba-4c99-8400-3624b4726040")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "C158")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -10281,7 +9321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd84eec9-a27f-4c28-850b-a44ef5a5bb89")
-		(property "Reference" "#PWR0366"
+		(property "Reference" "#PWR0386"
 			(at 190.5 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10342,7 +9382,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0366")
+					(reference "#PWR0386")
 					(unit 1)
 				)
 			)
@@ -10512,7 +9552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c13b8f2e-ae30-433b-b760-cc6e9880ddc3")
-		(property "Reference" "R183"
+		(property "Reference" "R193"
 			(at 138.684 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10597,7 +9637,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "R183")
+					(reference "R193")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10621,7 +9661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2db23fb-9ed4-4a06-b0c7-408a9674428a")
-		(property "Reference" "R175"
+		(property "Reference" "R185"
 			(at 66.294 100.076 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10706,7 +9746,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "R175")
+					(reference "R185")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10726,7 +9766,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca7538d3-b5b3-479d-8469-60b61c4d9adf")
-		(property "Reference" "J25"
+		(property "Reference" "J27"
 			(at 93.98 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10863,7 +9903,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "J25")
+					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -10881,7 +9921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cebb4685-b044-4101-a857-fb45e16503ac")
-		(property "Reference" "U32"
+		(property "Reference" "U33"
 			(at 58.42 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10993,7 +10033,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "U32")
+					(reference "U33")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -11014,7 +10054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf1ff268-fb59-4f6b-bb7c-857d4631373b")
-		(property "Reference" "#PWR0353"
+		(property "Reference" "#PWR0373"
 			(at 58.42 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -11075,7 +10115,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0353")
+					(reference "#PWR0373")
 					(unit 1)
 				)
 			)
@@ -11092,7 +10132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d20c6b1e-b5b0-40ec-8725-fb7a8cbdefc8")
-		(property "Reference" "R180"
+		(property "Reference" "R190"
 			(at 118.364 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11177,7 +10217,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "R180")
+					(reference "R190")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -11198,7 +10238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d32bdc33-ae73-4834-8191-174bb6bb27df")
-		(property "Reference" "#PWR0375"
+		(property "Reference" "#PWR0395"
 			(at 231.14 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11269,7 +10309,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0375")
+					(reference "#PWR0395")
 					(unit 1)
 				)
 			)
@@ -11287,7 +10327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc0a47f8-806e-4176-a92d-8d5d39389122")
-		(property "Reference" "#PWR0374"
+		(property "Reference" "#PWR0394"
 			(at 228.6 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11348,7 +10388,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0374")
+					(reference "#PWR0394")
 					(unit 1)
 				)
 			)
@@ -11366,7 +10406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de727a84-2c99-44b4-9962-93548d8dd3f0")
-		(property "Reference" "#PWR0367"
+		(property "Reference" "#PWR0387"
 			(at 190.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11427,7 +10467,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0367")
+					(reference "#PWR0387")
 					(unit 1)
 				)
 			)
@@ -11445,7 +10485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0ae2b90-7bf1-4718-9081-d751c71e6894")
-		(property "Reference" "#PWR0365"
+		(property "Reference" "#PWR0385"
 			(at 163.83 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -11506,7 +10546,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0365")
+					(reference "#PWR0385")
 					(unit 1)
 				)
 			)
@@ -11523,7 +10563,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4922873-2e20-4c1f-a2b9-3bffdea84349")
-		(property "Reference" "#PWR0354"
+		(property "Reference" "#PWR0374"
 			(at 68.58 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11584,7 +10624,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0354")
+					(reference "#PWR0374")
 					(unit 1)
 				)
 			)
@@ -11602,7 +10642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed6855a7-af11-4b3b-9c77-59b044801772")
-		(property "Reference" "#PWR0368"
+		(property "Reference" "#PWR0388"
 			(at 190.5 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11663,7 +10703,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0368")
+					(reference "#PWR0388")
 					(unit 1)
 				)
 			)
@@ -11681,7 +10721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee2926a2-a85a-4dc4-b761-799255674ec7")
-		(property "Reference" "#PWR0362"
+		(property "Reference" "#PWR0382"
 			(at 127 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11742,8 +10782,117 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "#PWR0362")
+					(reference "#PWR0382")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 123.19 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7789eac-4f60-4d90-8bf3-73e11937cc95")
+		(property "Reference" "C167"
+			(at 125.222 85.344 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 125.73 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 123.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF 16V X7R ±10% 0805 Capacitor"
+			(at 123.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C95841"
+			(at 123.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "16V"
+			(at 127.254 89.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3fe9e057-eb0c-4b50-a259-80559a1e03d5")
+		)
+		(pin "1"
+			(uuid "29b7fc67-7957-4663-8359-91d7d9426918")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
+					(reference "C167")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(field
+							(name "Value")
+							(value "10uF")
+						)
+					)
 				)
 			)
 		)
@@ -11912,7 +11061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8203e56-85b4-42cf-8c3d-1cfe3fbf80d7")
-		(property "Reference" "R181"
+		(property "Reference" "R191"
 			(at 118.364 112.776 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11997,7 +11146,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "R181")
+					(reference "R191")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12017,7 +11166,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fef497fc-045d-4713-88e6-c5ce4d74b155")
-		(property "Reference" "R177"
+		(property "Reference" "R187"
 			(at 66.294 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12102,7 +11251,7 @@
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/0a3466eb-0b59-48be-9fb7-707ac2bde2ef"
-					(reference "R177")
+					(reference "R187")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")

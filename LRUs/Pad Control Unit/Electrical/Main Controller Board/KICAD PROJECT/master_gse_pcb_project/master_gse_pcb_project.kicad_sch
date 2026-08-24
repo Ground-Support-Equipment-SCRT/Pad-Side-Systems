@@ -42,7 +42,7 @@
 	)
 	(bus
 		(pts
-			(xy 166.37 111.76) (xy 205.74 111.76)
+			(xy 166.37 118.11) (xy 205.74 118.11)
 		)
 		(stroke
 			(width 0)
@@ -102,7 +102,7 @@
 	)
 	(bus
 		(pts
-			(xy 80.01 59.69) (xy 119.38 59.69)
+			(xy 80.01 63.5) (xy 119.38 63.5)
 		)
 		(stroke
 			(width 0)
@@ -202,7 +202,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 104.14) (xy 119.38 104.14)
+			(xy 80.01 95.25) (xy 119.38 95.25)
 		)
 		(stroke
 			(width 0)
@@ -312,7 +312,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 101.6) (xy 119.38 101.6)
+			(xy 80.01 92.71) (xy 119.38 92.71)
 		)
 		(stroke
 			(width 0)
@@ -322,7 +322,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 88.9) (xy 119.38 88.9)
+			(xy 80.01 78.74) (xy 119.38 78.74)
 		)
 		(stroke
 			(width 0)
@@ -352,7 +352,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 106.68) (xy 119.38 106.68)
+			(xy 80.01 97.79) (xy 119.38 97.79)
 		)
 		(stroke
 			(width 0)
@@ -452,7 +452,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 91.44) (xy 119.38 91.44)
+			(xy 80.01 81.28) (xy 119.38 81.28)
 		)
 		(stroke
 			(width 0)
@@ -482,7 +482,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 109.22) (xy 119.38 109.22)
+			(xy 80.01 100.33) (xy 119.38 100.33)
 		)
 		(stroke
 			(width 0)
@@ -510,19 +510,19 @@
 		)
 		(uuid "b0ab15d6-5667-43f9-ba6e-24f45011a6ee")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 80.01 62.23) (xy 119.38 62.23)
+			(xy 80.01 102.87) (xy 119.38 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9049071-0deb-44fe-8942-7f0a8625d1d0")
+		(uuid "b96ef909-8fcb-4773-89ab-134bd130bb55")
 	)
 	(bus
 		(pts
-			(xy 166.37 91.44) (xy 205.74 91.44)
+			(xy 166.37 96.52) (xy 205.74 96.52)
 		)
 		(stroke
 			(width 0)
@@ -562,7 +562,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 86.36) (xy 119.38 86.36)
+			(xy 80.01 76.2) (xy 119.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1753,7 +1753,7 @@
 		)
 	)
 	(label "I2C1_SDA"
-		(at 93.98 101.6 0)
+		(at 93.98 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1763,7 +1763,7 @@
 		(uuid "54b3a1ad-29fa-4ba2-ac29-a1c9491044e7")
 	)
 	(label "I2C1_SCL"
-		(at 93.98 104.14 0)
+		(at 93.98 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1995,8 +1995,8 @@
 		)
 	)
 	(sheet
-		(at 205.74 89.408)
-		(size 29.21 14.732)
+		(at 205.74 92.71)
+		(size 29.21 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2011,7 +2011,7 @@
 		)
 		(uuid "1c220542-3189-448d-942e-39e79ce2ce0c")
 		(property "Sheetname" "SD_card"
-			(at 205.74 88.6964 0)
+			(at 205.74 91.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2022,7 +2022,7 @@
 			)
 		)
 		(property "Sheetfile" "sd_card.kicad_sch"
-			(at 205.74 104.7246 0)
+			(at 205.74 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2033,7 +2033,7 @@
 			)
 		)
 		(pin "{SD_CARD}" bidirectional
-			(at 205.74 91.44 180)
+			(at 205.74 96.52 180)
 			(uuid "769de1b4-14af-477c-a7d4-1107b2dec71a")
 			(effects
 				(font
@@ -2261,7 +2261,7 @@
 			)
 		)
 		(pin "CAN1_RX" bidirectional
-			(at 119.38 88.9 180)
+			(at 119.38 78.74 180)
 			(uuid "a97427c0-e061-4a83-8b81-9a2d436019d2")
 			(effects
 				(font
@@ -2271,7 +2271,7 @@
 			)
 		)
 		(pin "CAN1_TX" bidirectional
-			(at 119.38 86.36 180)
+			(at 119.38 76.2 180)
 			(uuid "7bcb360e-2136-47d5-9249-6d19f6ad83c9")
 			(effects
 				(font
@@ -2311,7 +2311,7 @@
 			)
 		)
 		(pin "I2C1_SCL" output
-			(at 119.38 104.14 180)
+			(at 119.38 95.25 180)
 			(uuid "e36ac224-a4e3-4ddd-ae2f-be77fb3004ed")
 			(effects
 				(font
@@ -2321,7 +2321,7 @@
 			)
 		)
 		(pin "I2C1_SDA" bidirectional
-			(at 119.38 101.6 180)
+			(at 119.38 92.71 180)
 			(uuid "7340a133-d9f2-488d-8d0e-a819b0611134")
 			(effects
 				(font
@@ -2531,7 +2531,7 @@
 			)
 		)
 		(pin "CAN_SILENT" output
-			(at 119.38 91.44 180)
+			(at 119.38 81.28 180)
 			(uuid "5ef8cc40-0399-4b93-a06c-de52fc9c5e73")
 			(effects
 				(font
@@ -2571,7 +2571,7 @@
 			)
 		)
 		(pin "TEMP1_ALERT" output
-			(at 119.38 106.68 180)
+			(at 119.38 97.79 180)
 			(uuid "0d201053-1374-48fe-ac6c-4f44e24f91b9")
 			(effects
 				(font
@@ -2581,7 +2581,7 @@
 			)
 		)
 		(pin "TEMP2_ALERT" output
-			(at 119.38 109.22 180)
+			(at 119.38 100.33 180)
 			(uuid "53ddd13d-740d-4ed4-a82e-2f0d00dadaab")
 			(effects
 				(font
@@ -2871,7 +2871,7 @@
 			)
 		)
 		(pin "{SD_CARD}" bidirectional
-			(at 166.37 91.44 0)
+			(at 166.37 96.52 0)
 			(uuid "e80486e1-c1be-4279-815a-4e765c5adb23")
 			(effects
 				(font
@@ -2881,7 +2881,7 @@
 			)
 		)
 		(pin "{RS485_MAIN}" bidirectional
-			(at 119.38 59.69 180)
+			(at 119.38 63.5 180)
 			(uuid "6a70c4d7-54ac-4142-b136-00b6b3d33cd3")
 			(effects
 				(font
@@ -2890,24 +2890,24 @@
 				(justify left)
 			)
 		)
-		(pin "{RS485_AUX}" bidirectional
-			(at 119.38 62.23 180)
-			(uuid "5f64eb0c-6c77-4349-8fd1-dba18fa8e599")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{RADIO}" bidirectional
-			(at 166.37 111.76 0)
+			(at 166.37 118.11 0)
 			(uuid "15840299-8b00-4e0c-a774-8a3c4993ed6d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "ADC_RDY" input
+			(at 119.38 102.87 180)
+			(uuid "37d49129-6bb8-47f7-bf57-df38851cda0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -3105,7 +3105,7 @@
 		)
 	)
 	(sheet
-		(at 49.784 83.82)
+		(at 49.784 73.66)
 		(size 30.226 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3121,7 +3121,7 @@
 		)
 		(uuid "ad87b204-5688-49fe-abe8-9e1cb22a3853")
 		(property "Sheetname" "can_bus"
-			(at 49.784 83.1084 0)
+			(at 49.784 72.9484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3132,7 +3132,7 @@
 			)
 		)
 		(property "Sheetfile" "can_bus.kicad_sch"
-			(at 49.784 94.5646 0)
+			(at 49.784 84.4046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3143,7 +3143,7 @@
 			)
 		)
 		(pin "SILENT" input
-			(at 80.01 91.44 0)
+			(at 80.01 81.28 0)
 			(uuid "f8147ace-8c72-4688-a745-addeb78cfefb")
 			(effects
 				(font
@@ -3153,7 +3153,7 @@
 			)
 		)
 		(pin "RX" output
-			(at 80.01 88.9 0)
+			(at 80.01 78.74 0)
 			(uuid "f05ac2aa-cd83-4eae-b3b7-12b7c89f38c8")
 			(effects
 				(font
@@ -3163,7 +3163,7 @@
 			)
 		)
 		(pin "TX" input
-			(at 80.01 86.36 0)
+			(at 80.01 76.2 0)
 			(uuid "bdaec5e7-d2d6-4234-90e7-b092e46c81f7")
 			(effects
 				(font
@@ -3181,8 +3181,8 @@
 		)
 	)
 	(sheet
-		(at 205.74 109.22)
-		(size 29.21 17.399)
+		(at 205.74 111.76)
+		(size 29.21 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3197,7 +3197,7 @@
 		)
 		(uuid "c7b423e7-02ab-4541-aadd-dd3010a8b6d4")
 		(property "Sheetname" "rf"
-			(at 205.74 108.5084 0)
+			(at 205.74 111.0484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3208,7 +3208,7 @@
 			)
 		)
 		(property "Sheetfile" "rf.kicad_sch"
-			(at 205.74 127.2036 0)
+			(at 205.74 125.0446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3219,7 +3219,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 205.74 109.22 0)
+			(at 205.74 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3229,7 +3229,7 @@
 			)
 		)
 		(pin "{RADIO}" bidirectional
-			(at 205.74 111.76 180)
+			(at 205.74 118.11 180)
 			(uuid "9d10ceee-dc5b-46fb-ad10-ae161a0dd1c0")
 			(effects
 				(font
@@ -3247,8 +3247,8 @@
 		)
 	)
 	(sheet
-		(at 49.53 99.06)
-		(size 30.48 12.7)
+		(at 49.53 90.17)
+		(size 30.48 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3263,7 +3263,7 @@
 		)
 		(uuid "dd14e2b0-7298-4db6-8c27-0c24493c1344")
 		(property "Sheetname" "pcb_sensors"
-			(at 49.53 98.3484 0)
+			(at 49.53 89.4584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3274,7 +3274,7 @@
 			)
 		)
 		(property "Sheetfile" "pcb_sensors.kicad_sch"
-			(at 49.53 112.3446 0)
+			(at 49.53 105.9946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3285,7 +3285,7 @@
 			)
 		)
 		(pin "TEMP1_ALERT" output
-			(at 80.01 106.68 0)
+			(at 80.01 97.79 0)
 			(uuid "a49bcf2e-4560-4533-acb8-66362a1b6de2")
 			(effects
 				(font
@@ -3295,7 +3295,7 @@
 			)
 		)
 		(pin "TEMP2_ALERT" output
-			(at 80.01 109.22 0)
+			(at 80.01 100.33 0)
 			(uuid "1d9e50e7-a5fd-42fe-8bf2-369a445d1405")
 			(effects
 				(font
@@ -3304,9 +3304,9 @@
 				(justify right)
 			)
 		)
-		(pin "TEMP_SDA" bidirectional
-			(at 80.01 101.6 0)
-			(uuid "b1ae5705-53ea-4c7b-b0c0-93167c708e97")
+		(pin "ADC_RDY" output
+			(at 80.01 102.87 0)
+			(uuid "7cd2cd2d-d16a-4e21-84c1-3a3431504793")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,9 +3314,19 @@
 				(justify right)
 			)
 		)
-		(pin "TEMP_SCL" input
-			(at 80.01 104.14 0)
-			(uuid "d5f9dd9d-3236-4ec6-a3ae-2bd5fb972ba6")
+		(pin "SENS_SCL" input
+			(at 80.01 95.25 0)
+			(uuid "c38d5bdd-af93-420b-88fd-74f730f39ed0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENS_SDA" bidirectional
+			(at 80.01 92.71 0)
+			(uuid "97d43e8b-8ca2-4e60-8b7b-dcd9ea72c11b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3344,7 @@
 	)
 	(sheet
 		(at 49.53 57.658)
-		(size 30.48 21.336)
+		(size 30.48 10.922)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3360,7 +3370,7 @@
 			)
 		)
 		(property "Sheetfile" "RS_485.kicad_sch"
-			(at 49.53 79.5786 0)
+			(at 49.53 69.1646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3380,18 +3390,8 @@
 				)
 			)
 		)
-		(pin "{RS485_AUX}" bidirectional
-			(at 80.01 62.23 0)
-			(uuid "92aaab93-9832-4cda-80b2-c89fae5c0bde")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "{RS485_MAIN}" bidirectional
-			(at 80.01 59.69 0)
+			(at 80.01 63.5 0)
 			(uuid "de1fdda8-189d-4ff2-b600-b0f6ab1816a8")
 			(effects
 				(font
