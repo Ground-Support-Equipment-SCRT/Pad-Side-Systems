@@ -5046,6 +5046,16 @@
 				)
 			)
 		)
+		(property "Footprint_Size" ""
+			(at 49.53 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "SH3"
 			(uuid "3bfa6c80-e0b9-4980-b8d1-ae0c27c381d4")
 		)

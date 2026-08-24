@@ -1,0 +1,105 @@
+(footprint "MURATA_ELECTRONICS_NORTH_AMERICA_PKM22EPPH2002-B0_0"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Buzzers Transducer, Externally Driven Piezo 1.5 V - 2kHz 70dB @ 1.5V, 10cm Through Hole PC Pins")
+	(property "Reference" "REF**"
+		(at -7.55 -8.55 0)
+		(layer "F.SilkS")
+		(uuid "e429be7d-78bf-40c0-9d6e-91d18a21683a")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MURATA_ELECTRONICS_NORTH_AMERICA_PKM22EPPH2002-B0_0"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "80dbb7d0-65bd-4d5b-989f-94f2992669a5")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9021eea6-a03b-45da-8834-d55d25b588ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33ad5502-31f7-41a0-ba34-e990c4179cca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 11.25 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8af1bded-7cc4-4313-b88c-ee359c0e23f8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 11.25 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e821d90c-0dc2-45be-b4ed-c45a987a3803")
+	)
+	(pad "1" thru_hole rect
+		(at -5 0)
+		(size 1.75 1.75)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a01af547-9c94-4cc7-a85f-db4350f59904")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.75 1.75)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f57fb239-54cb-46e1-b17d-c552b1df268d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/component_folders/PKM22EPPH2002_B0/PKM22EPPH2002-B0.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

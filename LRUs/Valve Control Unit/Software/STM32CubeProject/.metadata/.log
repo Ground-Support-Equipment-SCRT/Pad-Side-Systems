@@ -1,0 +1,18 @@
+!SESSION 2026-08-23 18:03:07.023 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-08-23 18:04:04.759
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-08-23 18:04:04.760
+!MESSAGE Log4j2 initialized with config file C:\Users\nicho\OneDrive\Documents\GitHub\Pad-Side-Systems\LRUs\Valve Control Unit\Software\STM32CubeProject\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-08-23 18:04:07.927
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-08-23 18:07:35.337
+!MESSAGE Indexed 'Valve Board STM32' (21 sources, 81 headers) in 3.86 sec: 5,226 declarations; 25,231 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0066%)
