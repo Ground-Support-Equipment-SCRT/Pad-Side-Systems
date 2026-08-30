@@ -4111,7 +4111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:AMPHENOL_GSB1C41110SSHR"
+		(property "Footprint" "valve_pcb_footprints:AMPHENOL_GSB1C41110SSHR"
 			(at 63.5 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4196,6 +4196,16 @@
 		(property "JLCPCB Part #" ""
 			(at 53.34 105.41 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 53.34 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4819,7 +4829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:X2SON2_DPL_TEX"
+		(property "Footprint" "valve_pcb_footprints:X2SON2_DPL_TEX"
 			(at 101.6 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5152,7 +5162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:X2SON2_DPL_TEX"
+		(property "Footprint" "valve_pcb_footprints:X2SON2_DPL_TEX"
 			(at 96.52 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5347,7 +5357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:X2SON2_DPL_TEX"
+		(property "Footprint" "valve_pcb_footprints:X2SON2_DPL_TEX"
 			(at 83.82 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6766,7 +6776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:X2SON2_DPL_TEX"
+		(property "Footprint" "valve_pcb_footprints:X2SON2_DPL_TEX"
 			(at 88.9 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7003,7 +7013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:X2SON2_DPL_TEX"
+		(property "Footprint" "valve_pcb_footprints:X2SON2_DPL_TEX"
 			(at 143.51 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7636,7 +7646,7 @@
 	)
 	(sheet_instances
 		(path "/"
-			(page "15")
+			(page "16")
 		)
 	)
 )

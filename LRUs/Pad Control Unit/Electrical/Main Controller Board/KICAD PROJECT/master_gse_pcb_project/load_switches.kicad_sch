@@ -2313,6 +2313,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 116.84 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0af94d68-0f1a-436e-8e6b-1706fef40565")
+		(property "Reference" "C34"
+			(at 122.428 73.914 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220pF"
+			(at 124.714 75.692 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 116.84 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "220pF 50V X7R ±10% 0603 Capacitor"
+			(at 116.84 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "50V"
+			(at 120.65 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1603"
+			(at 116.84 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 121.158 79.248 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "623c610a-f2f6-4cf9-b9b1-7cfe7e6418ea")
+		)
+		(pin "2"
+			(uuid "342ebda9-60a6-49f7-9e16-039d4c0a28bd")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
+					(reference "C34")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 129.54 133.35 0)
 		(unit 1)
@@ -2393,7 +2508,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 130.81 52.07 0)
+		(at 166.37 77.47 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2401,217 +2516,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1d997cb4-093b-4895-861e-2f8a8d6a298f")
-		(property "Reference" "R61"
-			(at 134.366 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 134.112 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 130.81 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "47k 1% 0603 Resistor"
-			(at 130.81 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 133.35 54.356 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C25819"
-			(at 130.81 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7e1963c-20b7-41ea-b761-9aaef093283e")
-		)
-		(pin "2"
-			(uuid "369152c1-106a-4909-a897-41cda7469109")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "R61")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 116.84 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "24a8641c-a771-4d64-a443-93939117547f")
-		(property "Reference" "C35"
-			(at 123.19 113.284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220pF"
-			(at 124.968 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 116.84 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "220pF 50V X7R ±10% 0603 Capacitor"
-			(at 116.84 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vmax" "50V"
-			(at 120.142 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C1603"
-			(at 116.84 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b0b1cc2-4395-4b32-b171-7f0311002076")
-		)
-		(pin "2"
-			(uuid "c0432293-aadc-4140-8538-8f95b10c30ef")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "C35")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 166.37 153.67 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "301fd4f7-1182-4053-b12d-0ffb2c08eafa")
-		(property "Reference" "R65"
-			(at 164.338 151.638 90)
+		(uuid "1b760402-b52d-4ae1-91cd-cc6b7e65197d")
+		(property "Reference" "R63"
+			(at 164.592 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2622,7 +2529,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 166.878 151.13 90)
+			(at 169.164 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2633,7 +2540,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 166.37 153.67 0)
+			(at 166.37 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2644,7 +2551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 153.67 0)
+			(at 166.37 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2655,7 +2562,7 @@
 			)
 		)
 		(property "Description" "0 1% 0603 Resistor"
-			(at 166.37 153.67 0)
+			(at 166.37 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2666,7 +2573,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 169.672 151.384 90)
+			(at 163.322 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2676,7 +2583,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C21189"
-			(at 166.37 153.67 0)
+			(at 166.37 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2686,16 +2593,26 @@
 				)
 			)
 		)
+		(property "Footprint_Size" "0603"
+			(at 170.18 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "1ada85bf-da96-440a-a129-1d9b3449731a")
+			(uuid "57d75c99-f948-47a2-8972-e0ba7da85d50")
 		)
 		(pin "2"
-			(uuid "9a6907b9-1fe7-4bda-b927-1dd5e607d101")
+			(uuid "94a7b894-00a5-467d-8c27-ef4fc788e386")
 		)
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "R65")
+					(reference "R63")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -2785,7 +2702,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 116.84 39.37 0)
+		(at 116.84 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2793,9 +2710,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "447e74a2-4fd8-4e86-9ad4-9d45be94fc81")
-		(property "Reference" "C33"
-			(at 123.19 37.084 0)
+		(uuid "335786bc-3ccd-4624-8bec-25e7602b4b7c")
+		(property "Reference" "C36"
+			(at 122.428 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2806,7 +2723,351 @@
 			)
 		)
 		(property "Value" "220pF"
-			(at 124.968 39.37 0)
+			(at 124.714 151.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 116.84 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "220pF 50V X7R ±10% 0603 Capacitor"
+			(at 116.84 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "50V"
+			(at 120.65 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1603"
+			(at 116.84 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 121.158 155.448 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f5359a8-0bd5-4300-a403-0e2b41befccc")
+		)
+		(pin "2"
+			(uuid "97e70153-17bf-49f9-8696-affb0d732049")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
+					(reference "C36")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 129.54 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3800814d-b333-44e5-9c23-26c27af0d645")
+		(property "Reference" "R58"
+			(at 133.096 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 132.842 89.408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "47k 1% 0603 Resistor"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 132.588 91.186 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25819"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 133.604 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3792d690-77dc-4aef-ad19-8e62e6ad60dc")
+		)
+		(pin "2"
+			(uuid "5ed8be66-bbb7-4240-a38c-783ad8df3d01")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
+					(reference "R58")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 166.37 116.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40074fb6-d4f9-4b97-9787-eec36527c0b0")
+		(property "Reference" "R64"
+			(at 164.592 115.316 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 169.164 115.316 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 166.37 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 1% 0603 Resistor"
+			(at 166.37 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 163.322 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C21189"
+			(at 166.37 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 170.18 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f30e272b-7cd7-4521-b5ae-40fbc147d06d")
+		)
+		(pin "2"
+			(uuid "2a91eb45-af81-4247-9c0e-1088c57860c8")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
+					(reference "R64")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(dnp yes)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 116.84 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "447e74a2-4fd8-4e86-9ad4-9d45be94fc81")
+		(property "Reference" "C33"
+			(at 122.428 37.084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220pF"
+			(at 124.714 38.862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2850,7 +3111,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 120.142 41.91 0)
+			(at 120.65 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2862,6 +3123,16 @@
 		(property "JLCPCB Part #" "C1603"
 			(at 116.84 39.37 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 121.158 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2890,112 +3161,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 166.37 116.84 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "491cb684-4708-4922-8f39-4d91438b230a")
-		(property "Reference" "R64"
-			(at 164.338 114.808 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 166.878 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 166.37 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 1% 0603 Resistor"
-			(at 166.37 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 169.672 114.554 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C21189"
-			(at 166.37 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d05be6f9-25b8-4aef-9f78-467965119e4e")
-		)
-		(pin "2"
-			(uuid "e20a7887-7bd2-4e2e-896b-47493d8c11d8")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "R64")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(dnp yes)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
 		(at 166.37 40.64 270)
 		(unit 1)
 		(body_style 1)
@@ -3006,7 +3171,7 @@
 		(dnp no)
 		(uuid "4a3ecc0b-485d-4a2a-b1c9-996c77784637")
 		(property "Reference" "R62"
-			(at 164.338 38.608 90)
+			(at 164.592 39.116 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3017,7 +3182,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 166.878 38.1 90)
+			(at 169.164 39.116 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3061,7 +3226,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 169.672 38.354 90)
+			(at 163.322 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3073,6 +3238,16 @@
 		(property "JLCPCB Part #" "C21189"
 			(at 166.37 40.64 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 170.18 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3175,212 +3350,6 @@
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
 					(reference "#PWR086")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 129.54 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "52ebd369-9b33-4bb7-8a50-075f3c5c393f")
-		(property "Reference" "R60"
-			(at 133.096 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 132.842 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 129.54 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "47k 1% 0603 Resistor"
-			(at 129.54 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 132.08 168.656 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C25819"
-			(at 129.54 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1cd477cf-b523-43bf-8575-9c404b7d254f")
-		)
-		(pin "2"
-			(uuid "9fb83f67-1e79-403d-a038-deb3b01d4c56")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "R60")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 129.54 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "57738894-5b2a-4af5-a120-9e5eeb5f3b15")
-		(property "Reference" "R58"
-			(at 133.096 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 132.842 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 129.54 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "47k 1% 0603 Resistor"
-			(at 129.54 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 132.08 92.456 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C25819"
-			(at 129.54 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b2c575a4-8c36-49f0-a306-9c64b2fc560c")
-		)
-		(pin "2"
-			(uuid "75f21ef4-4a65-45c8-8cf5-1547f2786344")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "R58")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -3722,8 +3691,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 116.84 76.2 0)
+		(lib_id "Device:R_Small_US")
+		(at 129.54 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3731,31 +3700,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "82fedc8b-9193-4023-89b1-3db70c0bf406")
-		(property "Reference" "C34"
-			(at 123.19 73.914 0)
+		(uuid "7ff84b1e-2b3c-4fde-b2e6-92015dd93f3b")
+		(property "Reference" "R59"
+			(at 133.096 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "220pF"
-			(at 124.968 76.2 0)
+		(property "Value" "47k"
+			(at 132.842 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 116.84 76.2 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 129.54 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3766,7 +3733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 76.2 0)
+			(at 129.54 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3776,8 +3743,8 @@
 				)
 			)
 		)
-		(property "Description" "220pF 50V X7R ±10% 0603 Capacitor"
-			(at 116.84 76.2 0)
+		(property "Description" "47k 1% 0603 Resistor"
+			(at 129.54 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3787,8 +3754,8 @@
 				)
 			)
 		)
-		(property "Vmax" "50V"
-			(at 120.142 78.74 0)
+		(property "Tolerance" "1%"
+			(at 132.588 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3797,9 +3764,19 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1603"
-			(at 116.84 76.2 0)
+		(property "JLCPCB Part #" "C25819"
+			(at 129.54 129.54 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 133.604 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3809,15 +3786,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "696310fa-3a30-4554-9b5e-77b0b92d0f5a")
+			(uuid "09d56659-8da9-438d-993d-e5c31aefc1b2")
 		)
 		(pin "2"
-			(uuid "a9003f69-3ff9-4574-a24f-172cf04280f3")
+			(uuid "d460a42a-2f58-4a78-808b-52ea095d5072")
 		)
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "C34")
+					(reference "R59")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -3985,7 +3962,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 129.54 129.54 0)
+		(at 166.37 153.67 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3993,29 +3970,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "870a7694-fb3d-49a2-95ae-c71356d3b608")
-		(property "Reference" "R59"
-			(at 133.096 127 0)
+		(uuid "8c579c8c-95fb-4911-ac20-b4a5f01651e6")
+		(property "Reference" "R65"
+			(at 164.592 152.146 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "47k"
-			(at 132.842 129.54 0)
+		(property "Value" "0"
+			(at 169.164 152.146 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 129.54 129.54 0)
+			(at 166.37 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4026,7 +4005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 129.54 0)
+			(at 166.37 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4036,8 +4015,8 @@
 				)
 			)
 		)
-		(property "Description" "47k 1% 0603 Resistor"
-			(at 129.54 129.54 0)
+		(property "Description" "0 1% 0603 Resistor"
+			(at 166.37 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4048,7 +4027,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 132.08 131.826 0)
+			(at 163.322 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4057,8 +4036,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25819"
-			(at 129.54 129.54 0)
+		(property "JLCPCB Part #" "C21189"
+			(at 166.37 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4068,19 +4047,30 @@
 				)
 			)
 		)
+		(property "Footprint_Size" "0603"
+			(at 170.18 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "5f64aa42-cfc4-4a49-8bbe-146ef60d7927")
+			(uuid "6d827936-29d6-4a87-bca6-6a0eb0e072b7")
 		)
 		(pin "2"
-			(uuid "d5278183-2462-40b5-9b34-a363eb06efb9")
+			(uuid "2e9d39ec-bf9b-4ece-a1a4-f948bc9ca6b5")
 		)
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "R59")
+					(reference "R65")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
+						(dnp yes)
 					)
 				)
 			)
@@ -4263,6 +4253,347 @@
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
 					(reference "U10")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 129.54 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab238a40-88ed-4d49-80c7-2345d1f24a03")
+		(property "Reference" "R60"
+			(at 133.096 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 132.842 165.608 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 129.54 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "47k 1% 0603 Resistor"
+			(at 129.54 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 132.588 167.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25819"
+			(at 129.54 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 133.604 169.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5fdef04-8738-42b0-8385-a1f045e7a8f3")
+		)
+		(pin "2"
+			(uuid "66213c83-5725-44c7-b0ef-cdd9e50e541c")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
+					(reference "R60")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 116.84 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b15a300a-0e98-41cc-9eed-6fa9927b626b")
+		(property "Reference" "C35"
+			(at 122.428 113.284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220pF"
+			(at 124.714 115.062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 116.84 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "220pF 50V X7R ±10% 0603 Capacitor"
+			(at 116.84 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "50V"
+			(at 120.65 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1603"
+			(at 116.84 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 121.158 118.618 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36cd8790-3d45-49e7-93d2-42aac2aedce3")
+		)
+		(pin "2"
+			(uuid "5bf978bf-1333-46c1-89e0-6fabd378e2d5")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
+					(reference "C35")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 130.81 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b468512d-e46a-49ca-a04f-282b21262ef4")
+		(property "Reference" "R61"
+			(at 134.366 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 134.112 51.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130.81 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "47k 1% 0603 Resistor"
+			(at 130.81 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 133.858 53.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25819"
+			(at 130.81 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 134.874 54.864 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f487cb9-4a00-4e45-bdc9-88df65c67f6c")
+		)
+		(pin "2"
+			(uuid "29d00a53-d162-4c4d-b775-9bdaff48f99e")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
+					(reference "R61")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
 				)
 			)
 		)
@@ -4616,112 +4947,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 166.37 77.47 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e27898e6-c9ef-41d7-9c92-e1f4275cdf07")
-		(property "Reference" "R63"
-			(at 164.338 75.438 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 166.878 74.93 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 166.37 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 1% 0603 Resistor"
-			(at 166.37 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 169.672 75.184 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C21189"
-			(at 166.37 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "347d270e-18f3-4d5a-a9cb-9883ad530bc9")
-		)
-		(pin "2"
-			(uuid "ec020c0f-35c6-455f-9512-1126bfbc28e9")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "R63")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(dnp yes)
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Management:TPS22917DBV")
 		(at 143.51 73.66 0)
 		(unit 1)
@@ -4897,111 +5122,6 @@
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
 					(reference "#PWR079")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 116.84 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fa2cd0f7-1d37-4dbd-8da8-c20cef77060b")
-		(property "Reference" "C36"
-			(at 123.19 150.114 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220pF"
-			(at 124.968 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 116.84 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "220pF 50V X7R ±10% 0603 Capacitor"
-			(at 116.84 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vmax" "50V"
-			(at 120.142 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C1603"
-			(at 116.84 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b467534c-91a9-481f-aebb-a8c3eca74137")
-		)
-		(pin "2"
-			(uuid "a804c676-55e6-4500-a0c3-a71a43b12bff")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/9008f12e-c3ef-424d-a669-d8806ef057c6/b37aa047-4fd4-444a-b685-1d30ca1a8e4c"
-					(reference "C36")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)

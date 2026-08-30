@@ -532,6 +532,26 @@
 	)
 	(wire
 		(pts
+			(xy 254 146.05) (xy 260.35 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027b8c5b-b75a-4da1-8dee-327e87f57997")
+	)
+	(wire
+		(pts
+			(xy 254 86.36) (xy 260.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0833b29f-2139-4f07-b1b5-cfcc34a75fd3")
+	)
+	(wire
+		(pts
 			(xy 214.63 121.92) (xy 214.63 146.05)
 		)
 		(stroke
@@ -539,6 +559,16 @@
 			(type default)
 		)
 		(uuid "0b62d54b-6a35-4fc2-abc7-3a550ff36f96")
+	)
+	(wire
+		(pts
+			(xy 254 59.69) (xy 260.35 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e14d5ff-0721-4d91-b8cf-9e2153ed996a")
 	)
 	(wire
 		(pts
@@ -582,7 +612,17 @@
 	)
 	(wire
 		(pts
-			(xy 254 59.69) (xy 260.35 59.69)
+			(xy 254 38.1) (xy 260.35 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe6a7fc-90c3-457e-9bab-07904497fd4b")
+	)
+	(wire
+		(pts
+			(xy 254 57.15) (xy 260.35 57.15)
 		)
 		(stroke
 			(width 0)
@@ -602,13 +642,23 @@
 	)
 	(wire
 		(pts
-			(xy 254 134.62) (xy 260.35 134.62)
+			(xy 254 83.82) (xy 260.35 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3836178a-f549-48ee-af2f-c49b5a74e96f")
+		(uuid "318c8314-0197-4ec4-8f36-04ccdae4f0de")
+	)
+	(wire
+		(pts
+			(xy 254 35.56) (xy 260.35 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b88056e-375a-4f9e-b091-a90404a94580")
 	)
 	(wire
 		(pts
@@ -622,7 +672,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 132.08) (xy 260.35 132.08)
+			(xy 254 129.54) (xy 260.35 129.54)
 		)
 		(stroke
 			(width 0)
@@ -632,7 +682,7 @@
 	)
 	(bus
 		(pts
-			(xy 254 153.67) (xy 260.35 153.67)
+			(xy 254 151.13) (xy 260.35 151.13)
 		)
 		(stroke
 			(width 0)
@@ -649,16 +699,6 @@
 			(type default)
 		)
 		(uuid "46a0cf79-761d-4c4e-9b7c-5d3ecdbb5aef")
-	)
-	(wire
-		(pts
-			(xy 254 110.49) (xy 260.35 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48af070c-19d4-4667-b5f1-74e723786d33")
 	)
 	(wire
 		(pts
@@ -682,6 +722,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 110.49) (xy 260.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bfdde11-9479-4c42-ba04-1b17a902300d")
+	)
+	(wire
+		(pts
 			(xy 173.99 25.4) (xy 173.99 29.21)
 		)
 		(stroke
@@ -689,26 +739,6 @@
 			(type default)
 		)
 		(uuid "5255230c-5e30-4b5c-88b8-ba7bee8c47fa")
-	)
-	(wire
-		(pts
-			(xy 254 158.75) (xy 260.35 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "570eeabd-fc36-44c1-b5c2-dab01e5d4bf9")
-	)
-	(wire
-		(pts
-			(xy 214.63 146.05) (xy 222.25 146.05)
-		)
-		(stroke
-			(width 0.762)
-			(type default)
-		)
-		(uuid "598dbfbd-e629-471f-9151-27666a3d045f")
 	)
 	(wire
 		(pts
@@ -732,33 +762,33 @@
 	)
 	(wire
 		(pts
-			(xy 254 86.36) (xy 260.35 86.36)
+			(xy 254 107.95) (xy 260.35 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60438e61-c055-4946-b81f-49bea2f81760")
-	)
-	(wire
-		(pts
-			(xy 254 148.59) (xy 260.35 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61d6872f-a9e0-49de-a92f-4f28123eac33")
+		(uuid "6412c12d-58d4-4721-b294-ad9c966766e5")
 	)
 	(bus
 		(pts
-			(xy 254 81.28) (xy 260.35 81.28)
+			(xy 254 78.74) (xy 260.35 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "65a5a929-ad8d-43a9-8cca-1b0902655863")
+	)
+	(wire
+		(pts
+			(xy 254 153.67) (xy 260.35 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d530355-52f9-4b99-9b00-f30b64e69fa8")
 	)
 	(wire
 		(pts
@@ -772,23 +802,13 @@
 	)
 	(bus
 		(pts
-			(xy 254 105.41) (xy 260.35 105.41)
+			(xy 254 102.87) (xy 260.35 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6fc9e7ca-b98f-4f02-baf6-6351b337d734")
-	)
-	(wire
-		(pts
-			(xy 254 146.05) (xy 260.35 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77676c4b-c14a-499e-bbef-58458df790bf")
 	)
 	(wire
 		(pts
@@ -802,6 +822,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 132.08) (xy 260.35 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8164a675-1728-401b-aa8e-ac4baba795a2")
+	)
+	(wire
+		(pts
 			(xy 199.39 25.4) (xy 199.39 29.21)
 		)
 		(stroke
@@ -812,7 +842,7 @@
 	)
 	(bus
 		(pts
-			(xy 254 33.02) (xy 260.35 33.02)
+			(xy 254 30.48) (xy 260.35 30.48)
 		)
 		(stroke
 			(width 0)
@@ -822,17 +852,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 62.23) (xy 260.35 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "863ec4a1-efed-411d-ba2d-e6d80b0b431e")
-	)
-	(wire
-		(pts
-			(xy 254 107.95) (xy 260.35 107.95)
+			(xy 254 105.41) (xy 260.35 105.41)
 		)
 		(stroke
 			(width 0)
@@ -852,7 +872,7 @@
 	)
 	(bus
 		(pts
-			(xy 254 57.15) (xy 260.35 57.15)
+			(xy 254 54.61) (xy 260.35 54.61)
 		)
 		(stroke
 			(width 0)
@@ -869,6 +889,16 @@
 			(type default)
 		)
 		(uuid "98a6be31-b843-4685-a030-01387491c9c1")
+	)
+	(wire
+		(pts
+			(xy 214.63 146.05) (xy 222.25 146.05)
+		)
+		(stroke
+			(width 0.762)
+			(type default)
+		)
+		(uuid "9ad7965d-780b-409f-93f1-81a911374937")
 	)
 	(wire
 		(pts
@@ -972,6 +1002,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 134.62) (xy 260.35 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a390ac-17ef-4ca8-8bc1-75ed3bc6fa44")
+	)
+	(wire
+		(pts
 			(xy 254 52.07) (xy 260.35 52.07)
 		)
 		(stroke
@@ -999,6 +1039,26 @@
 			(type default)
 		)
 		(uuid "bd73548b-3981-4a70-a7b7-48adb433aea5")
+	)
+	(wire
+		(pts
+			(xy 254 62.23) (xy 260.35 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf81164b-f17c-4c70-8175-e0b604672570")
+	)
+	(wire
+		(pts
+			(xy 254 148.59) (xy 260.35 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cead64d1-634c-4b0f-8dcf-866d46c03909")
 	)
 	(wire
 		(pts
@@ -1032,16 +1092,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 156.21) (xy 260.35 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d910a142-c004-4011-9f71-90b048e06671")
-	)
-	(wire
-		(pts
 			(xy 83.82 25.4) (xy 91.44 25.4)
 		)
 		(stroke
@@ -1052,7 +1102,7 @@
 	)
 	(bus
 		(pts
-			(xy 254 129.54) (xy 260.35 129.54)
+			(xy 254 127) (xy 260.35 127)
 		)
 		(stroke
 			(width 0)
@@ -1072,7 +1122,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 35.56) (xy 260.35 35.56)
+			(xy 254 33.02) (xy 260.35 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1082,7 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 83.82) (xy 260.35 83.82)
+			(xy 254 81.28) (xy 260.35 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1162,6 +1212,26 @@
 	)
 	(wire
 		(pts
+			(xy 254 156.21) (xy 260.35 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79de89b-ba73-45c5-a1f6-48ec26f617c3")
+	)
+	(wire
+		(pts
+			(xy 254 158.75) (xy 260.35 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa534269-4190-4afd-8f9e-72e68a4bffba")
+	)
+	(wire
+		(pts
 			(xy 186.69 25.4) (xy 186.69 29.21)
 		)
 		(stroke
@@ -1169,16 +1239,6 @@
 			(type default)
 		)
 		(uuid "fc64eac2-f791-447a-95a2-7afb68b60b2d")
-	)
-	(wire
-		(pts
-			(xy 254 38.1) (xy 260.35 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe1015d5-c31d-4a9e-bbf7-16a59adace66")
 	)
 	(global_label "EFUSE_PG"
 		(shape output)
@@ -1206,7 +1266,7 @@
 	)
 	(global_label "VALVE1{VALVE_BUS}"
 		(shape bidirectional)
-		(at 260.35 33.02 0)
+		(at 260.35 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1216,7 +1276,7 @@
 		)
 		(uuid "0e8867de-75c6-4ce4-b27c-89f81b4e486d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.0128 33.02 0)
+			(at 283.0128 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1252,9 +1312,33 @@
 			)
 		)
 	)
+	(global_label "VALVE5_VSENSE_N"
+		(shape output)
+		(at 260.35 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ab8cea3-2d59-405c-8a7a-2917f07f9694")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.3894 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VALVE6{VALVE_BUS}"
 		(shape bidirectional)
-		(at 260.35 153.67 0)
+		(at 260.35 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1264,7 +1348,7 @@
 		)
 		(uuid "1e9ff661-09c4-4710-bfd5-9e72f41ac912")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.0128 153.67 0)
+			(at 283.0128 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1348,9 +1432,9 @@
 			)
 		)
 	)
-	(global_label "VALVE5_LSW_SNS"
+	(global_label "VALVE3_VSENSE_N"
 		(shape output)
-		(at 260.35 132.08 0)
+		(at 260.35 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1358,9 +1442,9 @@
 			)
 			(justify left)
 		)
-		(uuid "3ed632f3-40cc-4373-9fb3-e5af21457c2f")
+		(uuid "3593380a-1813-48fa-bae0-a94e4ef19756")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.3613 132.08 0)
+			(at 280.3894 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1372,9 +1456,9 @@
 			)
 		)
 	)
-	(global_label "VALVE4_KELVIN_SNS"
+	(global_label "VALVE5_LSW_SNS"
 		(shape output)
-		(at 260.35 110.49 0)
+		(at 260.35 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1382,9 +1466,33 @@
 			)
 			(justify left)
 		)
-		(uuid "41355da3-9297-4154-8182-a05a1a8ac9c7")
+		(uuid "3ed632f3-40cc-4373-9fb3-e5af21457c2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.1433 110.49 0)
+			(at 279.3613 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VALVE5_VSENSE_P"
+		(shape output)
+		(at 260.35 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45640a6b-a105-4930-a838-7f01d5ff5b80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.3289 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1409,30 +1517,6 @@
 		(uuid "467c0f92-1f8d-45b3-9fa6-505ee4c5a876")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 277.8494 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VALVE5_KELVIN_SNS"
-		(shape output)
-		(at 260.35 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4cc809fb-f962-4b6b-912e-835f7069d327")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.1433 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1492,6 +1576,30 @@
 			)
 		)
 	)
+	(global_label "VALVE6_VSENSE_N"
+		(shape output)
+		(at 260.35 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67fc1bb8-88ed-42db-88f6-d04332f606e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.3894 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VALVE6_LSS_EN"
 		(shape input)
 		(at 260.35 148.59 0)
@@ -1518,7 +1626,7 @@
 	)
 	(global_label "VALVE3_LSW_SNS"
 		(shape output)
-		(at 260.35 83.82 0)
+		(at 260.35 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1528,7 +1636,55 @@
 		)
 		(uuid "6df74db5-30e3-4748-bb33-dfcf3ea93c99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.3613 83.82 0)
+			(at 279.3613 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VALVE4_VSENSE_P"
+		(shape output)
+		(at 260.35 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "754eea4d-bbec-41a2-8406-cdcc6b18647b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.3289 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VALVE6_VSENSE_P"
+		(shape output)
+		(at 260.35 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79004607-3dcf-42d2-aae4-3ffc96e3185f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.3289 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1564,33 +1720,9 @@
 			)
 		)
 	)
-	(global_label "VALVE2_KELVIN_SNS"
-		(shape output)
-		(at 260.35 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "83478d24-a573-4cbf-8d4a-53b0f4dc88e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.1433 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "VALVE5{VALVE_BUS}"
 		(shape bidirectional)
-		(at 260.35 129.54 0)
+		(at 260.35 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1600,7 +1732,7 @@
 		)
 		(uuid "8607bf94-edf9-4849-bccc-39dae417c13d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.0128 129.54 0)
+			(at 283.0128 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1614,7 +1746,7 @@
 	)
 	(global_label "VALVE4_LSW_SNS"
 		(shape output)
-		(at 260.35 107.95 0)
+		(at 260.35 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1624,7 +1756,7 @@
 		)
 		(uuid "870e3726-88ae-4d56-839a-2e9e0ebc68b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.3613 107.95 0)
+			(at 279.3613 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1638,7 +1770,7 @@
 	)
 	(global_label "VALVE2{VALVE_BUS}"
 		(shape bidirectional)
-		(at 260.35 57.15 0)
+		(at 260.35 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1648,7 +1780,31 @@
 		)
 		(uuid "876e3ea8-c12d-4a55-9de3-29b63564b402")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.0128 57.15 0)
+			(at 283.0128 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VALVE4_VSENSE_N"
+		(shape output)
+		(at 260.35 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96fd4a51-81ad-4367-9b34-9b97e7bfa92d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.3894 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1708,6 +1864,30 @@
 			)
 		)
 	)
+	(global_label "VALVE1_VSENSE_P"
+		(shape output)
+		(at 260.35 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a52a4946-81d4-4c2c-b7a9-0cac2e600174")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.3289 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VALVE1_LSS_EN"
 		(shape input)
 		(at 260.35 27.94 0)
@@ -1721,6 +1901,30 @@
 		(uuid "a98ac829-fc8d-45bb-8146-2989b9c1c73b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 277.8494 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VALVE2_VSENSE_N"
+		(shape output)
+		(at 260.35 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b06ac6d4-4f81-4c6d-a3fe-41ad3a57eebe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.3894 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1758,7 +1962,7 @@
 	)
 	(global_label "VALVE4{VALVE_BUS}"
 		(shape bidirectional)
-		(at 260.35 105.41 0)
+		(at 260.35 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1768,7 +1972,31 @@
 		)
 		(uuid "b661a2e3-8488-4f4b-aec1-0b89b2581b33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.0128 105.41 0)
+			(at 283.0128 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VALVE1_VSENSE_N"
+		(shape output)
+		(at 260.35 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd477ebd-d8e3-47b1-9160-ab3a470ab0c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.3894 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1782,7 +2010,7 @@
 	)
 	(global_label "VALVE1_LSW_SNS"
 		(shape output)
-		(at 260.35 35.56 0)
+		(at 260.35 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1792,31 +2020,7 @@
 		)
 		(uuid "c9fc0d3e-0858-46ce-938d-9cccc1a7da05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.3613 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VALVE1_KELVIN_SNS"
-		(shape output)
-		(at 260.35 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cbc99e0a-1c6a-4da7-ad91-1fa86a423c2b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.1433 38.1 0)
+			(at 279.3613 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1830,7 +2034,7 @@
 	)
 	(global_label "VALVE3{VALVE_BUS}"
 		(shape bidirectional)
-		(at 260.35 81.28 0)
+		(at 260.35 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1840,31 +2044,7 @@
 		)
 		(uuid "cf8f6b25-7d2c-4ef5-afb5-904ed558a4d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.0128 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VALVE6_KELVIN_SNS"
-		(shape output)
-		(at 260.35 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d6b0fd84-34f8-4273-98ff-170d0901fb63")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.1433 158.75 0)
+			(at 283.0128 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1924,9 +2104,9 @@
 			)
 		)
 	)
-	(global_label "VALVE3_KELVIN_SNS"
+	(global_label "VALVE2_LSW_SNS"
 		(shape output)
-		(at 260.35 86.36 0)
+		(at 260.35 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1934,9 +2114,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e5534bb8-d2c9-4a7c-9a7c-3b91eefefeeb")
+		(uuid "e5d8f84d-071f-4506-adff-3f32045ab611")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.1433 86.36 0)
+			(at 279.3613 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1948,7 +2128,31 @@
 			)
 		)
 	)
-	(global_label "VALVE2_LSW_SNS"
+	(global_label "VALVE3_VSENSE_P"
+		(shape output)
+		(at 260.35 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efbd08e6-c5aa-4823-b517-f7e57e665bf2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.3289 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VALVE2_VSENSE_P"
 		(shape output)
 		(at 260.35 59.69 0)
 		(fields_autoplaced yes)
@@ -1958,9 +2162,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e5d8f84d-071f-4506-adff-3f32045ab611")
+		(uuid "fbffd3f1-e538-4626-a4c7-fe745acc8c55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.3613 59.69 0)
+			(at 280.3289 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1974,7 +2178,7 @@
 	)
 	(global_label "VALVE6_LSW_SNS"
 		(shape output)
-		(at 260.35 156.21 0)
+		(at 260.35 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1984,7 +2188,7 @@
 		)
 		(uuid "fe9edad0-52d3-4d9a-8f3b-20841104ae66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.3613 156.21 0)
+			(at 279.3613 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3221,6 +3425,122 @@
 		)
 	)
 	(sheet
+		(at 222.25 119.38)
+		(size 31.75 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "22fb2ea8-45de-4e59-8821-a3bdf005559d")
+		(property "Sheetname" "Valve 5"
+			(at 222.25 118.5922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "valve_ctrl.kicad_sch"
+			(at 222.25 137.8208 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 222.25 121.92 180)
+			(uuid "151e486c-8ca7-4215-8f0d-204e6f239310")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VALVE_HSS_EN" input
+			(at 254 121.92 0)
+			(uuid "2066cad6-aad4-4ead-a99d-46fa74033679")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VALVE_LSS_EN" input
+			(at 254 124.46 0)
+			(uuid "90d23074-8f85-4016-9a98-d6628ec4a720")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{VALVE_BUS}" bidirectional
+			(at 254 127 0)
+			(uuid "c688b882-ac58-4ebd-a1f9-c353bc8e2377")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LSW_SNS" output
+			(at 254 129.54 0)
+			(uuid "4585caba-7bcc-49e6-b334-ff921b849f39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSENSE_N" output
+			(at 254 134.62 0)
+			(uuid "2ffcce0a-e73b-478d-a744-472566b8918f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSENSE_P" output
+			(at 254 132.08 0)
+			(uuid "d204ab69-136c-4c30-ab64-9ef35dcd723e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 222.25 22.86)
 		(size 31.75 17.78)
 		(exclude_from_sim no)
@@ -3289,7 +3609,7 @@
 			)
 		)
 		(pin "{VALVE_BUS}" bidirectional
-			(at 254 33.02 0)
+			(at 254 30.48 0)
 			(uuid "0c6e93a9-e866-46d3-8825-167e4cc7f01a")
 			(effects
 				(font
@@ -3299,7 +3619,7 @@
 			)
 		)
 		(pin "LSW_SNS" output
-			(at 254 35.56 0)
+			(at 254 33.02 0)
 			(uuid "de2052f3-48af-4e1c-875b-1706f5733296")
 			(effects
 				(font
@@ -3308,9 +3628,19 @@
 				(justify right)
 			)
 		)
-		(pin "KELVIN_SENSE" output
+		(pin "VSENSE_N" output
 			(at 254 38.1 0)
-			(uuid "bac9a4b8-77f6-4e53-b31b-149347acacb3")
+			(uuid "d481fd07-a626-4bfd-ad05-7db40111be96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSENSE_P" output
+			(at 254 35.56 0)
+			(uuid "cda75c00-f421-41a9-ace9-59a3711e1b79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +3657,7 @@
 		)
 	)
 	(sheet
-		(at 222.25 95.25)
+		(at 222.25 143.51)
 		(size 31.75 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3341,9 +3671,9 @@
 		(fill
 			(color 255 255 194 1)
 		)
-		(uuid "50ea575b-12c7-4867-a271-21416999ca3f")
-		(property "Sheetname" "Valve 4"
-			(at 222.25 94.4622 0)
+		(uuid "383eb8c0-3b60-4857-b829-1a2b12233e91")
+		(property "Sheetname" "Valve 6"
+			(at 222.25 142.7222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3354,7 +3684,7 @@
 			)
 		)
 		(property "Sheetfile" "valve_ctrl.kicad_sch"
-			(at 222.25 113.6908 0)
+			(at 222.25 161.9508 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3365,8 +3695,8 @@
 			)
 		)
 		(pin "VIN" input
-			(at 222.25 97.79 180)
-			(uuid "d3bc354c-70d7-4105-b938-6490d875fce4")
+			(at 222.25 146.05 180)
+			(uuid "37bac47c-e103-47fe-a52b-28a48c187201")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,8 +3705,8 @@
 			)
 		)
 		(pin "VALVE_HSS_EN" input
-			(at 254 97.79 0)
-			(uuid "687aa350-d79b-4b52-aa76-d653748fb3fa")
+			(at 254 146.05 0)
+			(uuid "28ccda0b-d2c0-48e2-ab85-48883da35f10")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,8 +3715,8 @@
 			)
 		)
 		(pin "VALVE_LSS_EN" input
-			(at 254 100.33 0)
-			(uuid "b5881779-5d78-432f-abad-e713cf30bc5c")
+			(at 254 148.59 0)
+			(uuid "ac82a68e-c5f7-4aac-be91-64112677c700")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3395,8 +3725,8 @@
 			)
 		)
 		(pin "{VALVE_BUS}" bidirectional
-			(at 254 105.41 0)
-			(uuid "3cfad737-8968-457b-b8e2-686457c12dfa")
+			(at 254 151.13 0)
+			(uuid "b1224500-c6a2-4d48-8dab-a2b448ff7d13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,8 +3735,8 @@
 			)
 		)
 		(pin "LSW_SNS" output
-			(at 254 107.95 0)
-			(uuid "4f3ef419-f2b4-4ccb-afbc-d59dfa19514e")
+			(at 254 153.67 0)
+			(uuid "360cdbf1-1dd6-4489-bc1c-c8ef311c156f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,9 +3744,19 @@
 				(justify right)
 			)
 		)
-		(pin "KELVIN_SENSE" output
-			(at 254 110.49 0)
-			(uuid "3a749d69-46c4-4c4f-92e6-5c26dba183d6")
+		(pin "VSENSE_N" output
+			(at 254 158.75 0)
+			(uuid "9d222f51-941d-4507-a273-533ee397702b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSENSE_P" output
+			(at 254 156.21 0)
+			(uuid "24649f5f-efbd-4050-84ce-5a7a9de03e26")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,7 +3767,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7"
-					(page "10")
+					(page "12")
 				)
 			)
 		)
@@ -3447,7 +3787,7 @@
 		(fill
 			(color 255 255 194 1)
 		)
-		(uuid "5333319b-ebf0-4088-b00a-4a4ef607817d")
+		(uuid "4d443e2a-ce12-4794-a00c-0c154132ac38")
 		(property "Sheetname" "Valve 2"
 			(at 222.25 46.2022 0)
 			(show_name no)
@@ -3472,7 +3812,7 @@
 		)
 		(pin "VIN" input
 			(at 222.25 49.53 180)
-			(uuid "50019d4c-4ced-43ea-9733-97a050ef9109")
+			(uuid "ee7d8bfc-73c0-4add-8c1c-83572a4f6839")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3822,7 @@
 		)
 		(pin "VALVE_HSS_EN" input
 			(at 254 49.53 0)
-			(uuid "ed89af2f-cec6-4dec-9ef5-abea530f0fef")
+			(uuid "c68098f0-26ed-4faf-b51d-e361d50c4367")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3832,7 @@
 		)
 		(pin "VALVE_LSS_EN" input
 			(at 254 52.07 0)
-			(uuid "10db9e47-704d-4a95-80ec-da345a8bcb7d")
+			(uuid "7015bfe8-f08b-46ff-871b-ede3ad6508f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,8 +3841,8 @@
 			)
 		)
 		(pin "{VALVE_BUS}" bidirectional
-			(at 254 57.15 0)
-			(uuid "a1583db3-633f-49af-9b68-e639dff39d58")
+			(at 254 54.61 0)
+			(uuid "7c2eb37b-2ff3-49e3-a448-2ebd6b18c7ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,8 +3851,8 @@
 			)
 		)
 		(pin "LSW_SNS" output
-			(at 254 59.69 0)
-			(uuid "21c4e86c-e849-47c3-a34a-2673eb611507")
+			(at 254 57.15 0)
+			(uuid "d8801797-94cf-4747-8cb1-039468d1ac94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,9 +3860,19 @@
 				(justify right)
 			)
 		)
-		(pin "KELVIN_SENSE" output
+		(pin "VSENSE_N" output
 			(at 254 62.23 0)
-			(uuid "415d0e5c-4050-4d4c-9b2d-d2fbfad86025")
+			(uuid "69702f9a-b860-44f5-9107-d5d77b317a1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSENSE_P" output
+			(at 254 59.69 0)
+			(uuid "99279b65-0bbd-4bf8-b25a-462f94a4663e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,6 +3884,122 @@
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 71.12)
+		(size 31.75 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "68e0af5e-3698-4885-b918-fc87e8e99600")
+		(property "Sheetname" "Valve 3"
+			(at 222.25 70.3322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "valve_ctrl.kicad_sch"
+			(at 222.25 89.5608 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 222.25 73.66 180)
+			(uuid "cea5def6-43c6-4e6b-b2e6-4f3aeeb05fc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VALVE_HSS_EN" input
+			(at 254 73.66 0)
+			(uuid "46ee8dc0-6341-4aa2-84f6-f65a5cb340d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VALVE_LSS_EN" input
+			(at 254 76.2 0)
+			(uuid "14b2d873-d3fa-4edf-9525-46628cf17684")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{VALVE_BUS}" bidirectional
+			(at 254 78.74 0)
+			(uuid "8097b474-07e9-4b02-bb3d-6e0a5d517d6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LSW_SNS" output
+			(at 254 81.28 0)
+			(uuid "7046bfc3-584e-4744-8c46-e65c62defd4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSENSE_N" output
+			(at 254 86.36 0)
+			(uuid "abbbd43b-f3ae-4889-b751-a29db22f7bd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSENSE_P" output
+			(at 254 83.82 0)
+			(uuid "6b0bfe54-358f-41d8-914c-3a81709cd846")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7"
+					(page "9")
 				)
 			)
 		)
@@ -3615,7 +4081,7 @@
 		)
 	)
 	(sheet
-		(at 222.25 119.38)
+		(at 222.25 95.25)
 		(size 31.75 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3629,9 +4095,9 @@
 		(fill
 			(color 255 255 194 1)
 		)
-		(uuid "9466624e-7f8c-432d-a4cb-66ccf6a56ae5")
-		(property "Sheetname" "Valve 5"
-			(at 222.25 118.5922 0)
+		(uuid "9056bdf0-4771-48d8-b41f-5497aeab08f3")
+		(property "Sheetname" "Valve 4"
+			(at 222.25 94.4622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3642,7 +4108,7 @@
 			)
 		)
 		(property "Sheetfile" "valve_ctrl.kicad_sch"
-			(at 222.25 137.8208 0)
+			(at 222.25 113.6908 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3653,8 +4119,8 @@
 			)
 		)
 		(pin "VIN" input
-			(at 222.25 121.92 180)
-			(uuid "38787a5f-b68f-4f3d-8756-3b663ee4bf30")
+			(at 222.25 97.79 180)
+			(uuid "972f6775-6284-46f7-9739-70073ac24178")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,8 +4129,8 @@
 			)
 		)
 		(pin "VALVE_HSS_EN" input
-			(at 254 121.92 0)
-			(uuid "3a16b82b-9678-4c8e-a866-26433995ed64")
+			(at 254 97.79 0)
+			(uuid "ed304803-0f6f-436c-9ba2-7515ec4f2b31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,8 +4139,8 @@
 			)
 		)
 		(pin "VALVE_LSS_EN" input
-			(at 254 124.46 0)
-			(uuid "003aaef1-8c6b-4587-a652-20f34760f2fc")
+			(at 254 100.33 0)
+			(uuid "48951919-a444-4c69-b6b7-5929b4d7f024")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,8 +4149,8 @@
 			)
 		)
 		(pin "{VALVE_BUS}" bidirectional
-			(at 254 129.54 0)
-			(uuid "9078a748-f2bc-45b3-920a-98bc7724dd10")
+			(at 254 102.87 0)
+			(uuid "b78811e8-2654-4582-98c0-d2c48c29c72e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,8 +4159,8 @@
 			)
 		)
 		(pin "LSW_SNS" output
-			(at 254 132.08 0)
-			(uuid "cd6df60d-364c-4769-92df-1d9f4608db67")
+			(at 254 105.41 0)
+			(uuid "cbfca8b8-c063-43a2-bb27-597d00e98e3d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,9 +4168,19 @@
 				(justify right)
 			)
 		)
-		(pin "KELVIN_SENSE" output
-			(at 254 134.62 0)
-			(uuid "48cc617f-17fe-4ee7-b601-7346b407a706")
+		(pin "VSENSE_N" output
+			(at 254 110.49 0)
+			(uuid "d98f77bc-91fa-4fb7-960c-b5a19687b560")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSENSE_P" output
+			(at 254 107.95 0)
+			(uuid "01b34eb2-c94a-4930-ae5a-2bb76805b99c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,113 +4191,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 222.25 71.12)
-		(size 31.75 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.3048)
-			(type solid)
-		)
-		(fill
-			(color 255 255 194 1)
-		)
-		(uuid "b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5")
-		(property "Sheetname" "Valve 3"
-			(at 222.25 70.3322 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "valve_ctrl.kicad_sch"
-			(at 222.25 89.5608 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VIN" input
-			(at 222.25 73.66 180)
-			(uuid "7c55a270-e06e-4a2e-85c8-71e0f7c33168")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VALVE_HSS_EN" input
-			(at 254 73.66 0)
-			(uuid "166dc7c0-a69b-4718-9df9-f1130e2762bc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VALVE_LSS_EN" input
-			(at 254 76.2 0)
-			(uuid "b73b2f71-a3e6-45ad-80aa-4383dd606f65")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{VALVE_BUS}" bidirectional
-			(at 254 81.28 0)
-			(uuid "a990fd4c-16fd-4708-bfeb-2733e4d5ce2f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LSW_SNS" output
-			(at 254 83.82 0)
-			(uuid "a020472a-c4c2-4375-955e-9ed2834af271")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "KELVIN_SENSE" output
-			(at 254 86.36 0)
-			(uuid "f54e8910-9139-4e4a-9a47-c8ec755e576f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7"
-					(page "9")
+					(page "10")
 				)
 			)
 		)
@@ -3908,112 +4278,6 @@
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 222.25 143.51)
-		(size 31.75 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.3048)
-			(type solid)
-		)
-		(fill
-			(color 255 255 194 1)
-		)
-		(uuid "f79d37f4-ea8d-4724-9fc7-dd2021a1f592")
-		(property "Sheetname" "Valve 6"
-			(at 222.25 142.7222 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "valve_ctrl.kicad_sch"
-			(at 222.25 161.9508 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VIN" input
-			(at 222.25 146.05 180)
-			(uuid "e13fc8e6-3681-44fb-8ebc-22cede702bed")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VALVE_HSS_EN" input
-			(at 254 146.05 0)
-			(uuid "eaae4bc1-2b2c-4813-8bdc-6ea5110785fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VALVE_LSS_EN" input
-			(at 254 148.59 0)
-			(uuid "32e64428-1758-4cb2-b855-c44e57336e16")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{VALVE_BUS}" bidirectional
-			(at 254 153.67 0)
-			(uuid "73d8e613-46bf-4af9-a024-96f49d622474")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LSW_SNS" output
-			(at 254 156.21 0)
-			(uuid "92a032bf-bd84-4ace-8f16-b1147bffea2f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "KELVIN_SENSE" output
-			(at 254 158.75 0)
-			(uuid "8a96f4ed-e2ce-4a2c-8226-225b6757af2e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7"
-					(page "12")
 				)
 			)
 		)

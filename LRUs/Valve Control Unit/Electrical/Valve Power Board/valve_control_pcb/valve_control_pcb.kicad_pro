@@ -955,7 +955,7 @@
         "uuid": "33ff7616-254c-4ece-8b5e-11f19383e0b0"
       }
     ],
-    "used_designators": "D1-40,D45-46,#PWR1-303,#PWR365-385,BZ1,R1-215,#FLG1-11,C1-113,C163-164,FB1,FB3,F1,H1-12,J1-16,J25-26,JP1,L1-2,Q1-12,Q19-20,SW1-2,TP1-224,TR1,U1-38,Y1-2",
+    "used_designators": "D1-40,D45-46,#PWR1-317,#PWR365-385,BZ1,R1-222,#FLG1-11,C1-120,C163-164,FB1,FB3,F1,H1-12,J1-16,J25-26,JP1,L1-2,Q1-12,Q19-20,SW1-2,TP1-226,TR1,U1-38,Y1-2",
     "variants": [
       {
         "name": "My VARIANT DARNIT"
@@ -992,24 +992,28 @@
       "Valve 1"
     ],
     [
-      "5333319b-ebf0-4088-b00a-4a4ef607817d",
+      "4d443e2a-ce12-4794-a00c-0c154132ac38",
       "Valve 2"
     ],
     [
-      "b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5",
+      "68e0af5e-3698-4885-b918-fc87e8e99600",
       "Valve 3"
     ],
     [
-      "50ea575b-12c7-4867-a271-21416999ca3f",
+      "9056bdf0-4771-48d8-b41f-5497aeab08f3",
       "Valve 4"
     ],
     [
-      "9466624e-7f8c-432d-a4cb-66ccf6a56ae5",
+      "22fb2ea8-45de-4e59-8821-a3bdf005559d",
       "Valve 5"
     ],
     [
-      "f79d37f4-ea8d-4724-9fc7-dd2021a1f592",
+      "383eb8c0-3b60-4857-b829-1a2b12233e91",
       "Valve 6"
+    ],
+    [
+      "33ff7616-254c-4ece-8b5e-11f19383e0b0",
+      "ADC"
     ],
     [
       "8b9fc1f9-ab41-499d-8e9e-e510a7b52650",
@@ -1062,10 +1066,6 @@
     [
       "b7615ffe-ff75-4416-a90d-6549004210c5",
       "Connectors"
-    ],
-    [
-      "33ff7616-254c-4ece-8b5e-11f19383e0b0",
-      "ADC"
     ]
   ],
   "text_variables": {},

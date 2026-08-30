@@ -10,268 +10,6 @@
 		(rev "A")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Instrumentation:INA821xDRG"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 2.54 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "INA821xDRG"
-				(at 8.89 -3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SON:WSON-8-1EP_3x3mm_P0.5mm_EP1.45x2.4mm"
-				(at 0 -18.034 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/ina821"
-				(at 0 -22.098 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "4.7 MHz Bandwidth, Low Offset, Low-Power, Precision Instrumentation Amplifier, G = 1 + 49.4kOhm/Rg, 4.5 V to 36 V Supply, WSON-8"
-				(at 0 -20.066 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "opamp operational-amplifier"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "WSON*3x3mm*P0.5mm*EP1.45x2.4mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "INA821xDRG_0_1"
-				(polyline
-					(pts
-						(xy -7.62 7.62) (xy -7.62 -7.62) (xy 7.62 0) (xy -7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "INA821xDRG_1_1"
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "Rg"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "Rg"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 2.54)
-					(name "Vs-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -7.62 90)
-					(length 5.08)
-					(name "Ref"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 2.54)
-					(name "Vs+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "Vs-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1984,145 +1722,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2906,6 +2505,12 @@
 		(uuid "367dbd04-a2ef-48be-9cd9-2109dfeab945")
 	)
 	(junction
+		(at 387.35 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "385c3bf1-0464-41cb-abba-be9100d153ff")
+	)
+	(junction
 		(at 106.68 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2940,12 +2545,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54b2eafb-f99c-470d-ac6f-a3c26d7828e2")
-	)
-	(junction
-		(at 393.7 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6296a64c-13e8-4468-afcc-2849a587db9f")
 	)
 	(junction
 		(at 106.68 140.97)
@@ -3008,12 +2607,6 @@
 		(uuid "995268a9-a76a-4db8-a568-2741694cc8a7")
 	)
 	(junction
-		(at 339.09 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a41c84c5-e1b1-415a-833e-7a92b40884a0")
-	)
-	(junction
 		(at 35.56 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3030,12 +2623,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac2bc669-baa0-46aa-a400-b0f6eae7b74d")
-	)
-	(junction
-		(at 337.82 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af3e3823-5f42-4eac-b887-810089bdc4fc")
 	)
 	(junction
 		(at 152.4 162.56)
@@ -3068,7 +2655,7 @@
 		(uuid "ebd91419-f286-4893-8194-8f62e6617b32")
 	)
 	(junction
-		(at 393.7 97.79)
+		(at 387.35 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc508355-5a48-4376-8e45-684733f3bbe2")
@@ -3156,16 +2743,6 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 97.79) (xy 396.24 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a78c3a-0e8f-4b12-8753-87455cdeb792")
-	)
-	(wire
-		(pts
 			(xy 41.91 92.71) (xy 39.37 92.71)
 		)
 		(stroke
@@ -3193,16 +2770,6 @@
 			(type default)
 		)
 		(uuid "07a887b8-9e03-46d2-821d-c38d80f73486")
-	)
-	(wire
-		(pts
-			(xy 384.81 133.35) (xy 388.62 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ba4d7c0-d5b1-49a0-b0cd-cbc877b60f8a")
 	)
 	(wire
 		(pts
@@ -3276,16 +2843,6 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 130.81) (xy 364.49 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17cfa747-8f9d-4098-a2b9-8b18ea8ef4fd")
-	)
-	(wire
-		(pts
 			(xy 139.7 165.1) (xy 139.7 162.56)
 		)
 		(stroke
@@ -3356,16 +2913,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 130.81) (xy 349.25 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1be5ef5f-581c-4972-963e-6481a36cc178")
-	)
-	(wire
-		(pts
 			(xy 107.95 194.31) (xy 107.95 203.2)
 		)
 		(stroke
@@ -3396,16 +2943,6 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 95.25) (xy 398.78 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22f914c8-4be6-4210-aa91-3899381874cb")
-	)
-	(wire
-		(pts
 			(xy 337.82 91.44) (xy 334.01 91.44)
 		)
 		(stroke
@@ -3413,16 +2950,6 @@
 			(type default)
 		)
 		(uuid "234819cd-3bec-4c49-acba-506230160c82")
-	)
-	(wire
-		(pts
-			(xy 349.25 128.27) (xy 356.87 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "247fccf8-cee6-4059-96ac-8c24b19e63f4")
 	)
 	(wire
 		(pts
@@ -3496,16 +3023,6 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 123.19) (xy 372.11 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32112b2b-2b72-459e-ab5f-26c127744791")
-	)
-	(wire
-		(pts
 			(xy 334.01 97.79) (xy 359.41 97.79)
 		)
 		(stroke
@@ -3523,16 +3040,6 @@
 			(type default)
 		)
 		(uuid "36cd7cfb-ede7-436e-9f00-da84e64321db")
-	)
-	(wire
-		(pts
-			(xy 360.68 125.73) (xy 360.68 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "375a7dc1-71a9-42c3-a7ca-8d767c18ebee")
 	)
 	(wire
 		(pts
@@ -3556,7 +3063,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 97.79) (xy 393.7 97.79)
+			(xy 372.11 97.79) (xy 387.35 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3606,7 +3113,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 91.44) (xy 393.7 95.25)
+			(xy 387.35 91.44) (xy 387.35 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3646,16 +3153,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 125.73) (xy 339.09 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c327bff-3f41-47a0-b6bb-49b6d5ff7689")
-	)
-	(wire
-		(pts
 			(xy 106.68 148.59) (xy 106.68 151.13)
 		)
 		(stroke
@@ -3663,26 +3160,6 @@
 			(type default)
 		)
 		(uuid "4e1f0f5f-02e9-4e11-8a5e-ba5b5ca77c2b")
-	)
-	(wire
-		(pts
-			(xy 356.87 138.43) (xy 349.25 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50a65944-93a0-4001-bc75-8128c9dfaf52")
-	)
-	(wire
-		(pts
-			(xy 317.5 140.97) (xy 326.39 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52ecec69-675c-46df-9a92-70a67aa2337b")
 	)
 	(wire
 		(pts
@@ -3723,26 +3200,6 @@
 			(type default)
 		)
 		(uuid "5581812f-37a2-4c02-b886-b62f8d1d4a0c")
-	)
-	(wire
-		(pts
-			(xy 320.04 113.03) (xy 320.04 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56ea5108-2102-40c0-85ba-42ba62eb1978")
-	)
-	(wire
-		(pts
-			(xy 339.09 133.35) (xy 339.09 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57ec913a-c7c2-4ef8-bb2f-caf2f3e85875")
 	)
 	(wire
 		(pts
@@ -3856,26 +3313,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 125.73) (xy 360.68 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66cfbb9b-f127-4bb3-bcde-a5baafac2b4e")
-	)
-	(wire
-		(pts
-			(xy 331.47 140.97) (xy 337.82 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67870e9e-4c3d-420e-a157-165526ba63a9")
-	)
-	(wire
-		(pts
 			(xy 93.98 208.28) (xy 93.98 212.09)
 		)
 		(stroke
@@ -3986,7 +3423,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 95.25) (xy 393.7 95.25)
+			(xy 372.11 95.25) (xy 387.35 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4034,16 +3471,6 @@
 		)
 		(uuid "8f399ad4-32d7-4ae3-868e-68224a2faf8b")
 	)
-	(wire
-		(pts
-			(xy 372.11 140.97) (xy 372.11 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92127d44-846c-4981-9d5b-0d9e454076b4")
-	)
 	(polyline
 		(pts
 			(xy 266.192 157.226) (xy 266.192 172.974)
@@ -4056,17 +3483,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 125.73) (xy 339.09 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9562ffd6-3408-4230-976f-8c6ca829534c")
-	)
-	(wire
-		(pts
-			(xy 393.7 97.79) (xy 396.24 97.79)
+			(xy 387.35 97.79) (xy 389.89 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4116,33 +3533,13 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 113.03) (xy 320.04 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1c200d7-056e-415a-b12e-2c0ba08ba281")
-	)
-	(wire
-		(pts
-			(xy 389.89 101.6) (xy 393.7 101.6)
+			(xy 389.89 101.6) (xy 387.35 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a2308b62-0df1-40db-b463-0ac01ea4a2e3")
-	)
-	(wire
-		(pts
-			(xy 396.24 110.49) (xy 317.5 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a43afa04-9482-4b7c-b77d-2dd3c6876a01")
 	)
 	(wire
 		(pts
@@ -4153,16 +3550,6 @@
 			(type default)
 		)
 		(uuid "a4cc7c5a-a921-4532-8342-8aa78df29a9e")
-	)
-	(wire
-		(pts
-			(xy 349.25 138.43) (xy 349.25 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a59ced55-0620-4f6d-8d64-081013c931d8")
 	)
 	(wire
 		(pts
@@ -4196,26 +3583,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 128.27) (xy 364.49 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aec93135-0d21-4c8b-996f-5b0652dc4243")
-	)
-	(wire
-		(pts
-			(xy 356.87 135.89) (xy 364.49 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afc78933-6269-4048-a3f2-8dfc2ca8bfcd")
-	)
-	(wire
-		(pts
 			(xy 93.98 110.49) (xy 133.35 110.49)
 		)
 		(stroke
@@ -4233,16 +3600,6 @@
 			(type default)
 		)
 		(uuid "b26d82c9-a699-40d0-b5fe-b44e0c816e10")
-	)
-	(wire
-		(pts
-			(xy 320.04 125.73) (xy 326.39 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6d38086-2bee-4916-a163-9244dbab7514")
 	)
 	(bus
 		(pts
@@ -4263,16 +3620,6 @@
 			(type default)
 		)
 		(uuid "b97f1937-be86-41d1-b8f1-f7b608bb9d91")
-	)
-	(wire
-		(pts
-			(xy 360.68 138.43) (xy 364.49 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be31a059-fe3b-4e54-925f-43c5005b480d")
 	)
 	(wire
 		(pts
@@ -4326,16 +3673,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 140.97) (xy 337.82 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8b6544d-ffa4-4334-8032-8cad63e83fa8")
-	)
-	(wire
-		(pts
 			(xy 252.73 151.13) (xy 252.73 154.94)
 		)
 		(stroke
@@ -4376,7 +3713,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 95.25) (xy 398.78 95.25)
+			(xy 387.35 95.25) (xy 389.89 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4486,23 +3823,13 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 91.44) (xy 393.7 91.44)
+			(xy 389.89 91.44) (xy 387.35 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e4036146-e745-4582-ad13-e9163dee5ec2")
-	)
-	(wire
-		(pts
-			(xy 337.82 148.59) (xy 337.82 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e41f7bbf-e681-435d-aee4-69c34f6d52df")
 	)
 	(wire
 		(pts
@@ -4556,17 +3883,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 135.89) (xy 356.87 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e93ef855-72ac-4924-8e61-ae2064654e1b")
-	)
-	(wire
-		(pts
-			(xy 393.7 101.6) (xy 393.7 97.79)
+			(xy 387.35 101.6) (xy 387.35 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4596,26 +3913,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 140.97) (xy 377.19 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec807bbe-3e14-4e2f-8968-2aa46135519f")
-	)
-	(wire
-		(pts
-			(xy 317.5 110.49) (xy 317.5 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec8d1484-4d69-4f60-bfcf-66c0b4966ba4")
-	)
-	(wire
-		(pts
 			(xy 148.59 95.25) (xy 148.59 97.79)
 		)
 		(stroke
@@ -4623,16 +3920,6 @@
 			(type default)
 		)
 		(uuid "ed86d73e-a4de-4e30-ad74-5ffe9f5dee0d")
-	)
-	(wire
-		(pts
-			(xy 356.87 128.27) (xy 356.87 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0cef525-ebdf-411e-95a3-005cb3fc3bec")
 	)
 	(wire
 		(pts
@@ -4666,26 +3953,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 140.97) (xy 360.68 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd8716bc-585d-4fc5-a8ac-a98b613b3cbd")
-	)
-	(wire
-		(pts
-			(xy 337.82 140.97) (xy 360.68 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff0934a6-6a65-410a-bbb4-9698330cff1a")
-	)
-	(wire
-		(pts
 			(xy 143.51 118.11) (xy 143.51 120.65)
 		)
 		(stroke
@@ -4713,26 +3980,6 @@
 			(justify left bottom)
 		)
 		(uuid "015cc4f7-e6a9-4d98-b453-05de8c9786aa")
-	)
-	(label "GAIN1"
-		(at 358.14 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08ce34bb-aff3-42db-9572-f655078fc76c")
-	)
-	(label "VSENSE_DIV_N"
-		(at 340.36 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c0f5b52-b737-4aff-9545-67144448c0ba")
 	)
 	(label "~{LSW_ST}"
 		(at 119.38 128.27 0)
@@ -4763,36 +4010,6 @@
 			(justify left bottom)
 		)
 		(uuid "3fb373c3-0454-4a45-a44e-82e5038fbabc")
-	)
-	(label "GAIN2"
-		(at 358.14 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6921dac9-12c5-41e7-953e-19aa56059cab")
-	)
-	(label "VSENSE_DIV_P"
-		(at 340.36 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74528055-9538-4bed-b347-fb9662ab033b")
-	)
-	(label "VSENSE_N"
-		(at 373.38 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74c475ef-13e3-466b-bdce-79e713bdcab0")
 	)
 	(label "LSW_DIA_EN"
 		(at 119.38 140.97 0)
@@ -4864,16 +4081,6 @@
 		)
 		(uuid "e7dd301c-d4e8-41e0-ba00-8ba408dc9d3a")
 	)
-	(label "VSENSE_P"
-		(at 373.38 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ee947afe-8dbd-46b4-9a19-4dd641863188")
-	)
 	(label "LSW_SNS_PROT"
 		(at 237.49 151.13 180)
 		(effects
@@ -4905,16 +4112,16 @@
 		)
 		(uuid "160bafbe-5914-4e34-b105-b85e589d8785")
 	)
-	(hierarchical_label "KELVIN_SENSE"
+	(hierarchical_label "VSENSE_P"
 		(shape output)
-		(at 388.62 133.35 0)
+		(at 389.89 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "4f3f5a23-bd14-41a7-a0d7-155dee91821c")
+		(uuid "29971c66-d4ef-4ab0-9907-b2563b139269")
 	)
 	(hierarchical_label "VALVE_HSS_EN"
 		(shape input)
@@ -4926,6 +4133,17 @@
 			(justify right)
 		)
 		(uuid "5e993ee5-94fa-40f5-b11a-801218eb8523")
+	)
+	(hierarchical_label "VSENSE_N"
+		(shape output)
+		(at 389.89 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2487a9c-f609-47f9-ad33-59b907d467d8")
 	)
 	(hierarchical_label "VIN"
 		(shape input)
@@ -4959,403 +4177,6 @@
 			(justify right)
 		)
 		(uuid "f9a803fe-5f72-4c25-9b90-eff486cdabdb")
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 339.09 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "021f6bce-333f-4905-9cd3-315363dbbbf6")
-		(property "Reference" "R192"
-			(at 342.9 128.524 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 342.138 130.302 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 339.09 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 339.09 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10k 0.1% 0402 Resistor"
-			(at 339.09 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "0.1%"
-			(at 342.646 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C190095"
-			(at 339.09 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0402"
-			(at 342.9 133.858 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5ed3836-083b-4cd6-8cdf-2d3bb5293f43")
-		)
-		(pin "2"
-			(uuid "df417c16-fc17-41b0-8471-5adf739986f9")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
-					(reference "R192")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R195")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "R193")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R196")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "R194")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R197")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 328.93 125.73 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "041035dc-b52f-4a98-8ce1-6346f3743aa3")
-		(property "Reference" "R204"
-			(at 327.66 124.206 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "90.9k"
-			(at 335.534 124.206 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 328.93 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "90.9k 0.1% 0402 Resistor"
-			(at 328.93 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "0.1%"
-			(at 326.136 127.254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C852949"
-			(at 328.93 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0402"
-			(at 332.74 127.254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91bd0626-f955-45c5-b5ec-c2a30a71250b")
-		)
-		(pin "2"
-			(uuid "6fa86c53-6a71-40e5-bb7a-0cc02bef5aae")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
-					(reference "R204")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R207")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "R205")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R208")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "R206")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R209")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 337.82 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0834d88e-dbca-4bcd-a80a-358156b4d878")
-		(property "Reference" "#PWR0288"
-			(at 337.82 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 337.82 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 337.82 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "56172bc9-83dc-408f-8196-b9cc403ff9f2")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
-					(reference "#PWR0288")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR0291")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "#PWR0289")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR0292")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "#PWR0290")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR0293")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -5455,13 +4276,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "39494999-1d50-417a-a4eb-4ccb88a3b92e")
+			(uuid "d8a6a839-d7d3-4381-b9fa-a431b8ed6ed5")
 		)
 		(pin "2"
-			(uuid "995f8d10-da43-4d6e-b240-49e4195033ff")
+			(uuid "2b204f73-d6e6-4e0f-8f88-c84228df0e13")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "R66")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(field
+							(name "Value")
+							(value "4.7k")
+						)
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R10")
 					(unit 1)
@@ -5473,8 +4305,8 @@
 						)
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R52")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "R80")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -5484,7 +4316,7 @@
 						)
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "R24")
 					(unit 1)
 					(variant
@@ -5495,18 +4327,7 @@
 						)
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R66")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "4.7k")
-						)
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "R38")
 					(unit 1)
 					(variant
@@ -5517,8 +4338,8 @@
 						)
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R80")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "R52")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -5629,41 +4450,41 @@
 			)
 		)
 		(pin "2"
-			(uuid "1634690d-f178-475b-b143-1dd444f5c032")
+			(uuid "a230d523-fe44-4b55-9aec-2e2128e66720")
 		)
 		(pin "1"
-			(uuid "e54def78-3a08-4c8e-b203-bf42483c550b")
+			(uuid "d1e1a2a4-bbaf-4bf1-97b9-417a53148f30")
 		)
 		(pin "3"
-			(uuid "15c3aaca-4d66-4907-8aa2-f4d02a4af047")
+			(uuid "d1ed724c-dce0-49c7-9be9-ad3461c92495")
 		)
 		(pin "4"
-			(uuid "865a3f37-8d62-45a4-8ffd-24c2680ad175")
+			(uuid "109e8b7f-f3cc-45d5-8025-14a99fe0a625")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "J5")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "J1")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "J4")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "J6")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "J2")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "J5")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "J3")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "J6")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5737,32 +4558,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e47680a-13ec-4f18-94dc-86b23cafeacd")
+			(uuid "741bf8f9-e327-41db-82e4-f040b05ddfb0")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "#PWR060")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR012")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR048")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "#PWR072")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "#PWR024")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR060")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "#PWR036")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR072")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5866,13 +4687,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "840e2ffc-b47a-40b4-be51-496ffd934d62")
+			(uuid "a63c8beb-92a4-4a3b-9650-4f84a5ff5408")
 		)
 		(pin "2"
-			(uuid "d63e52e1-fb86-4152-8a85-2a524390c787")
+			(uuid "04cf8f6f-2ac0-46ef-bfac-729f5d0269c3")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "R62")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R6")
 					(unit 1)
@@ -5880,139 +4708,33 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R48")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "R20")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R62")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "R34")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
 					(reference "R76")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 377.19 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "281f63f8-ab9f-4fe8-9405-43702925ee17")
-		(property "Reference" "#PWR0294"
-			(at 377.19 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 377.19 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 377.19 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 377.19 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 377.19 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc62d87b-b6b9-45e5-b56f-152067b958ad")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
-					(reference "#PWR0294")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
+					(reference "R20")
 					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR0297")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
+					(reference "R34")
 					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "#PWR0295")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "R48")
 					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR0298")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "#PWR0296")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR0299")
-					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
 				)
 			)
 		)
@@ -6106,32 +4828,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "3455bd9b-37de-45cc-ac76-81d4aaac15df")
+			(uuid "9124f159-58f5-49a8-a902-1e635612c70f")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP72")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP12")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP57")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "TP87")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "TP27")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP72")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "TP42")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "TP87")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP57")
 					(unit 1)
 				)
 			)
@@ -6226,32 +4948,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "e611ef3a-ff67-4397-9ca4-b9a6ed8904b9")
+			(uuid "6f444aa6-f8b1-442e-93c0-4bdbc5d55193")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP68")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP8")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP53")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "TP83")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "TP23")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP68")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "TP38")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "TP83")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP53")
 					(unit 1)
 				)
 			)
@@ -6355,13 +5077,20 @@
 			)
 		)
 		(pin "2"
-			(uuid "be852376-8d10-45dc-832a-bddfd7c9f525")
+			(uuid "1500fd7c-617d-455c-8096-323e440f3551")
 		)
 		(pin "1"
-			(uuid "c98cd673-375e-4c7f-80ff-90a0fb0cb7bc")
+			(uuid "9fcbea19-5f1a-4ef7-897f-1e2a29fe6523")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "C19")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "C3")
 					(unit 1)
@@ -6369,36 +5098,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "C15")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "C23")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "C7")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "C19")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "C11")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "C23")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "C15")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -6505,13 +5227,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "108a9a4d-f8e9-47d8-983b-6613ee11ce03")
+			(uuid "25df4ddb-fa4b-4ff3-be9d-dd11e9e41567")
 		)
 		(pin "2"
-			(uuid "a7102720-206b-49c5-8ebd-0901ae9dc23f")
+			(uuid "67eda327-0eb2-431d-a747-e0d841e0986d")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "C17")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "C1")
 					(unit 1)
@@ -6519,36 +5248,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "C13")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "C21")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "C5")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "C17")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "C9")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "C21")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "C13")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -6646,32 +5368,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d4318ac-6f0c-481f-b9f6-388652375612")
+			(uuid "1d676279-e82f-4aef-b48f-270d33f093a8")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP64")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP4")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP49")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "TP79")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "TP19")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP64")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "TP34")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "TP79")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP49")
 					(unit 1)
 				)
 			)
@@ -6775,135 +5497,38 @@
 			)
 		)
 		(pin "2"
-			(uuid "e82346b0-761b-40bc-b2fb-182bcea1fb0f")
+			(uuid "63f06e68-b474-4231-bc72-191c4a887562")
 		)
 		(pin "3"
-			(uuid "2714ddb5-6659-4bfb-b3ba-cff26ccf624b")
+			(uuid "3d2f7f84-fd41-4e82-85e4-c721938bfdad")
 		)
 		(pin "1"
-			(uuid "6d119815-a988-4fc5-b5c0-0b7b6dde94ce")
+			(uuid "758efd9c-c7c4-4596-8176-d9c2b0bfcf4e")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "D19")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "D3")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "D15")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "D7")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "D19")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "D11")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
 					(reference "D23")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 372.11 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4b1a83c2-bc13-428b-975c-c555ce0dc662")
-		(property "Reference" "#PWR0264"
-			(at 372.11 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 372.11 119.126 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 372.11 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 372.11 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c86074d-b180-4c1a-b70c-1d68e3b796b6")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
-					(reference "#PWR0264")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
+					(reference "D7")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR0278")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
+					(reference "D11")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "#PWR0276")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR0279")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "#PWR0277")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR0280")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -6975,32 +5600,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf4f3cb1-415b-4432-9175-cead42563b62")
+			(uuid "3983bd4d-799e-4df2-9864-92ae55c758de")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "#PWR052")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR04")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR040")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "#PWR064")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "#PWR016")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR052")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "#PWR028")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR064")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7095,32 +5720,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "68ba7636-8caf-4543-8626-b8b141f3bb5d")
+			(uuid "1df97af1-11b9-4847-a778-b92dc7c5d06d")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP71")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP11")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP56")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "TP86")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "TP26")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP71")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "TP41")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "TP86")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP56")
 					(unit 1)
 				)
 			)
@@ -7224,13 +5849,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd612846-e38a-49ce-a5e3-90226ff9887f")
+			(uuid "71cf78da-1fdf-4754-af92-94a030c9725c")
 		)
 		(pin "2"
-			(uuid "9724bf32-9560-4c16-84c4-691ed1cd423e")
+			(uuid "28d49424-4623-46f2-9ed4-2ee77ce7b869")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "R59")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R3")
 					(unit 1)
@@ -7238,186 +5870,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R45")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "R17")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R59")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "R31")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
 					(reference "R73")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 328.93 140.97 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ad2e618-0df1-4d47-ba30-b3ead4f0fb05")
-		(property "Reference" "R210"
-			(at 327.66 139.446 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "90.9k"
-			(at 335.534 139.446 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 328.93 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "90.9k 0.1% 0402 Resistor"
-			(at 328.93 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "0.1%"
-			(at 326.136 142.494 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C852949"
-			(at 328.93 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0402"
-			(at 332.74 142.494 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "872eb1bd-a993-4604-8cb8-c36037121090")
-		)
-		(pin "2"
-			(uuid "23102355-d94f-4735-9923-79cb50d23e2b")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
-					(reference "R210")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
+					(reference "R17")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R213")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
+					(reference "R31")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "R211")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R214")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "R212")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R215")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "R45")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7524,13 +5999,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa13fa16-df77-40ce-82e5-dc4a845e0d70")
+			(uuid "4cea3658-3927-4391-b6d2-20f6ce998f9a")
 		)
 		(pin "2"
-			(uuid "d66faa87-045b-45c2-8af9-0493690996a1")
+			(uuid "acc20219-2e54-4d1d-b9b4-1f4281d0a873")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "R58")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(field
+							(name "Value")
+							(value "4.7k")
+						)
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R2")
 					(unit 1)
@@ -7542,8 +6028,8 @@
 						)
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R44")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "R72")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7553,7 +6039,7 @@
 						)
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "R16")
 					(unit 1)
 					(variant
@@ -7564,18 +6050,7 @@
 						)
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R58")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "4.7k")
-						)
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "R30")
 					(unit 1)
 					(variant
@@ -7586,8 +6061,8 @@
 						)
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R72")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "R44")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7689,32 +6164,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0dcafa5-1cf9-4a45-93ff-ebbc8704ec05")
+			(uuid "c4c9c03c-f567-4032-b725-9f8a3c6fb827")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP75")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP14")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP60")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "TP90")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "TP30")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP75")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "TP45")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "TP90")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP60")
 					(unit 1)
 				)
 			)
@@ -7788,32 +6263,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "5de6dc49-dea4-42c6-992d-ece00c947512")
+			(uuid "df6154bd-3303-4d6c-aa59-fdd2a373ab0f")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "#PWR051")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR03")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR039")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "#PWR063")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "#PWR015")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR051")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "#PWR027")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR063")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7917,13 +6392,20 @@
 			)
 		)
 		(pin "2"
-			(uuid "bea77f78-d7e3-4f41-b706-fa7a060dcff8")
+			(uuid "945f62d1-b8c7-4120-b057-182c0c2b8828")
 		)
 		(pin "1"
-			(uuid "e5dcb2fb-5023-4328-991f-7015710994ea")
+			(uuid "2a902b3b-cf80-45dd-86a6-55e24dd370b9")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "C20")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "C4")
 					(unit 1)
@@ -7931,36 +6413,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "C16")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "C24")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "C8")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "C20")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "C12")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "C24")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "C16")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8058,32 +6533,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "7bddd020-71f1-45cf-867f-6464a35ce013")
+			(uuid "778653d0-6307-4cd3-9aa2-47fc425b557b")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP73")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP15")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP58")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "TP88")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "TP28")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP73")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "TP43")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "TP88")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP58")
 					(unit 1)
 				)
 			)
@@ -8187,13 +6662,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e0c8c5b-2ce7-406a-af8f-fcb00525fde2")
+			(uuid "973b0008-7283-4062-b134-77d9acc49196")
 		)
 		(pin "2"
-			(uuid "3d129c65-a8a3-460d-b90a-59d61e0480d2")
+			(uuid "46222411-e2b0-46dd-a030-7f5679a5ff46")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "R64")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R8")
 					(unit 1)
@@ -8201,36 +6683,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R50")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "R78")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "R22")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R64")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "R36")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R78")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "R50")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8329,32 +6804,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "c61671e9-cf0e-48ac-aaf1-7127f6d5f420")
+			(uuid "0d64b671-5855-49e5-8983-4f826964d253")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP69")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP9")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP54")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "TP84")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "TP24")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP69")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "TP39")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "TP84")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP54")
 					(unit 1)
 				)
 			)
@@ -8456,13 +6931,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d4db5b6-34dc-48db-85f0-ec401ebd0791")
+			(uuid "f3d1ae13-af8c-4da3-8658-f32728cbaacf")
 		)
 		(pin "2"
-			(uuid "747e0ee9-eac8-430e-8242-90dc9ffcc69d")
+			(uuid "add47413-223b-415c-8f74-d38133f35348")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "R69")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R13")
 					(unit 1)
@@ -8470,36 +6952,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R55")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "R83")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "R27")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R69")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "R41")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R83")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "R55")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8576,152 +7051,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "b45a11a2-dc56-4e2a-bca7-1ec1364f9856")
+			(uuid "ee5694d3-3199-42eb-8192-71f70b8ca569")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "#PWR054")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR06")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR042")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "#PWR018")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR054")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "#PWR030")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
 					(reference "#PWR066")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Instrumentation:INA821xDRG")
-		(at 374.65 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7995d472-c6c5-44ab-be43-e9000cf7edd1")
-		(property "Reference" "U10"
-			(at 375.412 124.7842 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA821IDRG"
-			(at 379.222 127.254 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_3x3mm_P0.5mm_EP1.45x2.4mm"
-			(at 374.65 151.384 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina821"
-			(at 374.65 155.448 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.7 MHz Bandwidth, Low Offset, Low-Power, Precision Instrumentation Amplifier, G = 1 + 49.4kOhm/Rg, 4.5 V to 36 V Supply, WSON-8"
-			(at 374.65 153.416 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "45ce4886-481b-46a8-9992-3bce14b30a50")
-		)
-		(pin "2"
-			(uuid "3c9d0ae6-3fe5-484a-aa32-c0ca773a8058")
-		)
-		(pin "8"
-			(uuid "407b855d-473d-4ca8-9554-ae2a8d96cf79")
-		)
-		(pin "3"
-			(uuid "3d3d446d-eb43-4729-9c1a-96884edc5b80")
-		)
-		(pin "4"
-			(uuid "701a5fd1-c135-4764-bf53-8f3a0f76df4b")
-		)
-		(pin "6"
-			(uuid "9755164c-7458-4936-9646-fc4b86818e41")
-		)
-		(pin "7"
-			(uuid "5652f185-cd78-480f-ae97-75297e68738e")
-		)
-		(pin "1"
-			(uuid "115f1f8e-2f4b-48c0-b9b6-0909788a684a")
-		)
-		(pin "9"
-			(uuid "582482d9-e8cb-4eeb-ad74-b4410182b3f0")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
-					(reference "U10")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
+					(reference "#PWR018")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "U21")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
+					(reference "#PWR030")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "U19")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "U28")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "U20")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "U29")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8817,189 +7172,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3f183c9-d39a-44ff-9841-5a7022ee13fd")
+			(uuid "af02e275-b400-400a-8981-844a9778d0b3")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP70")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP10")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP55")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "TP25")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP70")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "TP40")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
 					(reference "TP85")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 349.25 133.35 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "84027d7e-4cc1-4a0b-9533-773145f9d4fa")
-		(property "Reference" "R186"
-			(at 350.52 131.064 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 350.52 132.842 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 349.25 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 1% 0603 Resistor"
-			(at 349.25 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 352.044 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C21189"
-			(at 349.25 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0603"
-			(at 353.06 136.398 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8a943ee6-0652-43e5-9d2d-2a393582de70")
-		)
-		(pin "2"
-			(uuid "826f45f1-e261-4dc7-bc85-01c1bd3e411e")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
-					(reference "R186")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
+					(reference "TP25")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(dnp no)
-					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R189")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
+					(reference "TP40")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(dnp no)
-					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "R187")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP55")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(dnp no)
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R190")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(dnp no)
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "R188")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(dnp no)
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R191")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(dnp no)
-					)
 				)
 			)
 		)
@@ -9102,13 +7301,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "fcd996e5-4af0-489a-960c-17070e7b8582")
+			(uuid "5f661679-808e-468e-8ddb-da354071a4f8")
 		)
 		(pin "2"
-			(uuid "41f6f5fc-51d9-4e04-bde7-64d8afe9306f")
+			(uuid "eb65f45b-4962-4971-a84a-cf0adea2de03")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "R70")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R14")
 					(unit 1)
@@ -9116,36 +7322,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R56")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "R84")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "R28")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R70")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "R42")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R84")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "R56")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9243,32 +7442,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec6e7df6-d376-4902-835c-7275a2ccf625")
+			(uuid "577ed3cf-2be4-4169-ba21-f1e0347dc5f2")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP61")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP1")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP46")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "TP76")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "TP16")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP61")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "TP31")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "TP76")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP46")
 					(unit 1)
 				)
 			)
@@ -9341,32 +7540,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba256b4d-f443-4f90-81de-905d61c4325a")
+			(uuid "4217fc9f-5983-4c30-a2b8-9f2178aad3d5")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "#PWR056")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR08")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR044")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "#PWR068")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "#PWR020")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR056")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "#PWR032")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR068")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9461,131 +7660,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "1337690f-d1de-4c06-b8b1-c765ec4effd6")
+			(uuid "09fe9fc4-66b6-49d4-a04c-fd0b7d55a797")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP66")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP6")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP51")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "TP21")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP66")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "TP36")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
 					(reference "TP81")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 372.11 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "965983fe-e00e-465f-844f-6e88b16966a5")
-		(property "Reference" "#PWR0143"
-			(at 372.11 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 372.11 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 372.11 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 372.11 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77592f43-24bf-42b5-98a4-e5ae18561529")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
-					(reference "#PWR0143")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
+					(reference "TP21")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR0150")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
+					(reference "TP36")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "#PWR0146")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR0152")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "#PWR0148")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR0281")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP51")
 					(unit 1)
 				)
 			)
@@ -9689,13 +7789,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "4122387c-c35e-4184-98c1-29cecb0b2d2a")
+			(uuid "76d07da7-363d-4142-8626-3208ec881024")
 		)
 		(pin "2"
-			(uuid "a4582cba-3b57-4b86-b173-ccaab934b02e")
+			(uuid "984c03a6-cf02-4300-9f4e-bb1e30c972e1")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "R68")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R12")
 					(unit 1)
@@ -9703,36 +7810,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R54")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "R82")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "R26")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R68")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "R40")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R82")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "R54")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9809,32 +7909,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "24c0723b-86f5-4576-b855-c032d9c67df0")
+			(uuid "9e5b84f5-9ab0-43f8-8b86-19fa23ee7e9e")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "#PWR057")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR09")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR045")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "#PWR069")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "#PWR021")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR057")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "#PWR033")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR069")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9938,13 +8038,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8c5a901-1a9d-46a6-a109-b81430e1db41")
+			(uuid "09a0ecf7-9ec3-4f3e-9ed6-b0f94242f177")
 		)
 		(pin "2"
-			(uuid "7babf723-84ef-4201-ab18-3698c84f73c9")
+			(uuid "89d2b0b9-784e-4237-b031-400f98b43e76")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "R60")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R4")
 					(unit 1)
@@ -9952,36 +8059,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R46")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "R74")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "R18")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R60")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "R32")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R74")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "R46")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10057,32 +8157,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "de0922ce-17c8-4b4a-9c57-0cde8e580267")
+			(uuid "b1ee998e-6039-48de-bdb3-c03093b4de08")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "#PWR055")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR07")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR043")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "#PWR067")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "#PWR019")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR055")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "#PWR031")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR067")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10208,35 +8308,35 @@
 			)
 		)
 		(pin "2"
-			(uuid "baef791b-008e-466c-a65b-9c854594eb8b")
+			(uuid "6e7adffa-3a2e-46bc-99da-dbde51266f29")
 		)
 		(pin "1"
-			(uuid "f3bb2cdb-0223-4966-a55d-f095a18b9990")
+			(uuid "444a6783-357a-47c3-b9a1-58e8a8638350")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "D20")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "D4")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "D16")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "D24")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "D8")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "D20")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "D12")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "D24")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -10340,13 +8440,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "57be3021-da41-45e5-afab-7b22c5eedca3")
+			(uuid "e428b9a6-39be-435b-836e-652551799136")
 		)
 		(pin "2"
-			(uuid "64ae8369-53b3-431e-832a-3325a595d038")
+			(uuid "2187630e-ab0d-4e69-8282-8d2572acca34")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "R57")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(field
+							(name "Value")
+							(value "4.7k")
+						)
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R1")
 					(unit 1)
@@ -10358,8 +8469,8 @@
 						)
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R43")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "R71")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10369,7 +8480,7 @@
 						)
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "R15")
 					(unit 1)
 					(variant
@@ -10380,18 +8491,7 @@
 						)
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R57")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "4.7k")
-						)
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "R29")
 					(unit 1)
 					(variant
@@ -10402,8 +8502,8 @@
 						)
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R71")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "R43")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10428,7 +8528,7 @@
 		(dnp no)
 		(uuid "a4c0a556-51b5-4366-8d7b-c322c937816f")
 		(property "Reference" "Q1"
-			(at 283.464 122.682 0)
+			(at 283.464 121.412 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10438,7 +8538,7 @@
 			)
 		)
 		(property "Value" "SiR882ADP"
-			(at 287.528 124.714 0)
+			(at 287.528 123.444 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10484,7 +8584,7 @@
 			)
 		)
 		(property "VDS" "100V"
-			(at 284.734 126.746 0)
+			(at 284.734 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10504,23 +8604,40 @@
 				)
 			)
 		)
+		(property "Footprint_Size" "SO-8"
+			(at 284.988 127.508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
-			(uuid "5631f176-1001-44f4-a6c4-8bb8300fe4dd")
+			(uuid "077da08b-f23d-4d9a-83d7-a175304cb70d")
 		)
 		(pin "3"
-			(uuid "d5dc5275-4df0-4235-884e-5af42ac88501")
+			(uuid "8cd19e56-1c80-46cd-b72b-09374080a694")
 		)
 		(pin "1"
-			(uuid "471052d7-2790-4233-938d-f25584471579")
+			(uuid "fb29fed1-21fe-4516-a4cd-9421b2cb68fb")
 		)
 		(pin "4"
-			(uuid "ccbbb8b4-f44b-4e5f-b5ec-a13c783ebde5")
+			(uuid "a66e1417-4426-4c65-a803-220ece6a3218")
 		)
 		(pin "2"
-			(uuid "2be3f70e-4e5b-45a3-b055-3e1d90737c04")
+			(uuid "e57275ef-59ee-4559-86b6-75bf30abbe58")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "Q5")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "Q1")
 					(unit 1)
@@ -10528,36 +8645,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "Q4")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "Q6")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "Q2")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "Q5")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "Q3")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "Q6")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "Q4")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10664,13 +8774,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "131fffe7-02d0-4d4a-9ca9-939e6eb11521")
+			(uuid "4ebce17b-1f59-44ba-af7a-937a9a340c67")
 		)
 		(pin "2"
-			(uuid "043bc778-7664-49c6-a924-84b4cefa1b80")
+			(uuid "1cd76a73-445a-4bde-963c-a1ea427ccef8")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "R67")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R11")
 					(unit 1)
@@ -10678,36 +8795,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R53")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "R81")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "R25")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R67")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "R39")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R81")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "R53")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10785,131 +8895,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "332bf318-4a71-4d70-95da-190e380554b0")
+			(uuid "b1a9c621-65be-4c8e-b952-0dcd168d3379")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "#PWR053")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR05")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR041")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "#PWR017")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR053")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "#PWR029")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
 					(reference "#PWR065")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 339.09 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcf3c3b2-bc40-40f2-b894-2533e4602188")
-		(property "Reference" "#PWR0282"
-			(at 339.09 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 339.09 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 339.09 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 339.09 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64f8e630-6f1f-42fa-a727-8376fced99cf")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
-					(reference "#PWR0282")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
+					(reference "#PWR017")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR0285")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
+					(reference "#PWR029")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "#PWR0283")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR0286")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "#PWR0284")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR0287")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -10917,8 +8928,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 389.89 91.44 90)
-		(mirror x)
+		(at 389.89 91.44 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10928,7 +8938,7 @@
 		(dnp no)
 		(uuid "bdb0bf43-e436-4a34-8363-13a9d9729f39")
 		(property "Reference" "TP91"
-			(at 384.81 91.44 90)
+			(at 394.97 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10939,7 +8949,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 380.746 91.4401 90)
+			(at 399.034 91.4401 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11005,32 +9015,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "297dc059-4c7d-4995-9659-716f38026e75")
+			(uuid "4f83379b-1b50-45fd-80b2-84dec3eef778")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP201")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP91")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP152")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "TP203")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "TP93")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP201")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "TP95")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "TP203")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP152")
 					(unit 1)
 				)
 			)
@@ -11125,32 +9135,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "25c0dd8f-5fcc-41a4-8422-b345da02288f")
+			(uuid "e9100d1b-3886-4398-92d4-78d0a272c6ff")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP67")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP7")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP52")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "TP82")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "TP22")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP67")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "TP37")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "TP82")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP52")
 					(unit 1)
 				)
 			)
@@ -11265,13 +9275,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "a55cf4e7-0961-4b13-bc41-a5ece07cb513")
+			(uuid "a2c41685-bd81-4b94-b283-59436a5ecacc")
 		)
 		(pin "2"
-			(uuid "606ef08e-1361-4b9c-8a56-ca2a66a1402b")
+			(uuid "519898a8-dc42-407d-a214-79e03f5dc87e")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "D18")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "D2")
 					(unit 1)
@@ -11279,36 +9296,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "D14")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "D22")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "D6")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "D18")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "D10")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "D22")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "D14")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -11415,13 +9425,20 @@
 			)
 		)
 		(pin "2"
-			(uuid "b11392a0-969a-46d2-838d-cd96ccd926d3")
+			(uuid "4f23b55e-0570-44bb-aef8-5d86667e1dd1")
 		)
 		(pin "1"
-			(uuid "6c7cab2e-7ec8-4083-8dfd-c4840f7ef492")
+			(uuid "172b3fce-3395-44a7-b718-dd27e5192461")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "C18")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "C2")
 					(unit 1)
@@ -11429,36 +9446,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "C14")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "C22")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "C6")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "C18")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "C10")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "C22")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "C14")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -11536,32 +9546,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "3384294b-933d-48fb-a231-46620c05afbc")
+			(uuid "502a33d9-5da8-4682-a96e-b9bddd284215")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "#PWR049")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR01")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR037")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "#PWR061")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "#PWR013")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR049")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "#PWR025")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR061")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11656,32 +9666,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c400092-6fd5-44cc-bd19-3aea828a486f")
+			(uuid "ad1af222-4331-44d4-9936-06aca289dba7")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP74")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP13")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP59")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "TP89")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "TP29")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP74")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "TP44")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "TP89")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP59")
 					(unit 1)
 				)
 			)
@@ -11755,32 +9765,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "4cfc4e75-93e2-408b-ad09-391f39683114")
+			(uuid "8d7545d8-599c-411c-8e4b-465f993c7825")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "#PWR058")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR010")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR046")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "#PWR070")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "#PWR022")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR058")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "#PWR034")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR070")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11882,13 +9892,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3add78f-ded0-4058-992f-17e895807015")
+			(uuid "5af86f99-f8a3-4fb2-8de9-c996038c2373")
 		)
 		(pin "2"
-			(uuid "2f69f2a9-9223-4e1d-9e51-09c3fea5dd34")
+			(uuid "1fa6c1da-2d99-4a09-92e9-dde779f4436e")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "R65")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R9")
 					(unit 1)
@@ -11896,36 +9913,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R51")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "R79")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "R23")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R65")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "R37")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R79")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "R51")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12043,13 +10053,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "bdd86af4-01c0-4dc4-91e3-5ee2b3555f3c")
+			(uuid "d88ea92a-4344-4ebd-9de2-13486468bc73")
 		)
 		(pin "2"
-			(uuid "86f9fc9b-ed74-4a5a-91ae-408020ccc9ef")
+			(uuid "38fe6b80-8808-4ae4-9b04-54cc3964c7e6")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "D17")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "D1")
 					(unit 1)
@@ -12057,36 +10074,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "D13")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "D21")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "D5")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "D17")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "D9")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "D21")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "D13")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12184,32 +10194,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b186d6d-17fc-41a2-9d5f-c96e4d16ee58")
+			(uuid "2dafdd2a-9796-4011-a97b-fef69965c52f")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP62")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP2")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP47")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "TP77")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "TP17")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP62")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "TP32")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "TP77")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP47")
 					(unit 1)
 				)
 			)
@@ -12313,13 +10323,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9fad1f4-7d99-4e30-b607-4ca7f17e3135")
+			(uuid "3de4ea5b-95d0-4426-9813-d75856006043")
 		)
 		(pin "2"
-			(uuid "d0b158b2-de08-495d-a09f-c9008cda58b6")
+			(uuid "0514dd96-c03f-440b-a317-0f1c14f1498e")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "R63")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R7")
 					(unit 1)
@@ -12327,36 +10344,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R49")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "R77")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "R21")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R63")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "R35")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R77")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "R49")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12433,32 +10443,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb388559-493f-4806-94e7-bdcc6a0c58ac")
+			(uuid "ae889eaa-5137-4fad-8202-05e254161b67")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "#PWR059")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR011")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR047")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "#PWR071")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "#PWR023")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR059")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "#PWR035")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR071")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -12553,181 +10563,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "e14981ca-2e1b-49b5-89da-ec6b25af91dc")
+			(uuid "6fe31b7d-54b2-4b96-985e-74d7dcedd398")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP65")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP5")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP50")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "TP20")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP65")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "TP35")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
 					(reference "TP80")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 337.82 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e22cda6d-9f8c-4b9e-a656-6b65e19061be")
-		(property "Reference" "R198"
-			(at 341.63 143.764 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 340.868 145.542 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 337.82 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10k 0.1% 0402 Resistor"
-			(at 337.82 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "0.1%"
-			(at 341.376 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C190095"
-			(at 337.82 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0402"
-			(at 341.63 149.098 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c0774b27-8529-4a6b-97b9-aadb636db62c")
-		)
-		(pin "2"
-			(uuid "d79e2aa1-69b3-40e1-989c-4582d3596edb")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
-					(reference "R198")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
+					(reference "TP20")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R201")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
+					(reference "TP35")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
-					(reference "R199")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP50")
 					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R202")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
-					(reference "R200")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R203")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -12821,32 +10683,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "d8af44ec-5ab0-41d5-ab81-12559df8fc4c")
+			(uuid "57430fa5-73c5-4feb-8efc-f5f389601035")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP63")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP3")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP48")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "TP78")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "TP18")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP63")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "TP33")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "TP78")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP48")
 					(unit 1)
 				)
 			)
@@ -12950,13 +10812,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "01d64172-86bb-40c7-b2fa-12ca3e727151")
+			(uuid "40bed02c-844f-4337-90a4-d36ea28c291f")
 		)
 		(pin "2"
-			(uuid "3b7dcc0d-fb7f-4d30-b171-2aec474dcae5")
+			(uuid "e91118f1-70a8-4244-b819-8a0020dad60e")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "R61")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R5")
 					(unit 1)
@@ -12964,36 +10833,29 @@
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "R47")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "R75")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "R19")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "R61")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "R33")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
 					)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "R75")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "R47")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -13004,8 +10866,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 389.89 101.6 90)
-		(mirror x)
+		(at 389.89 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13015,7 +10876,7 @@
 		(dnp no)
 		(uuid "f7cfd07d-b46c-4f3b-a934-34783c301f9b")
 		(property "Reference" "TP92"
-			(at 384.81 101.6 90)
+			(at 394.97 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13026,7 +10887,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 380.746 101.6001 90)
+			(at 399.034 101.6001 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13092,32 +10953,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "7763b952-d9f7-428a-bd32-3f00a827000a")
+			(uuid "3f4642a9-8d9d-4cb0-9e95-509626266a34")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "TP202")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP92")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "TP200")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "TP222")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "TP94")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "TP202")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "TP151")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "TP222")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "TP200")
 					(unit 1)
 				)
 			)
@@ -13211,65 +11072,65 @@
 			)
 		)
 		(pin "14"
-			(uuid "af49ace3-0d7a-4a65-af68-47d31a0d198f")
+			(uuid "da32ddaf-411d-4f4d-8ee9-a3d9185b1013")
 		)
 		(pin "1"
-			(uuid "894059a0-fa21-4b35-b7ec-50edeb9d281d")
+			(uuid "a5e4a273-b3cd-4e71-a993-2580aa7d3ba4")
 		)
 		(pin "13"
-			(uuid "2f602913-126f-4061-a03e-08924873c87e")
+			(uuid "69e634fe-5268-4c2f-a7df-3e18248c203f")
 		)
 		(pin "12"
-			(uuid "78659a61-4d82-46ec-8338-e4155b11e04f")
+			(uuid "3bc27e8d-d7ce-4669-bb55-97fee503bb39")
 		)
 		(pin "2"
-			(uuid "2876d49f-9364-45c9-9ba9-62c88a76444f")
+			(uuid "2042ee0d-582d-42f3-8d89-43f385688e2b")
 		)
 		(pin "4"
-			(uuid "c2fbbbaf-6024-4ace-ba44-e9c6634bef3a")
+			(uuid "b6275d23-c2ba-4053-a901-3b6daa039c7d")
 		)
 		(pin "5"
-			(uuid "1bc85d74-e9b5-4d2e-b97d-655b5e9c7b77")
+			(uuid "72058d27-ff0a-47fa-bb93-3912fcf45955")
 		)
 		(pin "[6-11]"
-			(uuid "5a58b26f-c41b-418b-b265-d787fda236b6")
+			(uuid "9a09c536-59a7-4401-b350-3d2e6b47f3a3")
 		)
 		(pin "3"
-			(uuid "50a12212-de7e-4b68-87e6-ea8fb77ddab2")
+			(uuid "4bec3379-08c9-461d-97e3-67deb08e4b13")
 		)
 		(pin "16"
-			(uuid "c63cfe69-2ef3-4911-b4c4-782c14ba7600")
+			(uuid "dd956a3d-7afc-4f59-92b3-d6ad9c5b6352")
 		)
 		(pin "15"
-			(uuid "4ac6f8a8-bf43-4a85-89b4-bbc04b96426b")
+			(uuid "7499c78d-43a6-42ad-a439-e65c39ef5da3")
 		)
 		(pin "EPAD"
-			(uuid "96cbf3e9-fc88-4a18-bd8e-8540aeebe00a")
+			(uuid "f8e56c6b-5a8e-449b-854c-bd4b9ca4a905")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "U5")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "U1")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "U4")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "U6")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "U2")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "U5")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "U3")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "U6")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -13344,32 +11205,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ccca3c6-c39f-4ebb-8187-b179d0816430")
+			(uuid "7cacf2f1-529f-4681-9990-80e46f33d4cf")
 		)
 		(instances
 			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
+					(reference "#PWR050")
+					(unit 1)
+				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR02")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/50ea575b-12c7-4867-a271-21416999ca3f"
-					(reference "#PWR038")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
+					(reference "#PWR062")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/5333319b-ebf0-4088-b00a-4a4ef607817d"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
 					(reference "#PWR014")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9466624e-7f8c-432d-a4cb-66ccf6a56ae5"
-					(reference "#PWR050")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/68e0af5e-3698-4885-b918-fc87e8e99600"
 					(reference "#PWR026")
 					(unit 1)
 				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/f79d37f4-ea8d-4724-9fc7-dd2021a1f592"
-					(reference "#PWR062")
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/9056bdf0-4771-48d8-b41f-5497aeab08f3"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)

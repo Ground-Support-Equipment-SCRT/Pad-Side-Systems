@@ -3544,7 +3544,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/8089a923-bb92-49be-ae97-55220516cf62"
-					(page "18")
+					(page "19")
 				)
 			)
 		)
@@ -3650,7 +3650,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/8089a923-bb92-49be-ae97-55220516cf62"
-					(page "23")
+					(page "24")
 				)
 			)
 		)
@@ -3756,7 +3756,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/8089a923-bb92-49be-ae97-55220516cf62"
-					(page "20")
+					(page "21")
 				)
 			)
 		)
@@ -3862,7 +3862,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/8089a923-bb92-49be-ae97-55220516cf62"
-					(page "22")
+					(page "23")
 				)
 			)
 		)
@@ -3968,7 +3968,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/8089a923-bb92-49be-ae97-55220516cf62"
-					(page "21")
+					(page "22")
 				)
 			)
 		)
@@ -4074,14 +4074,14 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/8089a923-bb92-49be-ae97-55220516cf62"
-					(page "19")
+					(page "20")
 				)
 			)
 		)
 	)
 	(sheet_instances
 		(path "/"
-			(page "17")
+			(page "18")
 		)
 	)
 )

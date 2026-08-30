@@ -974,7 +974,7 @@
         "uuid": "77b615b1-10f5-45ac-83c3-67d4874f5395"
       }
     ],
-    "used_designators": "R126,R134,FB1-2",
+    "used_designators": "R40-41,R45-46,R49,R52,R55,R57-61,R63-65,R76,R78-81,R84-87,R126,R134,R194,R222,FB1-2,FB4,C13-14,C16,C18-25,C27-32,C34-36,C42-47,C49,C51-55,C57-58,C64,C70,D8-10,D18-20,D47,Q8-10",
     "variants": [
       {
         "name": "My VARIANT DARNIT"

@@ -5075,7 +5075,7 @@
 		(dnp no)
 		(uuid "013cbf49-59fe-450b-bbfa-e730bb0a29c5")
 		(property "Reference" "TP30"
-			(at 128.27 58.928 0)
+			(at 128.27 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5086,6 +5086,7 @@
 		)
 		(property "Value" "TestPoint"
 			(at 128.27 56.642 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5276,7 +5277,7 @@
 		(dnp no)
 		(uuid "053fa50a-dba4-440c-8466-1ee4800f6eb5")
 		(property "Reference" "TP29"
-			(at 128.27 37.592 0)
+			(at 128.27 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5287,6 +5288,7 @@
 		)
 		(property "Value" "TestPoint"
 			(at 128.27 39.878 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5397,7 +5399,7 @@
 		(dnp no)
 		(uuid "0a2b2fce-2d18-4a89-9857-b64abcc6b986")
 		(property "Reference" "D21"
-			(at 176.784 38.1 0)
+			(at 172.72 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5407,7 +5409,7 @@
 			)
 		)
 		(property "Value" "MBR0520LT"
-			(at 168.91 40.386 0)
+			(at 179.832 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8228,7 +8230,7 @@
 		(dnp no)
 		(uuid "a135e6eb-8559-4f57-bdbe-e2393ff4dad5")
 		(property "Reference" "TP32"
-			(at 156.21 58.928 0)
+			(at 156.21 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8239,6 +8241,7 @@
 		)
 		(property "Value" "TestPoint"
 			(at 156.21 56.642 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9575,7 +9578,7 @@
 		(dnp no)
 		(uuid "f4c18346-8c8e-417f-b81b-b3098fb38eb5")
 		(property "Reference" "TP31"
-			(at 156.21 37.592 0)
+			(at 156.21 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9586,6 +9589,7 @@
 		)
 		(property "Value" "TestPoint"
 			(at 156.21 39.878 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
