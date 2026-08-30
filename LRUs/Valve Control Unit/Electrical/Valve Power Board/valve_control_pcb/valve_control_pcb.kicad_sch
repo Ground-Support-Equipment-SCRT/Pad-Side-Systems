@@ -241,62 +241,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 86.36 213.36)
-		(size 43.18 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "92d07a9e-870f-4ec8-8b9b-9865ad129598")
-		(property "Sheetname" "RS_485"
-			(at 86.36 212.6484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "RS_485.kicad_sch"
-			(at 86.36 231.7246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "{RS485_MAIN}" bidirectional
-			(at 129.54 217.17 0)
-			(uuid "26e4fbc7-a047-4627-a818-8f611c35d457")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/fc15abd0-0409-4213-a92e-28e770df5352"
-					(page "17")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")

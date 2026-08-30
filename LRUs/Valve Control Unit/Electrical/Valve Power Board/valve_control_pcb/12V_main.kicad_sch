@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "c5157f53-4da0-46d8-bb08-4f97af01ddb0")
 	(paper "A4")
+	(title_block
+		(title "12V MAIN")
+		(date "2026-08-27")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
@@ -181,6 +186,129 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1924,6 +2052,41 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "12V MAIN"
+		(exclude_from_sim no)
+		(at 140.208 29.718 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.016)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "843bcd9e-f9f1-4aa2-82f2-f5660f09aa08")
+	)
+	(text "5.7mΩ * 12A = 67mW"
+		(exclude_from_sim no)
+		(at 209.296 74.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "959ee283-077c-4908-89b4-6714f45f84bb")
+	)
+	(junction
+		(at 156.21 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0960a453-7d91-496a-a94a-a2503353cc59")
+	)
+	(junction
+		(at 97.79 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a404cb9-eaa7-41c3-bde3-6bd9f4ee2226")
+	)
 	(junction
 		(at 157.48 86.36)
 		(diameter 0)
@@ -1941,6 +2104,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "170853c9-6737-4c05-a4be-188c72bcdc6c")
+	)
+	(junction
+		(at 157.48 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a869ea8-3eda-4c6b-b4ab-fa0372692f18")
 	)
 	(junction
 		(at 240.03 92.71)
@@ -1967,6 +2136,18 @@
 		(uuid "255a1bcc-12ff-44a8-ade3-19351ae26b99")
 	)
 	(junction
+		(at 29.21 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e41b370-e8c8-47a6-b4c7-8783f826e2f1")
+	)
+	(junction
+		(at 57.15 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "378228ba-29d8-4732-a5d6-a37762b812e0")
+	)
+	(junction
 		(at 199.39 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1991,16 +2172,64 @@
 		(uuid "47c34af3-ec91-43ba-b206-8bd368dd87b3")
 	)
 	(junction
+		(at 156.21 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58184b7f-f1a9-45d9-ae5e-801382210193")
+	)
+	(junction
+		(at 97.79 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58f30d39-2313-4395-91f5-0280a9b5a548")
+	)
+	(junction
+		(at 44.45 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cc2a58d-3df2-4be8-a5b1-cc249d233049")
+	)
+	(junction
+		(at 179.07 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64724203-1ee9-4d44-8b66-231075a16496")
+	)
+	(junction
 		(at 160.02 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a02916d-d82e-4ea0-9a40-528ead0c9bda")
 	)
 	(junction
+		(at 76.2 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b08a124-7c40-4842-88e0-2c17301ea763")
+	)
+	(junction
 		(at 227.33 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "812ea8fb-5867-4249-83fd-15ec9c10317c")
+	)
+	(junction
+		(at 200.66 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81aecc89-f69d-44ff-a02d-8f81206af026")
+	)
+	(junction
+		(at 160.02 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "825fc574-1708-4745-8c52-d25f0833f879")
+	)
+	(junction
+		(at 156.21 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8851d4c9-a66c-47ee-90de-d71ee24332f2")
 	)
 	(junction
 		(at 157.48 142.24)
@@ -2019,6 +2248,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a19ecdb3-b048-4654-ac2b-cae0eaa283e3")
+	)
+	(junction
+		(at 240.03 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a525cb6c-6c13-468a-b054-b0c43cb9b5d9")
 	)
 	(junction
 		(at 167.64 129.54)
@@ -2045,10 +2280,28 @@
 		(uuid "b8602103-bbc3-425d-9d5d-450b0dcb1a5a")
 	)
 	(junction
+		(at 157.48 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bae7279a-395f-4dc7-b723-582f045b58fe")
+	)
+	(junction
 		(at 102.87 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfc21da8-d9ef-41e7-86bb-1ea6c8e17f5a")
+	)
+	(junction
+		(at 156.21 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d067f131-d922-4999-8541-247f76dc4aab")
+	)
+	(junction
+		(at 81.28 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1127e05-ca6f-4ea1-a849-443f6103a1aa")
 	)
 	(junction
 		(at 157.48 139.7)
@@ -2061,6 +2314,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2c76f45-deef-4c71-969c-f659c317520d")
+	)
+	(junction
+		(at 199.39 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e51d4f7c-d121-49f2-9a60-87c1b1ab5b57")
 	)
 	(junction
 		(at 227.33 109.22)
@@ -2128,6 +2387,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 77.47) (xy 81.28 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0364ae47-32be-42e4-a4e1-e2568c95d55d")
+	)
+	(wire
+		(pts
 			(xy 179.07 82.55) (xy 186.69 82.55)
 		)
 		(stroke
@@ -2138,7 +2407,27 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 142.24) (xy 157.48 139.7)
+			(xy 156.21 63.5) (xy 156.21 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044fd74f-a0aa-4724-8e24-71eb06077728")
+	)
+	(wire
+		(pts
+			(xy 160.02 71.12) (xy 154.94 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c1597f-f72c-4b74-85d9-72dcd8318306")
+	)
+	(wire
+		(pts
+			(xy 157.48 142.24) (xy 157.48 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2148,13 +2437,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 97.79) (xy 109.22 97.79)
+			(xy 76.2 97.79) (xy 109.22 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "09cd7d6f-0985-48e5-8e65-d049de0f79a9")
+	)
+	(wire
+		(pts
+			(xy 157.48 137.16) (xy 158.75 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d19690-9ac5-4f9a-95be-b17ab40f43c3")
 	)
 	(wire
 		(pts
@@ -2238,13 +2537,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 130.81) (xy 109.22 130.81)
+			(xy 40.64 130.81) (xy 44.45 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "14a8eb2c-586c-4522-af0f-886a563a76d8")
+	)
+	(wire
+		(pts
+			(xy 30.48 63.5) (xy 29.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "190b616e-00a2-41a1-b6ce-533084a7e491")
 	)
 	(wire
 		(pts
@@ -2288,6 +2597,36 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 107.95) (xy 156.21 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b6a595-157c-457a-97bd-c40c8eb27b43")
+	)
+	(wire
+		(pts
+			(xy 158.75 132.08) (xy 156.21 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25cce1b2-053b-4e4b-9383-dfaeaacd564f")
+	)
+	(wire
+		(pts
+			(xy 157.48 140.97) (xy 158.75 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283e01fd-5d52-4dc2-8365-8cd4309a5b86")
+	)
+	(wire
+		(pts
 			(xy 246.38 71.12) (xy 246.38 82.55)
 		)
 		(stroke
@@ -2325,6 +2664,16 @@
 			(type default)
 		)
 		(uuid "33a51c9b-347f-4d45-b49f-ee09c20c53aa")
+	)
+	(wire
+		(pts
+			(xy 156.21 100.33) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37aa755a-12ce-42ef-aec8-7a61631759cd")
 	)
 	(wire
 		(pts
@@ -2408,6 +2757,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 80.01) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8641be-1be7-465c-b4ac-78b99be672b7")
+	)
+	(wire
+		(pts
 			(xy 199.39 129.54) (xy 189.23 129.54)
 		)
 		(stroke
@@ -2428,7 +2787,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 92.71) (xy 109.22 92.71)
+			(xy 97.79 66.04) (xy 102.87 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508cd313-59f3-404c-8783-90f67a46e5d7")
+	)
+	(wire
+		(pts
+			(xy 57.15 92.71) (xy 109.22 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2468,7 +2837,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 97.79) (xy 80.01 100.33)
+			(xy 100.33 58.42) (xy 97.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc8ac2b-53c4-4bd5-94ec-2550406b777d")
+	)
+	(wire
+		(pts
+			(xy 76.2 97.79) (xy 76.2 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2498,6 +2877,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 129.54) (xy 167.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61738358-50f8-48f2-81fa-1341360b701c")
+	)
+	(wire
+		(pts
 			(xy 259.08 76.2) (xy 259.08 77.47)
 		)
 		(stroke
@@ -2518,7 +2907,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 71.12) (xy 179.07 78.74)
+			(xy 240.03 113.03) (xy 240.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d8ecfd-625f-4ea3-a368-b5d3c4780b64")
+	)
+	(wire
+		(pts
+			(xy 179.07 71.12) (xy 179.07 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2548,7 +2947,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 82.55) (xy 204.47 82.55)
+			(xy 194.31 82.55) (xy 200.66 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2578,6 +2977,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 63.5) (xy 29.21 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781bebef-0bba-452f-aece-899dcd5d51b5")
+	)
+	(wire
+		(pts
 			(xy 154.94 142.24) (xy 157.48 142.24)
 		)
 		(stroke
@@ -2588,13 +2997,33 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 71.12) (xy 154.94 71.12)
+			(xy 97.79 58.42) (xy 97.79 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a298395-819c-40f8-8a0c-2be1f1cb2ba7")
+	)
+	(wire
+		(pts
+			(xy 163.83 71.12) (xy 160.02 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7a5723c8-f659-472b-8c81-703bfe369f35")
+	)
+	(wire
+		(pts
+			(xy 200.66 82.55) (xy 204.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9ad300-355c-4890-bef0-567d7fece467")
 	)
 	(wire
 		(pts
@@ -2608,7 +3037,47 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 74.93) (xy 81.28 78.74)
+			(xy 44.45 130.81) (xy 109.22 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd47025-35ae-489a-9310-7aad2e11ca77")
+	)
+	(wire
+		(pts
+			(xy 179.07 74.93) (xy 181.61 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4a9cda-921e-4ed7-83e8-f90cd8288b0e")
+	)
+	(wire
+		(pts
+			(xy 156.21 107.95) (xy 156.21 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e76aa66-335a-44b5-9c21-4aa6bf9f7e4c")
+	)
+	(wire
+		(pts
+			(xy 156.21 110.49) (xy 167.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f81b2cc-11c6-4cf0-b344-a52eca063839")
+	)
+	(wire
+		(pts
+			(xy 81.28 74.93) (xy 81.28 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2648,7 +3117,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 66.04) (xy 102.87 66.04)
+			(xy 95.25 66.04) (xy 97.79 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2665,6 +3134,16 @@
 			(type default)
 		)
 		(uuid "84f34dbd-8343-47ea-88dd-d5aefdef7b5a")
+	)
+	(wire
+		(pts
+			(xy 199.39 129.54) (xy 200.66 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a83014-6bb5-40b9-9550-a09ea7746542")
 	)
 	(wire
 		(pts
@@ -2698,7 +3177,17 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 66.04) (xy 43.18 66.04)
+			(xy 44.45 127) (xy 44.45 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e36b845-7bf9-4d71-bb7c-ca42396977ed")
+	)
+	(wire
+		(pts
+			(xy 26.67 66.04) (xy 29.21 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2725,6 +3214,16 @@
 			(type default)
 		)
 		(uuid "9596af3d-40dc-4ddb-93b3-ff5d27bed18d")
+	)
+	(wire
+		(pts
+			(xy 156.21 132.08) (xy 156.21 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9665e3dc-a6f9-4f5a-be4f-d69a9e864e7a")
 	)
 	(wire
 		(pts
@@ -2768,7 +3267,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 110.49) (xy 167.64 110.49)
+			(xy 241.3 113.03) (xy 240.03 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5d363c-6ea7-496f-bed7-15df8d95de3e")
+	)
+	(wire
+		(pts
+			(xy 154.94 110.49) (xy 156.21 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2788,7 +3297,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 105.41) (xy 68.58 106.68)
+			(xy 57.15 105.41) (xy 57.15 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2818,13 +3327,23 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 92.71) (xy 68.58 100.33)
+			(xy 57.15 92.71) (xy 57.15 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aeb34b49-34eb-4f09-9500-d39552d57cea")
+	)
+	(wire
+		(pts
+			(xy 163.83 68.58) (xy 160.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6dc714-431e-478e-9bbe-987a347909a9")
 	)
 	(wire
 		(pts
@@ -2856,9 +3375,19 @@
 		)
 		(uuid "b60d907f-3569-463f-bc83-397a877c6ca1")
 	)
+	(polyline
+		(pts
+			(xy 194.31 77.47) (xy 194.31 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b61c6c08-2b32-4c81-bb5f-e3f5e8cf09e1")
+	)
 	(wire
 		(pts
-			(xy 154.94 100.33) (xy 171.45 100.33)
+			(xy 154.94 100.33) (xy 156.21 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2895,6 +3424,16 @@
 			(type default)
 		)
 		(uuid "b869ac04-5172-48c7-bbbb-63e8980ebe1e")
+	)
+	(wire
+		(pts
+			(xy 80.01 77.47) (xy 81.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f8fe58-03af-4d52-8f43-2e93b801e910")
 	)
 	(wire
 		(pts
@@ -2948,7 +3487,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 129.54) (xy 167.64 129.54)
+			(xy 154.94 129.54) (xy 156.21 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2965,6 +3504,16 @@
 			(type default)
 		)
 		(uuid "ca20927a-34fa-4c1b-a917-444be2fabc29")
+	)
+	(wire
+		(pts
+			(xy 160.02 63.5) (xy 156.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac25056-55ad-4d75-a1bb-119db36f343f")
 	)
 	(wire
 		(pts
@@ -2988,6 +3537,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 66.04) (xy 43.18 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee70de8-4bbd-48f2-ac7c-ba18fd9da012")
+	)
+	(wire
+		(pts
 			(xy 204.47 91.44) (xy 204.47 90.17)
 		)
 		(stroke
@@ -2995,6 +3554,16 @@
 			(type default)
 		)
 		(uuid "d1eab356-c23b-466d-b468-dd5c0e45ebaf")
+	)
+	(wire
+		(pts
+			(xy 41.91 127) (xy 44.45 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32ce98b-cfab-4ad9-a907-afaf678e9feb")
 	)
 	(wire
 		(pts
@@ -3008,7 +3577,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 105.41) (xy 80.01 106.68)
+			(xy 76.2 105.41) (xy 76.2 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3028,13 +3597,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 66.04) (xy 171.45 66.04)
+			(xy 154.94 66.04) (xy 156.21 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d6f8adbc-ddc0-4ec0-b141-003df31ae714")
+	)
+	(wire
+		(pts
+			(xy 156.21 100.33) (xy 156.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d83d6e0a-9b3c-433c-9679-b32392e06586")
 	)
 	(wire
 		(pts
@@ -3068,6 +3647,26 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 140.97) (xy 157.48 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db40e76b-a4ce-427b-bf19-8614cc24b806")
+	)
+	(wire
+		(pts
+			(xy 55.88 92.71) (xy 57.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc302e29-44df-4cff-8a14-022833e5e1df")
+	)
+	(wire
+		(pts
 			(xy 66.04 66.04) (xy 66.04 67.31)
 		)
 		(stroke
@@ -3075,6 +3674,16 @@
 			(type default)
 		)
 		(uuid "dcb73e87-0a38-4a03-9ac7-77ab9abbbb7f")
+	)
+	(wire
+		(pts
+			(xy 160.02 102.87) (xy 156.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dffc09c7-c945-40b3-a468-6114d5cf1bae")
 	)
 	(wire
 		(pts
@@ -3115,6 +3724,36 @@
 			(type default)
 		)
 		(uuid "e50f2a0b-b24b-4451-9cfb-676cba6a891d")
+	)
+	(polyline
+		(pts
+			(xy 194.31 78.74) (xy 195.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6660fb0-0ddd-402e-9975-f93092249bc7")
+	)
+	(wire
+		(pts
+			(xy 74.93 97.79) (xy 76.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e737e466-9b32-452d-9b39-1ca77e1d436b")
+	)
+	(wire
+		(pts
+			(xy 160.02 68.58) (xy 160.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6353a1-ea8c-4652-b198-f1088dc7a053")
 	)
 	(wire
 		(pts
@@ -3158,6 +3797,26 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 74.93) (xy 179.07 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64e7d35-62a3-4c11-abb3-75ae2a678f93")
+	)
+	(wire
+		(pts
+			(xy 96.52 102.87) (xy 97.79 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76fdd06-2d26-43fa-b12d-3989e04a289c")
+	)
+	(wire
+		(pts
 			(xy 204.47 82.55) (xy 215.9 82.55)
 		)
 		(stroke
@@ -3175,6 +3834,36 @@
 			(type default)
 		)
 		(uuid "fdcbc121-5920-4d64-980d-7b1f8aa5b3f2")
+	)
+	(wire
+		(pts
+			(xy 156.21 66.04) (xy 171.45 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6adb44-c50d-429f-92f0-c757c1901544")
+	)
+	(polyline
+		(pts
+			(xy 194.31 78.74) (xy 198.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff736ddc-4b0b-4bd6-86c6-5832eea32196")
+	)
+	(wire
+		(pts
+			(xy 200.66 80.01) (xy 200.66 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc3e51c-c3d6-4375-a164-837176c6458e")
 	)
 	(label "SENSE_OUT"
 		(at 241.3 92.71 0)
@@ -3328,6 +4017,139 @@
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
 					(reference "J13")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 100.33 58.42 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "031f1907-d44f-4da9-ba53-9f11d06d14cd")
+		(property "Reference" "TP126"
+			(at 107.696 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 109.474 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 100.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 100.33 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 100.33 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 100.33 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 100.33 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 100.33 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 100.33 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3588f9c2-f536-487a-9f72-e3e1826dc942")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP126")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
 				)
 			)
 		)
@@ -3564,7 +4386,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 68.58 102.87 180)
+		(at 57.15 102.87 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3574,7 +4396,7 @@
 		(dnp no)
 		(uuid "0e25ef2e-ec6e-4a4a-a36d-7edcd8b54154")
 		(property "Reference" "R144"
-			(at 70.104 100.076 0)
+			(at 58.674 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3585,7 +4407,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 70.358 101.854 0)
+			(at 58.928 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3596,7 +4418,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 68.58 102.87 0)
+			(at 57.15 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3607,7 +4429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 102.87 0)
+			(at 57.15 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3618,7 +4440,7 @@
 			)
 		)
 		(property "Description" "20k 1% 0603 Resistor"
-			(at 68.58 102.87 0)
+			(at 57.15 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,7 +4451,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 71.628 103.632 0)
+			(at 60.198 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3639,7 +4461,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C4184"
-			(at 68.58 102.87 0)
+			(at 57.15 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3650,7 +4472,7 @@
 			)
 		)
 		(property "Footprint_Size" "0603"
-			(at 72.644 105.41 0)
+			(at 61.214 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3669,6 +4491,128 @@
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
 					(reference "R144")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 80.01 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11424081-7a14-4a89-bf76-a7c9905eb490")
+		(property "Reference" "TP116"
+			(at 72.644 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 70.866 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 80.01 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 80.01 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 80.01 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 80.01 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 80.01 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 80.01 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4d431eb-399e-455e-b946-d063662eb438")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP116")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -3793,8 +4737,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 80.01 106.68 0)
+		(lib_id "Connector:TestPoint")
+		(at 158.75 140.97 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3802,10 +4747,19 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18a7a3e9-6ca8-4483-af1c-81b171e95c4c")
-		(property "Reference" "#PWR0225"
-			(at 80.01 113.03 0)
+		(uuid "17e3311b-7efd-4f81-a863-c65a2bffbe40")
+		(property "Reference" "TP123"
+			(at 166.116 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 167.894 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3815,19 +4769,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 80.01 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 106.68 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 158.75 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3838,7 +4781,141 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 106.68 0)
+			(at 158.75 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 158.75 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 158.75 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 158.75 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 158.75 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 158.75 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb0d5d88-89ca-40cc-a88a-48e18f1e85bc")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP123")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18a7a3e9-6ca8-4483-af1c-81b171e95c4c")
+		(property "Reference" "#PWR0225"
+			(at 76.2 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3849,7 +4926,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 106.68 0)
+			(at 76.2 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4102,6 +5179,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 160.02 63.5 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23c3445b-6242-4de7-abe5-52494830624e")
+		(property "Reference" "TP127"
+			(at 167.386 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 169.164 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 160.02 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 160.02 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 160.02 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 160.02 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 160.02 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 160.02 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "521b964b-46e1-41ba-aa3a-cde946a3b70f")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP127")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 91.44 0)
 		(unit 1)
@@ -4182,7 +5392,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 106.68 0)
+		(at 57.15 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4193,7 +5403,7 @@
 		(fields_autoplaced yes)
 		(uuid "368b2b38-3d6f-44be-9b2c-8271edee5ac1")
 		(property "Reference" "#PWR0224"
-			(at 68.58 113.03 0)
+			(at 57.15 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4204,7 +5414,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 111.76 0)
+			(at 57.15 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4215,7 +5425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 106.68 0)
+			(at 57.15 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4226,7 +5436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 106.68 0)
+			(at 57.15 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,7 +5447,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 106.68 0)
+			(at 57.15 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,6 +5930,139 @@
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
 					(reference "#PWR0222")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 137.16 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a8ead9c-483e-4f02-b01d-fbd925373dee")
+		(property "Reference" "TP122"
+			(at 166.116 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 167.894 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 158.75 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 158.75 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 158.75 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 158.75 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 158.75 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 158.75 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfd9c59f-b41f-47f7-89fb-00299f218db3")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP122")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
 				)
 			)
 		)
@@ -5346,6 +6689,252 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 241.3 113.03 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d9e89dd-203e-4bce-9443-da495ea59e7c")
+		(property "Reference" "TP111"
+			(at 248.666 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 250.444 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 241.3 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 241.3 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 241.3 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 241.3 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 241.3 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 241.3 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1973bb5-5077-4c3a-9b8b-10660a747c6d")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP111")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 163.83 68.58 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "702f549d-2dd8-47e0-b62c-b0329eef85c0")
+		(property "Reference" "TP118"
+			(at 171.196 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 172.974 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 163.83 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 163.83 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 163.83 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 163.83 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 163.83 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 163.83 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25c6fadb-9279-41dd-92f1-30a7ee70e1bc")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP118")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 81.28 83.82 180)
 		(unit 1)
@@ -5577,7 +7166,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 80.01 102.87 0)
+		(at 76.2 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5587,7 +7176,7 @@
 		(dnp no)
 		(uuid "7c0fdb99-071f-4b66-af89-c9a07d03b2d4")
 		(property "Reference" "C88"
-			(at 82.042 100.33 0)
+			(at 78.232 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5598,7 +7187,7 @@
 			)
 		)
 		(property "Value" "47nF"
-			(at 82.042 102.108 0)
+			(at 78.232 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5609,7 +7198,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 80.01 102.87 0)
+			(at 76.2 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5620,7 +7209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 102.87 0)
+			(at 76.2 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5631,7 +7220,7 @@
 			)
 		)
 		(property "Description" "47nF 50V X7R ±10% 0402 Capacitor"
-			(at 80.01 102.87 0)
+			(at 76.2 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5642,7 +7231,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 84.074 103.886 0)
+			(at 80.264 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5652,7 +7241,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1622"
-			(at 80.01 102.87 0)
+			(at 76.2 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5663,7 +7252,7 @@
 			)
 		)
 		(property "Footprint_Size" "0603"
-			(at 84.582 105.664 0)
+			(at 80.772 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5797,6 +7386,139 @@
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
 					(reference "R147")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 181.61 74.93 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7dd20795-d4a4-4989-ad3a-cce52035f5f7")
+		(property "Reference" "TP119"
+			(at 188.976 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 190.754 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 181.61 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 181.61 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 181.61 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 181.61 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 181.61 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 181.61 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 181.61 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d57a1183-5704-4be0-8c56-1b10a5cfcc9f")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP119")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -5991,6 +7713,138 @@
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
 					(reference "R153")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 41.91 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "868089e2-f61d-4ce6-85e5-c8d756d49c08")
+		(property "Reference" "TP124"
+			(at 34.544 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 32.766 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 41.91 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 41.91 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 41.91 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 41.91 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 41.91 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 41.91 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 41.91 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a84c0f94-5a05-4344-b25b-c76a323c0058")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP124")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -6231,6 +8085,139 @@
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
 					(reference "Q12")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 200.66 129.54 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91514595-7d67-4e6f-8cb7-63a9b61a08db")
+		(property "Reference" "TP120"
+			(at 208.026 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 209.804 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 200.66 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 200.66 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 200.66 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 200.66 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 200.66 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 200.66 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 200.66 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "296a4200-941e-4026-8342-35e8b4574023")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP120")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -6779,6 +8766,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 102.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a50c7662-f990-4c7e-965e-9d1730c44246")
+		(property "Reference" "TP113"
+			(at 89.154 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 87.376 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 96.52 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 96.52 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 96.52 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 96.52 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 96.52 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "692b8f96-b1fa-405d-ae7d-d14960707bb1")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP113")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 97.79 123.19 0)
 		(unit 1)
@@ -6964,6 +9073,139 @@
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
 					(reference "C97")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 63.5 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1b14506-b3d3-4362-bf1b-529d6dd784c1")
+		(property "Reference" "TP125"
+			(at 37.846 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 39.624 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 30.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 30.48 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 30.48 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 30.48 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 30.48 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 30.48 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4db3930-0107-422a-bda8-18c4ccb0bc7f")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP125")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7275,6 +9517,128 @@
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
 					(reference "#PWR0231")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 74.93 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b894caf4-3ed0-4d43-8b13-1e009c93a386")
+		(property "Reference" "TP114"
+			(at 67.564 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 65.786 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 74.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 74.93 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 74.93 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 74.93 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 74.93 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 74.93 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4de9aa0-f159-4af5-91d0-38b8f092c807")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP114")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
 				)
 			)
 		)
@@ -8256,6 +10620,261 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 132.08 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4f7a5bc-3a4f-41dc-9338-e04792f63568")
+		(property "Reference" "TP121"
+			(at 166.116 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 167.894 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 158.75 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 158.75 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 158.75 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 158.75 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 158.75 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 158.75 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "036212ed-ae30-484f-8a23-8483ba9a391a")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP121")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 55.88 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebc5a457-be8a-4ca9-8789-bbfc1e23daee")
+		(property "Reference" "TP115"
+			(at 48.514 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 46.736 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 55.88 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 55.88 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 55.88 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 55.88 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 55.88 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 55.88 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a5140e1-b74a-42b5-b8d1-2c73ee204ee9")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP115")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 204.47 87.63 0)
 		(unit 1)
@@ -8450,6 +11069,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 160.02 107.95 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0db6d1c-77cb-4d92-ac24-58e52c02a8c3")
+		(property "Reference" "TP112"
+			(at 167.386 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 169.164 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 160.02 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 160.02 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 160.02 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 160.02 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 160.02 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a08bc306-4e68-430c-8ee9-aea41f3871b4")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP112")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 171.45 86.36 270)
 		(unit 1)
@@ -8556,6 +11298,272 @@
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
 					(reference "R149")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 203.2 80.01 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f87156f9-7ac4-44ee-be7f-d19a88ea5304")
+		(property "Reference" "TP117"
+			(at 210.566 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 212.344 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 203.2 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 203.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 203.2 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 203.2 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 203.2 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 203.2 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 203.2 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1bfe73e3-63a1-42df-ac1e-7c28a32298f2")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP117")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 160.02 102.87 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f9a2455d-161b-4c60-8d5a-1ff72afa105d")
+		(property "Reference" "TP128"
+			(at 167.386 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 169.164 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 160.02 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 160.02 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 160.02 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 160.02 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 160.02 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 160.02 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "081084a6-d7e6-467d-8b4c-1f4fa5546e1f")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/6bd93a81-61dc-4f80-83b3-8d2a24dec243"
+					(reference "TP128")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")

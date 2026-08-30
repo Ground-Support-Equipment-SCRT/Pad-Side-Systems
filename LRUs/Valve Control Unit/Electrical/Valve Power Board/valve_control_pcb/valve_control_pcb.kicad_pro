@@ -260,7 +260,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "A"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -280,16 +280,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|1231900|635000|c142179e-c6c6-42b8-aee9-54c44af47cc5|f89e6bc4-4534-4314-a9c4-f8da494fc267|/fc15abd0-0409-4213-a92e-28e770df5352/57ad193c-7ba5-491c-8085-dc0a6016e6d8||",
-        ""
-      ],
-      [
-        "pin_to_pin|1231900|635000|c142179e-c6c6-42b8-aee9-54c44af47cc5|fc0b6076-2e4b-4f17-b444-c91949b2202d|/fc15abd0-0409-4213-a92e-28e770df5352/57ad193c-7ba5-491c-8085-dc0a6016e6d8||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -743,6 +734,78 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint_Size",
+          "name": "Footprint_Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pitch",
+          "name": "Pitch",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SW",
+          "name": "SW",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vds",
+          "name": "Vds",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rating",
+          "name": "Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Impedance",
+          "name": "Impedance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Imp",
+          "name": "Imp",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ratio",
+          "name": "ratio",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Storage",
+          "name": "Storage",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -753,6 +816,12 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {
+      "RS485_MAIN": [
+        "MAIN_RX",
+        "~{MAIN_RE}",
+        "MAIN_DE",
+        "MAIN_TX"
+      ],
       "SDMMC": [
         "SDMMC1_D0",
         "SDMMC1_D1",
@@ -819,17 +888,12 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://SCRT_Template.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
-      {
-        "filename": "valve_control_pcb.kicad_sch",
-        "name": "Root",
-        "uuid": "fc15abd0-0409-4213-a92e-28e770df5352"
-      },
       {
         "filename": "valves.kicad_sch",
         "name": "Valves",
@@ -859,9 +923,39 @@
         "filename": "sd_card.kicad_sch",
         "name": "SD Card",
         "uuid": "4518b036-acbb-4d4f-82dd-00ce25d5ff09"
+      },
+      {
+        "filename": "rs-485.kicad_sch",
+        "name": "RS-485",
+        "uuid": "0fbe912d-588c-4778-9943-888475891f0f"
+      },
+      {
+        "filename": "stm32.kicad_sch",
+        "name": "STM32",
+        "uuid": "8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
+      },
+      {
+        "filename": "top-level.kicad_sch",
+        "name": "Title Page",
+        "uuid": "a2d03fe2-ddd4-41ca-aec0-92b353124f18"
+      },
+      {
+        "filename": "block_diagrams.kicad_sch",
+        "name": "Block Diagrams",
+        "uuid": "73c6beaa-e5ef-4f89-9a22-ba55083193fa"
+      },
+      {
+        "filename": "fans.kicad_sch",
+        "name": "Fans",
+        "uuid": "b2606128-8980-4101-9648-1808c1b96e2b"
+      },
+      {
+        "filename": "adc.kicad_sch",
+        "name": "ADC",
+        "uuid": "33ff7616-254c-4ece-8b5e-11f19383e0b0"
       }
     ],
-    "used_designators": "D1-38,#PWR1-273,BZ1,R1-176,#FLG1-11,C1-111,FB1,FB3,F1,H1-11,J1-16,JP1,L1-2,Q1-12,SW1-2,TP1-101,TR1,U1-32,Y1-2",
+    "used_designators": "D1-40,D45-46,#PWR1-303,#PWR365-385,BZ1,R1-215,#FLG1-11,C1-113,C163-164,FB1,FB3,F1,H1-12,J1-16,J25-26,JP1,L1-2,Q1-12,Q19-20,SW1-2,TP1-224,TR1,U1-38,Y1-2",
     "variants": [
       {
         "name": "My VARIANT DARNIT"
@@ -870,60 +964,80 @@
   },
   "sheets": [
     [
-      "fc15abd0-0409-4213-a92e-28e770df5352",
-      "Root"
+      "a2d03fe2-ddd4-41ca-aec0-92b353124f18",
+      "Title Page"
     ],
     [
-      "24b36193-7845-4db5-91f8-0b53361738fd",
-      "Valve 1"
-    ],
-    [
-      "f04d772f-3aab-4c55-a09d-cd1c9b377001",
-      "Valve 2"
-    ],
-    [
-      "edcd2fde-c983-445f-9dd4-4e04cf674add",
-      "Valve 3"
-    ],
-    [
-      "6f31ca46-08b0-4cf4-b504-72f82c89749f",
-      "Valve 4"
-    ],
-    [
-      "57824f59-09bd-4a6f-b028-1b282aad2e9a",
-      "Valve 5"
-    ],
-    [
-      "4957d287-4121-4830-9153-8073f9ef3222",
-      "Valve 6"
-    ],
-    [
-      "8089a923-bb92-49be-ae97-55220516cf62",
-      "Sensors"
-    ],
-    [
-      "b7615ffe-ff75-4416-a90d-6549004210c5",
-      "Connectors"
-    ],
-    [
-      "00d1ee1a-7874-4b4e-ac59-bd65bc8eca75",
-      "TMP1075 1"
-    ],
-    [
-      "57ad193c-7ba5-491c-8085-dc0a6016e6d8",
-      "stm32_microcontroller"
+      "73c6beaa-e5ef-4f89-9a22-ba55083193fa",
+      "Block Diagrams"
     ],
     [
       "5d72873d-bf63-43c9-aa68-e8ad4e59e232",
       "System Power"
     ],
     [
-      "c235780d-7e24-4432-9fb6-2df8e11adb00",
-      "TMP1075 2"
-    ],
-    [
       "d4e8203a-d76f-4c3b-b909-1a52c35190e7",
       "Valves"
+    ],
+    [
+      "6bd93a81-61dc-4f80-83b3-8d2a24dec243",
+      "12V_main"
+    ],
+    [
+      "e3d641aa-92e7-4bc3-b99a-68c691379925",
+      "master_efuse"
+    ],
+    [
+      "24b36193-7845-4db5-91f8-0b53361738fd",
+      "Valve 1"
+    ],
+    [
+      "5333319b-ebf0-4088-b00a-4a4ef607817d",
+      "Valve 2"
+    ],
+    [
+      "b4ed8c66-9c72-48ca-ad88-6c1272cb2ab5",
+      "Valve 3"
+    ],
+    [
+      "50ea575b-12c7-4867-a271-21416999ca3f",
+      "Valve 4"
+    ],
+    [
+      "9466624e-7f8c-432d-a4cb-66ccf6a56ae5",
+      "Valve 5"
+    ],
+    [
+      "f79d37f4-ea8d-4724-9fc7-dd2021a1f592",
+      "Valve 6"
+    ],
+    [
+      "8b9fc1f9-ab41-499d-8e9e-e510a7b52650",
+      "STM32"
+    ],
+    [
+      "4518b036-acbb-4d4f-82dd-00ce25d5ff09",
+      "SD Card"
+    ],
+    [
+      "f86a0e95-9fb7-4edc-ad4b-275b6a59a091",
+      "USB-C"
+    ],
+    [
+      "0fbe912d-588c-4778-9943-888475891f0f",
+      "RS-485"
+    ],
+    [
+      "8089a923-bb92-49be-ae97-55220516cf62",
+      "Sensors"
+    ],
+    [
+      "00d1ee1a-7874-4b4e-ac59-bd65bc8eca75",
+      "TMP1075 1"
+    ],
+    [
+      "c235780d-7e24-4432-9fb6-2df8e11adb00",
+      "TMP1075 2"
     ],
     [
       "85b9ee31-d256-4e35-90a0-c7210282765d",
@@ -934,18 +1048,6 @@
       "TMP1075 4"
     ],
     [
-      "92d07a9e-870f-4ec8-8b9b-9865ad129598",
-      "RS_485"
-    ],
-    [
-      "e3d641aa-92e7-4bc3-b99a-68c691379925",
-      "master_efuse"
-    ],
-    [
-      "6bd93a81-61dc-4f80-83b3-8d2a24dec243",
-      "12V_main"
-    ],
-    [
       "9b699d58-a63a-4982-b285-2ac5e402cab8",
       "TMP1075 5"
     ],
@@ -954,12 +1056,16 @@
       "TMP1075 6"
     ],
     [
-      "f86a0e95-9fb7-4edc-ad4b-275b6a59a091",
-      "USB-C"
+      "b2606128-8980-4101-9648-1808c1b96e2b",
+      "Fans"
     ],
     [
-      "4518b036-acbb-4d4f-82dd-00ce25d5ff09",
-      "SD Card"
+      "b7615ffe-ff75-4416-a90d-6549004210c5",
+      "Connectors"
+    ],
+    [
+      "33ff7616-254c-4ece-8b5e-11f19383e0b0",
+      "ADC"
     ]
   ],
   "text_variables": {},

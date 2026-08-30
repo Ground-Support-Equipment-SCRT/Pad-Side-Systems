@@ -945,7 +945,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://SCRT_Template.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
@@ -960,11 +960,21 @@
     "top_level_sheets": [
       {
         "filename": "master_gse_pcb_project.kicad_sch",
-        "name": "master_gse_pcb_project",
+        "name": "top-level",
         "uuid": "5dea7f1e-c3ae-4a7c-865b-d3606d04c094"
+      },
+      {
+        "filename": "title_page.kicad_sch",
+        "name": "Title Page",
+        "uuid": "0dd5bb7f-1a2a-461a-b119-1ff96371d72c"
+      },
+      {
+        "filename": "block_diagram.kicad_sch",
+        "name": "Block Diagram",
+        "uuid": "77b615b1-10f5-45ac-83c3-67d4874f5395"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R126,R134,FB1-2",
     "variants": [
       {
         "name": "My VARIANT DARNIT"
@@ -973,8 +983,16 @@
   },
   "sheets": [
     [
+      "0dd5bb7f-1a2a-461a-b119-1ff96371d72c",
+      "Title Page"
+    ],
+    [
+      "77b615b1-10f5-45ac-83c3-67d4874f5395",
+      "Block Diagram"
+    ],
+    [
       "5dea7f1e-c3ae-4a7c-865b-d3606d04c094",
-      "master_gse_pcb_project"
+      "top-level"
     ],
     [
       "9008f12e-c3ef-424d-a669-d8806ef057c6",
@@ -1005,16 +1023,8 @@
       "load_switches"
     ],
     [
-      "00ab062f-7a56-4d98-a676-a8bcf2be95ab",
-      "USB_C"
-    ],
-    [
       "3a85163a-eaab-44e7-b566-82b4544e5347",
       "stm32_controller"
-    ],
-    [
-      "1c220542-3189-448d-942e-39e79ce2ce0c",
-      "SD_card"
     ],
     [
       "dd14e2b0-7298-4db6-8c27-0c24493c1344",
@@ -1029,12 +1039,16 @@
       "can_bus"
     ],
     [
+      "1c220542-3189-448d-942e-39e79ce2ce0c",
+      "SD_card"
+    ],
+    [
       "c7b423e7-02ab-4541-aadd-dd3010a8b6d4",
       "rf"
     ],
     [
-      "2ebfc833-bfa1-4c87-a466-1d49e2396d7f",
-      "igniter_system"
+      "00ab062f-7a56-4d98-a676-a8bcf2be95ab",
+      "USB_C"
     ],
     [
       "fd0dc7ea-ec0f-495e-8cd0-f5a75701f898",
@@ -1063,6 +1077,10 @@
     [
       "01d9761a-bb6b-463e-9cfc-e5f412239f3b",
       "LC2"
+    ],
+    [
+      "2ebfc833-bfa1-4c87-a466-1d49e2396d7f",
+      "igniter_system"
     ],
     [
       "1d88e707-71bf-4514-8853-31370dba3cbd",
