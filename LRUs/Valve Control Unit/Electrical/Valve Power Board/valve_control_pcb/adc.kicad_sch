@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "ADC")
-		(date "2026-08-30")
+		(date "2026-08-27")
 		(rev "A")
 	)
 	(lib_symbols
@@ -1508,6 +1508,26 @@
 					)
 				)
 			)
+			(symbol "ADS124S08IPBSR_1_0"
+				(pin no_connect line
+					(at -20.32 -33.02 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 	)
@@ -1523,9 +1543,31 @@
 		)
 		(uuid "6917e0fc-983c-487a-b517-a173cd59c4ad")
 	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 50.292 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "000379f2-1c88-4927-a616-2ed102cccf7f")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 50.292 113.284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "01affdfd-6226-4f72-a6cc-329d9b6c0b3e")
+	)
 	(text "VALVE 2\n"
 		(exclude_from_sim no)
-		(at 69.088 80.518 0)
+		(at 58.928 80.518 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1534,9 +1576,64 @@
 		)
 		(uuid "0fc42913-d44b-420b-91a4-b3078784298f")
 	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 384.302 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "2a96de56-7b40-4b1f-a39d-78b846dbf3b8")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 50.292 176.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "358db091-37eb-4be8-99dd-5aad17af00c4")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 381.254 146.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "4804a96a-22fb-46eb-aa99-a8ccefa98529")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 50.038 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "5866020b-1495-454b-910e-23cdf820ab86")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 50.038 47.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "6f73951a-f2bc-4242-a013-a4a82de9e8d3")
+	)
 	(text "VALVE 3\n"
 		(exclude_from_sim no)
-		(at 69.088 121.412 0)
+		(at 58.928 121.412 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1545,9 +1642,75 @@
 		)
 		(uuid "7493f138-9b11-48a9-ad23-bc23e1783528")
 	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 50.292 242.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "7c01d5f6-8555-4b21-8a21-ec13e035ebfb")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 383.54 150.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "7f6bc403-e0f9-4f77-bf79-e460b63017f8")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 50.292 217.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "8a4175e9-70de-4abc-8d96-d821c263ffed")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 50.292 258.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "97409520-641a-433b-9e79-e2e339cb7d3f")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 383.54 157.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "9a7726c4-5b96-4b58-b8e9-24c0ec2895d5")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 384.302 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "9c17d81a-ab21-4b0c-9198-c78bcca13810")
+	)
 	(text "VALVE 5"
 		(exclude_from_sim no)
-		(at 69.342 210.312 0)
+		(at 59.182 210.312 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1569,9 +1732,20 @@
 		)
 		(uuid "b5e5e166-74cd-4b6b-a623-a1c8197fed1e")
 	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 50.038 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "becafcdf-acfa-4105-bd63-63b21d655e8f")
+	)
 	(text "VALVE 6"
 		(exclude_from_sim no)
-		(at 69.342 250.698 0)
+		(at 59.182 250.698 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1579,6 +1753,39 @@
 			)
 		)
 		(uuid "c69cf66a-bfe7-4257-9b25-726b704f29c3")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 50.292 128.524 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "c8236129-a201-4852-b562-5d25e4bd8e89")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 50.038 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "ca048330-8373-4d1f-8bd3-03cefdb166f4")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 383.54 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "d431e28b-32d6-4d88-85c3-e78d80a36668")
 	)
 	(text "VOLTAGE DIVIDER & FILTER"
 		(exclude_from_sim no)
@@ -1593,7 +1800,7 @@
 	)
 	(text "VALVE 4"
 		(exclude_from_sim no)
-		(at 69.088 169.418 0)
+		(at 58.928 169.418 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1602,9 +1809,31 @@
 		)
 		(uuid "e9224486-a387-4e0f-9267-bfca0c4e9991")
 	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 50.292 202.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "ecd419d6-3a66-4b58-b8bc-8a7eb4fea3db")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 383.54 153.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "edacfc1a-7e3c-4334-8318-7c82975ad163")
+	)
 	(text "VALVE 1"
 		(exclude_from_sim no)
-		(at 69.088 39.878 0)
+		(at 58.928 39.878 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1615,7 +1844,7 @@
 	)
 	(text_box "Internal VREF: Swap input divider resistors for 24V/30V"
 		(exclude_from_sim no)
-		(at 225.425 170.18 0)
+		(at 225.425 171.1721 0)
 		(size 34.925 5.9929)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1662,6 +1891,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "166bcf9f-0531-4aeb-b333-8a559176a677")
+	)
+	(junction
+		(at 302.26 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "306f8f0a-3c85-4a9d-a574-3c6d921fdb0d")
 	)
 	(junction
 		(at 308.61 161.29)
@@ -1728,6 +1963,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "629305ab-f5dc-4783-abd1-13543bef51a9")
+	)
+	(junction
+		(at 316.23 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65ba3f4d-d5d0-476b-86ba-f6fb3cb44eff")
 	)
 	(junction
 		(at 100.33 87.63)
@@ -1825,6 +2066,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 146.05) (xy 354.33 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0265fc1d-36f8-4252-95d7-78e0b05ff704")
+	)
+	(wire
+		(pts
 			(xy 146.05 257.81) (xy 152.4 257.81)
 		)
 		(stroke
@@ -1915,6 +2166,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 153.67) (xy 369.57 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e05ef15-0ac1-4231-ae5e-41c4638524dc")
+	)
+	(wire
+		(pts
 			(xy 93.98 176.53) (xy 100.33 176.53)
 		)
 		(stroke
@@ -1932,6 +2193,16 @@
 			(type default)
 		)
 		(uuid "0ebeff38-a8b7-4f2b-b889-ce61e563510b")
+	)
+	(wire
+		(pts
+			(xy 359.41 157.48) (xy 369.57 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0cf206-5c9c-427b-8c9c-af9bea2be1d5")
 	)
 	(wire
 		(pts
@@ -1972,6 +2243,26 @@
 			(type default)
 		)
 		(uuid "15829b16-94e9-41f4-91ee-d13d6f34589e")
+	)
+	(wire
+		(pts
+			(xy 299.72 144.78) (xy 335.28 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170daf8a-0cb1-48f7-bbf3-ddd49a661447")
+	)
+	(wire
+		(pts
+			(xy 299.72 152.4) (xy 337.82 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174e89b9-8667-4bf5-bb2f-bcfdd84db681")
 	)
 	(wire
 		(pts
@@ -2042,6 +2333,16 @@
 			(type default)
 		)
 		(uuid "27fc7be7-3999-4118-b114-080cd7a2bab9")
+	)
+	(wire
+		(pts
+			(xy 332.74 142.24) (xy 332.74 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2beace22-6292-46f5-9ee2-6ecf3b139322")
 	)
 	(wire
 		(pts
@@ -2145,13 +2446,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 113.03) (xy 88.9 113.03)
+			(xy 71.12 113.03) (xy 88.9 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "373af32e-4dd3-4bf2-a294-b756d0b360b7")
+	)
+	(wire
+		(pts
+			(xy 335.28 154.94) (xy 335.28 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d18732-87fe-495f-8b9c-270ed368c9fd")
 	)
 	(wire
 		(pts
@@ -2185,13 +2496,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 217.17) (xy 87.63 217.17)
+			(xy 71.12 217.17) (xy 87.63 217.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f488a65-0113-4546-8104-1d1e9e9583ba")
+	)
+	(wire
+		(pts
+			(xy 299.72 147.32) (xy 337.82 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3feea4e7-02e0-4772-ac67-459901e125a3")
 	)
 	(wire
 		(pts
@@ -2235,7 +2556,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 161.29) (xy 88.9 161.29)
+			(xy 71.12 161.29) (xy 88.9 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2272,6 +2593,16 @@
 			(type default)
 		)
 		(uuid "4ecf4bb5-4301-431f-b56f-93545ec6aad1")
+	)
+	(wire
+		(pts
+			(xy 71.12 31.75) (xy 88.9 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5a27c6-5b06-4970-8a09-fb3bb3ef672d")
 	)
 	(wire
 		(pts
@@ -2355,6 +2686,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 146.05) (xy 369.57 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f667ee-ae94-4220-affd-0f34441b28fc")
+	)
+	(wire
+		(pts
 			(xy 302.26 172.72) (xy 302.26 175.26)
 		)
 		(stroke
@@ -2365,7 +2706,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 129.54) (xy 308.61 129.54)
+			(xy 299.72 129.54) (xy 316.23 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2385,16 +2726,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 149.86) (xy 335.28 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60fc1420-f68e-4eab-bc87-b966b96009db")
-	)
-	(wire
-		(pts
 			(xy 152.4 224.79) (xy 152.4 227.33)
 		)
 		(stroke
@@ -2402,6 +2733,16 @@
 			(type default)
 		)
 		(uuid "619e787d-f8ee-4052-8ab7-b9d5683bc000")
+	)
+	(wire
+		(pts
+			(xy 337.82 153.67) (xy 354.33 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626fc3af-3ef1-4fcd-91ff-6a475246d4b9")
 	)
 	(wire
 		(pts
@@ -2491,11 +2832,11 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6cae85a4-4a44-45a4-a5cb-7edf41cea7e6")
+		(uuid "6d040948-1652-4ff7-817d-2976e653e16b")
 	)
 	(wire
 		(pts
-			(xy 81.28 128.27) (xy 88.9 128.27)
+			(xy 71.12 128.27) (xy 88.9 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2552,6 +2893,16 @@
 			(type default)
 		)
 		(uuid "76ab928d-da4f-4231-b80e-0eebd338a792")
+	)
+	(wire
+		(pts
+			(xy 332.74 157.48) (xy 332.74 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77aeff93-2bde-452d-bea1-d8311fe148e7")
 	)
 	(wire
 		(pts
@@ -2612,16 +2963,6 @@
 			(type default)
 		)
 		(uuid "7d4bbb05-b798-434e-829e-fd28134c0a27")
-	)
-	(wire
-		(pts
-			(xy 335.28 147.32) (xy 299.72 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d58e6cc-f6f0-4aaf-ad7c-9f9e4a43018c")
 	)
 	(wire
 		(pts
@@ -2775,23 +3116,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 72.39) (xy 88.9 72.39)
+			(xy 71.12 72.39) (xy 88.9 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "945d7924-5312-43a1-ad8b-f703bd8d4891")
-	)
-	(wire
-		(pts
-			(xy 299.72 144.78) (xy 335.28 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "949cf99c-cab5-44c1-85b2-9140118544c3")
 	)
 	(wire
 		(pts
@@ -2815,7 +3146,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 257.81) (xy 88.9 257.81)
+			(xy 71.12 257.81) (xy 88.9 257.81)
 		)
 		(stroke
 			(width 0)
@@ -2825,7 +3156,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 135.89) (xy 308.61 137.16)
+			(xy 316.23 137.16) (xy 316.23 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2862,16 +3193,6 @@
 			(type default)
 		)
 		(uuid "9cef3388-1578-41a9-8461-9ae8fc75fe84")
-	)
-	(wire
-		(pts
-			(xy 299.72 157.48) (xy 335.28 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d98e60e-56d3-4ebf-b963-f2322b0c3856")
 	)
 	(wire
 		(pts
@@ -2925,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 130.81) (xy 308.61 129.54)
+			(xy 316.23 132.08) (xy 316.23 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2965,6 +3286,36 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 149.86) (xy 354.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8235314-bb79-417c-895a-c463ff3168d4")
+	)
+	(wire
+		(pts
+			(xy 359.41 161.29) (xy 369.57 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a826a282-57da-42d7-b599-d8f606acf97a")
+	)
+	(wire
+		(pts
+			(xy 335.28 142.24) (xy 354.33 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac935ec-4c5d-41df-a635-3424a5caef03")
+	)
+	(wire
+		(pts
 			(xy 146.05 87.63) (xy 152.4 87.63)
 		)
 		(stroke
@@ -2995,13 +3346,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 46.99) (xy 88.9 46.99)
+			(xy 71.12 46.99) (xy 88.9 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b4fbd5a6-181a-41fd-bb75-6b4e5b892f89")
+	)
+	(wire
+		(pts
+			(xy 359.41 142.24) (xy 369.57 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9561634-c5ac-4b74-9b8f-6f0d196cf16c")
 	)
 	(wire
 		(pts
@@ -3115,6 +3476,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 161.29) (xy 354.33 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66533aa-a25e-4c7f-a557-13936508dea2")
+	)
+	(wire
+		(pts
 			(xy 100.33 242.57) (xy 140.97 242.57)
 		)
 		(stroke
@@ -3145,13 +3516,33 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 87.63) (xy 88.9 87.63)
+			(xy 71.12 87.63) (xy 88.9 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8532cf2-8891-4d4e-8f79-5a026e5ef3c2")
+	)
+	(wire
+		(pts
+			(xy 335.28 157.48) (xy 354.33 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88ccca0-cc0e-41ad-9bf3-ae5347ecd908")
+	)
+	(wire
+		(pts
+			(xy 299.72 157.48) (xy 332.74 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8bd55aa-c1a2-4224-83a9-fbb37eda99b3")
 	)
 	(wire
 		(pts
@@ -3225,6 +3616,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 147.32) (xy 337.82 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff88aa1-a01d-4a3d-8891-30335e7d2399")
+	)
+	(wire
+		(pts
 			(xy 146.05 217.17) (xy 152.4 217.17)
 		)
 		(stroke
@@ -3232,6 +3633,16 @@
 			(type default)
 		)
 		(uuid "d088af47-3177-4a29-a5fc-fb51b0c0082a")
+	)
+	(wire
+		(pts
+			(xy 332.74 138.43) (xy 354.33 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2cf745f-c7ae-4173-9aac-b9811ba70549")
 	)
 	(wire
 		(pts
@@ -3275,7 +3686,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 176.53) (xy 88.9 176.53)
+			(xy 71.12 176.53) (xy 88.9 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3292,16 +3703,6 @@
 			(type default)
 		)
 		(uuid "dd4a4b27-c49a-41a1-ab65-85767528bb59")
-	)
-	(wire
-		(pts
-			(xy 299.72 152.4) (xy 335.28 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddbfa6a6-5c9a-4c12-ab52-5f371dccda46")
 	)
 	(wire
 		(pts
@@ -3335,6 +3736,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 142.24) (xy 332.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29baf95-aade-47e8-8710-c1168628c6a0")
+	)
+	(wire
+		(pts
 			(xy 185.42 137.16) (xy 185.42 72.39)
 		)
 		(stroke
@@ -3365,16 +3776,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 31.75) (xy 88.9 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec24427b-4a05-4948-a03a-a3de0c8dff7a")
-	)
-	(wire
-		(pts
 			(xy 147.32 46.99) (xy 153.67 46.99)
 		)
 		(stroke
@@ -3385,7 +3786,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 201.93) (xy 87.63 201.93)
+			(xy 359.41 149.86) (xy 369.57 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f21ef818-9bfc-453b-a6da-f518d023d207")
+	)
+	(wire
+		(pts
+			(xy 71.12 201.93) (xy 87.63 201.93)
 		)
 		(stroke
 			(width 0)
@@ -3412,6 +3823,16 @@
 			(type default)
 		)
 		(uuid "f5491af9-deb0-4568-8ef4-1dffc8c8c6a9")
+	)
+	(wire
+		(pts
+			(xy 359.41 138.43) (xy 369.57 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6366319-4a73-4904-8c97-67d91f868b9c")
 	)
 	(wire
 		(pts
@@ -3445,13 +3866,13 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 142.24) (xy 335.28 142.24)
+			(xy 335.28 144.78) (xy 335.28 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8f6b619-5e00-4ebb-96e6-1d1453f3a988")
+		(uuid "f8a5be49-63f2-4d31-84ec-16ac1fb6eeb2")
 	)
 	(wire
 		(pts
@@ -3465,7 +3886,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 242.57) (xy 88.9 242.57)
+			(xy 71.12 242.57) (xy 88.9 242.57)
 		)
 		(stroke
 			(width 0)
@@ -3482,6 +3903,16 @@
 			(type default)
 		)
 		(uuid "f9a47550-626f-4837-899f-7b1e6ee41143")
+	)
+	(wire
+		(pts
+			(xy 337.82 152.4) (xy 337.82 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2f9521-f415-44b8-992a-e3b1c1c59ed7")
 	)
 	(wire
 		(pts
@@ -3593,6 +4024,16 @@
 		)
 		(uuid "4cbc1915-2b99-4fc5-b5c9-b016ae224f0e")
 	)
+	(label "~{CS}"
+		(at 306.07 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a7ab617-394f-4b4c-95d0-6e3b7afc8442")
+	)
 	(label "AINCOM"
 		(at 251.46 129.54 0)
 		(effects
@@ -3632,6 +4073,16 @@
 			(justify left bottom)
 		)
 		(uuid "66614937-946e-4a2e-b4d1-84c04dcf6757")
+	)
+	(label "START"
+		(at 306.07 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d2063ad-8baa-4b94-8da5-609dee752924")
 	)
 	(label "VALVE6_VSENSE_DIV_N"
 		(at 110.49 257.81 0)
@@ -3683,6 +4134,16 @@
 		)
 		(uuid "a115f978-a4ed-4682-9cd7-9446c89fde8d")
 	)
+	(label "~{DRDY}"
+		(at 306.07 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3dbe402-b2f7-4be7-b5c5-9628acec9801")
+	)
 	(label "VALVE5_VSENSE_DIV_N"
 		(at 110.49 217.17 0)
 		(effects
@@ -3702,6 +4163,16 @@
 			(justify left bottom)
 		)
 		(uuid "b6dc48ed-e97a-48d1-9efb-9e336e8a4099")
+	)
+	(label "SCLK"
+		(at 306.07 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b74bc95a-6972-41a3-a759-18db213baf69")
 	)
 	(label "VALVE4_VSENSE_FILT_N"
 		(at 209.55 149.86 0)
@@ -3763,6 +4234,26 @@
 		)
 		(uuid "dfc03af4-5bf2-442b-b6d0-f1e307c06372")
 	)
+	(label "~{RESET}"
+		(at 306.07 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0bf99ac-67bd-415d-9f62-7d530ffada74")
+	)
+	(label "MISO"
+		(at 306.07 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e79508c9-76be-4c21-b045-6c0d646a1f78")
+	)
 	(label "VALVE3_VSENSE_FILT_P"
 		(at 209.55 142.24 0)
 		(effects
@@ -3783,9 +4274,19 @@
 		)
 		(uuid "f0f9b931-23ed-459f-826c-0659de4866b5")
 	)
+	(label "MOSI"
+		(at 306.07 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4066964-d92a-4780-a2c3-0db792ebad61")
+	)
 	(global_label "VALVE6_VSENSE_P"
 		(shape input)
-		(at 81.28 242.57 180)
+		(at 71.12 242.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3795,7 +4296,7 @@
 		)
 		(uuid "01016989-b4bd-4f11-bd9e-0ef96afb3b9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.3011 242.57 0)
+			(at 51.1411 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3809,7 +4310,7 @@
 	)
 	(global_label "ADC_START"
 		(shape input)
-		(at 335.28 144.78 0)
+		(at 369.57 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3819,7 +4320,7 @@
 		)
 		(uuid "0a08d823-9e53-40c1-a393-e35df98a465c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.3647 144.78 0)
+			(at 382.6547 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3833,7 +4334,7 @@
 	)
 	(global_label "VALVE4_VSENSE_N"
 		(shape input)
-		(at 81.28 176.53 180)
+		(at 71.12 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3843,7 +4344,7 @@
 		)
 		(uuid "0ba09bac-794d-4c9a-b9c5-81610d81ffb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.2406 176.53 0)
+			(at 51.0806 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3857,7 +4358,7 @@
 	)
 	(global_label "VALVE1_VSENSE_P"
 		(shape input)
-		(at 81.28 31.75 180)
+		(at 71.12 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3867,7 +4368,7 @@
 		)
 		(uuid "0f16c6cc-2f61-4794-8bfb-78b58434b3dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.3011 31.75 0)
+			(at 51.1411 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3881,7 +4382,7 @@
 	)
 	(global_label "VALVE3_VSENSE_N"
 		(shape input)
-		(at 81.28 128.27 180)
+		(at 71.12 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3891,7 +4392,7 @@
 		)
 		(uuid "1cd01a9d-e8e5-434a-9b47-adca16889654")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.2406 128.27 0)
+			(at 51.0806 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3905,7 +4406,7 @@
 	)
 	(global_label "VALVE1_VSENSE_N"
 		(shape input)
-		(at 81.28 46.99 180)
+		(at 71.12 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3915,7 +4416,7 @@
 		)
 		(uuid "29dcda1c-64b9-43fb-ba7c-2a631b364306")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.2406 46.99 0)
+			(at 51.0806 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3929,7 +4430,7 @@
 	)
 	(global_label "VALVE5_VSENSE_N"
 		(shape input)
-		(at 81.28 217.17 180)
+		(at 71.12 217.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3939,7 +4440,7 @@
 		)
 		(uuid "319a24bc-e7c8-44d8-9669-afeae04298f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.2406 217.17 0)
+			(at 51.0806 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3953,7 +4454,7 @@
 	)
 	(global_label "ADC_SCLK"
 		(shape input)
-		(at 335.28 149.86 0)
+		(at 369.57 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3963,7 +4464,7 @@
 		)
 		(uuid "48817f71-4c16-44cf-aada-51bccad8fb9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 347.639 149.86 0)
+			(at 381.929 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3977,7 +4478,7 @@
 	)
 	(global_label "VALVE3_VSENSE_P"
 		(shape input)
-		(at 81.28 113.03 180)
+		(at 71.12 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3987,7 +4488,7 @@
 		)
 		(uuid "6377ffa7-4cef-48c7-afe9-c35409591101")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.3011 113.03 0)
+			(at 51.1411 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4001,7 +4502,7 @@
 	)
 	(global_label "VALVE6_VSENSE_N"
 		(shape input)
-		(at 81.28 257.81 180)
+		(at 71.12 257.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4011,7 +4512,7 @@
 		)
 		(uuid "6fab9b10-8133-44f6-b49a-c30ae1a46ce5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.2406 257.81 0)
+			(at 51.0806 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4025,7 +4526,7 @@
 	)
 	(global_label "VALVE2_VSENSE_N"
 		(shape input)
-		(at 81.28 87.63 180)
+		(at 71.12 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4035,7 +4536,7 @@
 		)
 		(uuid "8b1d9b03-14d7-4430-8cf9-d332e7a4585e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.2406 87.63 0)
+			(at 51.0806 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4049,7 +4550,7 @@
 	)
 	(global_label "ADC_MISO"
 		(shape output)
-		(at 335.28 154.94 0)
+		(at 369.57 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4059,7 +4560,7 @@
 		)
 		(uuid "9a5ff5bf-7fdb-45ec-a362-35bd43dc4d2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 347.4576 154.94 0)
+			(at 381.7476 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4073,7 +4574,7 @@
 	)
 	(global_label "ADC_MOSI"
 		(shape input)
-		(at 335.28 152.4 0)
+		(at 369.57 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4083,7 +4584,7 @@
 		)
 		(uuid "a5e4ee0d-934a-4a94-8393-72438bed1464")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 347.4576 152.4 0)
+			(at 381.7476 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4097,7 +4598,7 @@
 	)
 	(global_label "~{ADC_DRDY}"
 		(shape output)
-		(at 335.28 157.48 0)
+		(at 369.57 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4107,7 +4608,7 @@
 		)
 		(uuid "a7df048b-87ab-4445-84be-c1ed9cb01e6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 347.76 157.48 0)
+			(at 382.05 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4121,7 +4622,7 @@
 	)
 	(global_label "VALVE2_VSENSE_P"
 		(shape input)
-		(at 81.28 72.39 180)
+		(at 71.12 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4131,7 +4632,7 @@
 		)
 		(uuid "b2e9665c-4595-44a4-82a6-f0048d1243b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.3011 72.39 0)
+			(at 51.1411 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4145,7 +4646,7 @@
 	)
 	(global_label "VALVE5_VSENSE_P"
 		(shape input)
-		(at 81.28 201.93 180)
+		(at 71.12 201.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4155,7 +4656,7 @@
 		)
 		(uuid "c101da29-eacf-4069-8419-91656e2ad347")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.3011 201.93 0)
+			(at 51.1411 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4169,7 +4670,7 @@
 	)
 	(global_label "VALVE4_VSENSE_P"
 		(shape input)
-		(at 81.28 161.29 180)
+		(at 71.12 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4179,7 +4680,7 @@
 		)
 		(uuid "e3255334-6823-4203-bbd0-8c01e31d98a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.3011 161.29 0)
+			(at 51.1411 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4193,7 +4694,7 @@
 	)
 	(global_label "~{ADC_CS}"
 		(shape input)
-		(at 335.28 147.32 0)
+		(at 369.57 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4203,7 +4704,7 @@
 		)
 		(uuid "f79cb1bc-0646-4352-bf3d-06884acb4a75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.3409 147.32 0)
+			(at 379.6309 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4217,7 +4718,7 @@
 	)
 	(global_label "~{ADC_RESET}"
 		(shape input)
-		(at 335.28 142.24 0)
+		(at 369.57 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4227,7 +4728,7 @@
 		)
 		(uuid "f8d3a415-3e64-40cd-a7e2-0d503d389767")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.6065 142.24 0)
+			(at 382.8965 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4236,236 +4737,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 143.51 257.81 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "01e30a1c-9d19-44a2-aabb-3b8e5bdb6c1d")
-		(property "Reference" "R221"
-			(at 141.478 256.286 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 147.32 256.286 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1k 1% 0603 Resistor"
-			(at 143.51 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 139.954 259.334 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C21190"
-			(at 143.51 257.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0603"
-			(at 147.32 259.334 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db46de11-e205-4854-8942-eadacc32bf07")
-		)
-		(pin "2"
-			(uuid "4e7edd9d-8776-4c47-9d5b-3fe99f763ce7")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
-					(reference "R221")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 143.51 128.27 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "08d03a13-b99f-4098-8eec-6d427892a461")
-		(property "Reference" "R203"
-			(at 141.478 126.746 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 147.32 126.746 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1k 1% 0603 Resistor"
-			(at 143.51 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 139.954 129.794 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C21190"
-			(at 143.51 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0603"
-			(at 147.32 129.794 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6809a2f8-a5e7-478b-91b4-d0abff77ce79")
-		)
-		(pin "2"
-			(uuid "178b0f7f-ca82-4961-b606-ae7a4ce7fbc3")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
-					(reference "R203")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 			)
 		)
 	)
@@ -4502,7 +4773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 309.88 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4666,121 +4937,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 143.51 87.63 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0dd23972-4dcf-422c-9b08-bed76ffd6fb8")
-		(property "Reference" "R197"
-			(at 141.478 86.106 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 147.32 86.106 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1k 1% 0603 Resistor"
-			(at 143.51 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 139.954 89.154 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C21190"
-			(at 143.51 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0603"
-			(at 147.32 89.154 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa1d8fca-ee75-43b5-9ce9-e480fab5d7ee")
-		)
-		(pin "2"
-			(uuid "563f6b79-8d07-4239-8862-60d621d40453")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
-					(reference "R197")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
 		(at 100.33 264.16 180)
 		(unit 1)
 		(body_style 1)
@@ -4812,7 +4968,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 100.33 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -4931,7 +5087,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 91.44 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5014,8 +5170,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 316.23 129.54 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1410f2d9-9484-4a63-bf03-4508c10f0f4a")
+		(property "Reference" "TP159"
+			(at 323.596 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 325.374 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 316.23 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 316.23 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 316.23 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 316.23 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 316.23 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 316.23 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 316.23 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80328e2b-7c48-43aa-9063-3b19e65a4002")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "TP159")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 308.61 137.16 0)
+		(at 316.23 138.43 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5027,7 +5316,7 @@
 		(fields_autoplaced yes)
 		(uuid "142dd4e3-a56d-4ad0-a9ff-180d7b89a949")
 		(property "Reference" "#PWR0316"
-			(at 308.61 143.51 0)
+			(at 316.23 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5038,7 +5327,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 308.61 142.24 0)
+			(at 316.23 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5049,7 +5338,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 137.16 0)
+			(at 316.23 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5060,7 +5349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 137.16 0)
+			(at 316.23 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5071,7 +5360,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 308.61 137.16 0)
+			(at 316.23 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5174,6 +5463,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 302.26 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15f87ad0-04a2-46da-b10d-6ea87eb7d515")
+		(property "Reference" "TP227"
+			(at 307.34 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 311.404 132.0801 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 302.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 302.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 302.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 302.26 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "807f8398-0fce-467c-be45-a2b54bbaaa11")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "TP227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 100.33 93.98 180)
 		(unit 1)
@@ -5206,7 +5595,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 100.33 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5294,6 +5683,121 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 356.87 142.24 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1aede849-9cad-4e1b-99ee-eac73cf56d3a")
+		(property "Reference" "R230"
+			(at 355.346 141.224 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 359.664 141.224 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+			(at 356.87 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 1% 0603 Resistor"
+			(at 356.87 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 354.076 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C21189"
+			(at 356.87 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 360.934 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6987cd9d-aea5-45dc-ac50-45297c2ddca7")
+		)
+		(pin "2"
+			(uuid "0117c15f-444d-4dd1-b391-c0d00295ff03")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R230")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 91.44 46.99 270)
 		(unit 1)
 		(body_style 1)
@@ -5325,7 +5829,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 91.44 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5440,7 +5944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 152.4 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -5635,7 +6139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 91.44 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5750,7 +6254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 152.4 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6024,7 +6528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 152.4 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6098,121 +6602,6 @@
 			(project "valve_control_pcb"
 				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
 					(reference "C112")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 143.51 72.39 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2dc2816b-0446-46d8-a43e-2b1144a954e9")
-		(property "Reference" "R194"
-			(at 141.478 70.866 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 147.32 70.866 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1k 1% 0603 Resistor"
-			(at 143.51 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 139.954 73.914 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C21190"
-			(at 143.51 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0603"
-			(at 147.32 73.914 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "56e31030-2be0-49d0-8aa3-50640f54798b")
-		)
-		(pin "2"
-			(uuid "3b6a4f65-0058-42da-961e-d5af41d9f64d")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
-					(reference "R194")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -6381,6 +6770,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 143.51 257.81 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32609c68-9b8d-4409-aa3b-72083d0c9ee6")
+		(property "Reference" "R221"
+			(at 141.478 256.286 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 147.32 256.286 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
+			(at 143.51 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1k 1% 0402 Resistor"
+			(at 143.51 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 139.954 259.334 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 143.51 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 147.32 259.334 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8465afe-f12a-4016-b256-b7017a007c55")
+		)
+		(pin "2"
+			(uuid "ef7a0406-3466-4bd3-bb4e-520d4ec3bc54")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R221")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 152.4 262.89 0)
 		(unit 1)
@@ -6413,7 +6917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 152.4 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -6528,7 +7032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 153.67 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6643,7 +7147,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 100.33 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6731,6 +7235,351 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 143.51 217.17 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d9be40c-ea35-4c9f-b8c0-4d341d959f84")
+		(property "Reference" "R215"
+			(at 141.478 215.646 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 147.32 215.646 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
+			(at 143.51 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1k 1% 0402 Resistor"
+			(at 143.51 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 139.954 218.694 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 143.51 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 147.32 218.694 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b5b3ca2-f54b-496d-a1eb-cd611c0acb32")
+		)
+		(pin "2"
+			(uuid "8150de85-f90a-420c-9ee2-7210d3d312b3")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R215")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 143.51 201.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3eb8c4b2-8798-4d17-82e0-c3a303866e2a")
+		(property "Reference" "R212"
+			(at 141.478 200.406 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 147.32 200.406 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
+			(at 143.51 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1k 1% 0402 Resistor"
+			(at 143.51 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 139.954 203.454 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 143.51 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 147.32 203.454 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b969753a-6d81-41ea-b4df-cfa383f8455f")
+		)
+		(pin "2"
+			(uuid "0a4a63ca-a037-491e-bfac-e18a8844b324")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R212")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 143.51 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43541ef4-ba0b-40ca-84c6-9050b56f4871")
+		(property "Reference" "R200"
+			(at 141.478 111.506 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 147.32 111.506 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
+			(at 143.51 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1k 1% 0402 Resistor"
+			(at 143.51 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 139.954 114.554 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 143.51 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 147.32 114.554 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db1cca17-bf3c-481a-834e-aa04d173411b")
+		)
+		(pin "2"
+			(uuid "2a80a84b-da98-4904-a268-18c51508f11b")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R200")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 100.33 182.88 180)
 		(unit 1)
 		(body_style 1)
@@ -6762,7 +7611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 100.33 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -6849,6 +7698,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 143.51 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46c5602c-9fd3-467c-b3c0-a650bb49ec75")
+		(property "Reference" "R197"
+			(at 141.478 86.106 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 147.32 86.106 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
+			(at 143.51 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1k 1% 0402 Resistor"
+			(at 143.51 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 139.954 89.154 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 143.51 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 147.32 89.154 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8f43cbf-b09c-4c6d-ab11-753514207cd6")
+		)
+		(pin "2"
+			(uuid "56c8b06f-3d00-46b9-9309-071faad8ffbd")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R197")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 152.4 77.47 0)
 		(unit 1)
@@ -6881,7 +7845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 152.4 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6965,7 +7929,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 308.61 133.35 0)
+		(at 316.23 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6975,7 +7939,7 @@
 		(dnp no)
 		(uuid "4e20d302-fe60-48a6-a1f5-1806f92539ff")
 		(property "Reference" "C120"
-			(at 310.388 130.048 0)
+			(at 318.008 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6986,7 +7950,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 310.388 132.08 0)
+			(at 318.008 133.604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6996,8 +7960,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 308.61 133.35 0)
+		(property "Footprint" "valve_pcb_footprints:C_1206_3216Metric"
+			(at 316.23 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7008,7 +7972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 133.35 0)
+			(at 316.23 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7019,7 +7983,7 @@
 			)
 		)
 		(property "Description" "4.7uF 50V X7R ±10% 1206 Capacitor"
-			(at 308.61 133.35 0)
+			(at 316.23 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7030,7 +7994,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 312.166 133.858 0)
+			(at 320.04 135.382 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7040,7 +8004,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C29823"
-			(at 308.61 133.35 0)
+			(at 316.23 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7051,7 +8015,7 @@
 			)
 		)
 		(property "Footprint_Size" "1206"
-			(at 312.928 135.89 0)
+			(at 320.548 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7160,7 +8124,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 143.51 217.17 270)
+		(at 356.87 157.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7168,9 +8132,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "531d7ca1-bd82-46d9-8b41-f0958b98bfcb")
-		(property "Reference" "R215"
-			(at 141.478 215.646 90)
+		(uuid "53fbab19-16fe-41c2-86ad-eb86e2d22a70")
+		(property "Reference" "R233"
+			(at 355.346 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7180,8 +8144,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 147.32 215.646 90)
+		(property "Value" "0"
+			(at 359.664 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7191,8 +8155,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 217.17 0)
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+			(at 356.87 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7203,7 +8167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 217.17 0)
+			(at 356.87 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7213,8 +8177,8 @@
 				)
 			)
 		)
-		(property "Description" "1k 1% 0603 Resistor"
-			(at 143.51 217.17 0)
+		(property "Description" "0 1% 0603 Resistor"
+			(at 356.87 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7225,7 +8189,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 139.954 218.694 90)
+			(at 354.076 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7234,8 +8198,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C21190"
-			(at 143.51 217.17 0)
+		(property "JLCPCB Part #" "C21189"
+			(at 356.87 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7246,7 +8210,7 @@
 			)
 		)
 		(property "Footprint_Size" "0603"
-			(at 147.32 218.694 90)
+			(at 360.934 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7256,15 +8220,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ee0e628-aebb-4bb1-97af-465389b3ad40")
+			(uuid "398a5a19-a865-438e-8f30-9f0ef0086a98")
 		)
 		(pin "2"
-			(uuid "cc0e81c2-4d1f-4cbe-8106-6ddb51c2c341")
+			(uuid "00b89daf-836a-4f17-a15d-be20f78ed7e7")
 		)
 		(instances
 			(project "valve_control_pcb"
 				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
-					(reference "R215")
+					(reference "R233")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7306,7 +8270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 91.44 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7380,6 +8344,121 @@
 			(project "valve_control_pcb"
 				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
 					(reference "R186")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 143.51 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56feceac-b6d8-47d9-b359-caf24dc771e0")
+		(property "Reference" "R194"
+			(at 141.478 70.866 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 147.32 70.866 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
+			(at 143.51 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1k 1% 0402 Resistor"
+			(at 143.51 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 139.954 73.914 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 143.51 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 147.32 73.914 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e61bd028-ee37-4b2a-85b1-6f12e5354a98")
+		)
+		(pin "2"
+			(uuid "fa04c605-fa52-4568-9eb6-9a3098f20f40")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R194")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7468,121 +8547,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 143.51 201.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5cd9b93a-838b-471c-aa5e-c59e4cdd2a06")
-		(property "Reference" "R212"
-			(at 141.478 200.406 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 147.32 200.406 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1k 1% 0603 Resistor"
-			(at 143.51 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 139.954 203.454 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C21190"
-			(at 143.51 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0603"
-			(at 147.32 203.454 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fcf692eb-ab96-43e3-b12d-901b15a5c4e4")
-		)
-		(pin "2"
-			(uuid "1b54e723-69b2-40e2-a1c1-7283b3ae203e")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
-					(reference "R212")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 152.4 247.65 0)
 		(unit 1)
@@ -7615,7 +8579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 152.4 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -7730,7 +8694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 153.67 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7845,7 +8809,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 91.44 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -7929,6 +8893,121 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 144.78 46.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63acfe33-c563-4d1b-8c41-9c8a59d91f85")
+		(property "Reference" "R191"
+			(at 142.748 45.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 148.59 45.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
+			(at 144.78 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1k 1% 0402 Resistor"
+			(at 144.78 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 141.224 48.514 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 144.78 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 148.59 48.514 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccf91d17-2de6-4dbe-9b20-46653a526bfc")
+		)
+		(pin "2"
+			(uuid "6d5a5fd7-8c3a-4850-851e-f8b39bd03f56")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R191")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 91.44 257.81 270)
 		(unit 1)
 		(body_style 1)
@@ -7960,7 +9039,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 91.44 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -8152,7 +9231,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 91.44 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8393,6 +9472,236 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 356.87 161.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "72d92316-9dd3-4a13-ab87-e658b8142619")
+		(property "Reference" "R234"
+			(at 355.346 160.274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 359.664 160.274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+			(at 356.87 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 1% 0603 Resistor"
+			(at 356.87 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 354.076 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C21189"
+			(at 356.87 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 360.934 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a585be4-81c2-491b-854c-fb8ea95d8d1a")
+		)
+		(pin "2"
+			(uuid "5ae4bd4c-bad7-40fb-b70c-5c886ac8822f")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R234")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 356.87 146.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "730222d1-a3c0-48e8-89f8-76f3910aa680")
+		(property "Reference" "R229"
+			(at 355.346 145.034 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 359.664 145.034 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+			(at 356.87 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 1% 0603 Resistor"
+			(at 356.87 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 354.076 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C21189"
+			(at 356.87 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 360.934 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f3d4e17-c457-4ead-be46-2ac8f289a91e")
+		)
+		(pin "2"
+			(uuid "d1bf91c7-c421-4073-b4f6-d780e1e622d3")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R229")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 90.17 201.93 270)
 		(unit 1)
 		(body_style 1)
@@ -8424,7 +9733,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 90.17 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -8539,7 +9848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 90.17 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -8755,7 +10064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 100.33 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8874,7 +10183,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 91.44 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8948,6 +10257,121 @@
 			(project "valve_control_pcb"
 				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
 					(reference "R198")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 356.87 153.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "848a8573-72ea-45a3-9ea4-c2df746b5fc8")
+		(property "Reference" "R232"
+			(at 355.346 152.654 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 359.664 152.654 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+			(at 356.87 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 1% 0603 Resistor"
+			(at 356.87 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 354.076 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C21189"
+			(at 356.87 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 360.934 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e87a9c6-0222-4e47-90f2-07d05e28f9ec")
+		)
+		(pin "2"
+			(uuid "4b6b3740-b6f4-4b94-9c36-1fc48c54dcdf")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R232")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9147,7 +10571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 152.4 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -9231,7 +10655,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 143.51 242.57 270)
+		(at 143.51 176.53 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9239,9 +10663,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8f2d9279-47f2-46dc-8b71-e010981bea73")
-		(property "Reference" "R218"
-			(at 141.478 241.046 90)
+		(uuid "91e0ad20-0a46-427a-8b14-dca0f336cb0e")
+		(property "Reference" "R209"
+			(at 141.478 175.006 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9252,7 +10676,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 147.32 241.046 90)
+			(at 147.32 175.006 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9262,8 +10686,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 242.57 0)
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
+			(at 143.51 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9274,7 +10698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 242.57 0)
+			(at 143.51 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9284,8 +10708,8 @@
 				)
 			)
 		)
-		(property "Description" "1k 1% 0603 Resistor"
-			(at 143.51 242.57 0)
+		(property "Description" "1k 1% 0402 Resistor"
+			(at 143.51 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9296,7 +10720,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 139.954 244.094 90)
+			(at 139.954 178.054 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9305,8 +10729,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C21190"
-			(at 143.51 242.57 0)
+		(property "JLCPCB Part #" "C11702"
+			(at 143.51 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9316,8 +10740,8 @@
 				)
 			)
 		)
-		(property "Footprint_Size" "0603"
-			(at 147.32 244.094 90)
+		(property "Footprint_Size" "0402"
+			(at 147.32 178.054 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9327,15 +10751,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6fd0fd57-d8ff-45d9-9130-0dc2e45704a0")
+			(uuid "139c97f2-a132-440e-a6c9-5ecd9a269881")
 		)
 		(pin "2"
-			(uuid "08ca0aee-f127-4f9f-a1f2-36141ab870d5")
+			(uuid "88ac3af0-8440-4f73-a711-e0ead67ee0ab")
 		)
 		(instances
 			(project "valve_control_pcb"
 				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
-					(reference "R218")
+					(reference "R209")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9478,7 +10902,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 91.44 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -9763,7 +11187,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 143.51 161.29 270)
+		(at 356.87 138.43 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9771,9 +11195,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a2ea301e-b16d-477e-b384-68f4e3edf1e2")
-		(property "Reference" "R206"
-			(at 141.478 159.766 90)
+		(uuid "a09de9fe-1066-4cb2-99da-2768a5457177")
+		(property "Reference" "R231"
+			(at 355.346 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9783,8 +11207,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 147.32 159.766 90)
+		(property "Value" "0"
+			(at 359.664 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9794,8 +11218,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 161.29 0)
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+			(at 356.87 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9806,7 +11230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 161.29 0)
+			(at 356.87 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9816,123 +11240,8 @@
 				)
 			)
 		)
-		(property "Description" "1k 1% 0603 Resistor"
-			(at 143.51 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 139.954 162.814 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C21190"
-			(at 143.51 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0603"
-			(at 147.32 162.814 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c91131e6-1e08-4aa7-b1ae-a943581c8f56")
-		)
-		(pin "2"
-			(uuid "8f8bd2ad-951e-4d12-bc0f-3d8317c4f2c7")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
-					(reference "R206")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 143.51 176.53 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a56dcddd-5a28-49a6-934a-3c08de9cc006")
-		(property "Reference" "R209"
-			(at 141.478 175.006 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 147.32 175.006 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1k 1% 0603 Resistor"
-			(at 143.51 176.53 0)
+		(property "Description" "0 1% 0603 Resistor"
+			(at 356.87 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9943,7 +11252,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 139.954 178.054 90)
+			(at 354.076 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9952,8 +11261,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C21190"
-			(at 143.51 176.53 0)
+		(property "JLCPCB Part #" "C21189"
+			(at 356.87 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9964,7 +11273,7 @@
 			)
 		)
 		(property "Footprint_Size" "0603"
-			(at 147.32 178.054 90)
+			(at 360.934 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9974,15 +11283,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2075c583-57e7-4038-935c-363549c071b9")
+			(uuid "ab5aa03f-f04c-4d10-aa68-bb7bf3b37631")
 		)
 		(pin "2"
-			(uuid "03d7bb73-7b7d-49a7-86ac-44c4e7df0313")
+			(uuid "d47169bb-bebb-465c-9039-9ec56b10e81f")
 		)
 		(instances
 			(project "valve_control_pcb"
 				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
-					(reference "R209")
+					(reference "R231")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10024,7 +11333,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 100.33 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10222,7 +11531,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 99.06 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -10341,7 +11650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 152.4 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -10583,6 +11892,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 143.51 242.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b89d3341-7fdd-45e9-9628-019806b097d0")
+		(property "Reference" "R218"
+			(at 141.478 241.046 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 147.32 241.046 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
+			(at 143.51 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1k 1% 0402 Resistor"
+			(at 143.51 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 139.954 244.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 143.51 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 147.32 244.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80b36c99-e6af-437f-99a9-c2af35dc8669")
+		)
+		(pin "2"
+			(uuid "a74b44a0-6948-44c5-b90f-6c3e95f34417")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R218")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 152.4 92.71 0)
 		(unit 1)
@@ -10615,7 +12039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 152.4 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10699,6 +12123,121 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 356.87 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "baef02ac-f126-4c51-8b5a-ee5645d44393")
+		(property "Reference" "R228"
+			(at 355.346 148.844 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 359.664 148.844 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+			(at 356.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 1% 0603 Resistor"
+			(at 356.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 354.076 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C21189"
+			(at 356.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 360.934 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa395351-7e5f-4848-85cc-6aeacea9b6b3")
+		)
+		(pin "2"
+			(uuid "aa5c745c-767c-4f9d-8e00-81ce67e3ab19")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R228")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 100.33 248.92 180)
 		(unit 1)
 		(body_style 1)
@@ -10730,7 +12269,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 100.33 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -11057,121 +12596,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 144.78 46.99 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bde706e9-f1b0-40e5-9341-4f19b249a9a3")
-		(property "Reference" "R191"
-			(at 142.748 45.466 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 148.59 45.466 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 144.78 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1k 1% 0603 Resistor"
-			(at 144.78 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 141.224 48.514 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C21190"
-			(at 144.78 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0603"
-			(at 148.59 48.514 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2df13ef-796f-4abf-84ef-f44e9edd6901")
-		)
-		(pin "2"
-			(uuid "9792fa14-647e-4eef-b727-3fdf5ff3bed0")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
-					(reference "R191")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 252.73 118.11 0)
 		(unit 1)
@@ -11204,7 +12628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0805_2012Metric"
 			(at 252.73 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11399,7 +12823,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 99.06 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -11495,10 +12919,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c897b9bb-9419-4706-9183-44da931f346c")
 		(property "Reference" "U10"
-			(at 279.4 102.87 0)
+			(at 265.938 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11508,7 +12931,7 @@
 			)
 		)
 		(property "Value" "ADS124S08IPBSR"
-			(at 279.4 105.41 0)
+			(at 272.288 181.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11585,6 +13008,27 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "JLCPCB Part #" "C2870171"
+			(at 279.4 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 279.4 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11680,6 +13124,9 @@
 		(pin "32"
 			(uuid "d93b3297-07ac-4ae0-96cf-56ffa632f84f")
 		)
+		(pin "25"
+			(uuid "afb0e71f-0039-4207-b33e-6fced8578637")
+		)
 		(instances
 			(project "valve_control_pcb"
 				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
@@ -11764,121 +13211,6 @@
 				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
 					(reference "#PWR0280")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 143.51 113.03 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cb7d3aba-76d1-439c-806b-a500e86d1fd3")
-		(property "Reference" "R200"
-			(at 141.478 111.506 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 147.32 111.506 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1k 1% 0603 Resistor"
-			(at 143.51 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 139.954 114.554 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C21190"
-			(at 143.51 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0603"
-			(at 147.32 114.554 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0038dade-4a0d-41a6-902d-e5c078f585f0")
-		)
-		(pin "2"
-			(uuid "5d71c6c8-2752-4f33-adcd-eaab8932e35a")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
-					(reference "R200")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)
@@ -12075,7 +13407,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 91.44 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12270,7 +13602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 308.61 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -12385,7 +13717,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 144.78 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12407,7 +13739,7 @@
 				)
 			)
 		)
-		(property "Description" "1k 1% 0603 Resistor"
+		(property "Description" "1k 1% 0402 Resistor"
 			(at 144.78 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12428,7 +13760,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C21190"
+		(property "JLCPCB Part #" "C11702"
 			(at 144.78 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12439,7 +13771,7 @@
 				)
 			)
 		)
-		(property "Footprint_Size" "0603"
+		(property "Footprint_Size" "0402"
 			(at 148.59 33.274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12500,7 +13832,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 100.33 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12581,6 +13913,121 @@
 							(name "Value")
 							(value "4.7k")
 						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 143.51 161.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e35044a0-3542-48ff-a02c-2d797165ebc3")
+		(property "Reference" "R206"
+			(at 141.478 159.766 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 147.32 159.766 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
+			(at 143.51 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1k 1% 0402 Resistor"
+			(at 143.51 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 139.954 162.814 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 143.51 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 147.32 162.814 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8a0a83c-8897-4640-9b33-ded01351461b")
+		)
+		(pin "2"
+			(uuid "d338c34c-357f-4adc-9e57-d79f3cbcde61")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R206")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
 					)
 				)
 			)
@@ -12937,7 +14384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 100.33 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13135,7 +14582,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
 			(at 100.33 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -13216,6 +14663,121 @@
 							(name "Value")
 							(value "4.7k")
 						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 143.51 128.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0495572-2468-43c3-91ac-9524a02c57ed")
+		(property "Reference" "R203"
+			(at 141.478 126.746 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 147.32 126.746 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:R_0402_1005Metric_GSE"
+			(at 143.51 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1k 1% 0402 Resistor"
+			(at 143.51 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 139.954 129.794 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 143.51 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 147.32 129.794 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bda40905-cba6-4e83-a8bf-931c94227123")
+		)
+		(pin "2"
+			(uuid "75c19ddd-1c97-48cf-81e5-a82ebff8f5e8")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/33ff7616-254c-4ece-8b5e-11f19383e0b0"
+					(reference "R203")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
 					)
 				)
 			)
@@ -13334,7 +14896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 152.4 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -13418,7 +14980,7 @@
 	)
 	(sheet_instances
 		(path "/"
-			(page "13")
+			(page "19")
 		)
 	)
 )

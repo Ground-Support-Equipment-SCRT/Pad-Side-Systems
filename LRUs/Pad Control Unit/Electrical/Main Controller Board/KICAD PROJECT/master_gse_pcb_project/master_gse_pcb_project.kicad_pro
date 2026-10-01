@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 5.6,
-          "width": 5.6
+          "drill": 0.0,
+          "height": 0.3,
+          "width": 0.67
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 2.0,
+          "corner_radius": 0.5,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.025,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.3,
-          "thermal_relief_spoke_width": 0.4
+          "thermal_relief_gap": 0.2,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -91,7 +91,44 @@
           "width": 7.89849
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|124175000|189105000|2759c7f8-11a9-4111-8883-463b11fdb482|33fc781a-1254-4501-953a-907615adaba9",
+          ""
+        ],
+        [
+          "courtyards_overlap|124234998|184694998|33fc781a-1254-4501-953a-907615adaba9|612d300d-074b-4078-a918-94655e9174d4",
+          ""
+        ],
+        [
+          "courtyards_overlap|125264998|182328066|33fc781a-1254-4501-953a-907615adaba9|4034895e-7bba-4651-8a98-9db1d88f4974",
+          ""
+        ],
+        [
+          "courtyards_overlap|126644998|181228066|33fc781a-1254-4501-953a-907615adaba9|f38877be-5da9-4d6d-9ce0-4c67ea59d2eb",
+          ""
+        ],
+        [
+          "missing_courtyard|128650000|157450000|e77969af-a765-4121-9766-be5871305462|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "missing_courtyard|152000000|182800000|5c27d8e4-dcaf-4699-af21-bf2ede99c72c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "missing_courtyard|210300000|127550000|6a23452c-df78-4bfe-95b6-2f1945131799|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "missing_courtyard|241700000|196500000|9f25e27c-80f9-4ec1-be9b-ed94aa66a3dd|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "missing_courtyard|254100000|82291555|56f0e843-3c41-4974-a509-20a45bbe9522|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -101,7 +138,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -126,7 +163,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "error",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
@@ -177,7 +214,7 @@
         "min_track_width": 0.0889,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -589,7 +626,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "master_gse_pcb_project.step",
       "svg": "",
       "vrml": ""
     },
@@ -849,10 +886,40 @@
           "label": "Footprint_Size",
           "name": "Footprint_Size",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vds",
+          "name": "Vds",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "size",
+          "name": "size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Impedance",
+          "name": "Impedance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rating",
+          "name": "Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vce",
+          "name": "Vce",
+          "show": false
         }
       ],
-      "filter_string": "10",
-      "group_symbols": false,
+      "filter_string": "",
+      "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
@@ -945,6 +1012,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "kicad-embed://SCRT_Template.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
@@ -974,7 +1049,7 @@
         "uuid": "77b615b1-10f5-45ac-83c3-67d4874f5395"
       }
     ],
-    "used_designators": "R40-41,R45-46,R49,R52,R55,R57-61,R63-65,R76,R78-81,R84-87,R126,R134,R194,R222,FB1-2,FB4,C13-14,C16,C18-25,C27-32,C34-36,C42-47,C49,C51-55,C57-58,C64,C70,D8-10,D18-20,D47,Q8-10",
+    "used_designators": "R40-41,R45-46,R49,R52,R55,R57-61,R63-65,R67,R69,R76,R78-81,R84-87,R89-91,R112,R117-119,R124,R126,R134,R145,R147-149,R151-153,R160,R167,R172,R177,R179,R181,R183,R186-194,R222,F1,FB1-2,FB4-5,C13-14,C16,C18-25,C27-32,C34-36,C39-47,C49,C51-55,C57-58,C64,C70,C79,C82-84,C89-90,C98,C100,C102-104,C106-108,C110,C112-114,C116,C118-120,C122,C124-126,C131-137,C141-146,C149-154,C157-162,C164,C169-170,#PWR153,#PWR396-397,D8-10,D13-15,D18-20,D22,D26-28,D46-47,Q8-10,Q20,U3,U24,U34,BZ1,FID1-3,H8",
     "variants": [
       {
         "name": "My VARIANT DARNIT"

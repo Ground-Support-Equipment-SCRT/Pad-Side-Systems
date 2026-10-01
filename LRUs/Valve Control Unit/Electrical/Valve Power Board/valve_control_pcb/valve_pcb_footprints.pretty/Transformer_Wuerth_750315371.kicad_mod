@@ -1,0 +1,244 @@
+(footprint "Transformer_Wuerth_750315371"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Power Transformer, horizontal core with bobbin, 6 pin, 2.54mm pitch, 11.24mm row spacing, 12.6x8.3x4.1mm")
+	(tags "transformer flyback")
+	(property "Reference" "REF**"
+		(at -5.5 -5.5 0)
+		(layer "F.SilkS")
+		(uuid "5565cea9-1012-4755-91da-962ffea53ee3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Transformer_Wuerth_750315371"
+		(at 0 5.2 0)
+		(layer "F.Fab")
+		(uuid "ce417fbc-86b2-4300-8b30-b5863a72ac67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72207fdb-fb3f-445c-a798-8c1b97a8524e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09ad9136-5046-4e75-ae77-44704d00320a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.625 -4.25)
+		(end 4.625 -4.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "233d5f8b-7ca9-4cc9-b695-012ce9442414")
+	)
+	(fp_line
+		(start 4.625 4.25)
+		(end -4.625 4.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1facb22b-e96f-43e9-baf7-2515a1a468f9")
+	)
+	(fp_poly
+		(pts
+			(xy -5.6 -3.35) (xy -5.84 -3.68) (xy -5.36 -3.68) (xy -5.6 -3.35)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "37d4ef3f-773d-4a4a-8856-d25c2894b062")
+	)
+	(fp_line
+		(start -6.78 -4.4)
+		(end 6.78 -4.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97272275-40b0-4951-ad36-2e71f8cee53a")
+	)
+	(fp_line
+		(start -6.78 4.4)
+		(end -6.78 -4.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "414e3f6a-9630-4241-93d4-f33a08707dea")
+	)
+	(fp_line
+		(start 6.78 -4.4)
+		(end 6.78 4.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7fe623d5-2c06-47c7-a1cd-fa75151d6e56")
+	)
+	(fp_line
+		(start 6.78 4.4)
+		(end -6.78 4.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa734db9-bc59-49ab-b623-a6abf63a933a")
+	)
+	(fp_line
+		(start -4.625 -3.1)
+		(end -3.63 -4.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f51dd64a-1f21-4163-a2e0-9c2bbb73c903")
+	)
+	(fp_line
+		(start -4.625 4.15)
+		(end -4.625 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f070fe2-cbf2-45c3-a639-98850c5f2ae0")
+	)
+	(fp_line
+		(start -3.63 -4.15)
+		(end 4.625 -4.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24fb81d2-5af6-42fb-99b6-ff72de966827")
+	)
+	(fp_line
+		(start 4.625 -4.15)
+		(end 4.625 4.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc0dc8b6-4ef9-4864-a94d-5806b43cda63")
+	)
+	(fp_line
+		(start 4.625 4.15)
+		(end -4.625 4.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6eb03d62-7764-470d-a364-e54bcf2912ec")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cf12e78b-b207-4da3-80a8-cc328135f9cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.62 -2.54)
+		(size 1.83 1.09)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f51286ee-434a-432c-be15-555aba1848ed")
+	)
+	(pad "2" smd roundrect
+		(at -5.62 0)
+		(size 1.83 1.09)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "2fe3fd73-ecce-4982-97b2-22f996723b3a")
+	)
+	(pad "3" smd roundrect
+		(at -5.62 2.54)
+		(size 1.83 1.09)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "3afcce77-8556-43b7-b7bb-57c3c533691d")
+	)
+	(pad "4" smd roundrect
+		(at 5.62 2.54)
+		(size 1.83 1.09)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "7afbaad8-44c7-4913-bc1f-f3722d3ea28f")
+	)
+	(pad "5" smd roundrect
+		(at 5.62 0)
+		(size 1.83 1.09)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "cf64ab4c-b316-46c7-97c0-98a5ad169248")
+	)
+	(pad "6" smd roundrect
+		(at 5.62 -2.54)
+		(size 1.83 1.09)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "5d1d569c-91af-4fda-bd59-95d2ce18d85e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/components/750315371/750315371.stp"
+		(offset
+			(xyz 22.3 13.1 3.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

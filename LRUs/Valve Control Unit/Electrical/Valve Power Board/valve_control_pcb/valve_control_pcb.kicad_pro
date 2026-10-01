@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 5.5,
-          "width": 5.5
+          "drill": 0.0,
+          "height": 2.794,
+          "width": 0.7366
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 0,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.5,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -74,9 +74,31 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.234946,
+          "via_gap": 0.2286,
+          "width": 0.235482
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|114330000|203000000|973bd943-cddb-4700-b8d3-812a62a90365|be9c9f17-1832-4733-8d76-4bf8643bc09a",
+          ""
+        ],
+        [
+          "hole_clearance|114530000|203000000|ffef6db5-1d6d-43af-a9b3-83e3ab6ca970|be9c9f17-1832-4733-8d76-4bf8643bc09a",
+          ""
+        ],
+        [
+          "hole_clearance|119930000|203000000|1792c50b-bab2-4e12-b70f-796626117bee|a7087324-b83b-4333-aa13-c573122d074d",
+          ""
+        ],
+        [
+          "hole_clearance|120130000|203000000|7b7a4144-d813-4545-8351-13f964c05bf6|a7087324-b83b-4333-aa13-c573122d074d",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -107,7 +129,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -122,7 +144,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -146,7 +168,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.0889,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -156,13 +178,13 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.0889,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -213,7 +235,8 @@
         0.0,
         0.1778,
         0.254,
-        0.508
+        0.508,
+        0.635
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -268,7 +291,35 @@
   },
   "boards": [],
   "component_class_settings": {
-    "assignments": [],
+    "assignments": [
+      {
+        "component_class": "Thermal Relief",
+        "conditions": {
+          "FOOTPRINT": {
+            "primary": "valve_pcb_footprints:C_0402_1005Metric"
+          },
+          "FOOTPRINT-1": {
+            "primary": "valve_pcb_footprints:R_0402_1005Metric_GSE"
+          },
+          "FOOTPRINT-2": {
+            "primary": "valve_pcb_footprints:R_0603_1608Metric"
+          },
+          "FOOTPRINT-3": {
+            "primary": "valve_pcb_footprints:C_0603_1608Metric"
+          },
+          "FOOTPRINT-4": {
+            "primary": "LED_SMD:LED_0603_1608Metric"
+          },
+          "FOOTPRINT-5": {
+            "primary": "Package_TO_SOT_SMD:SOT-23"
+          },
+          "FOOTPRINT-6": {
+            "primary": "valve_pcb_footprints:C_0805_2012Metric"
+          }
+        },
+        "conditions_operator": "ANY"
+      }
+    ],
     "meta": {
       "version": 0
     },
@@ -493,7 +544,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -519,7 +570,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -549,10 +600,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "valve_control_pcb.step",
       "svg": "",
       "vrml": ""
     },
@@ -643,7 +694,7 @@
           "group_by": false,
           "label": "JLCPCB Part #",
           "name": "JLCPCB Part #",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -806,6 +857,12 @@
           "label": "Storage",
           "name": "Storage",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Imax",
+          "name": "Imax",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -813,7 +870,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {
       "RS485_MAIN": [
@@ -955,7 +1012,7 @@
         "uuid": "33ff7616-254c-4ece-8b5e-11f19383e0b0"
       }
     ],
-    "used_designators": "D1-40,D45-46,#PWR1-317,#PWR365-385,BZ1,R1-222,#FLG1-11,C1-120,C163-164,FB1,FB3,F1,H1-12,J1-16,J25-26,JP1,L1-2,Q1-12,Q19-20,SW1-2,TP1-226,TR1,U1-38,Y1-2",
+    "used_designators": "#PWR1-327,#PWR365-385,D1-40,D42-46,R1-222,R242-265,#FLG1-11,BZ1,C1-120,C129-134,C163-164,F1,FB1,FB3,H1-12,J1-16,J25-27,JP1,L1-2,Q1-26,SW1-2,TP1-226,TP228-234,TR1,U1-38,Y1-2,FID1-3",
     "variants": [
       {
         "name": "My VARIANT DARNIT"
@@ -976,6 +1033,26 @@
       "System Power"
     ],
     [
+      "5ab11c64-b031-4172-9062-e5f5ce032bb6",
+      "System 5V"
+    ],
+    [
+      "04da9a24-fd32-4df1-a058-64d5dac33734",
+      "LSW 5V"
+    ],
+    [
+      "e3918634-dfcc-4cc2-a043-1fe32896c4e0",
+      "LDO 3V3"
+    ],
+    [
+      "3289eb84-03de-481c-8338-449ebd0f80fb",
+      "MUX 3V3"
+    ],
+    [
+      "6376898b-44f3-4f20-a970-57c6f45bf2f7",
+      "LSW 3V3"
+    ],
+    [
       "d4e8203a-d76f-4c3b-b909-1a52c35190e7",
       "Valves"
     ],
@@ -986,6 +1063,10 @@
     [
       "e3d641aa-92e7-4bc3-b99a-68c691379925",
       "master_efuse"
+    ],
+    [
+      "1014ec9d-d2d6-4589-8472-e64627808162",
+      "Gate Drivers"
     ],
     [
       "24b36193-7845-4db5-91f8-0b53361738fd",

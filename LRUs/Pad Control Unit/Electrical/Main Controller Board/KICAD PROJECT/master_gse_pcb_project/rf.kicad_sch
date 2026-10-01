@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LoRa Radio")
-		(date "2026-08-27")
+		(date "2026-08-30")
 		(rev "A")
 	)
 	(lib_symbols
@@ -2135,6 +2135,16 @@
 		)
 		(uuid "28c02ef0-a6cc-4862-90c6-21f4aa179e67")
 	)
+	(label "ANT"
+		(at 172.72 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "412e40fb-0937-4117-b5f7-9753908a7514")
+	)
 	(label "RF_INT"
 		(at 90.17 130.81 0)
 		(effects
@@ -2493,10 +2503,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "320fe906-a7ba-49df-b1c4-12990d976006")
 		(property "Reference" "U23"
-			(at 150.7333 76.2 0)
+			(at 137.922 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2507,7 +2516,7 @@
 			)
 		)
 		(property "Value" "RFM69HW"
-			(at 150.7333 78.74 0)
+			(at 138.176 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2644,7 +2653,7 @@
 		(dnp no)
 		(uuid "3970a005-611f-40d3-b608-e9531c424286")
 		(property "Reference" "C91"
-			(at 138.684 61.214 0)
+			(at 139.446 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2655,7 +2664,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 139.446 63.754 0)
+			(at 139.446 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2699,7 +2708,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 140.716 66.04 0)
+			(at 141.224 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2711,6 +2720,16 @@
 		(property "JLCPCB Part #" "C307331"
 			(at 137.16 63.5 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 141.732 66.548 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2747,10 +2766,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "64514735-540e-4dc7-a069-4710b8cc54c9")
 		(property "Reference" "J14"
-			(at 201.93 82.8431 0)
+			(at 201.168 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2760,8 +2778,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_Coaxial"
-			(at 201.93 85.3831 0)
+		(property "Value" "SMA"
+			(at 201.168 83.8591 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2826,6 +2844,26 @@
 				)
 			)
 		)
+		(property "Impedance" "50Ω"
+			(at 203.2 85.598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 198.12 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "61839c39-8ffd-4a10-9898-e21c6ad36642")
 		)
@@ -2858,10 +2896,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "68fe1d6c-f471-490a-a5da-853a57cdc090")
 		(property "Reference" "J13"
-			(at 106.68 116.84 0)
+			(at 106.68 116.078 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2870,8 +2907,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Odd_Even"
-			(at 106.68 119.38 0)
+		(property "Value" "02x04_PinHeader"
+			(at 106.68 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2916,6 +2953,16 @@
 		(property "JLCPCB Part #" ""
 			(at 105.41 125.73 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "2.54mm"
+			(at 106.934 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2969,7 +3016,7 @@
 		(dnp no)
 		(uuid "738478f6-de9e-400c-a41d-c8c3cbbe60dc")
 		(property "Reference" "C90"
-			(at 127.254 61.214 0)
+			(at 127.508 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2980,7 +3027,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 128.778 63.754 0)
+			(at 127.762 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3024,7 +3071,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 128.778 66.294 0)
+			(at 129.54 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3036,6 +3083,16 @@
 		(property "JLCPCB Part #" "C28323"
 			(at 125.73 63.5 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0805"
+			(at 130.048 66.548 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3658,7 +3715,7 @@
 		(dnp no)
 		(uuid "fcbcccb1-1043-4caa-b406-6739dd95d87c")
 		(property "Reference" "C89"
-			(at 115.062 61.214 0)
+			(at 115.316 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3669,7 +3726,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 115.57 63.5 0)
+			(at 115.316 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3724,7 +3781,17 @@
 			)
 		)
 		(property "Vmax" "16V"
-			(at 117.094 65.786 0)
+			(at 117.094 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0805"
+			(at 117.856 66.548 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Power Distribution")
-		(date "2026-08-27")
+		(date "2026-08-30")
 		(rev "A")
 	)
 	(lib_symbols
@@ -1651,7 +1651,7 @@
 	)
 	(text "Place near PTs"
 		(exclude_from_sim no)
-		(at 210.566 43.688 0)
+		(at 210.566 41.656 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2429,7 +2429,7 @@
 		(dnp no)
 		(uuid "13151f59-97d5-4440-97de-49409783efe0")
 		(property "Reference" "FB1"
-			(at 204.978 45.466 90)
+			(at 208.788 43.942 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2441,6 +2441,7 @@
 		)
 		(property "Value" "120R"
 			(at 212.598 45.466 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3523,7 +3524,7 @@
 		(dnp no)
 		(uuid "a39844b3-ef46-474b-8764-2305a318c7f2")
 		(property "Reference" "FB2"
-			(at 222.758 82.296 90)
+			(at 226.568 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3535,6 +3536,7 @@
 		)
 		(property "Value" "120R"
 			(at 230.378 82.296 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

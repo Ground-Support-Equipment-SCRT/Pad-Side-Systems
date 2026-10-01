@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PCB Sensors")
-		(date "2026-08-27")
+		(date "2026-08-30")
 		(rev "A")
 	)
 	(lib_symbols

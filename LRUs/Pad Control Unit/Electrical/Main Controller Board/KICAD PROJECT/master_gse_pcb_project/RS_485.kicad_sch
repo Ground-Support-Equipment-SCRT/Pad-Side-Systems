@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RS-485")
-		(date "2026-08-27")
+		(date "2026-08-30")
 		(rev "A")
 	)
 	(lib_symbols
@@ -3596,6 +3596,12 @@
 		(uuid "4ebbb6ef-b832-48e9-ae23-cc8c7e41b96c")
 	)
 	(junction
+		(at 156.21 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54c45f6b-58b6-4be1-b1d3-88fc8102916e")
+	)
+	(junction
 		(at 229.87 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3606,12 +3612,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e7a45be-1d6d-4735-8575-5771e9fec5da")
-	)
-	(junction
-		(at 184.15 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f39d917-1e61-46e6-be3e-b5910ca2b621")
 	)
 	(junction
 		(at 78.74 38.1)
@@ -3662,16 +3662,16 @@
 		(uuid "945a60c6-95a2-4d70-9404-76b1de1c6f8d")
 	)
 	(junction
+		(at 184.15 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f3e11fd-3787-4236-8bfd-1869798bdee3")
+	)
+	(junction
 		(at 213.36 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6180600-7d88-4a53-b698-0ea9666c3e0f")
-	)
-	(junction
-		(at 156.21 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2533e58-24de-4c50-9b70-390722e9149f")
 	)
 	(junction
 		(at 191.77 41.91)
@@ -4103,7 +4103,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 50.8) (xy 184.15 50.8)
+			(xy 175.26 50.8) (xy 184.15 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4293,7 +4293,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 50.8) (xy 172.72 50.8)
+			(xy 156.21 50.8) (xy 167.64 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4363,7 +4363,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 41.91) (xy 184.15 41.91)
+			(xy 175.26 41.91) (xy 184.15 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4403,7 +4403,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 27.94) (xy 240.03 41.91)
+			(xy 240.03 29.21) (xy 240.03 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4433,7 +4433,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 27.94) (xy 187.96 41.91)
+			(xy 187.96 29.21) (xy 187.96 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4453,7 +4453,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 27.94) (xy 240.03 27.94)
+			(xy 220.98 29.21) (xy 240.03 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4473,7 +4473,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 41.91) (xy 172.72 41.91)
+			(xy 163.83 41.91) (xy 167.64 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4783,7 +4783,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 27.94) (xy 187.96 27.94)
+			(xy 215.9 29.21) (xy 187.96 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5389,7 +5389,7 @@
 	)
 	(symbol
 		(lib_id "Diode:MBR0520LT")
-		(at 176.53 41.91 180)
+		(at 171.45 41.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5399,7 +5399,7 @@
 		(dnp no)
 		(uuid "0a2b2fce-2d18-4a89-9857-b64abcc6b986")
 		(property "Reference" "D21"
-			(at 172.72 40.386 0)
+			(at 175.006 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5409,7 +5409,7 @@
 			)
 		)
 		(property "Value" "MBR0520LT"
-			(at 179.832 33.528 0)
+			(at 164.338 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5419,7 +5419,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 176.53 37.465 0)
+			(at 171.45 37.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5430,7 +5430,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBR0520LT1-D.PDF"
-			(at 176.53 41.91 0)
+			(at 171.45 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5441,7 +5441,7 @@
 			)
 		)
 		(property "Description" "20V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 176.53 41.91 0)
+			(at 171.45 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5452,7 +5452,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 176.53 41.91 0)
+			(at 171.45 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5463,7 +5463,17 @@
 			)
 		)
 		(property "VR" "20V"
-			(at 181.102 40.386 0)
+			(at 167.64 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "SOD-123"
+			(at 178.308 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5745,7 +5755,7 @@
 		(dnp no)
 		(uuid "1128d9a9-3760-4ed1-ae31-dc405d53e28a")
 		(property "Reference" "TP34"
-			(at 248.92 33.782 0)
+			(at 248.92 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5756,6 +5766,7 @@
 		)
 		(property "Value" "TestPoint"
 			(at 248.92 36.068 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5856,7 +5867,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 219.71 27.94 270)
+		(at 218.44 29.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5866,7 +5877,7 @@
 		(dnp no)
 		(uuid "15e115f5-4099-4541-a950-55cf2551a6ee")
 		(property "Reference" "R113"
-			(at 217.678 26.162 90)
+			(at 216.408 27.432 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5877,7 +5888,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 222.758 26.162 90)
+			(at 221.488 27.432 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5888,7 +5899,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 219.71 27.94 0)
+			(at 218.44 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5899,7 +5910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 27.94 0)
+			(at 218.44 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5910,7 +5921,7 @@
 			)
 		)
 		(property "Description" "0 1% 0603 Resistor"
-			(at 219.71 27.94 0)
+			(at 218.44 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5921,7 +5932,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 216.408 29.718 90)
+			(at 215.138 30.988 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5931,7 +5942,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C17888"
-			(at 219.71 27.94 0)
+			(at 218.44 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5942,7 +5953,7 @@
 			)
 		)
 		(property "Size" "1206"
-			(at 223.266 29.718 90)
+			(at 221.996 30.988 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5972,6 +5983,121 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
+		(at 99.06 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18bb1c14-c837-43b2-a36e-99ea85e65446")
+		(property "Reference" "C70"
+			(at 100.838 78.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 100.838 80.772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 99.06 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±10% 0402 Capacitor"
+			(at 99.06 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "50V"
+			(at 102.87 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 99.06 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 103.378 84.328 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9377bfcd-56a6-4b5b-854b-d3d33d009b32")
+		)
+		(pin "1"
+			(uuid "9a4ab604-fdbb-4943-951a-7391d2d3326b")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/e64db6a6-a188-45e8-9dc3-f5b76cdedaaa"
+					(reference "C70")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
 		(at 109.22 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -5993,7 +6119,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 111.76 55.88 0)
+			(at 111.252 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6048,7 +6174,17 @@
 			)
 		)
 		(property "Vmax" "16V"
-			(at 113.284 58.166 0)
+			(at 113.284 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0805"
+			(at 113.792 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6165,6 +6301,16 @@
 				)
 			)
 		)
+		(property "Footprint_Size" ""
+			(at 142.24 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "4dd79b51-63d7-4ae5-9cb9-813bec526b72")
 		)
@@ -6204,7 +6350,7 @@
 		(dnp no)
 		(uuid "2e2535bc-27bc-43bd-a50f-51594309d1c6")
 		(property "Reference" "J11"
-			(at 274.066 117.856 0)
+			(at 273.812 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6214,8 +6360,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 265.684 131.572 0)
+		(property "Value" "0436500415"
+			(at 264.922 131.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6269,6 +6415,16 @@
 				)
 			)
 		)
+		(property "Footprint_Size" "3mm"
+			(at 274.574 132.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "c43364fe-c814-4a19-ab15-b4e78a312c3a")
 		)
@@ -6302,7 +6458,7 @@
 		(dnp no)
 		(uuid "35933001-df48-4e5a-bd61-3890b5594dd9")
 		(property "Reference" "R114"
-			(at 225.044 114.046 90)
+			(at 225.806 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6313,7 +6469,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 229.362 112.776 90)
+			(at 232.664 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6357,7 +6513,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 230.886 114.046 90)
+			(at 224.282 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6369,6 +6525,16 @@
 		(property "JLCPCB Part #" "C25079"
 			(at 227.33 115.57 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 231.394 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6506,7 +6672,7 @@
 		(dnp no)
 		(uuid "3fea4a23-4338-4969-8cbf-69addfab4207")
 		(property "Reference" "TP33"
-			(at 198.12 33.782 0)
+			(at 198.12 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6517,6 +6683,7 @@
 		)
 		(property "Value" "TestPoint"
 			(at 198.12 36.068 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7361,6 +7528,125 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 177.8 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "72803926-6109-4c13-8b21-d375ff24a0bf")
+		(property "Reference" "C82"
+			(at 179.832 101.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 179.832 103.632 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 177.8 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF 16V X7R ±10% 0805 Capacitor"
+			(at 177.8 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C95841"
+			(at 177.8 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "16V"
+			(at 181.864 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0805"
+			(at 182.372 107.188 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3214a192-a6a1-441d-84fa-358e0145f1bd")
+		)
+		(pin "1"
+			(uuid "4bd8229b-adfc-4527-8804-5894b20ca5e7")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/e64db6a6-a188-45e8-9dc3-f5b76cdedaaa"
+					(reference "C82")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(field
+							(name "Value")
+							(value "10uF")
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 99.06 100.33 0)
 		(unit 1)
@@ -7433,6 +7719,116 @@
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/e64db6a6-a188-45e8-9dc3-f5b76cdedaaa"
 					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MBR0520LT")
+		(at 171.45 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76f312dd-cdba-4d05-8c69-8fb5254220cd")
+		(property "Reference" "D22"
+			(at 175.006 49.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR0520LT"
+			(at 164.338 49.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 171.45 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBR0520LT1-D.PDF"
+			(at 171.45 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "20V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 171.45 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 171.45 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VR" "20V"
+			(at 167.64 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "SOD-123"
+			(at 178.308 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "da8cef12-25c9-440b-a5e8-d194c5d64d18")
+		)
+		(pin "1"
+			(uuid "753a722b-52aa-4487-8ecd-1fcc207f653e")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/e64db6a6-a188-45e8-9dc3-f5b76cdedaaa"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -7608,7 +8004,7 @@
 		(dnp no)
 		(uuid "83716a78-cb12-481d-9547-9ef0689a7527")
 		(property "Reference" "C81"
-			(at 167.894 101.854 0)
+			(at 168.148 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7619,7 +8015,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 168.656 104.394 0)
+			(at 168.148 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7663,7 +8059,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 169.926 106.68 0)
+			(at 169.926 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7675,6 +8071,16 @@
 		(property "JLCPCB Part #" "C307331"
 			(at 166.37 104.14 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 170.688 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8035,111 +8441,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 99.06 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9e7a4b2f-5e71-4bf6-bfff-c3fe3dbdb816")
-		(property "Reference" "C79"
-			(at 100.584 78.994 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 101.346 81.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 99.06 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF 50V X7R ±10% 0402 Capacitor"
-			(at 99.06 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vmax" "50V"
-			(at 102.616 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C307331"
-			(at 99.06 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "62142627-e8f2-4e4b-9581-0d65f07473cf")
-		)
-		(pin "1"
-			(uuid "f3d32d2c-4072-441b-8042-68d1adc9313b")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/e64db6a6-a188-45e8-9dc3-f5b76cdedaaa"
-					(reference "C79")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 78.74 36.83 0)
 		(unit 1)
@@ -8352,7 +8653,7 @@
 		(dnp no)
 		(uuid "a49ef8a8-049f-43eb-91e5-7fa900fd56f8")
 		(property "Reference" "R110"
-			(at 101.854 102.87 0)
+			(at 102.87 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8362,7 +8663,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 102.362 105.41 0)
+			(at 102.108 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8405,7 +8706,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 101.346 107.696 0)
+			(at 101.854 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8417,6 +8718,16 @@
 		(property "JLCPCB Part #" "C25804"
 			(at 99.06 105.41 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 102.87 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8559,7 +8870,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 90.678 81.534 0)
+			(at 89.408 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8603,7 +8914,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 90.678 84.074 0)
+			(at 91.186 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8615,6 +8926,16 @@
 		(property "JLCPCB Part #" "C28323"
 			(at 87.63 81.28 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0805"
+			(at 91.694 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8799,116 +9120,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 201.93 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "c41c647b-4470-4239-b4e5-6758eb5f3406")
-		(property "Reference" "C83"
-			(at 203.962 43.434 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 204.47 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 201.93 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10uF 16V X7R ±10% 0805 Capacitor"
-			(at 201.93 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C95841"
-			(at 201.93 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vmax" "16V"
-			(at 205.994 48.006 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8c02dbc3-7baa-47fc-a4ce-3454a12ee9bb")
-		)
-		(pin "1"
-			(uuid "2ecfd51e-198c-4c4d-b957-f9d4044d13ca")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/e64db6a6-a188-45e8-9dc3-f5b76cdedaaa"
-					(reference "C83")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(dnp no)
-						(field
-							(name "Value")
-							(value "10uF")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 118.11 139.7 0)
 		(unit 1)
@@ -8999,7 +9210,7 @@
 		(dnp no)
 		(uuid "d0a07150-d237-42ce-bed3-808604030c59")
 		(property "Reference" "R111"
-			(at 182.372 118.872 90)
+			(at 182.626 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9010,7 +9221,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 185.42 118.364 90)
+			(at 187.96 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9054,7 +9265,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 187.706 118.618 90)
+			(at 181.356 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9066,6 +9277,16 @@
 		(property "JLCPCB Part #" "C25077"
 			(at 184.15 120.65 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 187.96 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9181,9 +9402,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "de312828-bd28-4a78-9c74-d074eb805f58")
+		(uuid "e0679b0d-9a94-4948-9828-c7c800958efe")
 		(property "Reference" "R112"
-			(at 181.102 123.952 90)
+			(at 182.626 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9194,7 +9415,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 185.42 123.444 90)
+			(at 187.96 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9238,7 +9459,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 187.452 123.698 90)
+			(at 181.356 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9258,11 +9479,21 @@
 				)
 			)
 		)
+		(property "Footprint_Size" "0402"
+			(at 187.96 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "09c370e3-2c5c-4745-9fe0-319f49ccfd18")
+			(uuid "4f6ec3cf-7b57-4766-92d6-9a130f5a5a8b")
 		)
 		(pin "2"
-			(uuid "a925c842-5606-45c9-b2d3-57b22bdc0d13")
+			(uuid "53794c48-01f9-481b-9c09-3f2bcb9a9d63")
 		)
 		(instances
 			(project "master_gse_pcb_project"
@@ -9272,106 +9503,6 @@
 					(variant
 						(name "My VARIANT DARNIT")
 					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:MBR0520LT")
-		(at 176.53 50.8 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df985a66-9830-45dc-8ba1-0b3f00479bfa")
-		(property "Reference" "D22"
-			(at 176.784 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MBR0520LT"
-			(at 168.91 49.276 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 176.53 46.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBR0520LT1-D.PDF"
-			(at 176.53 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "20V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 176.53 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 176.53 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VR" "20V"
-			(at 181.102 49.276 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1c53b35c-47b6-4bcd-a7f6-a2f14ff1a3a4")
-		)
-		(pin "1"
-			(uuid "24ff6fe9-c356-4387-b2c7-4b2b5995db7f")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/e64db6a6-a188-45e8-9dc3-f5b76cdedaaa"
-					(reference "D22")
-					(unit 1)
 				)
 			)
 		)
@@ -9451,116 +9582,6 @@
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/e64db6a6-a188-45e8-9dc3-f5b76cdedaaa"
 					(reference "#PWR0181")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 229.87 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "e813d598-2dfb-452a-90cf-3eacd8fa27a0")
-		(property "Reference" "C84"
-			(at 231.902 43.434 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 232.41 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 229.87 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10uF 16V X7R ±10% 0805 Capacitor"
-			(at 229.87 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C95841"
-			(at 229.87 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vmax" "16V"
-			(at 233.934 48.006 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "280da0a4-5402-495e-ab30-74aa93556458")
-		)
-		(pin "1"
-			(uuid "d08796f1-c10a-4832-9fca-b4ee4066e90e")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/e64db6a6-a188-45e8-9dc3-f5b76cdedaaa"
-					(reference "C84")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(dnp no)
-						(field
-							(name "Value")
-							(value "10uF")
-						)
-					)
 				)
 			)
 		)
@@ -9690,17 +9711,17 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 177.8 104.14 0)
+		(at 201.93 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(uuid "fb10bfd1-5f9d-4db7-b3c5-73c7084de449")
-		(property "Reference" "C82"
-			(at 179.832 101.854 0)
+		(dnp yes)
+		(uuid "faa8af0d-0b1e-47ce-b8c0-9b1955cfc3df")
+		(property "Reference" "C83"
+			(at 203.962 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9711,7 +9732,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 180.34 104.14 0)
+			(at 203.962 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9722,7 +9743,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 177.8 104.14 0)
+			(at 201.93 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9733,7 +9754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 104.14 0)
+			(at 201.93 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9744,7 +9765,7 @@
 			)
 		)
 		(property "Description" "10uF 16V X7R ±10% 0805 Capacitor"
-			(at 177.8 104.14 0)
+			(at 201.93 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9755,7 +9776,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C95841"
-			(at 177.8 104.14 0)
+			(at 201.93 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9766,7 +9787,17 @@
 			)
 		)
 		(property "Vmax" "16V"
-			(at 181.864 106.426 0)
+			(at 205.994 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0805"
+			(at 206.502 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9776,18 +9807,139 @@
 			)
 		)
 		(pin "2"
-			(uuid "e99146df-87fd-4194-b0ba-c149b4e6d303")
+			(uuid "2cc04aa0-d2b6-4796-bf2b-c03a62641aca")
 		)
 		(pin "1"
-			(uuid "467705c7-712b-4866-9bae-17d1c48bad02")
+			(uuid "c8e4dfa2-c5c2-47c1-afba-1286134981df")
 		)
 		(instances
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/e64db6a6-a188-45e8-9dc3-f5b76cdedaaa"
-					(reference "C82")
+					(reference "C83")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
+						(dnp no)
+						(field
+							(name "Value")
+							(value "10uF")
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 229.87 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "fbec8033-0510-421f-b78d-0f75a842c774")
+		(property "Reference" "C84"
+			(at 231.902 43.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 231.902 45.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 229.87 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF 16V X7R ±10% 0805 Capacitor"
+			(at 229.87 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C95841"
+			(at 229.87 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "16V"
+			(at 233.934 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0805"
+			(at 234.442 48.768 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f62d2884-3e8c-4f3f-9df8-f05a247cdd9a")
+		)
+		(pin "1"
+			(uuid "6d7f6b7a-fe8a-41d7-8344-1699b5e2704d")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/e64db6a6-a188-45e8-9dc3-f5b76cdedaaa"
+					(reference "C84")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(dnp no)
 						(field
 							(name "Value")
 							(value "10uF")

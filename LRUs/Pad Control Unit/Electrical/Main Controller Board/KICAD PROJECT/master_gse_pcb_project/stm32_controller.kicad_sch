@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "STM32 Microcontroller")
-		(date "2026-08-27")
+		(date "2026-08-30")
 		(rev "A")
 	)
 	(lib_symbols
@@ -7383,16 +7383,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 237.49) (xy 120.65 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07afa2b9-d70f-442a-a78f-5b166ad31b65")
-	)
-	(wire
-		(pts
 			(xy 354.33 60.96) (xy 354.33 57.15)
 		)
 		(stroke
@@ -9023,7 +9013,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 232.41) (xy 119.38 232.41)
+			(xy 101.6 232.41) (xy 119.38 232.41)
 		)
 		(stroke
 			(width 0)
@@ -9143,7 +9133,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 237.49) (xy 120.65 237.49)
+			(xy 101.6 237.49) (xy 120.65 237.49)
 		)
 		(stroke
 			(width 0)
@@ -9303,6 +9293,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 237.49) (xy 120.65 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b4f8b0-c6fc-4731-bcfc-3168027e3633")
+	)
+	(wire
+		(pts
 			(xy 152.4 168.91) (xy 165.1 168.91)
 		)
 		(stroke
@@ -9363,7 +9363,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 204.47) (xy 226.06 204.47)
+			(xy 245.11 204.47) (xy 226.06 204.47)
 		)
 		(stroke
 			(width 0)
@@ -11061,6 +11061,16 @@
 		)
 		(uuid "0e9e1156-e04f-4c93-b9bd-b18ee1e23c95")
 	)
+	(label "OSC32_OUT"
+		(at 238.76 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11238541-0df8-47bd-9beb-554ae5d92ab6")
+	)
 	(label "D4"
 		(at 227.33 240.03 0)
 		(effects
@@ -11070,6 +11080,16 @@
 			(justify left bottom)
 		)
 		(uuid "12df8ec9-d790-40a9-a2d1-a12903c3796a")
+	)
+	(label "BUZZ_MCU"
+		(at 152.4 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "142e1525-edb9-4374-8198-e9b730e46a51")
 	)
 	(label "OUT_3"
 		(at 323.85 93.98 0)
@@ -11411,6 +11431,16 @@
 		)
 		(uuid "7305a82a-96b3-4c73-9d7c-ef3300af1f0c")
 	)
+	(label "BUZZ_P"
+		(at 106.68 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "752c2970-5a8e-4141-9f2f-76554d03f1a2")
+	)
 	(label "RF_MISO"
 		(at 237.49 173.99 180)
 		(effects
@@ -11550,6 +11580,16 @@
 			(justify left bottom)
 		)
 		(uuid "bcc66e87-fb1b-4c51-9f69-a4731c741b19")
+	)
+	(label "OSC32_IN"
+		(at 238.76 207.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be5d311a-4e6f-4000-81f9-919873a83e2b")
 	)
 	(label "INTF_3"
 		(at 326.39 124.46 0)
@@ -12485,7 +12525,7 @@
 	)
 	(hierarchical_label "~{TC4_FAULT}"
 		(shape input)
-		(at 233.68 204.47 0)
+		(at 245.11 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13808,7 +13848,7 @@
 		(dnp no)
 		(uuid "1fd2b594-2674-470e-8e1a-d16aeabaaecb")
 		(property "Reference" "FB4"
-			(at 180.848 32.766 90)
+			(at 184.658 31.242 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13820,6 +13860,7 @@
 		)
 		(property "Value" "120R"
 			(at 188.468 32.766 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14104,6 +14145,117 @@
 			(project "master_gse_pcb_project"
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/3a85163a-eaab-44e7-b566-82b4544e5347"
 					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Buzzer")
+		(at 99.06 234.95 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "298848b3-9e75-4214-a1eb-3de33e8cbe11")
+		(property "Reference" "BZ1"
+			(at 99.06 224.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 99.06 226.568 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Buzzer_Beeper:Buzzer_Murata_PKMCS0909E"
+			(at 99.695 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.695 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 99.06 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 99.06 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" "9mmx9mm"
+			(at 99.0531 229.108 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 99.06 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18f86edb-0cb3-4314-a80f-8fc33c70be10")
+		)
+		(pin "2"
+			(uuid "b1aa4562-23d6-4c43-b9ff-9ed104a1aaf8")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/3a85163a-eaab-44e7-b566-82b4544e5347"
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -16061,107 +16213,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Buzzer")
-		(at 106.68 234.95 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "539787aa-c2c5-40ff-ab52-20ea6489d33f")
-		(property "Reference" "BZ1"
-			(at 106.68 224.028 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 106.68 226.568 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:MURATA_ELECTRONICS_NORTH_AMERICA_PKM22EPPH2002-B0_0"
-			(at 107.315 232.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.315 232.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 106.68 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 106.68 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch" "10mm"
-			(at 106.6731 229.108 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04a1e720-3e41-4170-846c-02b51a03e408")
-		)
-		(pin "2"
-			(uuid "e17509fa-3070-4f8b-8328-3eb3109bc134")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/3a85163a-eaab-44e7-b566-82b4544e5347"
-					(reference "BZ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 91.44 121.92 90)
 		(unit 1)
@@ -17908,8 +17959,8 @@
 				)
 			)
 		)
-		(property "Vf" "2V"
-			(at 336.55 196.342 90)
+		(property "Vf" "3.1V"
+			(at 337.566 196.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21186,8 +21237,8 @@
 				)
 			)
 		)
-		(property "Vf" "2V"
-			(at 312.42 196.342 90)
+		(property "Vf" "3.1V"
+			(at 313.182 196.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21741,8 +21792,8 @@
 				)
 			)
 		)
-		(property "Vf" "2V"
-			(at 361.95 196.342 90)
+		(property "Vf" "3.1V"
+			(at 362.966 196.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22174,8 +22225,8 @@
 				)
 			)
 		)
-		(property "Vf" "2V"
-			(at 386.08 196.342 90)
+		(property "Vf" "3.1V"
+			(at 387.096 196.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

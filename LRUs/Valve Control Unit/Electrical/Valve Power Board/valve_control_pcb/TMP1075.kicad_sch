@@ -960,7 +960,7 @@
 	)
 	(text "TMP1075"
 		(exclude_from_sim no)
-		(at 145.288 35.052 0)
+		(at 148.844 46.736 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -972,62 +972,62 @@
 		(uuid "f43d1c03-68b7-4343-a50e-7aa5e2d773e7")
 	)
 	(junction
-		(at 160.02 97.79)
+		(at 168.91 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "133afa05-e364-419a-975a-67c19fb67faf")
 	)
 	(junction
-		(at 113.03 92.71)
+		(at 121.92 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2eb1c010-be93-4c92-9c13-9e0c98acc268")
 	)
 	(junction
-		(at 139.7 104.14)
+		(at 148.59 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "328a6f9d-5f11-409b-9ce3-44a8f4623e78")
 	)
 	(junction
-		(at 139.7 73.66)
+		(at 148.59 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48e54027-e669-4920-b43b-68b61f325064")
 	)
 	(junction
-		(at 137.16 104.14)
+		(at 146.05 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ab8ae6f-4ee6-44f8-a75f-80b0fcbcff1d")
 	)
 	(junction
-		(at 127 73.66)
+		(at 135.89 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d3848e0-4669-412a-9616-3a6ff620838d")
 	)
 	(junction
-		(at 116.84 95.25)
+		(at 125.73 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a144e0b5-4d99-4e43-8501-25152f437aca")
 	)
 	(junction
-		(at 166.37 97.79)
+		(at 175.26 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce8f4249-7e0e-4d6e-9e5c-b35822f39369")
 	)
 	(junction
-		(at 120.65 97.79)
+		(at 129.54 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdcf789a-c843-45c9-94f4-1f05c7df0419")
 	)
 	(wire
 		(pts
-			(xy 166.37 97.79) (xy 175.26 97.79)
+			(xy 175.26 106.68) (xy 184.15 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1037,7 +1037,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 113.03 92.71)
+			(xy 115.57 101.6) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1047,7 +1047,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 97.79) (xy 160.02 97.79)
+			(xy 158.75 106.68) (xy 168.91 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1057,7 +1057,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 95.25) (xy 175.26 95.25)
+			(xy 158.75 104.14) (xy 184.15 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1067,7 +1067,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 139.7 104.14)
+			(xy 146.05 113.03) (xy 148.59 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1077,7 +1077,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 102.87) (xy 120.65 97.79)
+			(xy 129.54 111.76) (xy 129.54 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1087,7 +1087,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 81.28) (xy 160.02 85.09)
+			(xy 168.91 90.17) (xy 168.91 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1097,7 +1097,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 73.66) (xy 139.7 73.66)
+			(xy 135.89 82.55) (xy 148.59 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1107,7 +1107,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 102.87) (xy 139.7 104.14)
+			(xy 148.59 111.76) (xy 148.59 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1117,7 +1117,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 92.71) (xy 129.54 92.71)
+			(xy 121.92 101.6) (xy 138.43 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1127,7 +1127,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 101.6) (xy 166.37 97.79)
+			(xy 175.26 110.49) (xy 175.26 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1137,7 +1137,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 81.28) (xy 127 82.55)
+			(xy 135.89 90.17) (xy 135.89 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1147,7 +1147,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 72.39) (xy 127 73.66)
+			(xy 135.89 81.28) (xy 135.89 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1157,7 +1157,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 101.6) (xy 166.37 101.6)
+			(xy 184.15 110.49) (xy 175.26 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1167,7 +1167,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 73.66) (xy 127 76.2)
+			(xy 135.89 82.55) (xy 135.89 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1177,7 +1177,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 97.79) (xy 166.37 97.79)
+			(xy 168.91 106.68) (xy 175.26 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1187,7 +1187,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 95.25) (xy 116.84 95.25)
+			(xy 115.57 104.14) (xy 125.73 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1197,7 +1197,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 95.25) (xy 129.54 95.25)
+			(xy 125.73 104.14) (xy 138.43 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1207,7 +1207,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 102.87) (xy 116.84 95.25)
+			(xy 125.73 111.76) (xy 125.73 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1217,7 +1217,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 90.17) (xy 160.02 97.79)
+			(xy 168.91 99.06) (xy 168.91 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1227,7 +1227,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 102.87) (xy 137.16 104.14)
+			(xy 146.05 111.76) (xy 146.05 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1237,7 +1237,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 97.79) (xy 129.54 97.79)
+			(xy 129.54 106.68) (xy 138.43 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1247,7 +1247,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 102.87) (xy 113.03 92.71)
+			(xy 121.92 111.76) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1257,7 +1257,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 92.71) (xy 175.26 92.71)
+			(xy 158.75 101.6) (xy 184.15 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1267,7 +1267,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 73.66) (xy 139.7 87.63)
+			(xy 148.59 82.55) (xy 148.59 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1277,7 +1277,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 97.79) (xy 120.65 97.79)
+			(xy 115.57 106.68) (xy 129.54 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1287,7 +1287,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 104.14) (xy 139.7 105.41)
+			(xy 148.59 113.03) (xy 148.59 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1297,7 +1297,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 175.26 92.71 0)
+		(at 184.15 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1308,7 +1308,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 175.26 95.25 0)
+		(at 184.15 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1319,7 +1319,7 @@
 	)
 	(hierarchical_label "A1"
 		(shape input)
-		(at 106.68 95.25 180)
+		(at 115.57 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1330,7 +1330,7 @@
 	)
 	(hierarchical_label "A0"
 		(shape input)
-		(at 106.68 92.71 180)
+		(at 115.57 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1341,7 +1341,7 @@
 	)
 	(hierarchical_label "A2"
 		(shape input)
-		(at 106.68 97.79 180)
+		(at 115.57 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1352,7 +1352,7 @@
 	)
 	(hierarchical_label "ALERT"
 		(shape output)
-		(at 175.26 97.79 0)
+		(at 184.15 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1363,7 +1363,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 113.03 102.87 0)
+		(at 121.92 111.76 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1374,7 +1374,7 @@
 		(dnp no)
 		(uuid "0d0dc7b1-22d5-4e05-a6a1-d62cb3e173e3")
 		(property "Reference" "TP204"
-			(at 113.03 110.49 90)
+			(at 121.92 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1384,7 +1384,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 113.03 112.014 90)
+			(at 121.92 120.904 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1395,7 +1395,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 118.11 102.87 0)
+			(at 127 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1406,7 +1406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 102.87 0)
+			(at 127 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1417,7 +1417,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 113.03 102.87 0)
+			(at 121.92 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1428,7 +1428,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 113.03 102.87 0)
+			(at 121.92 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1438,7 +1438,7 @@
 			)
 		)
 		(property "Vz" ""
-			(at 113.03 102.87 0)
+			(at 121.92 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1448,7 +1448,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "TP10"
-			(at 113.03 102.87 90)
+			(at 121.92 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1459,7 +1459,7 @@
 			)
 		)
 		(property "VDS" "TestPoint"
-			(at 113.03 102.87 90)
+			(at 121.92 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1470,7 +1470,7 @@
 			)
 		)
 		(property "Footprint_Size" ""
-			(at 113.03 102.87 0)
+			(at 121.92 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1532,7 +1532,7 @@
 	(symbol
 		(lib_name "TMP1075DSG_1")
 		(lib_id "Sensor_Temperature:TMP1075DSG")
-		(at 139.7 95.25 0)
+		(at 148.59 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1540,10 +1540,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1bdcbdfd-8fb1-4514-8491-0aaca127c712")
 		(property "Reference" "U11"
-			(at 141.8433 85.09 0)
+			(at 150.7333 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1553,8 +1552,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TMP1075DSG"
-			(at 141.8433 87.63 0)
+		(property "Value" "TMP1075DSGR"
+			(at 150.7333 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1565,7 +1564,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
-			(at 141.605 101.6 0)
+			(at 150.495 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1576,7 +1575,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tmp1075"
-			(at 139.7 95.25 0)
+			(at 148.59 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1587,7 +1586,29 @@
 			)
 		)
 		(property "Description" "I2C-bus digital temperature sensor and thermal watchdog, WSON-8"
-			(at 139.7 95.25 0)
+			(at 148.59 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2870250"
+			(at 148.59 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "WSON-8-EP(2x2)"
+			(at 158.496 110.998 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1655,7 +1676,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 116.84 102.87 0)
+		(at 125.73 111.76 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1666,7 +1687,7 @@
 		(dnp no)
 		(uuid "28e96552-8be1-4762-827e-760b517b4247")
 		(property "Reference" "TP210"
-			(at 116.84 110.49 90)
+			(at 125.73 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1676,7 +1697,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 116.84 112.014 90)
+			(at 125.73 120.904 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1687,7 +1708,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 121.92 102.87 0)
+			(at 130.81 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1698,7 +1719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 102.87 0)
+			(at 130.81 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1709,7 +1730,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 116.84 102.87 0)
+			(at 125.73 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1720,7 +1741,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 116.84 102.87 0)
+			(at 125.73 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1730,7 +1751,7 @@
 			)
 		)
 		(property "Vz" ""
-			(at 116.84 102.87 0)
+			(at 125.73 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1740,7 +1761,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "TP10"
-			(at 116.84 102.87 90)
+			(at 125.73 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1751,7 +1772,7 @@
 			)
 		)
 		(property "VDS" "TestPoint"
-			(at 116.84 102.87 90)
+			(at 125.73 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1762,7 +1783,7 @@
 			)
 		)
 		(property "Footprint_Size" ""
-			(at 116.84 102.87 0)
+			(at 125.73 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1823,7 +1844,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 175.26 101.6 270)
+		(at 184.15 110.49 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1833,7 +1854,7 @@
 		(dnp no)
 		(uuid "5129d7d8-b30a-451b-981a-999e7abfbe82")
 		(property "Reference" "TP175"
-			(at 182.88 101.6 90)
+			(at 191.77 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1843,7 +1864,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 184.404 101.6 90)
+			(at 193.294 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1854,7 +1875,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 175.26 106.68 0)
+			(at 184.15 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1865,7 +1886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 106.68 0)
+			(at 184.15 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1876,7 +1897,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 175.26 101.6 0)
+			(at 184.15 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1887,7 +1908,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 175.26 101.6 0)
+			(at 184.15 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1897,7 +1918,7 @@
 			)
 		)
 		(property "Vz" ""
-			(at 175.26 101.6 0)
+			(at 184.15 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1907,7 +1928,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "TP10"
-			(at 175.26 101.6 90)
+			(at 184.15 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1918,7 +1939,7 @@
 			)
 		)
 		(property "VDS" "TestPoint"
-			(at 175.26 101.6 90)
+			(at 184.15 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1929,7 +1950,7 @@
 			)
 		)
 		(property "Footprint_Size" ""
-			(at 175.26 101.6 0)
+			(at 184.15 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1990,7 +2011,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 120.65 102.87 0)
+		(at 129.54 111.76 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2001,7 +2022,7 @@
 		(dnp no)
 		(uuid "5c3d51f8-96cb-4bf6-acf4-e2a5ab7e1e8e")
 		(property "Reference" "TP216"
-			(at 120.65 110.49 90)
+			(at 129.54 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2011,7 +2032,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 120.65 112.014 90)
+			(at 129.54 120.904 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2022,7 +2043,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 125.73 102.87 0)
+			(at 134.62 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2033,7 +2054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 102.87 0)
+			(at 134.62 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2044,7 +2065,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 120.65 102.87 0)
+			(at 129.54 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2055,7 +2076,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 120.65 102.87 0)
+			(at 129.54 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2065,7 +2086,7 @@
 			)
 		)
 		(property "Vz" ""
-			(at 120.65 102.87 0)
+			(at 129.54 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2075,7 +2096,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "TP10"
-			(at 120.65 102.87 90)
+			(at 129.54 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2086,7 +2107,7 @@
 			)
 		)
 		(property "VDS" "TestPoint"
-			(at 120.65 102.87 90)
+			(at 129.54 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2097,7 +2118,7 @@
 			)
 		)
 		(property "Footprint_Size" ""
-			(at 120.65 102.87 0)
+			(at 129.54 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2158,7 +2179,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 105.41 0)
+		(at 148.59 114.3 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2170,7 +2191,7 @@
 		(fields_autoplaced yes)
 		(uuid "85b9d85e-c8fb-4b94-9bf3-2e814f611306")
 		(property "Reference" "#PWR0112"
-			(at 139.7 111.76 0)
+			(at 148.59 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2181,7 +2202,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 110.49 0)
+			(at 148.59 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2192,7 +2213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 105.41 0)
+			(at 148.59 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2203,7 +2224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 105.41 0)
+			(at 148.59 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2214,7 +2235,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 105.41 0)
+			(at 148.59 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2258,7 +2279,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 127 72.39 0)
+		(at 135.89 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2268,7 +2289,7 @@
 		(dnp no)
 		(uuid "88dada99-751a-400e-9bba-74806f248678")
 		(property "Reference" "#PWR0110"
-			(at 127 76.2 0)
+			(at 135.89 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,7 +2300,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 126.492 68.326 0)
+			(at 135.382 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2289,7 +2310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 72.39 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2300,7 +2321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 72.39 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2311,7 +2332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 72.39 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2355,7 +2376,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 127 78.74 0)
+		(at 135.89 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2365,7 +2386,7 @@
 		(dnp no)
 		(uuid "a3bd65b5-78c9-4707-b727-a2a15443daaf")
 		(property "Reference" "C26"
-			(at 129.032 75.946 0)
+			(at 137.922 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2376,7 +2397,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 129.032 77.978 0)
+			(at 137.922 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2386,8 +2407,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 127 78.74 0)
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
+			(at 135.89 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2398,7 +2419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 78.74 0)
+			(at 135.89 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2409,7 +2430,7 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0402 Capacitor"
-			(at 127 78.74 0)
+			(at 135.89 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2420,7 +2441,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 131.064 80.01 0)
+			(at 139.954 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2430,7 +2451,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C307331"
-			(at 127 78.74 0)
+			(at 135.89 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2441,7 +2462,7 @@
 			)
 		)
 		(property "Footprint_Size" "0402"
-			(at 131.826 82.042 0)
+			(at 140.716 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2505,7 +2526,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 139.7 73.66 270)
+		(at 148.59 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2515,7 +2536,7 @@
 		(dnp no)
 		(uuid "d8c851b1-3bde-48c8-82d1-be2953f39632")
 		(property "Reference" "TP187"
-			(at 147.32 73.66 90)
+			(at 156.21 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2525,7 +2546,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 148.844 73.66 90)
+			(at 157.734 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2536,7 +2557,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 139.7 78.74 0)
+			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2547,7 +2568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 78.74 0)
+			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2558,7 +2579,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 139.7 73.66 0)
+			(at 148.59 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2569,7 +2590,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 139.7 73.66 0)
+			(at 148.59 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2579,7 +2600,7 @@
 			)
 		)
 		(property "Vz" ""
-			(at 139.7 73.66 0)
+			(at 148.59 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2589,7 +2610,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "TP10"
-			(at 139.7 73.66 90)
+			(at 148.59 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2600,7 +2621,7 @@
 			)
 		)
 		(property "VDS" "TestPoint"
-			(at 139.7 73.66 90)
+			(at 148.59 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2611,7 +2632,7 @@
 			)
 		)
 		(property "Footprint_Size" ""
-			(at 139.7 73.66 0)
+			(at 148.59 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2672,7 +2693,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 160.02 81.28 0)
+		(at 168.91 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2682,7 +2703,7 @@
 		(dnp no)
 		(uuid "e3222231-3171-4652-b281-c6ea687be88b")
 		(property "Reference" "#PWR0113"
-			(at 160.02 85.09 0)
+			(at 168.91 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2693,7 +2714,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 159.512 77.216 0)
+			(at 168.402 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2703,7 +2724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 81.28 0)
+			(at 168.91 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2714,7 +2735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 81.28 0)
+			(at 168.91 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2725,7 +2746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 160.02 81.28 0)
+			(at 168.91 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2769,7 +2790,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 137.16 104.14 90)
+		(at 146.05 113.03 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2780,7 +2801,7 @@
 		(dnp no)
 		(uuid "e7eaca6a-c233-4ad3-a483-b095e1c9a377")
 		(property "Reference" "TP181"
-			(at 129.54 104.14 90)
+			(at 138.43 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2790,7 +2811,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 128.016 104.14 90)
+			(at 136.906 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2801,7 +2822,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 137.16 109.22 0)
+			(at 146.05 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2812,7 +2833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 109.22 0)
+			(at 146.05 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2823,7 +2844,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 137.16 104.14 0)
+			(at 146.05 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2834,7 +2855,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 137.16 104.14 0)
+			(at 146.05 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2844,7 +2865,7 @@
 			)
 		)
 		(property "Vz" ""
-			(at 137.16 104.14 0)
+			(at 146.05 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2854,7 +2875,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "TP10"
-			(at 137.16 104.14 90)
+			(at 146.05 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2865,7 +2886,7 @@
 			)
 		)
 		(property "VDS" "TestPoint"
-			(at 137.16 104.14 90)
+			(at 146.05 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2876,7 +2897,7 @@
 			)
 		)
 		(property "Footprint_Size" ""
-			(at 137.16 104.14 0)
+			(at 146.05 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2937,7 +2958,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 82.55 0)
+		(at 135.89 91.44 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2949,7 +2970,7 @@
 		(fields_autoplaced yes)
 		(uuid "edc59ba2-f846-4f95-9f1b-cba4361bf2af")
 		(property "Reference" "#PWR0111"
-			(at 127 88.9 0)
+			(at 135.89 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2960,7 +2981,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 87.63 0)
+			(at 135.89 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2971,7 +2992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 82.55 0)
+			(at 135.89 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2982,7 +3003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 82.55 0)
+			(at 135.89 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2993,7 +3014,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 82.55 0)
+			(at 135.89 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3037,7 +3058,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 160.02 87.63 180)
+		(at 168.91 96.52 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3047,7 +3068,7 @@
 		(dnp no)
 		(uuid "f21510d5-e0de-41d3-abb4-78bb1a3b48a6")
 		(property "Reference" "R90"
-			(at 161.29 84.582 0)
+			(at 170.18 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3058,7 +3079,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 161.29 86.36 0)
+			(at 170.18 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3068,8 +3089,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 160.02 87.63 0)
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+			(at 168.91 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3080,7 +3101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 87.63 0)
+			(at 168.91 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3091,7 +3112,7 @@
 			)
 		)
 		(property "Description" "4.7k 1% 0603 Resistor"
-			(at 160.02 87.63 0)
+			(at 168.91 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3102,7 +3123,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 162.814 88.138 0)
+			(at 171.704 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3112,7 +3133,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C23162"
-			(at 160.02 87.63 0)
+			(at 168.91 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3123,7 +3144,7 @@
 			)
 		)
 		(property "Footprint_Size" "0603"
-			(at 163.83 89.916 0)
+			(at 172.72 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

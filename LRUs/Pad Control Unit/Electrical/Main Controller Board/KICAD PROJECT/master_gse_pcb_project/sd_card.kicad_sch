@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "SD Card")
-		(date "2026-08-27")
+		(date "2026-08-30")
 		(rev "A")
 	)
 	(lib_symbols
@@ -2528,7 +2528,7 @@
 	)
 	(text_box "Add 22 Ohm resistors on \nMOSI, CLK, and CS near MCU\n"
 		(exclude_from_sim no)
-		(at 90.932 87.122 0)
+		(at 92.71 86.995 0)
 		(size 31.75 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2701,7 +2701,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 107.95) (xy 154.94 107.95)
+			(xy 137.16 107.95) (xy 154.94 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3209,6 +3209,26 @@
 		)
 		(uuid "eb02877e-d14c-4981-96fb-0ef8a7ee97a5")
 	)
+	(label "~{SD_CS_PIN}"
+		(at 146.05 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c22b0f0-b87b-4e66-ac4c-7d71bbf1c110")
+	)
+	(label "SD_MOSI_PIN"
+		(at 146.05 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35dea0a2-0657-42b0-be5f-145ba095259a")
+	)
 	(label "SD_DET"
 		(at 43.18 80.01 180)
 		(effects
@@ -3219,8 +3239,18 @@
 		)
 		(uuid "4b990b7b-c9df-40c3-88ed-6a3243aeb2e1")
 	)
+	(label "SD_MISO_PIN"
+		(at 146.05 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4cec18cd-92d6-4f4b-a187-add99dd8f9a0")
+	)
 	(label "+3V3_SD"
-		(at 144.78 107.95 0)
+		(at 137.16 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3238,6 +3268,16 @@
 			(justify right bottom)
 		)
 		(uuid "9c57579c-ff1b-4452-9ba7-3e9c00ed10ec")
+	)
+	(label "DAT2_PIN"
+		(at 146.05 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e51c60e-a0ed-4d0d-b0d2-d00e106786d8")
 	)
 	(label "SD_CLK"
 		(at 43.18 74.93 180)
@@ -3269,6 +3309,26 @@
 		)
 		(uuid "dc9b7c0c-1881-4220-bfd8-553f4623674d")
 	)
+	(label "SD_CLK_PIN"
+		(at 146.05 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e52de66c-b928-4898-8683-84b292abfdbd")
+	)
+	(label "DAT1_PIN"
+		(at 146.05 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1d03110-24e2-43f0-87a8-075b51df3478")
+	)
 	(hierarchical_label "{SD_CARD}"
 		(shape bidirectional)
 		(at 26.67 64.77 180)
@@ -3279,6 +3339,123 @@
 			(justify right)
 		)
 		(uuid "85b870e0-1f57-4b75-814d-77babe185648")
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 85.09 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ae8da7c-f311-4398-81fe-17973f6b2887")
+		(property "Reference" "R91"
+			(at 88.392 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 87.884 89.408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 85.09 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22 1% 0603 Resistor"
+			(at 85.09 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 87.884 91.186 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C23345"
+			(at 85.09 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 88.9 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "270fda81-5622-4609-8813-fe0de845e6fe")
+		)
+		(pin "2"
+			(uuid "ace92898-cc04-4005-9c6b-181fc15dc50e")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/1c220542-3189-448d-942e-39e79ce2ce0c"
+					(reference "R91")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(field
+							(name "Value")
+							(value "22")
+						)
+					)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
@@ -3292,7 +3469,7 @@
 		(dnp no)
 		(uuid "16f5e15f-b594-47ef-9a0c-deefdb94821a")
 		(property "Reference" "C67"
-			(at 162.814 61.214 0)
+			(at 163.322 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3303,7 +3480,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 163.576 63.754 0)
+			(at 163.322 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3347,7 +3524,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 164.846 66.04 0)
+			(at 165.1 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3359,6 +3536,16 @@
 		(property "JLCPCB Part #" "C307331"
 			(at 161.29 63.5 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 165.608 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3397,7 +3584,7 @@
 		(dnp no)
 		(uuid "1c720a58-c356-4e3b-8e5e-b8c10877ab60")
 		(property "Reference" "R92"
-			(at 133.604 82.55 0)
+			(at 134.112 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3407,7 +3594,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 134.112 85.09 0)
+			(at 134.112 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3450,7 +3637,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 133.096 87.376 0)
+			(at 133.604 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3462,6 +3649,16 @@
 		(property "JLCPCB Part #" "C25804"
 			(at 130.81 85.09 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 134.62 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3509,8 +3706,8 @@
 				)
 			)
 		)
-		(property "Value" "Micro_SD_Card_Det2"
-			(at 167.894 129.032 0)
+		(property "Value" "DM3AT-SF-PEJM5"
+			(at 167.132 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3563,9 +3760,8 @@
 				)
 			)
 		)
-		(property "VDS" "Micro_SD_Card_Det2"
+		(property "Footprint_Size" ""
 			(at 177.8 110.49 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3694,220 +3890,6 @@
 				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/1c220542-3189-448d-942e-39e79ce2ce0c"
 					(reference "#PWR0140")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 85.09 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51cbd762-73bc-49e4-b890-3cfa34f2ca64")
-		(property "Reference" "R91"
-			(at 88.392 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 88.392 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.09 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "22 1% 0603 Resistor"
-			(at 85.09 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 87.376 92.456 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C23345"
-			(at 85.09 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4760b0c2-efba-4b8a-9a44-d432a9e0bdf0")
-		)
-		(pin "2"
-			(uuid "b4536559-abb5-45c9-83de-231c9d1b292b")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/1c220542-3189-448d-942e-39e79ce2ce0c"
-					(reference "R91")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "22")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 77.47 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "525b4ab4-71a0-4c71-a4f3-a0f4fc620448")
-		(property "Reference" "R90"
-			(at 80.772 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 80.772 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 77.47 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "22 1% 0603 Resistor"
-			(at 77.47 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 79.756 92.456 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C23345"
-			(at 77.47 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3dea1a1c-1d71-407b-838b-1d39e5b78810")
-		)
-		(pin "2"
-			(uuid "6d445aa0-997d-4e09-9aac-408e81f2a2a6")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/1c220542-3189-448d-942e-39e79ce2ce0c"
-					(reference "R90")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "22")
-						)
-					)
 				)
 			)
 		)
@@ -4072,6 +4054,123 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 77.47 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7549fa9a-10a7-4c5a-936b-0ad2de391a44")
+		(property "Reference" "R90"
+			(at 80.772 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 80.264 89.408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 77.47 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22 1% 0603 Resistor"
+			(at 77.47 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 80.264 91.186 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C23345"
+			(at 77.47 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 81.28 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73df11c5-056d-4a69-92ea-5f2f2bb9261e")
+		)
+		(pin "2"
+			(uuid "f3e49af7-5d05-4081-ba4f-9c036220f89b")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/1c220542-3189-448d-942e-39e79ce2ce0c"
+					(reference "R90")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(field
+							(name "Value")
+							(value "22")
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 139.7 63.5 0)
 		(unit 1)
@@ -4083,7 +4182,7 @@
 		(dnp no)
 		(uuid "8cd693f7-b7c7-47e6-a060-5204e9bc7c05")
 		(property "Reference" "C65"
-			(at 141.732 61.214 0)
+			(at 141.732 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4094,7 +4193,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 142.24 63.5 0)
+			(at 141.732 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4149,7 +4248,17 @@
 			)
 		)
 		(property "Vmax" "16V"
-			(at 143.764 65.786 0)
+			(at 143.764 64.516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0805"
+			(at 144.272 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4360,7 +4469,7 @@
 		(dnp no)
 		(uuid "a1622024-9c5f-49f1-bed3-36d7db3d487d")
 		(property "Reference" "C66"
-			(at 152.654 61.214 0)
+			(at 153.162 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4371,7 +4480,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 154.178 63.754 0)
+			(at 153.162 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4415,7 +4524,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 154.178 66.294 0)
+			(at 154.94 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4427,6 +4536,16 @@
 		(property "JLCPCB Part #" "C28323"
 			(at 151.13 63.5 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0805"
+			(at 155.702 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4715,7 +4834,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 65.532 90.17 0)
+			(at 65.024 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4758,7 +4877,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 64.516 92.456 0)
+			(at 65.024 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4770,6 +4889,16 @@
 		(property "JLCPCB Part #" "C23345"
 			(at 62.23 90.17 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 66.04 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4801,113 +4930,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 69.85 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c398d360-9aa3-4f5a-aa49-450f1f806d42")
-		(property "Reference" "R89"
-			(at 73.152 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 73.152 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.85 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "22 1% 0603 Resistor"
-			(at 69.85 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 72.136 92.456 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C23345"
-			(at 69.85 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f3c2d4e9-07e9-4b0d-8529-838bd9e447fd")
-		)
-		(pin "2"
-			(uuid "b79e44be-c082-4219-96ec-9bb573c41511")
-		)
-		(instances
-			(project "master_gse_pcb_project"
-				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/1c220542-3189-448d-942e-39e79ce2ce0c"
-					(reference "R89")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "22")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:TPD6E05U06RVZ")
 		(at 113.03 143.51 0)
 		(unit 1)
@@ -4917,10 +4939,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e0b98b89-ae5b-47c2-b690-bb1168d27cc9")
 		(property "Reference" "U14"
-			(at 96.52 142.2399 0)
+			(at 97.028 139.9539 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4931,7 +4952,7 @@
 			)
 		)
 		(property "Value" "TPD6E05U06RVZ"
-			(at 96.52 144.7799 0)
+			(at 97.028 142.4939 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4980,6 +5001,26 @@
 		(property "JLCPCB Part #" "C962978"
 			(at 113.03 143.51 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "USON-14"
+			(at 92.202 147.066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VR" "5.5V"
+			(at 94.742 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5037,6 +5078,123 @@
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 69.85 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eafaad1d-3bd5-4777-a2a9-780e84ff509a")
+		(property "Reference" "R89"
+			(at 73.152 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 72.644 89.408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 69.85 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22 1% 0603 Resistor"
+			(at 69.85 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 72.644 91.186 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C23345"
+			(at 69.85 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 73.66 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9849b0da-b21a-431a-8892-2bd5d6922c8d")
+		)
+		(pin "2"
+			(uuid "62061138-6c9d-4167-81b2-3500e95db8f2")
+		)
+		(instances
+			(project "master_gse_pcb_project"
+				(path "/5dea7f1e-c3ae-4a7c-865b-d3606d04c094/1c220542-3189-448d-942e-39e79ce2ce0c"
+					(reference "R89")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+						(field
+							(name "Value")
+							(value "22")
+						)
 					)
 				)
 			)

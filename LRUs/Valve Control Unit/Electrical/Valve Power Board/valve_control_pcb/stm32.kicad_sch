@@ -6806,6 +6806,83 @@
 		)
 		(uuid "0c3c47d2-e9c8-4da3-91ce-a454cd5c2a78")
 	)
+	(text "24"
+		(exclude_from_sim no)
+		(at 237.744 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "0c44c121-4129-488a-b87d-a5015b933db2")
+	)
+	(text "24"
+		(exclude_from_sim no)
+		(at 91.186 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "1096558b-63d4-4469-b865-b8871d3aeb22")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 92.71 166.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "13e48bec-a885-45df-9101-5f7c828a066a")
+	)
+	(text "32"
+		(exclude_from_sim no)
+		(at 239.268 169.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "1680c84e-d467-4440-a969-f9463983c9fb")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 235.458 235.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "16a7b92a-81e9-4029-8e36-5c3243c94830")
+	)
+	(text "22"
+		(exclude_from_sim no)
+		(at 229.87 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "18013260-c295-4186-ac7d-14bbf02ad9b5")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 230.632 220.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "1a4bbfd5-45b6-4bd0-b4c9-137fc068417c")
+	)
 	(text "D3\n"
 		(exclude_from_sim no)
 		(at 363.22 173.228 0)
@@ -6816,6 +6893,72 @@
 		)
 		(uuid "1b766684-7233-4f7e-b3fe-3c607f8910d1")
 	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 89.662 220.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "1d81cf7f-8d1c-416d-911d-8e2c7e28b599")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 402.336 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "1e588801-1625-40c2-9d7f-8663319943ab")
+	)
+	(text "32"
+		(exclude_from_sim no)
+		(at 239.268 166.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "1fa814cc-ebc8-4f69-a569-27c183a37f1a")
+	)
+	(text "21"
+		(exclude_from_sim no)
+		(at 345.186 67.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "242954bd-47ab-477a-82e1-7be7a5dcaf26")
+	)
+	(text "24"
+		(exclude_from_sim no)
+		(at 237.744 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "26a230f3-7137-4cb3-97cb-8ca5252baaef")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 89.408 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "2bd0afac-b3dc-448c-b893-6d5f5a04d6f1")
+	)
 	(text "Supply & Analog Supply Filtering"
 		(exclude_from_sim no)
 		(at 31.242 25.654 0)
@@ -6825,6 +6968,325 @@
 			)
 		)
 		(uuid "310a5cd7-43be-4e9d-bfe2-b5ad7d09a237")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 234.696 207.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "31eea850-b808-457a-b191-7af7c8ebe421")
+	)
+	(text "24"
+		(exclude_from_sim no)
+		(at 237.744 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "3214cd9d-73cd-45f7-8db6-d7f0493695aa")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 89.662 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "34a8ca1e-3f34-4d6e-b44f-59485e5a366d")
+	)
+	(text "31"
+		(exclude_from_sim no)
+		(at 90.932 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "3c69e052-2d08-419d-af3e-af44482fdaec")
+	)
+	(text "32"
+		(exclude_from_sim no)
+		(at 93.472 131.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "4184b927-1d34-4e35-8722-f2649c04edc0")
+	)
+	(text "19"
+		(exclude_from_sim no)
+		(at 93.472 184.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "4a1e1686-67c5-42fe-9775-0102532cddf9")
+	)
+	(text "32"
+		(exclude_from_sim no)
+		(at 239.268 164.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "4a7612bc-a6d2-4aa5-879d-445a120f7243")
+	)
+	(text "22"
+		(exclude_from_sim no)
+		(at 229.87 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "4d51d6ee-b687-4ecd-bcbf-6eae0c4c4def")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 241.3 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "4ed60883-2e5a-424b-ae00-27a1dde01f99")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 89.408 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "503bf7a6-2d34-4965-8b65-420a6857d169")
+	)
+	(text "32"
+		(exclude_from_sim no)
+		(at 93.472 128.524 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "50ae032b-7795-4a99-bb1f-6d29ccf1c5db")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 241.3 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "51def43a-a190-48a1-8f85-44783c74400f")
+	)
+	(text "24"
+		(exclude_from_sim no)
+		(at 237.744 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "557b49f5-c41a-4024-b955-49842c8a058b")
+	)
+	(text "32"
+		(exclude_from_sim no)
+		(at 234.442 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "5ca96665-79a1-40fc-b4bb-efab7fb32b13")
+	)
+	(text "32"
+		(exclude_from_sim no)
+		(at 235.204 237.744 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "63a94e47-32f7-4478-bc5a-3828b5b83729")
+	)
+	(text "32"
+		(exclude_from_sim no)
+		(at 234.442 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "67253b5a-c3a7-4ec1-a008-1a39705805a7")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 89.408 136.144 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "6756c2b6-46cf-4d5a-931f-4cb01756b510")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 402.336 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "6959640d-c4ed-40fc-859d-1bf616052dca")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 89.662 186.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "6b4a2b08-bae1-446d-a304-345f1bc91277")
+	)
+	(text "23"
+		(exclude_from_sim no)
+		(at 350.012 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "6cc06623-3e11-4e4f-af71-89c70571c4e0")
+	)
+	(text "19"
+		(exclude_from_sim no)
+		(at 234.95 105.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "6e77b96d-c2d3-4904-838b-a4c9c29e27a0")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 89.662 232.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "70dde733-1188-44b0-a657-51f31039573b")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 239.776 146.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "72d33b13-8798-472d-af5c-d98f45fb4b00")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 402.336 67.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "7ff5ce10-8916-490f-b3b3-e52d857bc097")
+	)
+	(text "19"
+		(exclude_from_sim no)
+		(at 93.345 181.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "84c26087-ae44-44ff-bbf2-90cc3a0f3c53")
+	)
+	(text "22"
+		(exclude_from_sim no)
+		(at 239.268 110.744 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "88a71b09-dfd9-4c2d-8b8e-3b50a0f604c7")
+	)
+	(text "32"
+		(exclude_from_sim no)
+		(at 234.442 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "8aa2fdd8-dac8-4138-bdd8-0816a983e1aa")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 241.046 179.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "91aea4d7-f732-4336-b05e-cc8237205e16")
+	)
+	(text "19"
+		(exclude_from_sim no)
+		(at 232.41 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "91be00b2-dbaf-400c-b367-e63d1e4a4ff9")
 	)
 	(text "STM32L496ZGT6"
 		(exclude_from_sim no)
@@ -6839,6 +7301,39 @@
 		)
 		(uuid "9eb57936-76b3-45c2-b2da-cf41647ca9e3")
 	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 92.964 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "a013c8c3-fb20-4d61-ba0b-37dbef00bcbf")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 91.694 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "a68c9878-6fd3-41af-9b86-1e28295eab96")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 402.082 128.524 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "a7433d2f-6d40-484a-9cd8-a57d4601b0e2")
+	)
 	(text "ST-Link"
 		(exclude_from_sim no)
 		(at 319.532 17.018 0)
@@ -6848,6 +7343,61 @@
 			)
 		)
 		(uuid "a97aeb65-3fc2-4ec1-b0b1-97e284c111ec")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 91.186 125.984 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "ad4b1543-3a1d-4fc6-b425-23cdd6342007")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 241.046 177.038 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "b094ac8b-ec9a-4977-921f-7c12d53a10eb")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 239.776 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "b7217da6-e463-4b7a-81ff-f0d6fbfcd772")
+	)
+	(text "19"
+		(exclude_from_sim no)
+		(at 234.95 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "b857c3e9-05c0-4f96-8c01-99037aae1810")
+	)
+	(text "19"
+		(exclude_from_sim no)
+		(at 235.712 131.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "bcb71438-9d88-4505-8866-fcec52caa6a9")
 	)
 	(text "D2"
 		(exclude_from_sim no)
@@ -6859,6 +7409,17 @@
 		)
 		(uuid "be4b0639-574c-42ae-83c9-b70f9702575a")
 	)
+	(text "24"
+		(exclude_from_sim no)
+		(at 91.186 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "c44b6f9f-4243-4670-9512-0d6e64e09601")
+	)
 	(text "D4"
 		(exclude_from_sim no)
 		(at 387.096 173.228 0)
@@ -6868,6 +7429,17 @@
 			)
 		)
 		(uuid "c746e869-ee41-4b06-acab-bc90f53cba19")
+	)
+	(text "31"
+		(exclude_from_sim no)
+		(at 90.932 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "cb069c16-8756-4486-ab48-2e74747b5eca")
 	)
 	(text "Debugging and Status LEDs"
 		(exclude_from_sim no)
@@ -6889,6 +7461,116 @@
 		)
 		(uuid "dbcef471-5eda-4fc7-9de0-2323a59f25c7")
 	)
+	(text "24"
+		(exclude_from_sim no)
+		(at 94.996 146.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "e07ac81d-9e7a-4dbe-b9b4-2199da9f0b49")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 402.336 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "e17f8cf4-9a3e-41ba-89eb-caf728681236")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 89.662 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 2 3 1)
+			)
+		)
+		(uuid "f3988229-33d4-407d-a525-09bbf62b2930")
+	)
+	(text "24"
+		(exclude_from_sim no)
+		(at 93.726 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "f5981899-2670-4f0d-89ab-98995f020641")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 241.046 174.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "f75aeb9f-df2a-425e-9a36-b59bfaeed7fd")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 402.082 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "f9265b9b-f7a9-49a1-9491-fc374eb24544")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 87.122 164.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "f970afb8-3460-4260-aea5-4e7e4d58bb56")
+	)
+	(text "19"
+		(exclude_from_sim no)
+		(at 234.95 103.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "fb0831e3-f68d-4ad4-b37f-4f9b6dc791b5")
+	)
+	(text "32"
+		(exclude_from_sim no)
+		(at 239.268 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 113 103 4 1)
+			)
+		)
+		(uuid "fd2adb5f-7b10-45c5-a0b5-b8bb8aa319bf")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 241.046 181.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "fd6b1aed-5c2b-4fb5-9809-b1d71f173609")
+	)
 	(junction
 		(at 127 45.72)
 		(diameter 0)
@@ -6902,16 +7584,16 @@
 		(uuid "02146e95-19d0-43fc-ba14-7f7b93409cf9")
 	)
 	(junction
+		(at 41.91 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02791caa-190f-4432-a9bd-8db962bc76a4")
+	)
+	(junction
 		(at 45.72 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0526b0f7-942e-404e-b24a-8bc209c7a92a")
-	)
-	(junction
-		(at 353.06 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "104650c2-5b46-4c8c-9e63-c148e82db786")
 	)
 	(junction
 		(at 162.56 266.7)
@@ -6932,16 +7614,22 @@
 		(uuid "1a2dd775-bd92-408f-b5ab-d08c296b5086")
 	)
 	(junction
+		(at 236.22 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ac75a57-3f66-4d5f-81dc-3c2b713f7d97")
+	)
+	(junction
 		(at 165.1 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ad8df92-5e24-4e20-8e4e-d1a904d83c98")
 	)
 	(junction
-		(at 377.19 209.55)
+		(at 46.99 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "207cb072-fdda-49ca-9150-fa8fe6f6a4f0")
+		(uuid "23f455aa-8fc7-44c4-8a7a-8a6338eea0a1")
 	)
 	(junction
 		(at 35.56 45.72)
@@ -6960,6 +7648,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2832769a-7f30-4ddd-a040-52e63c3edd7c")
+	)
+	(junction
+		(at 248.92 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a72a299-42b6-4067-9741-7debe76197e2")
 	)
 	(junction
 		(at 104.14 74.93)
@@ -6992,10 +7686,10 @@
 		(uuid "418d2f95-70e0-418e-bb19-d8f504ff6a88")
 	)
 	(junction
-		(at 248.92 217.17)
+		(at 327.66 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "458d7de6-f234-4bbc-a034-a2d5c9cdd1ca")
+		(uuid "41932c70-03eb-4985-9c10-949ae3b419d7")
 	)
 	(junction
 		(at 55.88 35.56)
@@ -7010,10 +7704,16 @@
 		(uuid "46ebc6a4-325e-4681-bd76-5743681fbe19")
 	)
 	(junction
-		(at 254 156.21)
+		(at 353.06 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4a649161-c776-4b53-939d-a95495485507")
+		(uuid "48098cd7-ed7a-4f2b-99e0-81a1084bafd3")
+	)
+	(junction
+		(at 377.19 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52decfa9-116b-4233-99ee-978baa0a94fe")
 	)
 	(junction
 		(at 160.02 74.93)
@@ -7026,6 +7726,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c54b6f1-78c1-4324-a04a-7c35490cd090")
+	)
+	(junction
+		(at 248.92 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62f0ab98-3564-44c2-8b67-e035e99076c6")
 	)
 	(junction
 		(at 162.56 35.56)
@@ -7050,6 +7756,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d6b5141-4f10-4df3-95bc-c133a1d43d12")
+	)
+	(junction
+		(at 49.53 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fe3affa-97eb-4d28-9653-7eb65ee70cab")
 	)
 	(junction
 		(at 191.77 35.56)
@@ -7100,6 +7812,12 @@
 		(uuid "8dc7eaf0-2e75-414c-839d-d0c1e3785a5f")
 	)
 	(junction
+		(at 44.45 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9376e3b0-f1f4-49f0-82f8-4b83e5291066")
+	)
+	(junction
 		(at 25.4 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7122,18 +7840,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa854fba-123e-4650-a111-c709ff4e74ae")
-	)
-	(junction
-		(at 236.22 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aabd0554-a25b-49bd-b2b9-0bae7c4cea11")
-	)
-	(junction
-		(at 302.26 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aad8de76-6b91-4819-9d74-67ae0bbf9f2f")
 	)
 	(junction
 		(at 330.2 57.15)
@@ -7160,10 +7866,22 @@
 		(uuid "bde6f731-8fef-438d-b1fe-033e8f2e7314")
 	)
 	(junction
+		(at 274.32 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c017ef90-ac8b-4728-8a32-79acb1bf23bb")
+	)
+	(junction
 		(at 66.04 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c30fb559-54dd-443b-b404-0999381ed5d4")
+	)
+	(junction
+		(at 39.37 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a69c3d-37fa-4b5f-b4c4-8dd07bdb491f")
 	)
 	(junction
 		(at 162.56 74.93)
@@ -7202,22 +7920,28 @@
 		(uuid "cd9c7f2f-e351-4b42-9e6d-08c5e00f769f")
 	)
 	(junction
-		(at 327.66 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd07053f-ebf3-47d5-b15d-f8ecc53bfddb")
-	)
-	(junction
 		(at 55.88 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd3a703f-b535-47b3-813f-65ecb2fa7431")
 	)
 	(junction
+		(at 302.26 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de36c502-eaf1-4a09-8044-189425396078")
+	)
+	(junction
 		(at 157.48 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df843430-1fb0-4b87-af01-83a5dd659cfc")
+	)
+	(junction
+		(at 52.07 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e693fb7d-b57a-47c9-aa94-25eada6fc4a6")
 	)
 	(junction
 		(at 125.73 87.63)
@@ -7254,6 +7978,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9ddd21d-8b03-44a3-b4d5-cc85d3b62901")
+	)
+	(junction
+		(at 254 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe05e133-04fb-43e1-8310-35106630f1e8")
 	)
 	(junction
 		(at 62.23 132.08)
@@ -7636,6 +8366,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 186.69) (xy 132.08 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0218a77f-6099-4095-b5ee-2262c79e2cc5")
+	)
+	(wire
+		(pts
 			(xy 353.06 72.39) (xy 372.11 72.39)
 		)
 		(stroke
@@ -7776,16 +8516,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 219.71) (xy 132.08 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e13005b-1e40-4867-b8ce-5a68519a9745")
-	)
-	(wire
-		(pts
 			(xy 162.56 35.56) (xy 162.56 38.1)
 		)
 		(stroke
@@ -7843,6 +8573,36 @@
 			(type default)
 		)
 		(uuid "11915a2e-dfa1-4a71-8745-cb97aa155d9f")
+	)
+	(wire
+		(pts
+			(xy 38.1 171.45) (xy 41.91 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120b00ee-6ebf-4578-950e-474a2a5b360d")
+	)
+	(wire
+		(pts
+			(xy 113.03 133.35) (xy 132.08 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12703ce2-068b-479c-b443-f766275dbdca")
+	)
+	(wire
+		(pts
+			(xy 106.68 120.65) (xy 132.08 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "128b96c3-f84c-4228-a3bd-4a38a908753b")
 	)
 	(wire
 		(pts
@@ -7913,6 +8673,16 @@
 			(type default)
 		)
 		(uuid "18e2cade-a2ac-4d04-bb5a-32186a035505")
+	)
+	(wire
+		(pts
+			(xy 38.1 168.91) (xy 39.37 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193d519e-ec5b-4fd3-a4fc-cdb6b8bdb89c")
 	)
 	(wire
 		(pts
@@ -8006,6 +8776,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 207.01) (xy 212.09 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df5cfaa-3a9a-41e1-b4b2-077c8f0b7f0b")
+	)
+	(wire
+		(pts
 			(xy 193.04 176.53) (xy 220.98 176.53)
 		)
 		(stroke
@@ -8036,7 +8816,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 229.87) (xy 302.26 231.14)
+			(xy 302.26 229.87) (xy 302.26 232.41)
 		)
 		(stroke
 			(width 0)
@@ -8106,7 +8886,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 215.9) (xy 353.06 217.17)
+			(xy 353.06 215.9) (xy 353.06 218.44)
 		)
 		(stroke
 			(width 0)
@@ -8226,7 +9006,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 234.95) (xy 213.36 234.95)
+			(xy 193.04 234.95) (xy 217.17 234.95)
 		)
 		(stroke
 			(width 0)
@@ -8296,6 +9076,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 113.03) (xy 220.98 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304892e5-61c9-454b-ad9f-6b2a44315105")
+	)
+	(wire
+		(pts
 			(xy 342.9 33.02) (xy 354.33 33.02)
 		)
 		(stroke
@@ -8313,6 +9103,16 @@
 			(type default)
 		)
 		(uuid "31626aab-5fb1-4701-87d5-74c8062850d8")
+	)
+	(wire
+		(pts
+			(xy 107.95 219.71) (xy 132.08 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a35f07-afcd-424f-96ad-e63cd5f2f2bb")
 	)
 	(wire
 		(pts
@@ -8346,7 +9146,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 224.79) (xy 327.66 224.79)
+			(xy 266.7 223.52) (xy 327.66 223.52)
 		)
 		(stroke
 			(width 0)
@@ -8363,6 +9163,16 @@
 			(type default)
 		)
 		(uuid "375595a8-b69f-4f27-8eeb-7de1a7fcfa63")
+	)
+	(wire
+		(pts
+			(xy 193.04 95.25) (xy 220.98 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b687f8-2e46-40d2-9368-3acda15462b6")
 	)
 	(wire
 		(pts
@@ -8386,6 +9196,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 107.95) (xy 220.98 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390f7448-cad7-486f-9dcc-8c3962adc9fb")
+	)
+	(wire
+		(pts
 			(xy 270.51 161.29) (xy 270.51 165.1)
 		)
 		(stroke
@@ -8396,7 +9216,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 156.21) (xy 265.43 156.21)
+			(xy 254 156.21) (xy 262.89 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8556,6 +9376,26 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 181.61) (xy 52.07 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eaf3aaf-ee5a-4141-8cff-11b7a5ca417f")
+	)
+	(wire
+		(pts
+			(xy 106.68 125.73) (xy 132.08 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc839e0-8546-4ba9-8dc9-9c9ce8622462")
+	)
+	(wire
+		(pts
 			(xy 137.16 35.56) (xy 137.16 38.1)
 		)
 		(stroke
@@ -8566,7 +9406,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 209.55) (xy 132.08 209.55)
+			(xy 107.95 209.55) (xy 132.08 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8586,13 +9426,13 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 208.28) (xy 377.19 209.55)
+			(xy 248.92 156.21) (xy 254 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4290f287-9632-41e9-886e-b8e680618a2f")
+		(uuid "436ad80a-6206-44c5-9b2e-026558addb70")
 	)
 	(wire
 		(pts
@@ -8846,6 +9686,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 199.39) (xy 132.08 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d7cbe3-0d06-4ad9-9426-6e677eb8c173")
+	)
+	(wire
+		(pts
 			(xy 387.35 219.71) (xy 387.35 220.98)
 		)
 		(stroke
@@ -8876,7 +9726,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 224.79) (xy 266.7 252.73)
+			(xy 266.7 223.52) (xy 266.7 252.73)
 		)
 		(stroke
 			(width 0)
@@ -9116,6 +9966,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 115.57) (xy 132.08 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63820c09-b2e1-472b-aa27-16c453e0ad75")
+	)
+	(wire
+		(pts
 			(xy 325.12 72.39) (xy 312.42 72.39)
 		)
 		(stroke
@@ -9246,6 +10106,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 208.28) (xy 377.19 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1b3c58-1709-4396-b51d-99c727ac18e5")
+	)
+	(wire
+		(pts
 			(xy 353.06 113.03) (xy 372.11 113.03)
 		)
 		(stroke
@@ -9256,23 +10126,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 156.21) (xy 254 156.21)
+			(xy 193.04 156.21) (xy 248.92 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6fbfcada-62ee-4571-ae33-f9372c193251")
-	)
-	(wire
-		(pts
-			(xy 110.49 186.69) (xy 132.08 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7010e57e-5130-462f-8f5d-89e9cffa1840")
 	)
 	(wire
 		(pts
@@ -9346,6 +10206,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 173.99) (xy 46.99 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a392ef-b6f5-4876-8a79-deee53dc8ba8")
+	)
+	(wire
+		(pts
 			(xy 43.18 99.06) (xy 43.18 100.33)
 		)
 		(stroke
@@ -9376,17 +10246,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 199.39) (xy 132.08 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "741c3bf4-00b9-44d3-83a2-324db40b0944")
-	)
-	(wire
-		(pts
-			(xy 236.22 217.17) (xy 236.22 224.79)
+			(xy 236.22 217.17) (xy 236.22 222.25)
 		)
 		(stroke
 			(width 0)
@@ -9433,6 +10293,16 @@
 			(type default)
 		)
 		(uuid "7902effb-e476-4f73-af39-034afe1ef87a")
+	)
+	(wire
+		(pts
+			(xy 279.4 152.4) (xy 274.32 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796d0f82-6703-4e32-96b2-f9abc6a5cfa6")
 	)
 	(wire
 		(pts
@@ -9496,16 +10366,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 224.79) (xy 327.66 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b7be7a2-eae9-4244-99f3-fd6c917697bb")
-	)
-	(wire
-		(pts
 			(xy 118.11 87.63) (xy 125.73 87.63)
 		)
 		(stroke
@@ -9533,16 +10393,6 @@
 			(type default)
 		)
 		(uuid "7ca2ddbb-e898-4701-9249-a97da8b36e3b")
-	)
-	(wire
-		(pts
-			(xy 302.26 231.14) (xy 302.26 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cdba0fd-374e-487d-bbb1-5d05717e8b34")
 	)
 	(wire
 		(pts
@@ -9726,6 +10576,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 128.27) (xy 132.08 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e3fad9-01ad-4965-830c-5685b6959b7e")
+	)
+	(wire
+		(pts
 			(xy 27.94 196.85) (xy 31.75 196.85)
 		)
 		(stroke
@@ -9836,6 +10696,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 156.21) (xy 276.86 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933541d2-c053-49fd-add2-26454d5db9b8")
+	)
+	(wire
+		(pts
 			(xy 116.84 35.56) (xy 127 35.56)
 		)
 		(stroke
@@ -9916,7 +10786,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 231.14) (xy 269.24 255.27)
+			(xy 269.24 229.87) (xy 269.24 255.27)
 		)
 		(stroke
 			(width 0)
@@ -9963,6 +10833,16 @@
 			(type default)
 		)
 		(uuid "9975e3e1-ad05-42b0-a726-1b9fa9aff13c")
+	)
+	(wire
+		(pts
+			(xy 106.68 123.19) (xy 132.08 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b8c2e0-f3ea-4da2-a790-73751f631921")
 	)
 	(wire
 		(pts
@@ -10083,6 +10963,16 @@
 			(type default)
 		)
 		(uuid "9f56672c-f82e-4254-8c9c-33f27c835e7c")
+	)
+	(wire
+		(pts
+			(xy 248.92 152.4) (xy 248.92 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0106a81-0ae9-4e1b-b9ee-15068a5a5fcd")
 	)
 	(wire
 		(pts
@@ -10226,7 +11116,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 217.17) (xy 248.92 224.79)
+			(xy 248.92 217.17) (xy 248.92 222.25)
 		)
 		(stroke
 			(width 0)
@@ -10306,7 +11196,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 209.55) (xy 261.62 209.55)
+			(xy 377.19 208.28) (xy 261.62 208.28)
 		)
 		(stroke
 			(width 0)
@@ -10333,6 +11223,16 @@
 			(type default)
 		)
 		(uuid "aea4c61f-0f8e-4570-94b0-26e5cc29e743")
+	)
+	(wire
+		(pts
+			(xy 252.73 152.4) (xy 248.92 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af14a04a-1010-453e-9ea7-f42a07df99a4")
 	)
 	(wire
 		(pts
@@ -10456,16 +11356,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 217.17) (xy 353.06 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6d79173-ca53-4dee-b802-46d270994c2d")
-	)
-	(wire
-		(pts
 			(xy 248.92 209.55) (xy 193.04 209.55)
 		)
 		(stroke
@@ -10496,7 +11386,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 217.17) (xy 132.08 217.17)
+			(xy 110.49 217.17) (xy 132.08 217.17)
 		)
 		(stroke
 			(width 0)
@@ -10596,6 +11486,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 179.07) (xy 49.53 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03e6ab0-1ca5-446f-97ee-82c3a97c0f52")
+	)
+	(wire
+		(pts
 			(xy 191.77 43.18) (xy 191.77 45.72)
 		)
 		(stroke
@@ -10666,6 +11566,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 130.81) (xy 132.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c407f5-0b3f-40d6-af08-f39b130a5ffa")
+	)
+	(wire
+		(pts
 			(xy 377.19 215.9) (xy 377.19 219.71)
 		)
 		(stroke
@@ -10726,7 +11636,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 204.47) (xy 132.08 204.47)
+			(xy 110.49 204.47) (xy 132.08 204.47)
 		)
 		(stroke
 			(width 0)
@@ -10806,6 +11716,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 223.52) (xy 327.66 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d15ea320-c5bd-420f-a963-057485834795")
+	)
+	(wire
+		(pts
 			(xy 25.4 99.06) (xy 25.4 100.33)
 		)
 		(stroke
@@ -10813,6 +11733,16 @@
 			(type default)
 		)
 		(uuid "d1e0d263-8d25-4651-830d-dc65b84e3d31")
+	)
+	(wire
+		(pts
+			(xy 107.95 118.11) (xy 132.08 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2382ba4-7101-49f5-aa0f-25339029adda")
 	)
 	(wire
 		(pts
@@ -10876,7 +11806,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 140.97) (xy 219.71 140.97)
+			(xy 193.04 140.97) (xy 220.98 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10993,6 +11923,16 @@
 			(type default)
 		)
 		(uuid "da40ad42-5926-4462-8e07-98fe67995fd8")
+	)
+	(wire
+		(pts
+			(xy 38.1 176.53) (xy 44.45 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac0378e-a7ba-4363-af34-d1ed65936365")
 	)
 	(wire
 		(pts
@@ -11116,7 +12056,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 156.21) (xy 276.86 156.21)
+			(xy 267.97 156.21) (xy 274.32 156.21)
 		)
 		(stroke
 			(width 0)
@@ -11133,6 +12073,16 @@
 			(type default)
 		)
 		(uuid "e6d6b1d0-4256-4dcb-9433-1a1824cadc79")
+	)
+	(wire
+		(pts
+			(xy 274.32 152.4) (xy 274.32 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73a63c3-69d3-4ede-914c-d6ad0ad21ba3")
 	)
 	(wire
 		(pts
@@ -11216,7 +12166,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 233.68) (xy 236.22 229.87)
+			(xy 236.22 229.87) (xy 236.22 227.33)
 		)
 		(stroke
 			(width 0)
@@ -11276,7 +12226,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 233.68) (xy 248.92 229.87)
+			(xy 248.92 229.87) (xy 248.92 227.33)
 		)
 		(stroke
 			(width 0)
@@ -11286,7 +12236,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 234.95) (xy 132.08 234.95)
+			(xy 110.49 234.95) (xy 132.08 234.95)
 		)
 		(stroke
 			(width 0)
@@ -11296,7 +12246,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 231.14) (xy 302.26 231.14)
+			(xy 269.24 229.87) (xy 302.26 229.87)
 		)
 		(stroke
 			(width 0)
@@ -11316,7 +12266,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 209.55) (xy 261.62 247.65)
+			(xy 261.62 208.28) (xy 261.62 247.65)
 		)
 		(stroke
 			(width 0)
@@ -11396,6 +12346,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 158.75) (xy 220.98 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7fc75f8-f754-4851-a390-65bb02fbeb8c")
+	)
+	(wire
+		(pts
 			(xy 66.04 35.56) (xy 76.2 35.56)
 		)
 		(stroke
@@ -11426,7 +12386,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 217.17) (xy 353.06 217.17)
+			(xy 264.16 215.9) (xy 353.06 215.9)
 		)
 		(stroke
 			(width 0)
@@ -11436,7 +12396,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 143.51) (xy 220.98 143.51)
+			(xy 193.04 143.51) (xy 219.71 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11476,26 +12436,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 209.55) (xy 377.19 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faeb1773-69fa-420a-b545-e944e0d9ce37")
-	)
-	(wire
-		(pts
-			(xy 327.66 223.52) (xy 327.66 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb3cbde5-9eed-4883-8c4c-9c94e464d22f")
-	)
-	(wire
-		(pts
 			(xy 97.79 83.82) (xy 104.14 83.82)
 		)
 		(stroke
@@ -11503,16 +12443,6 @@
 			(type default)
 		)
 		(uuid "fd66deae-b961-4744-98c9-d3fc88c576ff")
-	)
-	(wire
-		(pts
-			(xy 107.95 133.35) (xy 132.08 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd6e73d3-9792-4da1-9697-96c22246fc71")
 	)
 	(wire
 		(pts
@@ -11546,7 +12476,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 217.17) (xy 264.16 250.19)
+			(xy 264.16 215.9) (xy 264.16 250.19)
 		)
 		(stroke
 			(width 0)
@@ -11604,16 +12534,6 @@
 		)
 		(uuid "043689a7-0165-4a23-93ee-eb01f2dca8e8")
 	)
-	(label "VALVE4.LSW_SEL1"
-		(at 110.49 207.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "044f9211-38d6-495a-8a40-6ebef6a6e779")
-	)
 	(label "SDMMC1_CMD"
 		(at 312.42 85.09 0)
 		(effects
@@ -11633,6 +12553,16 @@
 			(justify right bottom)
 		)
 		(uuid "073698dc-4df9-45a4-bf1c-31a9b55f3eb3")
+	)
+	(label "VALVE5.~{LSW_ST}"
+		(at 113.03 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a02e4e1-5912-4344-93d3-0993cab0563a")
 	)
 	(label "VALVE4.LSW_SEL2"
 		(at 353.06 128.27 0)
@@ -11654,16 +12584,6 @@
 		)
 		(uuid "0ba6ff3f-4ab6-4ab3-9480-ed3f6d70a699")
 	)
-	(label "VALVE3.LSW_SEL1"
-		(at 219.71 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0be0ac29-021f-4850-8808-dbed02fb26e9")
-	)
 	(label "D1"
 		(at 194.31 255.27 0)
 		(effects
@@ -11673,16 +12593,6 @@
 			(justify left bottom)
 		)
 		(uuid "0cabc8cf-de3e-4722-aa80-56679100d069")
-	)
-	(label "VALVE5.~{LSW_ST}"
-		(at 110.49 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e9de61e-dce7-4897-9268-5630fdedc03f")
 	)
 	(label "MAIN_DE"
 		(at 219.71 133.35 180)
@@ -11704,26 +12614,6 @@
 		)
 		(uuid "10d74d50-3022-45c2-8bda-922cf8582d98")
 	)
-	(label "VALVE6.LSW_DIA_EN"
-		(at 110.49 224.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "12e2ddbc-8166-49fa-9ead-9ae03af24be4")
-	)
-	(label "VALVE1.LSW_LATCH"
-		(at 213.36 232.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "139907a5-f47b-464c-983b-626240996b86")
-	)
 	(label "MAIN_RX"
 		(at 316.23 97.79 0)
 		(effects
@@ -11734,7 +12624,17 @@
 		)
 		(uuid "14884199-a958-4c88-bc6d-192ed2add323")
 	)
-	(label "VALVE6.LSW_LATCH"
+	(label "VALVE1.LSW_SEL1"
+		(at 110.49 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1592b98f-4158-436f-8b8d-7ec19533ccec")
+	)
+	(label "VALVE6.LSW_SEL1"
 		(at 110.49 222.25 0)
 		(effects
 			(font
@@ -11742,7 +12642,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "158fc842-aad9-4286-8a96-64c7a3a6d67b")
+		(uuid "1624b0a3-b1aa-4425-88a6-03a296840c0b")
 	)
 	(label "SDMMC1_CK"
 		(at 212.09 204.47 180)
@@ -11754,16 +12654,6 @@
 		)
 		(uuid "171a6236-9a68-4a99-a195-e5ff450b7a5a")
 	)
-	(label "VALVE3.LSW_DIA_EN"
-		(at 219.71 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "19eb5088-e976-4144-93ff-07a0ea19da84")
-	)
 	(label "VALVE2.LSW_LATCH"
 		(at 379.73 20.32 180)
 		(effects
@@ -11773,26 +12663,6 @@
 			(justify right bottom)
 		)
 		(uuid "1a04e012-f635-4923-8f97-fb0878310915")
-	)
-	(label "VALVE1.LSW_SEL1"
-		(at 213.36 224.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1a3455ba-1a2a-443a-aafc-96ed891d094e")
-	)
-	(label "VALVE5.LSW_DIA_EN"
-		(at 110.49 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a99cf6d-d0e2-46f7-b415-22cca7b82b0f")
 	)
 	(label "VALVE5.~{LSW_ST}"
 		(at 353.06 133.35 0)
@@ -11804,15 +12674,15 @@
 		)
 		(uuid "1b4249b0-95e6-41a9-b998-a8ce2413db83")
 	)
-	(label "VALVE6.LSW_SEL2"
-		(at 110.49 227.33 0)
+	(label "VALVE4.LSW_LATCH"
+		(at 212.09 217.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "1f272127-591c-42c2-9bbc-e443317ee908")
+		(uuid "1e08f1f4-64de-47b6-b423-bc07156c12c4")
 	)
 	(label "+3V3"
 		(at 151.13 62.23 180)
@@ -11824,16 +12694,6 @@
 		)
 		(uuid "1f383272-f4db-4dcc-989c-07851dc46a20")
 	)
-	(label "VALVE3.LSW_SEL2"
-		(at 219.71 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1ffb2b68-c13d-4a50-af85-42fcae57a52f")
-	)
 	(label "VALVE3.LSW_LATCH"
 		(at 353.06 105.41 0)
 		(effects
@@ -11844,16 +12704,6 @@
 		)
 		(uuid "203a5c9d-c60d-449d-81bb-7f80af0350b0")
 	)
-	(label "VALVE2.LSW_SEL2"
-		(at 113.03 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "223f6ece-18bf-4b2b-8125-900e8997d1fb")
-	)
 	(label "MAIN_RX"
 		(at 212.09 186.69 180)
 		(effects
@@ -11863,6 +12713,26 @@
 			(justify right bottom)
 		)
 		(uuid "244217f7-5678-4c3e-bccc-07c576c70873")
+	)
+	(label "VALVE1.LSW_LATCH"
+		(at 110.49 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25c71f24-b21c-4af0-818b-64521fe82ea7")
+	)
+	(label "VALVE5.LSW_DIA_EN"
+		(at 113.03 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "262f769c-13b0-48bb-b7c4-1041f488a607")
 	)
 	(label "SDMMC1_D1"
 		(at 212.09 196.85 180)
@@ -11884,16 +12754,6 @@
 		)
 		(uuid "28d99281-2a58-4ded-80c9-699b3eb32718")
 	)
-	(label "VALVE6.~{LSW_ST}"
-		(at 110.49 219.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29055618-319e-4dfa-83a8-2f5b9bf8b9aa")
-	)
 	(label "QUADSPI_BK1_IO1"
 		(at 71.1362 176.53 180)
 		(effects
@@ -11914,16 +12774,6 @@
 		)
 		(uuid "2c18aa0d-676b-4eec-98e9-57f9945e209d")
 	)
-	(label "VALVE2.LSW_DIA_EN"
-		(at 113.03 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d11a621-d31f-49de-97cb-1c0929872cdf")
-	)
 	(label "VALVE1.~{LSW_ST}"
 		(at 353.06 72.39 0)
 		(effects
@@ -11934,16 +12784,6 @@
 		)
 		(uuid "32c0c70b-fa4e-4600-938f-291707520491")
 	)
-	(label "VALVE1.~{LSW_ST}"
-		(at 213.36 234.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "33bff6f1-1b46-4708-9c1b-3cf38edd9feb")
-	)
 	(label "VALVE5.LSW_SEL1"
 		(at 353.06 140.97 0)
 		(effects
@@ -11953,16 +12793,6 @@
 			(justify left bottom)
 		)
 		(uuid "33ed58e2-c5ec-4ac8-ad29-200594089a8b")
-	)
-	(label "VALVE3.LSW_LATCH"
-		(at 110.49 196.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3634cefe-52c9-4d60-b672-503f685b6be5")
 	)
 	(label "VDDA"
 		(at 177.8 62.23 180)
@@ -12014,6 +12844,16 @@
 		)
 		(uuid "4378a114-c314-4e95-8ac8-a4d4e0235a35")
 	)
+	(label "VALVE2.LSW_DIA_EN"
+		(at 219.71 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "439ae0dc-354c-4b18-9d6e-e104292e5af7")
+	)
 	(label "NRST"
 		(at 354.33 25.4 180)
 		(effects
@@ -12024,15 +12864,15 @@
 		)
 		(uuid "441456af-da0e-432d-9521-da798d2d6344")
 	)
-	(label "VALVE2.LSW_SEL1"
-		(at 113.03 138.43 0)
+	(label "VALVE1.LSW_SEL2"
+		(at 113.03 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "44162761-46be-4f05-84d4-c9b7c4589bb7")
+		(uuid "44395900-7a7f-4d13-a905-f560fa5fd16e")
 	)
 	(label "SDMMC1_D0"
 		(at 212.09 194.31 180)
@@ -12044,15 +12884,15 @@
 		)
 		(uuid "48c6663a-f079-49fb-b888-6defea8209d2")
 	)
-	(label "VALVE5.LSW_LATCH"
-		(at 110.49 189.23 0)
+	(label "VALVE1.LSW_DIA_EN"
+		(at 113.03 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4c532c0f-aabc-4af9-beea-5d6e11ff0d91")
+		(uuid "4a84727d-3bd8-4ddd-95e1-884b30ac29e8")
 	)
 	(label "SDMMC1_D1"
 		(at 312.42 74.93 0)
@@ -12074,15 +12914,25 @@
 		)
 		(uuid "4e01f58b-03a2-40f3-9a93-d447ee2d2cf3")
 	)
-	(label "VALVE5.LSW_SEL1"
-		(at 113.03 113.03 0)
+	(label "VALVE3.LSW_SEL1"
+		(at 219.71 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5244d774-0317-4f38-8a30-5f8b4cb72813")
+	)
+	(label "VALVE1.~{LSW_ST}"
+		(at 110.49 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "55e49d03-d767-42a6-a862-04352486c822")
+		(uuid "5465dc0e-bc70-43be-bd46-bad2134e6e41")
 	)
 	(label "JTDI_STM32"
 		(at 400.05 20.32 180)
@@ -12114,6 +12964,16 @@
 		)
 		(uuid "577f0616-5f2b-4331-86aa-b19fe64f5b5e")
 	)
+	(label "VALVE2.LSW_LATCH"
+		(at 219.71 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5bf91d94-4872-4e94-a142-88d5526b7371")
+	)
 	(label "SWCLK"
 		(at 209.55 123.19 180)
 		(effects
@@ -12133,6 +12993,16 @@
 			(justify left bottom)
 		)
 		(uuid "5f7d0b9a-0815-4076-8418-a1e3b0d76e10")
+	)
+	(label "VALVE6.LSW_DIA_EN"
+		(at 110.49 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62e4d27b-e557-4f5d-a4b8-549122d959a7")
 	)
 	(label "SWDIO"
 		(at 209.55 120.65 180)
@@ -12163,26 +13033,6 @@
 			(justify right bottom)
 		)
 		(uuid "69f13264-6b15-4fb5-9db2-7222ddb95e31")
-	)
-	(label "VALVE2.~{LSW_ST}"
-		(at 219.71 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6ad73420-6bf4-4aae-a023-00d96a48d25e")
-	)
-	(label "VALVE4.LSW_SEL2"
-		(at 110.49 209.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b2e78b6-7bd3-448e-9135-e41b6d88e2eb")
 	)
 	(label "QUADSPI_BK1_IO0"
 		(at 71.1362 173.99 180)
@@ -12224,15 +13074,35 @@
 		)
 		(uuid "6dfb14a0-daf7-449d-8810-a2f954e6ef06")
 	)
-	(label "VALVE2.LSW_LATCH"
-		(at 219.71 138.43 180)
+	(label "VALVE2.LSW_SEL1"
+		(at 110.49 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e0b74ef-8c55-4088-9177-4138fd1b54c9")
+	)
+	(label "VALVE6.~{LSW_ST}"
+		(at 110.49 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74c917d8-e2ac-4bf9-80a4-fb2d213dc211")
+	)
+	(label "VALVE4.LSW_SEL2"
+		(at 213.36 229.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "71cca947-329b-44a9-b051-ecc8334a3f45")
+		(uuid "7a557065-ed90-41a4-bec0-c14a6f63ec0f")
 	)
 	(label "VALVE1.LSW_SEL2"
 		(at 353.06 82.55 0)
@@ -12243,6 +13113,16 @@
 			(justify left bottom)
 		)
 		(uuid "7adc752d-0257-43c4-97e7-82de5acc0b9e")
+	)
+	(label "VALVE5.LSW_SEL1"
+		(at 110.49 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7da575ac-c9f9-449d-8ff7-0e311c9d13e9")
 	)
 	(label "VALVE1.LSW_LATCH"
 		(at 353.06 74.93 0)
@@ -12273,6 +13153,26 @@
 			(justify left bottom)
 		)
 		(uuid "84b7ee56-556a-4339-8ec9-dc8e0c6b5fda")
+	)
+	(label "VALVE3.~{LSW_ST}"
+		(at 113.03 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89edc66a-8974-4abf-b44b-fb37bee68efd")
+	)
+	(label "VALVE4.LSW_SEL1"
+		(at 213.36 232.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a856dcf-da2f-45ff-91fa-f517ed65de87")
 	)
 	(label "QUADSPI_BK1_IO2"
 		(at 71.12 171.45 180)
@@ -12334,26 +13234,6 @@
 		)
 		(uuid "8fa4f105-044d-4b4e-b70a-8a31e73841fc")
 	)
-	(label "VALVE1.LSW_DIA_EN"
-		(at 213.36 229.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "923185dd-f777-4b64-9023-86f0bc65b98c")
-	)
-	(label "VALVE5.LSW_SEL2"
-		(at 113.03 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "924d49c7-c2bb-4015-a483-4ec6b55eb108")
-	)
 	(label "SDMMC1_D2"
 		(at 312.42 77.47 0)
 		(effects
@@ -12394,16 +13274,6 @@
 		)
 		(uuid "9790846b-4d26-4b4d-a31a-ae126722e5bc")
 	)
-	(label "VALVE4.LSW_DIA_EN"
-		(at 110.49 212.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97f58e6d-7aca-4239-b0a0-92ef08aed2ef")
-	)
 	(label "QUADSPI_BK1_IO3"
 		(at 71.1362 168.91 180)
 		(effects
@@ -12413,6 +13283,26 @@
 			(justify right bottom)
 		)
 		(uuid "995f14ce-419e-4283-b22d-246c3d0f8b51")
+	)
+	(label "VALVE4.~{LSW_ST}"
+		(at 213.36 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b7ccdae-c508-4d28-a478-28da1637e57d")
+	)
+	(label "VALVE3.LSW_SEL2"
+		(at 113.03 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e495d25-c7ba-4a4c-9380-3f431a4392a8")
 	)
 	(label "MAIN_DE"
 		(at 316.23 102.87 0)
@@ -12424,6 +13314,26 @@
 		)
 		(uuid "a157a43c-0ef3-4e3e-b582-d6c3aa594937")
 	)
+	(label "VALVE2.~{LSW_ST}"
+		(at 219.71 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a507b3c7-4566-4b71-aaef-9716806920a2")
+	)
+	(label "VALVE4.LSW_DIA_EN"
+		(at 213.36 227.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab8c2be3-23f1-4613-8ace-7ea5afd3af9f")
+	)
 	(label "VALVE6.LSW_SEL2"
 		(at 353.06 158.75 0)
 		(effects
@@ -12433,6 +13343,36 @@
 			(justify left bottom)
 		)
 		(uuid "af6d0eb1-7384-498f-9d1c-1148c0021e9f")
+	)
+	(label "VALVE2.LSW_SEL2"
+		(at 219.71 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b12df0ed-b6fa-4992-b6e5-c5aab9e68c2d")
+	)
+	(label "VALVE5.LSW_SEL2"
+		(at 110.49 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bde888e2-b602-4541-8cdb-bcef01fd15c1")
+	)
+	(label "VALVE5.LSW_LATCH"
+		(at 110.49 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0fe4d28-a575-40cf-bd49-b090c9bc9dc8")
 	)
 	(label "NRST"
 		(at 118.11 87.63 0)
@@ -12504,6 +13444,16 @@
 		)
 		(uuid "cdbb13c2-8188-485a-8b45-fd2fc0aad325")
 	)
+	(label "VALVE3.LSW_LATCH"
+		(at 113.03 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cea01609-a807-4e70-ad24-30ba0f2fee05")
+	)
 	(label "VALVE5.LSW_SEL2"
 		(at 353.06 143.51 0)
 		(effects
@@ -12564,6 +13514,16 @@
 		)
 		(uuid "db675961-dcf2-4ec1-ab8e-71139b29e8e4")
 	)
+	(label "VALVE6.LSW_LATCH"
+		(at 110.49 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd34f95f-1fa1-4a24-bba6-6187d217d211")
+	)
 	(label "SD_DET"
 		(at 212.09 191.77 180)
 		(effects
@@ -12594,6 +13554,16 @@
 		)
 		(uuid "e4694a01-628b-425f-b51f-0e4ab37c184a")
 	)
+	(label "VALVE6.LSW_SEL2"
+		(at 110.49 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e736dae7-35c9-4a28-965d-0cf3f2f866c3")
+	)
 	(label "VALVE6.~{LSW_ST}"
 		(at 353.06 148.59 0)
 		(effects
@@ -12603,16 +13573,6 @@
 			(justify left bottom)
 		)
 		(uuid "e8f24c8e-7dab-43f5-bfe4-a38839530525")
-	)
-	(label "VALVE1.LSW_SEL2"
-		(at 213.36 227.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb2b7665-ad9a-4928-9386-7475b6e8aed6")
 	)
 	(label "JTDI"
 		(at 354.33 38.1 180)
@@ -12635,16 +13595,6 @@
 		(uuid "ec2b6bcb-03e8-47c6-be52-8b4093f3dc88")
 	)
 	(label "VALVE6.LSW_SEL1"
-		(at 110.49 229.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eeb83ca9-d2b5-43ea-b16a-ec8ccc87061d")
-	)
-	(label "VALVE6.LSW_SEL1"
 		(at 353.06 156.21 0)
 		(effects
 			(font
@@ -12653,16 +13603,6 @@
 			(justify left bottom)
 		)
 		(uuid "ef58aa8f-e9d1-40a6-87e6-af0bb6c926c8")
-	)
-	(label "VALVE3.~{LSW_ST}"
-		(at 110.49 199.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0a54862-a68b-415b-a91d-8f1e85a2bc87")
 	)
 	(label "VALVE4.LSW_DIA_EN"
 		(at 353.06 123.19 0)
@@ -12684,16 +13624,6 @@
 		)
 		(uuid "f789f234-a4e6-4479-9e7c-f11d62455c02")
 	)
-	(label "VALVE4.LSW_LATCH"
-		(at 113.03 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7db22eb-64b8-4510-bcbf-fe6cabc06d90")
-	)
 	(label "JTDI_STM32"
 		(at 209.55 125.73 180)
 		(effects
@@ -12714,29 +13644,29 @@
 		)
 		(uuid "f95704e5-27d1-4217-a9fd-2e7fd51163bf")
 	)
-	(label "VALVE4.~{LSW_ST}"
-		(at 113.03 156.21 0)
+	(label "VALVE3.LSW_DIA_EN"
+		(at 113.03 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "fafba51c-c1dd-4b67-a8ac-be0e02881f61")
+		(uuid "fa30b159-6b60-43e2-b777-7875890f3231")
 	)
-	(global_label "VALVE5_LSS_EN"
-		(shape input)
-		(at 107.95 217.17 180)
+	(global_label "VALVE4_LSS_EN"
+		(shape output)
+		(at 217.17 234.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "064716ea-b2a7-4642-8047-57b3f530e75a")
+		(uuid "001777f2-96cb-450d-b541-b1fed507af60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.4506 217.17 0)
+			(at 234.6694 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12744,7 +13674,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -12796,6 +13726,30 @@
 			)
 		)
 	)
+	(global_label "I2C3_SCL"
+		(shape input)
+		(at 106.68 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12891b24-ceae-4579-9d09-7a7908fe7fb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.9258 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PIN8_STM32"
 		(shape bidirectional)
 		(at 217.17 242.57 0)
@@ -12820,7 +13774,7 @@
 			)
 		)
 	)
-	(global_label "VALVE2_HSS_EN"
+	(global_label "VALVE3_HSS_EN"
 		(shape output)
 		(at 107.95 135.89 180)
 		(fields_autoplaced yes)
@@ -12865,30 +13819,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "VALVE6_LSS_EN"
-		(shape input)
-		(at 107.95 234.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1e03807a-018a-4d36-b713-6b70ef355891")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.4506 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -12988,6 +13918,78 @@
 			)
 		)
 	)
+	(global_label "TEMP_ALERT6"
+		(shape input)
+		(at 220.98 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f516007-e12c-43fd-8662-7bc4758b2546")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.4836 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VALVE2_LSS_EN"
+		(shape output)
+		(at 107.95 199.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31811a64-2ed3-40c5-bc80-448ff788f5d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.4506 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VALVE1_LSS_EN"
+		(shape output)
+		(at 107.95 209.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "359be8be-cdc3-43b8-b0a2-d5c1b40829fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.4506 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VALVE3_LSW_SNS"
 		(shape input)
 		(at 220.98 181.61 0)
@@ -13037,7 +14039,7 @@
 		)
 	)
 	(global_label "USB_VBUS_DET"
-		(shape output)
+		(shape input)
 		(at 220.98 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13108,6 +14110,54 @@
 			)
 		)
 	)
+	(global_label "VALVE3_LSS_EN"
+		(shape output)
+		(at 220.98 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e1bed60-5edf-435c-8b6c-c37551ea61e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.4794 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VALVE6_LSS_EN"
+		(shape output)
+		(at 107.95 219.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40c46e8a-1244-4d66-bc64-fb2f02a97893")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.4506 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "FAN2_TOGGLE"
 		(shape output)
 		(at 107.95 158.75 180)
@@ -13156,31 +14206,7 @@
 			)
 		)
 	)
-	(global_label "VALVE3_LSS_EN"
-		(shape output)
-		(at 220.98 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "48da9e5e-4c7d-4d26-85d1-25a914c336bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.4794 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VALVE1_HSS_EN"
+	(global_label "VALVE4_HSS_EN"
 		(shape output)
 		(at 212.09 219.71 0)
 		(fields_autoplaced yes)
@@ -13201,6 +14227,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "5V_MAIN_PG"
+		(shape input)
+		(at 106.68 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4acc2e1e-052e-40e7-ab53-b970f7e05987")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.4462 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -13252,6 +14302,30 @@
 			)
 		)
 	)
+	(global_label "TEMP_ALERT5"
+		(shape input)
+		(at 220.98 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6209cc8d-a007-40a4-b851-ccebe57a03c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.4836 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "{SDMMC}"
 		(shape bidirectional)
 		(at 331.47 67.31 0)
@@ -13276,9 +14350,9 @@
 			)
 		)
 	)
-	(global_label "VALVE4_HSS_EN"
-		(shape input)
-		(at 107.95 204.47 180)
+	(global_label "VALVE5_LSS_EN"
+		(shape output)
+		(at 107.95 186.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13286,9 +14360,33 @@
 			)
 			(justify right)
 		)
-		(uuid "6642d1fe-2b81-4993-aa7e-0bd2cef17b9c")
+		(uuid "68c24662-a51c-49c6-91de-33bed99709ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.1482 204.47 0)
+			(at 90.4506 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "EFUSE_PG"
+		(shape input)
+		(at 106.68 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "697fbdbf-494f-4abb-a657-dbfaf9092c4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.2606 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13301,7 +14399,7 @@
 		)
 	)
 	(global_label "VALVE5_HSS_EN"
-		(shape input)
+		(shape output)
 		(at 107.95 214.63 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13420,6 +14518,54 @@
 			)
 		)
 	)
+	(global_label "VALVE_GLOBAL_CTRL"
+		(shape output)
+		(at 212.09 207.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d882381-a406-456d-bd12-b1991416bd89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.0043 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "EFUSE_IMON"
+		(shape input)
+		(at 106.68 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ec76aa6-0f02-4388-a1e8-518587c690c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.0834 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VALVE4{VALVE_BUS}"
 		(shape bidirectional)
 		(at 378.46 113.03 0)
@@ -13445,7 +14591,7 @@
 		)
 	)
 	(global_label "I2C1_SCL"
-		(shape input)
+		(shape output)
 		(at 107.95 146.05 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13469,7 +14615,7 @@
 		)
 	)
 	(global_label "3V3_STATUS"
-		(shape output)
+		(shape input)
 		(at 107.95 166.37 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13492,9 +14638,9 @@
 			)
 		)
 	)
-	(global_label "VALVE2_LSS_EN"
-		(shape output)
-		(at 107.95 133.35 180)
+	(global_label "TEMP_ALERT3"
+		(shape input)
+		(at 107.95 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13502,9 +14648,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9d15b7ec-f497-4a83-9783-2363074cf21a")
+		(uuid "9abc9772-5847-4775-9106-3c28c88d95d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.4506 133.35 0)
+			(at 92.4464 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13516,8 +14662,8 @@
 			)
 		)
 	)
-	(global_label "VALVE4_LSS_EN"
-		(shape input)
+	(global_label "VALVE1_HSS_EN"
+		(shape output)
 		(at 107.95 201.93 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13528,7 +14674,31 @@
 		)
 		(uuid "a3818ff0-de01-40b8-be1f-620f3cc28aca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.4506 201.93 0)
+			(at 90.1482 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C3_SDA"
+		(shape bidirectional)
+		(at 107.95 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2fa0d85-3d0d-4c33-88c9-597bffc4bd5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.024 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13553,6 +14723,30 @@
 		(uuid "bbe70684-1dae-43c1-a2f0-abd122dacfc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 232.6964 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TEMP_ALERT4"
+		(shape input)
+		(at 220.98 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfe95935-57de-456b-94be-1bf0ef6abe32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.4836 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13612,7 +14806,7 @@
 			)
 		)
 	)
-	(global_label "VALVE3_HSS_EN"
+	(global_label "VALVE2_HSS_EN"
 		(shape output)
 		(at 220.98 146.05 0)
 		(fields_autoplaced yes)
@@ -13684,6 +14878,30 @@
 			)
 		)
 	)
+	(global_label "TEMP_ALERT2"
+		(shape input)
+		(at 107.95 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdcc8206-b514-4082-9e2b-213f8172d46f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.4464 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PIN12_STM32"
 		(shape bidirectional)
 		(at 217.17 237.49 0)
@@ -13709,7 +14927,7 @@
 		)
 	)
 	(global_label "VALVE6_HSS_EN"
-		(shape input)
+		(shape output)
 		(at 107.95 232.41 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13852,30 +15070,6 @@
 			)
 		)
 	)
-	(global_label "VALVE1_LSS_EN"
-		(shape output)
-		(at 212.09 217.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f2ef667f-aadd-4ee2-a19f-39701367155b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.5894 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "PIN16_STM32"
 		(shape bidirectional)
 		(at 220.98 166.37 0)
@@ -13901,7 +15095,7 @@
 		)
 	)
 	(global_label "V-12P0_MAIN_PG"
-		(shape output)
+		(shape input)
 		(at 107.95 163.83 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13921,6 +15115,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "TEMP_ALERT1"
+		(shape input)
+		(at 220.98 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffa1cc5f-669f-4b72-92d1-519b4cdae405")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.4836 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -14003,271 +15221,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 132.08 118.11 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0635028d-99cf-4a13-a2ed-04f4a3ef9937")
-		(property "Reference" "TP156"
-			(at 124.714 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 122.936 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 132.08 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 132.08 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 132.08 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vz" ""
-			(at 132.08 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "TP9"
-			(at 132.08 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDS" "TestPoint"
-			(at 132.08 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" ""
-			(at 132.08 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6cf31e48-6efc-4bf4-917d-deebc80e17cc")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
-					(reference "TP156")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 193.04 113.03 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "06731fa2-6330-4e26-b20e-213faab9210e")
-		(property "Reference" "TP145"
-			(at 200.406 113.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 202.184 113.03 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 193.04 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 193.04 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 193.04 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vz" ""
-			(at 193.04 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "TP9"
-			(at 193.04 113.03 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDS" "TestPoint"
-			(at 193.04 113.03 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" ""
-			(at 193.04 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2aaffd8a-6491-401d-806f-648545cd44b7")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
-					(reference "TP145")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 31.75 156.21 180)
 		(unit 1)
@@ -14345,7 +15298,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C221829"
 			(at 31.75 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -14358,6 +15311,16 @@
 		)
 		(property "SW" "SPDT"
 			(at 32.512 161.544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 31.75 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14420,7 +15383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 86.36 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14535,7 +15498,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 364.49 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14651,7 +15614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 384.81 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14847,7 +15810,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 62.23 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -14962,7 +15925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 106.68 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -15077,7 +16040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 66.04 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -15151,138 +16114,6 @@
 			(project "valve_control_pcb"
 				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
 					(reference "C32")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 132.08 125.73 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2453a4ca-7e21-4fe4-8208-0725e6d8aa56")
-		(property "Reference" "TP159"
-			(at 124.714 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 122.936 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 132.08 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 132.08 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 132.08 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vz" ""
-			(at 132.08 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "TP9"
-			(at 132.08 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDS" "TestPoint"
-			(at 132.08 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" ""
-			(at 132.08 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90d2ac19-477d-4333-9a88-8b48410a6c11")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
-					(reference "TP159")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -15410,6 +16241,7 @@
 		)
 		(pin "44"
 			(uuid "6ee645ca-b88e-4b47-b332-8e94e93afc21")
+			(alternate "USART3_TX")
 		)
 		(pin "109"
 			(uuid "77802e2b-e4e7-4176-b242-9031fa1c824b")
@@ -15417,7 +16249,6 @@
 		)
 		(pin "73"
 			(uuid "5872acf7-5138-4c08-a0ca-63da569a1dfb")
-			(alternate "SAI2_FS_A")
 		)
 		(pin "120"
 			(uuid "ab813cf1-990c-4bbd-b96e-0a93aa3fbab0")
@@ -15439,7 +16270,6 @@
 		)
 		(pin "124"
 			(uuid "d6b4fe84-e560-42c7-9a55-bd1aaf792560")
-			(alternate "USART1_TX")
 		)
 		(pin "129"
 			(uuid "f98d8993-bce9-42ad-ba88-98f896592a4d")
@@ -15456,7 +16286,6 @@
 		)
 		(pin "28"
 			(uuid "f96d229b-e150-4968-8a19-5e629e117018")
-			(alternate "SPI2_MISO")
 		)
 		(pin "121"
 			(uuid "1f42a005-6b05-450e-8048-be04a662fe2f")
@@ -15466,15 +16295,12 @@
 		)
 		(pin "78"
 			(uuid "886d3e69-94d3-4684-b9b7-e06e26fde44b")
-			(alternate "SAI2_MCLK_A")
 		)
 		(pin "114"
 			(uuid "59a8ba01-b981-40af-907f-a33f0acbf812")
-			(alternate "CAN1_RX")
 		)
 		(pin "115"
 			(uuid "32e3b994-24ac-4f67-8a0f-9e7e5d949bf6")
-			(alternate "SPI2_SCK")
 		)
 		(pin "139"
 			(uuid "345b5c76-4885-475e-8894-4d9f430952b5")
@@ -15509,6 +16335,7 @@
 		)
 		(pin "19"
 			(uuid "77214e34-2bed-441b-9520-64c7e54a80ed")
+			(alternate "QUADSPI_BK1_IO2")
 		)
 		(pin "100"
 			(uuid "bc9a3f63-18e8-442d-809f-7fb6abd4a88e")
@@ -15553,11 +16380,9 @@
 		)
 		(pin "70"
 			(uuid "88d6b686-15a9-4fed-af6d-5530734857b4")
-			(alternate "I2C2_SDA")
 		)
 		(pin "127"
 			(uuid "c12b6397-be31-4310-b7a3-6622986c5c0f")
-			(alternate "USART1_RTS")
 		)
 		(pin "1"
 			(uuid "0b5b6792-4b0a-4915-858f-18bf3c69c7aa")
@@ -15574,7 +16399,6 @@
 		)
 		(pin "125"
 			(uuid "6e8f4d82-dcb6-4d02-8855-a7d97f6b9384")
-			(alternate "USART1_RX")
 		)
 		(pin "7"
 			(uuid "44f62c0e-4a9e-4111-811f-b320a757b04a")
@@ -15596,6 +16420,7 @@
 		)
 		(pin "110"
 			(uuid "adebe1d5-0a08-43b1-9628-3ec7267f279f")
+			(alternate "SYS_JTDI")
 		)
 		(pin "31"
 			(uuid "1a2ba27f-e5ca-4103-b2ed-b44feb378ca9")
@@ -15606,7 +16431,6 @@
 		)
 		(pin "74"
 			(uuid "dee06546-8dd8-4964-a858-be987c281df1")
-			(alternate "SAI2_SCK_A")
 		)
 		(pin "42"
 			(uuid "834ff1f7-aa5b-4fa0-94b2-b9f63a2bcb32")
@@ -15633,7 +16457,6 @@
 		)
 		(pin "76"
 			(uuid "a6ebe2c6-255d-4a83-9c28-f59acede698b")
-			(alternate "SAI2_SD_A")
 		)
 		(pin "143"
 			(uuid "ed81c84b-a717-4894-abec-9839ab4a50a6")
@@ -15652,6 +16475,7 @@
 		)
 		(pin "22"
 			(uuid "681c7d97-1d14-4def-957f-a0094ad609d9")
+			(alternate "QUADSPI_CLK")
 		)
 		(pin "67"
 			(uuid "01d53275-eb5b-455a-bd49-816ed4b1926c")
@@ -15702,6 +16526,7 @@
 		)
 		(pin "92"
 			(uuid "d1cb8763-1584-41e0-b506-bc3ed58a9c71")
+			(alternate "I2C3_SCL")
 		)
 		(pin "54"
 			(uuid "c97ea70a-8d4a-4b86-9d39-fb056be1cd20")
@@ -15714,6 +16539,7 @@
 		)
 		(pin "93"
 			(uuid "628bbeb3-2c76-4f29-8cd4-bd89471df398")
+			(alternate "I2C3_SDA")
 		)
 		(pin "17"
 			(uuid "b718b63f-5d11-49d1-bfe6-2f1bbaf36410")
@@ -15727,15 +16553,18 @@
 		)
 		(pin "20"
 			(uuid "b2fbfecf-2411-4381-a340-e297235e5505")
+			(alternate "QUADSPI_BK1_IO0")
 		)
 		(pin "21"
 			(uuid "ee519bb6-4fa8-43de-974a-8d771790c547")
+			(alternate "QUADSPI_BK1_IO1")
 		)
 		(pin "16"
 			(uuid "7dcff4f5-4131-48df-95bd-87a4c2da98a5")
 		)
 		(pin "36"
 			(uuid "0801f06d-61c8-45dc-9439-5d3b05dab849")
+			(alternate "QUADSPI_BK1_NCS")
 		)
 		(pin "94"
 			(uuid "d3397ad0-0c04-4577-aee9-4f9d68295fac")
@@ -15745,7 +16574,6 @@
 		)
 		(pin "126"
 			(uuid "44bf9c73-f409-45d7-b3d0-71e741a6558c")
-			(alternate "USART1_CTS")
 		)
 		(pin "57"
 			(uuid "de131a5c-f68b-43f5-a566-7ff4a407f7c6")
@@ -15796,7 +16624,6 @@
 		)
 		(pin "69"
 			(uuid "63fd6f8e-1c5e-4296-a36f-46d0b92bf2c5")
-			(alternate "I2C2_SCL")
 		)
 		(pin "46"
 			(uuid "eb3e3e6b-4e68-4a66-874c-5cd3aa1b7236")
@@ -15809,6 +16636,7 @@
 		)
 		(pin "47"
 			(uuid "a7ddb81c-17c4-4a85-990c-aaee90a9a66d")
+			(alternate "LPUART1_DE")
 		)
 		(pin "72"
 			(uuid "1796a803-26ac-4c15-b29e-1895a8c55542")
@@ -15821,6 +16649,7 @@
 		)
 		(pin "45"
 			(uuid "2aa91fe5-c1e8-4043-8edf-d195056059dc")
+			(alternate "USART3_RX")
 		)
 		(pin "60"
 			(uuid "9f343e2f-e767-4fb4-8c21-d4bd6ee0ba39")
@@ -15833,13 +16662,13 @@
 		)
 		(pin "18"
 			(uuid "25e7b11f-43eb-482b-bfa4-4c5508d5cba9")
+			(alternate "QUADSPI_BK1_IO3")
 		)
 		(pin "136"
 			(uuid "88f2bee5-30fc-4100-8af8-b67c02ecbd56")
 		)
 		(pin "27"
 			(uuid "62651337-c9d4-4395-9b0e-a9cb7f0077bc")
-			(alternate "SPI2_MOSI")
 		)
 		(pin "116"
 			(uuid "14219c7b-3338-4b0b-8e14-9fcab1b4357e")
@@ -15889,7 +16718,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical"
+		(property "Footprint" "valve_pcb_footprints:SAMTEC_FTSH-107-01-X-DV-K"
 			(at 330.2 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -15914,6 +16743,27 @@
 		(property "Description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
 			(at 330.2 38.1 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C5563894"
+			(at 330.2 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 330.2 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16006,7 +16856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 76.2 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -16277,7 +17127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 327.66 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -16508,7 +17358,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 254 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -16667,8 +17517,8 @@
 				)
 			)
 		)
-		(property "Vf" "2V"
-			(at 391.414 197.612 90)
+		(property "Vf" "3.1V"
+			(at 392.43 197.612 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16793,8 +17643,8 @@
 				)
 			)
 		)
-		(property "Vf" "2V"
-			(at 317.754 197.612 90)
+		(property "Vf" "3.1V"
+			(at 318.77 197.612 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16844,7 +17694,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 132.08 130.81 90)
+		(at 38.1 171.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16852,9 +17702,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3af2c03f-bdf3-4ebe-8be1-45afbb1a0e5c")
-		(property "Reference" "TP161"
-			(at 124.714 130.81 90)
+		(uuid "3b5082ac-27f1-4f40-8580-9518cbd1cf0f")
+		(property "Reference" "TP154"
+			(at 30.734 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16864,7 +17714,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 122.936 130.81 90)
+			(at 28.956 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16875,7 +17725,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 132.08 125.73 0)
+			(at 38.1 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16886,7 +17736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 125.73 0)
+			(at 38.1 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16897,7 +17747,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 132.08 130.81 0)
+			(at 38.1 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16908,7 +17758,7 @@
 			)
 		)
 		(property "Vf" ""
-			(at 132.08 130.81 0)
+			(at 38.1 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16918,7 +17768,7 @@
 			)
 		)
 		(property "Vz" ""
-			(at 132.08 130.81 0)
+			(at 38.1 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16928,7 +17778,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "TP9"
-			(at 132.08 130.81 90)
+			(at 38.1 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16939,7 +17789,7 @@
 			)
 		)
 		(property "VDS" "TestPoint"
-			(at 132.08 130.81 90)
+			(at 38.1 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16950,7 +17800,7 @@
 			)
 		)
 		(property "Footprint_Size" ""
-			(at 132.08 130.81 0)
+			(at 38.1 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16960,12 +17810,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "24ad01de-f4bf-47fb-81f8-4a4fbe4a9788")
+			(uuid "2c7f61aa-3b5e-4c71-b169-f2ba2c716251")
 		)
 		(instances
 			(project "valve_control_pcb"
 				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
-					(reference "TP161")
+					(reference "TP154")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -17094,138 +17944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 132.08 120.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3c418117-6c3e-4764-b6ff-c81086312b4e")
-		(property "Reference" "TP157"
-			(at 124.714 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 122.936 120.65 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 132.08 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 132.08 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 132.08 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vz" ""
-			(at 132.08 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "TP9"
-			(at 132.08 120.65 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDS" "TestPoint"
-			(at 132.08 120.65 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" ""
-			(at 132.08 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "819c687c-a507-4ce8-8759-49bdc94d149c")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
-					(reference "TP157")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 116.84 40.64 0)
 		(unit 1)
@@ -17258,7 +17976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 116.84 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -17371,7 +18089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 353.06 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -17445,6 +18163,138 @@
 			(project "valve_control_pcb"
 				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
 					(reference "R99")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 176.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3da6201a-184a-46fe-b33c-226e0bbaa3f8")
+		(property "Reference" "TP156"
+			(at 30.734 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 28.956 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 38.1 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 38.1 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 38.1 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 38.1 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 38.1 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 38.1 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35adb14d-30b3-45f1-a70f-bed9b09c1e1e")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
+					(reference "TP156")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -17644,7 +18494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0805_2012Metric"
 			(at 191.77 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -17838,7 +18688,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 367.03 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -17923,7 +18773,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 248.92 227.33 0)
+		(at 248.92 224.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17933,7 +18783,7 @@
 		(dnp no)
 		(uuid "43f71863-7333-4145-a6cc-c2a3e88e3561")
 		(property "Reference" "C49"
-			(at 252.984 224.79 0)
+			(at 252.984 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17944,7 +18794,7 @@
 			)
 		)
 		(property "Value" "10pF"
-			(at 255.524 226.568 0)
+			(at 255.524 224.028 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17954,8 +18804,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 248.92 227.33 0)
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
+			(at 248.92 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17966,7 +18816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 227.33 0)
+			(at 248.92 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17977,7 +18827,7 @@
 			)
 		)
 		(property "Description" "10pF 50V C0G ±5% 0402 Capacitor"
-			(at 248.92 227.33 0)
+			(at 248.92 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17988,7 +18838,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 252.476 228.346 0)
+			(at 252.476 225.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17998,7 +18848,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C32949"
-			(at 248.92 227.33 0)
+			(at 248.92 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18009,7 +18859,7 @@
 			)
 		)
 		(property "Footprint_Size" "0402"
-			(at 252.984 230.124 0)
+			(at 252.984 227.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18462,7 +19312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 45.72 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -18702,272 +19552,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 193.04 158.75 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5a4866b5-84e3-43ce-a328-49899ef678b5")
-		(property "Reference" "TP148"
-			(at 200.406 158.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 202.184 158.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 193.04 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 193.04 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 193.04 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vz" ""
-			(at 193.04 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "TP9"
-			(at 193.04 158.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDS" "TestPoint"
-			(at 193.04 158.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" ""
-			(at 193.04 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b2748efe-55ea-4793-8d10-40216822db48")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
-					(reference "TP148")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 193.04 95.25 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5adabf88-6e50-4f1b-8f7c-6091fd7cc269")
-		(property "Reference" "TP139"
-			(at 200.406 95.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 202.184 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 193.04 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 193.04 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 193.04 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vz" ""
-			(at 193.04 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "TP9"
-			(at 193.04 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDS" "TestPoint"
-			(at 193.04 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" ""
-			(at 193.04 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1636ff9-581a-48cf-b0ff-f74049bfc9b2")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
-					(reference "TP139")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Buzzer")
 		(at 279.4 158.75 0)
 		(unit 1)
@@ -18979,7 +19563,7 @@
 		(dnp no)
 		(uuid "5ae4b7b6-2c4c-4429-978c-b299801b6ded")
 		(property "Reference" "BZ1"
-			(at 279.4 147.828 0)
+			(at 285.496 155.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18989,7 +19573,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 279.4 150.368 0)
+			(at 286.766 158.242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19031,7 +19615,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C910763"
 			(at 279.4 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -19043,7 +19627,7 @@
 			)
 		)
 		(property "Pitch" "9mmx9mm"
-			(at 279.4069 152.908 0)
+			(at 288.798 160.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19073,6 +19657,138 @@
 				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
 					(reference "BZ1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 179.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d067218-700b-4c30-bb48-c7f31afd008b")
+		(property "Reference" "TP157"
+			(at 30.734 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 28.956 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 38.1 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 38.1 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 38.1 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 38.1 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 38.1 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 38.1 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39136b21-98b4-4576-9476-646eba4e24b9")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
+					(reference "TP157")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
 				)
 			)
 		)
@@ -19188,7 +19904,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 233.68 0)
+		(at 236.22 229.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -19200,7 +19916,7 @@
 		(fields_autoplaced yes)
 		(uuid "63e0f133-ca58-4b55-9157-bd42e2b0abfb")
 		(property "Reference" "#PWR0130"
-			(at 236.22 240.03 0)
+			(at 236.22 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19211,7 +19927,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 238.76 0)
+			(at 236.22 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19222,7 +19938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 233.68 0)
+			(at 236.22 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19233,7 +19949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 233.68 0)
+			(at 236.22 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19244,7 +19960,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 233.68 0)
+			(at 236.22 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19268,7 +19984,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 236.22 227.33 0)
+		(at 236.22 224.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19278,7 +19994,7 @@
 		(dnp no)
 		(uuid "64c61ac1-ab08-4350-8e59-99ab1a952b47")
 		(property "Reference" "C48"
-			(at 241.808 224.79 0)
+			(at 241.808 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19289,7 +20005,7 @@
 			)
 		)
 		(property "Value" "10pF"
-			(at 242.824 226.568 0)
+			(at 242.824 224.028 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19299,8 +20015,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 236.22 227.33 0)
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
+			(at 236.22 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19311,7 +20027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 227.33 0)
+			(at 236.22 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19322,7 +20038,7 @@
 			)
 		)
 		(property "Description" "10pF 50V C0G ±5% 0402 Capacitor"
-			(at 236.22 227.33 0)
+			(at 236.22 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19333,7 +20049,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 239.776 228.346 0)
+			(at 239.776 225.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19343,7 +20059,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C32949"
-			(at 236.22 227.33 0)
+			(at 236.22 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19354,7 +20070,7 @@
 			)
 		)
 		(property "Footprint_Size" "0402"
-			(at 240.284 230.124 0)
+			(at 240.284 227.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19461,6 +20177,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 181.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "71034e1f-8a0b-4487-b3fc-07574575790b")
+		(property "Reference" "TP158"
+			(at 30.734 181.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 28.956 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 38.1 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 38.1 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 38.1 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 38.1 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 38.1 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 38.1 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6dd6c038-4dcd-4e3a-a7f2-2b105ed60ee9")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
+					(reference "TP158")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 35.56 40.64 0)
 		(unit 1)
@@ -19493,7 +20341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 35.56 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -19606,7 +20454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+		(property "Footprint" "valve_pcb_footprints:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
 			(at 67.31 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -19739,7 +20587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 137.16 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -19941,139 +20789,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 193.04 107.95 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "79665f43-7171-4c03-9b2d-2f8ee54e176a")
-		(property "Reference" "TP144"
-			(at 200.406 107.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 202.184 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 193.04 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 193.04 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 193.04 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vz" ""
-			(at 193.04 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "TP9"
-			(at 193.04 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDS" "TestPoint"
-			(at 193.04 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" ""
-			(at 193.04 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9879f961-502b-4b16-a824-4547aacd41cf")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
-					(reference "TP144")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 58.42 115.57 0)
 		(unit 1)
@@ -20106,7 +20821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 58.42 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -20219,7 +20934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 76.2 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -20413,7 +21128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 25.4 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -20487,138 +21202,6 @@
 			(project "valve_control_pcb"
 				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
 					(reference "C30")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 132.08 123.19 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8975cc64-dc27-4585-bade-8cf4c788f233")
-		(property "Reference" "TP158"
-			(at 124.714 123.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 122.936 123.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 132.08 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 132.08 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 132.08 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vz" ""
-			(at 132.08 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "TP9"
-			(at 132.08 123.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDS" "TestPoint"
-			(at 132.08 123.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" ""
-			(at 132.08 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3956ac7f-1744-4c9a-a9f4-f2575f8dc16e")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
-					(reference "TP158")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -20966,7 +21549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 95.25 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -21081,7 +21664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "valve_pcb_footprints:C_1206_3216Metric"
 			(at 148.59 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -21196,7 +21779,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 337.82 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -21748,7 +22331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 363.22 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -21868,7 +22451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 52.07 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -21983,7 +22566,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 387.35 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -22148,6 +22731,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 168.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b058fffd-5e79-4017-b4ce-157669d140d5")
+		(property "Reference" "TP153"
+			(at 30.734 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 28.956 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 38.1 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 38.1 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 38.1 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 38.1 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 38.1 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 38.1 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b5a7a2c-536f-4533-8cba-c0866f2a81d6")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
+					(reference "TP153")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 43.18 96.52 0)
 		(unit 1)
@@ -22180,7 +22895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0805_2012Metric"
 			(at 43.18 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -22295,7 +23010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0603_1608Metric"
 			(at 208.28 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -22410,7 +23125,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 313.69 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -22529,7 +23244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0805_2012Metric"
 			(at 162.56 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -22612,140 +23327,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 132.08 115.57 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bb6bd62e-681b-4dcc-a9f0-608c7da4d095")
-		(property "Reference" "TP155"
-			(at 124.714 115.57 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 122.936 115.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 132.08 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 132.08 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 132.08 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vz" ""
-			(at 132.08 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "TP9"
-			(at 132.08 115.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDS" "TestPoint"
-			(at 132.08 115.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" ""
-			(at 132.08 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8042d7ec-9858-4c8b-8f79-003d59a12a6f")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
-					(reference "TP155")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 267.97 156.21 270)
+		(at 265.43 156.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22755,7 +23338,7 @@
 		(dnp no)
 		(uuid "be0a7f37-fba7-41d1-8fba-125e0edc1b4d")
 		(property "Reference" "R93"
-			(at 266.446 154.94 90)
+			(at 263.906 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22766,7 +23349,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 273.304 154.94 90)
+			(at 270.764 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22776,8 +23359,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 267.97 156.21 0)
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
+			(at 265.43 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22788,7 +23371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 156.21 0)
+			(at 265.43 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22799,7 +23382,7 @@
 			)
 		)
 		(property "Description" "100 1% 0603 Resistor"
-			(at 267.97 156.21 0)
+			(at 265.43 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22810,7 +23393,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 264.922 157.734 90)
+			(at 262.382 157.734 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22820,7 +23403,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C22775"
-			(at 267.97 156.21 0)
+			(at 265.43 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22831,7 +23414,7 @@
 			)
 		)
 		(property "Footprint_Size" "0603"
-			(at 272.034 157.734 90)
+			(at 269.494 157.734 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22860,7 +23443,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 233.68 0)
+		(at 248.92 229.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22871,7 +23454,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf1ee8c0-7c51-4f16-842f-2c1132d6af06")
 		(property "Reference" "#PWR0131"
-			(at 248.92 240.03 0)
+			(at 248.92 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22882,7 +23465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 238.76 0)
+			(at 248.92 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22893,7 +23476,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 233.68 0)
+			(at 248.92 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22904,7 +23487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 233.68 0)
+			(at 248.92 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22915,7 +23498,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 233.68 0)
+			(at 248.92 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23247,7 +23830,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 367.03 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -23363,7 +23946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 127 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -23557,7 +24140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 96.52 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -23670,7 +24253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 377.19 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -23753,138 +24336,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 132.08 128.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cb289739-5f37-464c-95ce-ea1626ff40b6")
-		(property "Reference" "TP160"
-			(at 124.714 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 122.936 128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 132.08 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 132.08 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 132.08 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vz" ""
-			(at 132.08 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "TP9"
-			(at 132.08 128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDS" "TestPoint"
-			(at 132.08 128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" ""
-			(at 132.08 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "335c2f0b-5278-42d8-9b3f-875b4c570ef6")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
-					(reference "TP160")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 55.88 40.64 0)
 		(unit 1)
@@ -23917,7 +24368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 55.88 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -23991,139 +24442,6 @@
 			(project "valve_control_pcb"
 				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
 					(reference "C31")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 193.04 207.01 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d1518caf-3764-4df3-a0b1-5315de269df3")
-		(property "Reference" "TP150"
-			(at 200.406 207.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 202.184 207.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 193.04 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 193.04 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 193.04 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vz" ""
-			(at 193.04 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "TP9"
-			(at 193.04 207.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDS" "TestPoint"
-			(at 193.04 207.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" ""
-			(at 193.04 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98f50aaa-1086-4b10-9503-8e3f516eeab7")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
-					(reference "TP150")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -24242,7 +24560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 302.26 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -24316,6 +24634,139 @@
 			(project "valve_control_pcb"
 				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
 					(reference "R95")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 252.73 152.4 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d61af86f-7ee5-4083-8daa-9775c451b12d")
+		(property "Reference" "TP161"
+			(at 260.096 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 261.874 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 252.73 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 252.73 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 252.73 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 252.73 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 252.73 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 252.73 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 252.73 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e07875a5-7811-4013-8efe-6f2bbeb0d97d")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
+					(reference "TP161")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -24479,8 +24930,8 @@
 				)
 			)
 		)
-		(property "Vf" "2V"
-			(at 341.884 197.612 90)
+		(property "Vf" "3.1V"
+			(at 342.9 197.612 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24520,6 +24971,138 @@
 			(project "valve_control_pcb"
 				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
 					(reference "D26")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 173.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dac58362-a965-4afa-bf39-67f661d7d0e1")
+		(property "Reference" "TP155"
+			(at 30.734 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 28.956 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 38.1 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 38.1 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 38.1 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 38.1 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 38.1 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 38.1 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c698c640-f179-4aca-93b4-e66ae2cc3a9b")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
+					(reference "TP155")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -24711,6 +25294,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 279.4 152.4 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8df2d43-9d8c-4c9a-9a96-a91707029748")
+		(property "Reference" "TP160"
+			(at 286.766 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 288.544 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 279.4 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 279.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" ""
+			(at 279.4 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vz" ""
+			(at 279.4 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "TP9"
+			(at 279.4 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "TestPoint"
+			(at 279.4 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 279.4 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67b6187c-1ed6-4cc3-8d0d-fc48fd75f46b")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/8b9fc1f9-ab41-499d-8e9e-e510a7b52650"
+					(reference "TP160")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 60.96 199.39 0)
 		(unit 1)
@@ -24743,7 +25459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 60.96 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -25016,7 +25732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 25.4 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -25175,8 +25891,8 @@
 				)
 			)
 		)
-		(property "Vf" "2V"
-			(at 367.284 197.612 90)
+		(property "Vf" "3.1V"
+			(at 368.3 197.612 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25234,7 +25950,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fde3a004-9575-4ab8-a989-5cc16898235f")
 		(property "Reference" "#PWR0114"
 			(at 25.4 38.1 0)
@@ -25248,7 +25963,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 27.94 33.0199 0)
+			(at 22.352 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25305,7 +26020,7 @@
 	)
 	(sheet_instances
 		(path "/"
-			(page "14")
+			(page "20")
 		)
 	)
 )
