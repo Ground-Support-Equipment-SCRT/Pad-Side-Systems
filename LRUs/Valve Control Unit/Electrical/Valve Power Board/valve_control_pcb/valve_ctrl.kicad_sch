@@ -7788,8 +7788,8 @@
 				)
 			)
 		)
-		(property "Value" "SIR5108DP-T1-RE3-HXY"
-			(at 237.998 82.804 0)
+		(property "Value" "SIR5108DP"
+			(at 231.14 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

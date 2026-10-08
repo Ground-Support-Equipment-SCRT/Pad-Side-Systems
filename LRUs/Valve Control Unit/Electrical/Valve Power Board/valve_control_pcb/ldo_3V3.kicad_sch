@@ -1467,6 +1467,132 @@
 		(uuid "ecdf7523-5675-450b-8a14-e728f9df99de")
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 194.31 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0f430efc-6de9-4187-bbf6-dea1fed29464")
+		(property "Reference" "D19"
+			(at 196.85 109.728 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 196.85 111.506 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 194.31 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "KT-0603R Red LED"
+			(at 194.31 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 194.31 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vf" "2V"
+			(at 198.12 113.284 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2286"
+			(at 194.31 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 199.39 115.062 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17573985-d476-47bc-a270-bf8c8671e126")
+		)
+		(pin "2"
+			(uuid "8cd37440-b2f1-4718-9ee5-7e0c338685f8")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/5d72873d-bf63-43c9-aa68-e8ad4e59e232/e3918634-dfcc-4cc2-a043-1fe32896c4e0"
+					(reference "D19")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 167.64 102.87 0)
 		(mirror y)
@@ -2379,132 +2505,6 @@
 				(path "/5d72873d-bf63-43c9-aa68-e8ad4e59e232/e3918634-dfcc-4cc2-a043-1fe32896c4e0"
 					(reference "#PWR0163")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 194.31 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a6242917-0299-48bb-8d10-b3b944457065")
-		(property "Reference" "D42"
-			(at 196.85 109.982 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GREEN"
-			(at 196.85 111.76 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 194.31 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "KT-0603R Red LED"
-			(at 194.31 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 194.31 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" "3.1V"
-			(at 199.136 113.538 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C2297"
-			(at 194.31 111.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_Size" "0805"
-			(at 199.39 115.316 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ebdcb2e-1cfe-4199-88f9-90b7f8769761")
-		)
-		(pin "2"
-			(uuid "3b62c321-31cb-47eb-8067-b0e5851249d8")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/5d72873d-bf63-43c9-aa68-e8ad4e59e232/e3918634-dfcc-4cc2-a043-1fe32896c4e0"
-					(reference "D42")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
 				)
 			)
 		)

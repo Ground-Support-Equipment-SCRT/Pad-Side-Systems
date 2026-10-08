@@ -888,7 +888,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "bus_aliases": {
       "RS485_MAIN": [
@@ -1035,7 +1035,7 @@
         "uuid": "44c5d2b2-bdb6-4e6d-aa97-1dd3d67ec418"
       }
     ],
-    "used_designators": "#PWR1-360,#PWR365-385,#PWR396,D1-40,D42-50,R1-222,R242-278,#FLG1-14,BZ1,C1-120,C129-145,C163-164,F1-4,FB1,FB3,H1-12,J1-16,J18-22,J25-27,JP1,L1-2,Q1-26,SW1-2,TP1-226,TP228-234,TR1,U1-38,Y1-2,FID1-3,K1,NT1-2",
+    "used_designators": "#PWR1-360,#PWR365-385,#PWR396,D1-40,D42-62,R1-222,R242-278,#FLG1-14,BZ1,C1-120,C129-145,C163-164,F1-4,FB1,FB3,H1-12,J1-16,J18-22,J25-27,JP1,L1-2,Q1-26,SW1-2,TP1-226,TP228-234,TR1,U1-38,Y1-2,FID1-3,K1,NT1-2",
     "variants": [
       {
         "name": "My VARIANT DARNIT"

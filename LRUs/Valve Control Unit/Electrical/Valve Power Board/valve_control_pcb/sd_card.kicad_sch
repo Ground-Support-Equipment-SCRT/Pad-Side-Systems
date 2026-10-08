@@ -2692,6 +2692,12 @@
 		(uuid "477a1474-9be2-4a17-afa8-091695d1d0e8")
 	)
 	(junction
+		(at 196.85 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54591e1a-6ec8-4c61-85cc-4285e20d7bb4")
+	)
+	(junction
 		(at 162.56 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2798,16 +2804,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 100.33) (xy 199.39 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02135dbb-9fbd-487a-bcab-814e9e2cde6d")
-	)
-	(wire
-		(pts
 			(xy 175.26 107.95) (xy 199.39 107.95)
 		)
 		(stroke
@@ -2868,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 95.25) (xy 199.39 95.25)
+			(xy 196.85 95.25) (xy 199.39 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2988,7 +2984,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 85.09) (xy 189.23 95.25)
+			(xy 196.85 110.49) (xy 196.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2dd8f9-efe3-418a-b59c-3774385c9227")
+	)
+	(wire
+		(pts
+			(xy 196.85 85.09) (xy 196.85 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3038,7 +3044,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 113.03) (xy 196.85 110.49)
+			(xy 196.85 100.33) (xy 199.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e8348d-594e-4a05-87ce-623abfc7756a")
+	)
+	(wire
+		(pts
+			(xy 196.85 100.33) (xy 196.85 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3085,6 +3101,16 @@
 			(type default)
 		)
 		(uuid "b199cc97-90c1-45ee-bd58-79939de9b713")
+	)
+	(wire
+		(pts
+			(xy 196.85 110.49) (xy 199.39 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ec04a7-64d8-46c7-b81a-ab00c2751548")
 	)
 	(bus
 		(pts
@@ -3215,16 +3241,6 @@
 			(type default)
 		)
 		(uuid "dcd1ce61-1695-48c7-8570-e7a50fd66fe9")
-	)
-	(wire
-		(pts
-			(xy 196.85 110.49) (xy 199.39 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7dda5f4-ec8f-439b-bcf2-92e08c56f29e")
 	)
 	(wire
 		(pts
@@ -4352,86 +4368,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 196.85 100.33 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7307fecd-fefc-4d2e-b3f3-7ee220395062")
-		(property "Reference" "#PWR0270"
-			(at 190.5 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "61f42c04-0b9e-4e79-8b06-e80cfe08b9e4")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/4518b036-acbb-4d4f-82dd-00ce25d5ff09"
-					(reference "#PWR0270")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 116.84 102.87 270)
 		(unit 1)
@@ -4548,7 +4484,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 189.23 85.09 0)
+		(at 196.85 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4558,7 +4494,7 @@
 		(dnp no)
 		(uuid "94f37e97-32e7-4399-80a1-0955f2f003a8")
 		(property "Reference" "#PWR0269"
-			(at 189.23 88.9 0)
+			(at 196.85 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4569,7 +4505,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 188.722 80.518 0)
+			(at 196.342 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4579,7 +4515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 85.09 0)
+			(at 196.85 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4590,7 +4526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 85.09 0)
+			(at 196.85 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4601,7 +4537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 189.23 85.09 0)
+			(at 196.85 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4612,7 +4548,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 189.23 85.09 0)
+			(at 196.85 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4623,7 +4559,7 @@
 			)
 		)
 		(property "Footprint_Size" ""
-			(at 189.23 85.09 0)
+			(at 196.85 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
