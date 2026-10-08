@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "12V MAIN")
-		(date "2026-10-07")
+		(date "2026-10-08")
 		(rev "A")
 	)
 	(lib_symbols
@@ -8099,8 +8099,8 @@
 				)
 			)
 		)
-		(property "Value" "SIR5108DP-T1-RE3-HXY"
-			(at 196.596 99.314 0)
+		(property "Value" "SIR5108DP"
+			(at 189.484 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8155,7 +8155,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C553986"
+		(property "JLCPCB Part #" "C53262900"
 			(at 179.07 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -10546,8 +10546,8 @@
 				)
 			)
 		)
-		(property "Value" "SIR5108DP-T1-RE3-HXY"
-			(at 196.596 65.024 0)
+		(property "Value" "SIR5108DP"
+			(at 189.738 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10602,7 +10602,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C553986"
+		(property "JLCPCB Part #" "C53262900"
 			(at 179.07 66.04 90)
 			(hide yes)
 			(show_name no)

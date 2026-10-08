@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MECHANICAL")
-		(date "2026-10-07")
+		(date "2026-10-08")
 		(rev "A")
 	)
 	(lib_symbols
@@ -10916,7 +10916,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b15dbeed-0ffa-4e5a-8734-cbedcd6a108d")
 		(property "Reference" "J8"

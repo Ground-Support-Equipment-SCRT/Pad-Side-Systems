@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "IGNITER SYSTEM")
-		(date "2026-10-07")
+		(date "2026-10-08")
 		(rev "A")
 	)
 	(lib_symbols
@@ -15492,7 +15492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0805_2012Metric"
 			(at 316.23 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17694,7 +17694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0805_2012Metric"
 			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)

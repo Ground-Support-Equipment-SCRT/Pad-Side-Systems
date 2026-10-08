@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LDO 3V3")
-		(date "2026-10-07")
+		(date "2026-10-08")
 		(rev "A")
 	)
 	(lib_symbols

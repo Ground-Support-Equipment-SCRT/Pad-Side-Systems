@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "SYSTEM POWER")
-		(date "2026-10-07")
+		(date "2026-10-08")
 		(rev "A")
 	)
 	(lib_symbols
@@ -317,7 +317,7 @@
 	)
 	(text "SYSTEM POWER"
 		(exclude_from_sim no)
-		(at 146.558 44.45 0)
+		(at 146.558 28.448 0)
 		(effects
 			(font
 				(size 7.62 7.62)
