@@ -291,7 +291,7 @@
 	)
 	(text "TPS62933P"
 		(exclude_from_sim no)
-		(at 92.202 76.708 0)
+		(at 89.662 79.248 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -304,7 +304,7 @@
 	)
 	(text "AMS1117"
 		(exclude_from_sim no)
-		(at 144.272 113.538 0)
+		(at 141.732 116.078 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -317,7 +317,7 @@
 	)
 	(text "SYSTEM POWER"
 		(exclude_from_sim no)
-		(at 146.558 37.338 0)
+		(at 146.558 44.45 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -330,7 +330,7 @@
 	)
 	(text "32"
 		(exclude_from_sim no)
-		(at 26.162 66.294 0)
+		(at 23.622 68.834 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -341,7 +341,7 @@
 	)
 	(text "20"
 		(exclude_from_sim no)
-		(at 26.416 86.614 0)
+		(at 23.876 89.154 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -352,7 +352,7 @@
 	)
 	(text "TPS22810DBV"
 		(exclude_from_sim no)
-		(at 227.838 74.168 0)
+		(at 225.298 76.708 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -365,7 +365,7 @@
 	)
 	(text "TPS22810DBV"
 		(exclude_from_sim no)
-		(at 228.092 113.792 0)
+		(at 225.552 116.332 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -378,7 +378,7 @@
 	)
 	(text "20"
 		(exclude_from_sim no)
-		(at 277.114 136.144 0)
+		(at 274.574 138.684 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -389,7 +389,7 @@
 	)
 	(text "TPS2116DRL"
 		(exclude_from_sim no)
-		(at 183.896 120.904 0)
+		(at 181.356 123.444 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -402,7 +402,7 @@
 	)
 	(text "22"
 		(exclude_from_sim no)
-		(at 29.21 136.144 0)
+		(at 26.67 138.684 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -412,14 +412,14 @@
 		(uuid "fa996b79-235b-475a-a743-6455d6021a6c")
 	)
 	(junction
-		(at 123.19 66.04)
+		(at 120.65 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b8e43d0-c074-43eb-a613-5f6885f234c4")
 	)
 	(wire
 		(pts
-			(xy 123.19 105.41) (xy 123.19 66.04)
+			(xy 120.65 107.95) (xy 120.65 68.58)
 		)
 		(stroke
 			(width 0)
@@ -429,7 +429,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 66.04) (xy 123.19 66.04)
+			(xy 111.76 68.58) (xy 120.65 68.58)
 		)
 		(stroke
 			(width 0)
@@ -439,7 +439,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 63.5) (xy 269.24 66.04)
+			(xy 266.7 66.04) (xy 266.7 68.58)
 		)
 		(stroke
 			(width 0)
@@ -449,7 +449,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 105.41) (xy 245.11 105.41)
+			(xy 266.7 107.95) (xy 242.57 107.95)
 		)
 		(stroke
 			(width 0)
@@ -459,7 +459,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 86.36) (xy 68.58 86.36)
+			(xy 39.37 88.9) (xy 66.04 88.9)
 		)
 		(stroke
 			(width 0)
@@ -469,7 +469,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 66.04) (xy 68.58 66.04)
+			(xy 33.02 68.58) (xy 66.04 68.58)
 		)
 		(stroke
 			(width 0)
@@ -479,7 +479,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 66.04) (xy 245.11 66.04)
+			(xy 266.7 68.58) (xy 242.57 68.58)
 		)
 		(stroke
 			(width 0)
@@ -489,7 +489,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 105.41) (xy 168.91 105.41)
+			(xy 156.21 107.95) (xy 166.37 107.95)
 		)
 		(stroke
 			(width 0)
@@ -499,7 +499,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 102.87) (xy 269.24 105.41)
+			(xy 266.7 105.41) (xy 266.7 107.95)
 		)
 		(stroke
 			(width 0)
@@ -509,7 +509,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 105.41) (xy 210.82 105.41)
+			(xy 195.58 107.95) (xy 208.28 107.95)
 		)
 		(stroke
 			(width 0)
@@ -519,7 +519,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 105.41) (xy 123.19 105.41)
+			(xy 127 107.95) (xy 120.65 107.95)
 		)
 		(stroke
 			(width 0)
@@ -529,7 +529,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 135.89) (xy 168.91 135.89)
+			(xy 39.37 138.43) (xy 166.37 138.43)
 		)
 		(stroke
 			(width 0)
@@ -539,7 +539,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 66.04) (xy 210.82 66.04)
+			(xy 120.65 68.58) (xy 208.28 68.58)
 		)
 		(stroke
 			(width 0)
@@ -549,7 +549,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 135.89) (xy 261.62 135.89)
+			(xy 195.58 138.43) (xy 259.08 138.43)
 		)
 		(stroke
 			(width 0)
@@ -559,7 +559,7 @@
 	)
 	(global_label "5V_MAIN_PG"
 		(shape output)
-		(at 41.91 86.36 180)
+		(at 39.37 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -569,7 +569,7 @@
 		)
 		(uuid "2f552538-a92a-49a2-a09c-28508c2d4e50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.6762 86.36 0)
+			(at 25.1362 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -581,9 +581,9 @@
 			)
 		)
 	)
-	(global_label "VBUS"
+	(global_label "VSYS"
 		(shape input)
-		(at 35.56 66.04 180)
+		(at 33.02 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -593,7 +593,7 @@
 		)
 		(uuid "396818b6-dfc8-4a14-9785-ab445ac56540")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.6762 66.04 0)
+			(at 25.4386 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -607,7 +607,7 @@
 	)
 	(global_label "3V3_USB"
 		(shape input)
-		(at 41.91 135.89 180)
+		(at 39.37 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -617,7 +617,7 @@
 		)
 		(uuid "690a776a-c75d-4050-938b-5ed5affce509")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.6396 135.89 0)
+			(at 28.0996 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -631,7 +631,7 @@
 	)
 	(global_label "3V3_STATUS"
 		(shape output)
-		(at 261.62 135.89 0)
+		(at 259.08 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -641,7 +641,7 @@
 		)
 		(uuid "bbc72e50-594c-4c2a-8256-5b3146e6cc6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.8537 135.89 0)
+			(at 273.3137 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -655,7 +655,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 269.24 102.87 0)
+		(at 266.7 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -666,7 +666,7 @@
 		(fields_autoplaced yes)
 		(uuid "4275de9d-e50a-4eb8-94b7-bf143f9b9453")
 		(property "Reference" "#PWR0144"
-			(at 269.24 106.68 0)
+			(at 266.7 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -677,7 +677,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 269.24 97.79 0)
+			(at 266.7 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -687,7 +687,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 102.87 0)
+			(at 266.7 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -698,7 +698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 102.87 0)
+			(at 266.7 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -709,7 +709,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 269.24 102.87 0)
+			(at 266.7 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -733,7 +733,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 269.24 63.5 0)
+		(at 266.7 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -744,7 +744,7 @@
 		(fields_autoplaced yes)
 		(uuid "4da4d626-c8f5-434a-89d5-8a82d3db30b2")
 		(property "Reference" "#PWR0141"
-			(at 269.24 67.31 0)
+			(at 266.7 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -755,7 +755,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 269.24 58.42 0)
+			(at 266.7 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -765,7 +765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 63.5 0)
+			(at 266.7 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -776,7 +776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 63.5 0)
+			(at 266.7 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -787,7 +787,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 269.24 63.5 0)
+			(at 266.7 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -810,7 +810,7 @@
 		)
 	)
 	(sheet
-		(at 210.82 62.23)
+		(at 208.28 64.77)
 		(size 34.29 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -826,7 +826,7 @@
 		)
 		(uuid "04da9a24-fd32-4df1-a058-64d5dac33734")
 		(property "Sheetname" "LSW 5V"
-			(at 210.82 61.4422 0)
+			(at 208.28 63.9822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -837,7 +837,7 @@
 			)
 		)
 		(property "Sheetfile" "lsw_5V.kicad_sch"
-			(at 210.82 85.7508 0)
+			(at 208.28 88.2908 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -848,7 +848,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 210.82 66.04 180)
+			(at 208.28 68.58 180)
 			(uuid "3cd709de-d768-40de-9605-8ca1ce78e737")
 			(effects
 				(font
@@ -858,7 +858,7 @@
 			)
 		)
 		(pin "VOUT" output
-			(at 245.11 66.04 0)
+			(at 242.57 68.58 0)
 			(uuid "bb7163c5-e2e8-4a95-8eeb-d6a869194012")
 			(effects
 				(font
@@ -876,7 +876,7 @@
 		)
 	)
 	(sheet
-		(at 168.91 101.6)
+		(at 166.37 104.14)
 		(size 29.21 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -892,7 +892,7 @@
 		)
 		(uuid "3289eb84-03de-481c-8338-449ebd0f80fb")
 		(property "Sheetname" "MUX 3V3"
-			(at 168.91 100.8122 0)
+			(at 166.37 103.3522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -903,7 +903,7 @@
 			)
 		)
 		(property "Sheetfile" "mux_3V3.kicad_sch"
-			(at 168.91 140.3608 0)
+			(at 166.37 142.9008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -914,7 +914,7 @@
 			)
 		)
 		(pin "STATUS" output
-			(at 198.12 135.89 0)
+			(at 195.58 138.43 0)
 			(uuid "301410f1-d186-4902-a003-fc7151f9e5d6")
 			(effects
 				(font
@@ -924,7 +924,7 @@
 			)
 		)
 		(pin "VIN1" input
-			(at 168.91 105.41 180)
+			(at 166.37 107.95 180)
 			(uuid "13387858-68ba-401e-8e93-d86c6be0bd26")
 			(effects
 				(font
@@ -934,7 +934,7 @@
 			)
 		)
 		(pin "VIN2" input
-			(at 168.91 135.89 180)
+			(at 166.37 138.43 180)
 			(uuid "33a51a72-2851-4b2b-a0f6-d5b72267a9b7")
 			(effects
 				(font
@@ -944,7 +944,7 @@
 			)
 		)
 		(pin "VOUT" output
-			(at 198.12 105.41 0)
+			(at 195.58 107.95 0)
 			(uuid "5f36264a-0f84-4052-88d2-ddedcb416f30")
 			(effects
 				(font
@@ -962,7 +962,7 @@
 		)
 	)
 	(sheet
-		(at 68.58 62.23)
+		(at 66.04 64.77)
 		(size 45.72 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -978,7 +978,7 @@
 		)
 		(uuid "5ab11c64-b031-4172-9062-e5f5ce032bb6")
 		(property "Sheetname" "System 5V"
-			(at 68.58 61.4422 0)
+			(at 66.04 63.9822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -989,7 +989,7 @@
 			)
 		)
 		(property "Sheetfile" "system_5V.kicad_sch"
-			(at 68.58 90.8308 0)
+			(at 66.04 93.3708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1000,7 +1000,7 @@
 			)
 		)
 		(pin "5V_MAIN_PG" output
-			(at 68.58 86.36 180)
+			(at 66.04 88.9 180)
 			(uuid "ad3e6e40-a2b2-48a0-8098-e481713bdd71")
 			(effects
 				(font
@@ -1010,7 +1010,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 68.58 66.04 180)
+			(at 66.04 68.58 180)
 			(uuid "bf17ad95-66b7-49fc-b9d4-f9feca66e0b0")
 			(effects
 				(font
@@ -1020,7 +1020,7 @@
 			)
 		)
 		(pin "VOUT" output
-			(at 114.3 66.04 0)
+			(at 111.76 68.58 0)
 			(uuid "a63a2f5a-c109-414a-8c69-942a00a1272b")
 			(effects
 				(font
@@ -1038,7 +1038,7 @@
 		)
 	)
 	(sheet
-		(at 210.82 101.6)
+		(at 208.28 104.14)
 		(size 34.29 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1054,7 +1054,7 @@
 		)
 		(uuid "6376898b-44f3-4f20-a970-57c6f45bf2f7")
 		(property "Sheetname" "LSW 3V3"
-			(at 210.82 100.8122 0)
+			(at 208.28 103.3522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1065,7 +1065,7 @@
 			)
 		)
 		(property "Sheetfile" "lsw_3V3.kicad_sch"
-			(at 210.82 125.1208 0)
+			(at 208.28 127.6608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1076,7 +1076,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 210.82 105.41 180)
+			(at 208.28 107.95 180)
 			(uuid "996c177e-5ff8-4b57-ab4b-d3092b68cce5")
 			(effects
 				(font
@@ -1086,7 +1086,7 @@
 			)
 		)
 		(pin "VOUT" output
-			(at 245.11 105.41 0)
+			(at 242.57 107.95 0)
 			(uuid "61f536d6-0ab0-49a0-a0fd-d08a964ebf30")
 			(effects
 				(font
@@ -1104,7 +1104,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 101.6)
+		(at 127 104.14)
 		(size 29.21 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1120,7 +1120,7 @@
 		)
 		(uuid "e3918634-dfcc-4cc2-a043-1fe32896c4e0")
 		(property "Sheetname" "LDO 3V3"
-			(at 129.54 100.8122 0)
+			(at 127 103.3522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1131,7 +1131,7 @@
 			)
 		)
 		(property "Sheetfile" "ldo_3V3.kicad_sch"
-			(at 129.54 125.1208 0)
+			(at 127 127.6608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1142,7 +1142,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 129.54 105.41 180)
+			(at 127 107.95 180)
 			(uuid "423e5d9a-d5b9-4c5e-9ce1-260acc1b38de")
 			(effects
 				(font
@@ -1152,7 +1152,7 @@
 			)
 		)
 		(pin "VOUT" output
-			(at 158.75 105.41 0)
+			(at 156.21 107.95 0)
 			(uuid "3148a4d6-1001-4e18-b90d-d250feae933e")
 			(effects
 				(font

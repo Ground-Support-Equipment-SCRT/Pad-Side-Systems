@@ -1,0 +1,16 @@
+.76829-0106 :1 ;Molex Mega-Fit 76829, 5.7mm Pitch, 6 Way, 2 Row, Vertical PCB Header, Through Hole
+"768290106"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6"
+*MXP 7
+*DFN 76829-0106
+~!Mouser Part Number (538-76829-0106)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Molex/76829-0106?qs=BZBei1rCqCD%252Bpg7AxKdyaw%3D%3D)
+~!Manufacturer_Name (Molex)
+~!Manufacturer_Part_Number (76829-0106)
+~!Link Datasheet (https://www.molex.com/pdm_docs/sd/768290106_sd.pdf)
+~!Height (14.8mm)
+~!3D_Model (76829-0106)
+"76829-0106"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

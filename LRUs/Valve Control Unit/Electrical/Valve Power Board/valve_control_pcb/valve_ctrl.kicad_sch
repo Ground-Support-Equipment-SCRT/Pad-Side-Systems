@@ -4052,22 +4052,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "R244")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R121")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "R245")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4202,30 +4188,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "R66")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "4.7k")
-						)
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R10")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "4.7k")
-						)
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "R80")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4383,16 +4347,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "J5")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "J1")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "J6")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -4482,16 +4438,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "#PWR060")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR012")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -4614,22 +4562,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "R62")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R6")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "R76")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4752,16 +4686,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP72")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP12")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP87")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -4872,16 +4798,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP68")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP8")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP83")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -5004,22 +4922,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "C19")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "C3")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "C23")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -5154,22 +5058,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "R252")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R248")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "R253")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -5304,22 +5194,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "C17")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "C1")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "C21")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -5442,16 +5318,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP64")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP4")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP79")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -5577,16 +5445,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "D19")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "D3")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "D23")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -5674,16 +5534,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "#PWR052")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR04")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "#PWR064")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -5806,22 +5658,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "R59")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R3")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "R73")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -5956,30 +5794,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "R58")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "4.7k")
-						)
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R2")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "4.7k")
-						)
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "R72")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -6118,16 +5934,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP75")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP14")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP90")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -6217,16 +6025,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "#PWR051")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR03")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "#PWR063")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -6349,22 +6149,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "C20")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "C4")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "C24")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -6487,16 +6273,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP73")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP15")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP88")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -6619,22 +6397,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "R64")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R8")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "R78")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -6758,16 +6522,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP69")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP9")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP84")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -6857,16 +6613,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "#PWR054")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR06")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -6978,16 +6726,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP70")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP10")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP85")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -7110,22 +6850,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "R70")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R14")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "R84")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7249,16 +6975,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP61")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP1")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP76")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -7369,16 +7087,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP66")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP6")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP81")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -7501,22 +7211,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "R68")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R12")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "R82")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7618,16 +7314,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "#PWR057")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR09")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -7750,22 +7438,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "R60")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R4")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "R74")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7922,16 +7596,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "D20")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "D4")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "D24")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -8054,30 +7720,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "R57")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "4.7k")
-						)
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R1")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-						(field
-							(name "Value")
-							(value "4.7k")
-						)
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "R71")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8238,22 +7882,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "Q5")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "Q1")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "Q6")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8355,16 +7985,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "#PWR032")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR019")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -8455,16 +8077,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "#PWR053")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR05")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -8575,16 +8189,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP201")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP91")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP203")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -8695,16 +8301,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP67")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP7")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP82")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -8838,22 +8436,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "D18")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "D2")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "D22")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8988,22 +8572,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "C18")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "C2")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "C22")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9106,16 +8676,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "#PWR049")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR01")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "#PWR061")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -9226,16 +8788,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP74")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP13")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP89")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -9356,22 +8910,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "R65")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R9")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "R79")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9517,22 +9057,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "D17")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "D1")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "D21")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9656,16 +9182,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP62")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP2")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP77")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -9788,22 +9306,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "R63")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R7")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "R77")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9905,16 +9409,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "#PWR059")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR011")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -10025,16 +9521,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP65")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP5")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP80")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -10146,16 +9634,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP63")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP3")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP78")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -10278,22 +9758,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "R61")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "R5")
-					(unit 1)
-					(variant
-						(name "My VARIANT DARNIT")
-					)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "R75")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10416,16 +9882,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "TP202")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "TP92")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "TP222")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -10568,16 +10026,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "U5")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "U1")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "U6")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"
@@ -10668,16 +10118,8 @@
 		)
 		(instances
 			(project "valve_control_pcb"
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/22fb2ea8-45de-4e59-8821-a3bdf005559d"
-					(reference "#PWR050")
-					(unit 1)
-				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/24b36193-7845-4db5-91f8-0b53361738fd"
 					(reference "#PWR02")
-					(unit 1)
-				)
-				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/383eb8c0-3b60-4857-b829-1a2b12233e91"
-					(reference "#PWR062")
 					(unit 1)
 				)
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/4d443e2a-ce12-4794-a00c-0c154132ac38"

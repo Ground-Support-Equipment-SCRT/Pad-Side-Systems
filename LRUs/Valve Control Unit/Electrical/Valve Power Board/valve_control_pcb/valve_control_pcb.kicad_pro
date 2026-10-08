@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.794,
-          "width": 0.7366
+          "drill": 4.5,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 0,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.5,
-          "corner_smoothing": 2,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -539,7 +539,7 @@
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "ignore",
-      "same_local_global_label": "warning",
+      "same_local_global_label": "ignore",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -1010,9 +1010,14 @@
         "filename": "adc.kicad_sch",
         "name": "ADC",
         "uuid": "33ff7616-254c-4ece-8b5e-11f19383e0b0"
+      },
+      {
+        "filename": "igniter.kicad_sch",
+        "name": "Igniter",
+        "uuid": "44c5d2b2-bdb6-4e6d-aa97-1dd3d67ec418"
       }
     ],
-    "used_designators": "#PWR1-327,#PWR365-385,D1-40,D42-46,R1-222,R242-265,#FLG1-11,BZ1,C1-120,C129-134,C163-164,F1,FB1,FB3,H1-12,J1-16,J25-27,JP1,L1-2,Q1-26,SW1-2,TP1-226,TP228-234,TR1,U1-38,Y1-2,FID1-3",
+    "used_designators": "#PWR1-360,#PWR365-385,#PWR396,D1-40,D42-50,R1-222,R242-278,#FLG1-14,BZ1,C1-120,C129-143,C163-164,F1-4,FB1,FB3,H1-12,J1-16,J18-22,J25-27,JP1,L1-2,Q1-26,SW1-2,TP1-226,TP228-234,TR1,U1-38,Y1-2,FID1-3,K1,NT1-2",
     "variants": [
       {
         "name": "My VARIANT DARNIT"
@@ -1057,6 +1062,10 @@
       "Valves"
     ],
     [
+      "01d50d02-5b62-4d8b-8e75-b4ba93137eb3",
+      "input_mux"
+    ],
+    [
       "6bd93a81-61dc-4f80-83b3-8d2a24dec243",
       "12V_main"
     ],
@@ -1085,12 +1094,8 @@
       "Valve 4"
     ],
     [
-      "22fb2ea8-45de-4e59-8821-a3bdf005559d",
-      "Valve 5"
-    ],
-    [
-      "383eb8c0-3b60-4857-b829-1a2b12233e91",
-      "Valve 6"
+      "44c5d2b2-bdb6-4e6d-aa97-1dd3d67ec418",
+      "Igniter"
     ],
     [
       "33ff7616-254c-4ece-8b5e-11f19383e0b0",

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '76829_0106'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "76829-0106" (!) = "", "768290106", "Other", "538-76829-0106", "https://www.mouser.co.uk/ProductDetail/Molex/76829-0106?qs=BZBei1rCqCD%252Bpg7AxKdyaw%3D%3D", "Molex Mega-Fit 76829, 5.7mm Pitch, 6 Way, 2 Row, Vertical PCB Header, Through Hole", "https://www.molex.com/pdm_docs/sd/768290106_sd.pdf", "14.8 mm"
+END_PART
+
+END.

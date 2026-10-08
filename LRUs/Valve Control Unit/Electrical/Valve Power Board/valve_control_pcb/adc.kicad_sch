@@ -1620,6 +1620,17 @@
 		)
 		(uuid "5866020b-1495-454b-910e-23cdf820ab86")
 	)
+	(text "VALVE BATTERY INPUT"
+		(exclude_from_sim no)
+		(at 52.324 250.444 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "5b9936de-afee-49ea-8ab8-66a67ac7df8c")
+	)
 	(text "4"
 		(exclude_from_sim no)
 		(at 50.038 47.244 0)
@@ -1642,16 +1653,16 @@
 		)
 		(uuid "7493f138-9b11-48a9-ad23-bc23e1783528")
 	)
-	(text "4"
+	(text "IGNITER BATTERY INPUT"
 		(exclude_from_sim no)
-		(at 50.292 242.824 0)
+		(at 53.594 209.804 0)
 		(effects
 			(font
-				(size 1.27 1.27)
-				(color 11 113 0 1)
+				(size 2.54 2.54)
+				(thickness 0.3175)
 			)
 		)
-		(uuid "7c01d5f6-8555-4b21-8a21-ec13e035ebfb")
+		(uuid "7f1cb176-8789-4dc8-a5e5-62ab53e982e7")
 	)
 	(text "14"
 		(exclude_from_sim no)
@@ -1663,28 +1674,6 @@
 			)
 		)
 		(uuid "7f6bc403-e0f9-4f77-bf79-e460b63017f8")
-	)
-	(text "4"
-		(exclude_from_sim no)
-		(at 50.292 217.424 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 11 113 0 1)
-			)
-		)
-		(uuid "8a4175e9-70de-4abc-8d96-d821c263ffed")
-	)
-	(text "4"
-		(exclude_from_sim no)
-		(at 50.292 258.064 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 11 113 0 1)
-			)
-		)
-		(uuid "97409520-641a-433b-9e79-e2e339cb7d3f")
 	)
 	(text "14"
 		(exclude_from_sim no)
@@ -1708,16 +1697,38 @@
 		)
 		(uuid "9c17d81a-ab21-4b0c-9198-c78bcca13810")
 	)
-	(text "VALVE 5"
+	(text "18"
 		(exclude_from_sim no)
-		(at 59.182 210.312 0)
+		(at 52.578 202.184 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.3175)
+				(size 1.27 1.27)
+				(color 11 113 0 1)
 			)
 		)
-		(uuid "a66c4332-ae63-4a51-a8fb-4841208fe288")
+		(uuid "ab3999f8-450e-4141-b94c-bc53dc076b5a")
+	)
+	(text "18"
+		(exclude_from_sim no)
+		(at 52.578 217.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "ab3f24e8-c6e4-4d18-b5b0-331bdcc6a516")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 51.054 242.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "b2896d70-2779-4069-98ef-d559f6da35e3")
 	)
 	(text "ADC"
 		(exclude_from_sim no)
@@ -1743,17 +1754,6 @@
 		)
 		(uuid "becafcdf-acfa-4105-bd63-63b21d655e8f")
 	)
-	(text "VALVE 6"
-		(exclude_from_sim no)
-		(at 59.182 250.698 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.3175)
-			)
-		)
-		(uuid "c69cf66a-bfe7-4257-9b25-726b704f29c3")
-	)
 	(text "4"
 		(exclude_from_sim no)
 		(at 50.292 128.524 0)
@@ -1775,6 +1775,17 @@
 			)
 		)
 		(uuid "ca048330-8373-4d1f-8bd3-03cefdb166f4")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 51.054 258.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 113 0 1)
+			)
+		)
+		(uuid "d3e947d3-5895-4287-915e-7f950de3a2b8")
 	)
 	(text "14"
 		(exclude_from_sim no)
@@ -1808,17 +1819,6 @@
 			)
 		)
 		(uuid "e9224486-a387-4e0f-9267-bfca0c4e9991")
-	)
-	(text "4"
-		(exclude_from_sim no)
-		(at 50.292 202.184 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 11 113 0 1)
-			)
-		)
-		(uuid "ecd419d6-3a66-4b58-b8bc-8a7eb4fea3db")
 	)
 	(text "14"
 		(exclude_from_sim no)
@@ -2243,6 +2243,16 @@
 			(type default)
 		)
 		(uuid "15829b16-94e9-41f4-91ee-d13d6f34589e")
+	)
+	(wire
+		(pts
+			(xy 71.12 242.57) (xy 88.9 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ae7d5f-bdbb-4271-8e09-a21e19ffd7a1")
 	)
 	(wire
 		(pts
@@ -3076,6 +3086,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 257.81) (xy 88.9 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc7864d-d9e4-4c8d-868b-95572a91aaba")
+	)
+	(wire
+		(pts
 			(xy 180.34 113.03) (xy 180.34 142.24)
 		)
 		(stroke
@@ -3143,16 +3163,6 @@
 			(type default)
 		)
 		(uuid "96f0ac53-8888-4adc-8f07-29e39b557301")
-	)
-	(wire
-		(pts
-			(xy 71.12 257.81) (xy 88.9 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "981064d9-611e-4c32-9547-e42449a450cd")
 	)
 	(wire
 		(pts
@@ -3886,16 +3896,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 242.57) (xy 88.9 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f96ffa20-5990-43c4-9444-afc6099b1659")
-	)
-	(wire
-		(pts
 			(xy 93.98 46.99) (xy 100.33 46.99)
 		)
 		(stroke
@@ -3984,7 +3984,7 @@
 		)
 		(uuid "2744d21d-80b5-4df1-b611-fece34c155d4")
 	)
-	(label "VALVE6_VSENSE_DIV_P"
+	(label "VBUS_VSENSE_DIV_P"
 		(at 110.49 242.57 0)
 		(effects
 			(font
@@ -4044,7 +4044,7 @@
 		)
 		(uuid "5f208262-1f11-4275-a65c-5c80383aceca")
 	)
-	(label "VALVE5_VSENSE_FILT_P"
+	(label "IGN_VSENSE_FILT_P"
 		(at 209.5085 152.4 0)
 		(effects
 			(font
@@ -4054,7 +4054,7 @@
 		)
 		(uuid "625e0d75-8215-4281-beb4-fad9eb7eb59c")
 	)
-	(label "VALVE5_VSENSE_FILT_N"
+	(label "IGN_VSENSE_FILT_N"
 		(at 209.5085 154.94 0)
 		(effects
 			(font
@@ -4084,7 +4084,7 @@
 		)
 		(uuid "6d2063ad-8baa-4b94-8da5-609dee752924")
 	)
-	(label "VALVE6_VSENSE_DIV_N"
+	(label "VBUS_VSENSE_DIV_N"
 		(at 110.49 257.81 0)
 		(effects
 			(font
@@ -4104,7 +4104,7 @@
 		)
 		(uuid "8d34b6e9-30ae-49a2-a3f1-cef398615328")
 	)
-	(label "VALVE6_VSENSE_FILT_P"
+	(label "VBUS_VSENSE_FILT_P"
 		(at 209.55 157.48 0)
 		(effects
 			(font
@@ -4144,7 +4144,7 @@
 		)
 		(uuid "a3dbe402-b2f7-4be7-b5c5-9628acec9801")
 	)
-	(label "VALVE5_VSENSE_DIV_N"
+	(label "IGN_VSENSE_DIV_N"
 		(at 110.49 217.17 0)
 		(effects
 			(font
@@ -4154,7 +4154,7 @@
 		)
 		(uuid "ac43c8c1-8c9b-4a33-821c-7fdc43e3e13d")
 	)
-	(label "VALVE5_VSENSE_DIV_P"
+	(label "IGN_VSENSE_DIV_P"
 		(at 110.49 201.93 0)
 		(effects
 			(font
@@ -4264,7 +4264,7 @@
 		)
 		(uuid "e9fdb228-1994-4cfa-936e-9c13ff70f38d")
 	)
-	(label "VALVE6_VSENSE_FILT_N"
+	(label "VBUS_VSENSE_FILT_N"
 		(at 209.55 160.02 0)
 		(effects
 			(font
@@ -4283,30 +4283,6 @@
 			(justify right bottom)
 		)
 		(uuid "f4066964-d92a-4780-a2c3-0db792ebad61")
-	)
-	(global_label "VALVE6_VSENSE_P"
-		(shape input)
-		(at 71.12 242.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "01016989-b4bd-4f11-bd9e-0ef96afb3b9a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.1411 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(global_label "ADC_START"
 		(shape input)
@@ -4404,6 +4380,30 @@
 			)
 		)
 	)
+	(global_label "VBUS_VSENSE_N"
+		(shape input)
+		(at 71.12 257.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2295f15e-fdfb-44d1-9c36-bd1c054f13ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.8344 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VALVE1_VSENSE_N"
 		(shape input)
 		(at 71.12 46.99 180)
@@ -4428,9 +4428,9 @@
 			)
 		)
 	)
-	(global_label "VALVE5_VSENSE_N"
+	(global_label "IGN_VSENSE_P"
 		(shape input)
-		(at 71.12 217.17 180)
+		(at 71.12 201.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4438,9 +4438,9 @@
 			)
 			(justify right)
 		)
-		(uuid "319a24bc-e7c8-44d8-9669-afeae04298f9")
+		(uuid "349e6372-5f8f-4dec-ab68-ddc7f424e44f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.0806 217.17 0)
+			(at 54.5882 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4489,30 +4489,6 @@
 		(uuid "6377ffa7-4cef-48c7-afe9-c35409591101")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 51.1411 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VALVE6_VSENSE_N"
-		(shape input)
-		(at 71.12 257.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6fab9b10-8133-44f6-b49a-c30ae1a46ce5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.0806 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4620,6 +4596,30 @@
 			)
 		)
 	)
+	(global_label "IGN_VSENSE_N"
+		(shape input)
+		(at 71.12 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9d49be2-1cef-4780-91e7-bf48dffe31bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.5277 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VALVE2_VSENSE_P"
 		(shape input)
 		(at 71.12 72.39 180)
@@ -4644,9 +4644,9 @@
 			)
 		)
 	)
-	(global_label "VALVE5_VSENSE_P"
+	(global_label "VBUS_VSENSE_P"
 		(shape input)
-		(at 71.12 201.93 180)
+		(at 71.12 242.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4654,9 +4654,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c101da29-eacf-4069-8419-91656e2ad347")
+		(uuid "d48a4604-7bea-421e-b77b-378c6e3d017a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.1411 201.93 0)
+			(at 52.8949 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
