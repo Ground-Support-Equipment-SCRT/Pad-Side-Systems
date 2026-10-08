@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "dea1cffd-b3e8-4ab0-8cc6-7ab0cf06856c")
 	(paper "A3")
+	(title_block
+		(title "IGNITER SYSTEM")
+		(date "2026-10-07")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -7033,7 +7038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 317.5 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -7304,7 +7309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 187.96 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7419,7 +7424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0603_1608Metric"
 			(at 176.53 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8635,7 +8640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 356.87 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -8748,7 +8753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 303.53 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -9333,7 +9338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 162.56 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -9930,7 +9935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 109.22 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -10371,7 +10376,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 187.96 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -10486,7 +10491,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 278.13 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11094,7 +11099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
 			(at 107.95 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11288,7 +11293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 349.25 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11592,7 +11597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 78.74 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11956,7 +11961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 200.66 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -12495,7 +12500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:C_0603_1608Metric"
 			(at 175.26 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12740,7 +12745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 242.57 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13104,7 +13109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 264.16 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -13296,7 +13301,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 78.74 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13409,7 +13414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 303.53 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -13522,7 +13527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 213.36 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13716,7 +13721,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 99.06 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -14220,7 +14225,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 255.27 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -14817,7 +14822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 134.62 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -14932,7 +14937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 138.43 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15047,7 +15052,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 222.25 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -15162,7 +15167,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 278.13 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15886,7 +15891,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 195.58 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -15942,6 +15947,16 @@
 		)
 		(property "size" "0603"
 			(at 199.644 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" ""
+			(at 195.58 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16080,7 +16095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 306.07 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -16563,7 +16578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 68.58 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -16678,7 +16693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 185.42 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -17931,7 +17946,7 @@
 		(dnp no)
 		(uuid "f99a7dc4-47fd-4558-b72e-fd6b4f222752")
 		(property "Reference" "R258"
-			(at 125.984 228.6 0)
+			(at 127 228.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17941,7 +17956,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 126.492 231.14 0)
+			(at 126.238 230.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17950,7 +17965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 123.19 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -17984,7 +17999,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 125.476 233.426 0)
+			(at 125.984 232.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17996,6 +18011,16 @@
 		(property "JLCPCB Part #" "C25804"
 			(at 123.19 231.14 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 127 234.442 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18034,7 +18059,7 @@
 		(dnp no)
 		(uuid "fc6a8aaa-27ea-4459-bc65-0129fa2991db")
 		(property "Reference" "R261"
-			(at 151.384 228.6 0)
+			(at 152.4 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18044,7 +18069,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 151.892 231.14 0)
+			(at 151.892 230.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18053,7 +18078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "valve_pcb_footprints:R_0603_1608Metric"
 			(at 148.59 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -18087,7 +18112,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 150.876 233.426 0)
+			(at 151.638 232.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18099,6 +18124,16 @@
 		(property "JLCPCB Part #" "C25804"
 			(at 148.59 231.14 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0603"
+			(at 152.654 233.934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.5,
-          "height": 6.0,
-          "width": 6.0
+          "drill": 1.85,
+          "height": 2.775,
+          "width": 2.775
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -863,6 +863,24 @@
           "label": "Imax",
           "name": "Imax",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "size",
+          "name": "size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DUPLICATE",
+          "name": "DUPLICATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -870,7 +888,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Footprint"
     },
     "bus_aliases": {
       "RS485_MAIN": [

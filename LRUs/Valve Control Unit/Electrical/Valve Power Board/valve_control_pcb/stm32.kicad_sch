@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "STM32L496ZGT6")
-		(date "2026-08-27")
+		(date "2026-10-07")
 		(rev "A")
 	)
 	(lib_symbols
@@ -6786,7 +6786,7 @@
 	)
 	(rectangle
 		(start 307.34 63.5)
-		(end 405.13 163.83)
+		(end 405.13 132.08)
 		(stroke
 			(width 0)
 			(type dash)
