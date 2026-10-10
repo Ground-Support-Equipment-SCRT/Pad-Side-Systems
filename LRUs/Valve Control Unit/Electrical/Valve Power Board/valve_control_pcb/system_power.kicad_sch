@@ -665,7 +665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4275de9d-e50a-4eb8-94b7-bf143f9b9453")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR02"
 			(at 266.7 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -725,7 +725,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/5d72873d-bf63-43c9-aa68-e8ad4e59e232"
-					(reference "#PWR0144")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -743,7 +743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4da4d626-c8f5-434a-89d5-8a82d3db30b2")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR01"
 			(at 266.7 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -803,7 +803,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/5d72873d-bf63-43c9-aa68-e8ad4e59e232"
-					(reference "#PWR0141")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)

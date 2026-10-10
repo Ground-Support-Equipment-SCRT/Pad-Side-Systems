@@ -6485,7 +6485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "021b15df-7794-4034-b9bd-f256c1cac150")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0311"
 			(at 69.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6546,7 +6546,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR0142")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -6660,7 +6660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "046cf0e7-2cb8-43e3-8f24-b765f6ed98d0")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0315"
 			(at 93.98 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -6721,7 +6721,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR090")
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
@@ -6739,7 +6739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c2cd27b-8043-43df-a7c8-186925095c77")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0323"
 			(at 162.56 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6810,7 +6810,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR0103")
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -6827,7 +6827,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d596962-0da5-493a-a2a8-46336ea5bb9c")
-		(property "Reference" "U9"
+		(property "Reference" "U31"
 			(at 187.706 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6909,7 +6909,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "U9")
+					(reference "U31")
 					(unit 1)
 				)
 			)
@@ -6926,7 +6926,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f7bf76c-0f8e-4f57-a7db-0637b8962b9a")
-		(property "Reference" "R177"
+		(property "Reference" "R230"
 			(at 163.576 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7021,7 +7021,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "R177")
+					(reference "R230")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7041,7 +7041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10021534-af86-49fd-b008-95e8582bae0d")
-		(property "Reference" "J22"
+		(property "Reference" "J21"
 			(at 77.47 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7136,7 +7136,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "J22")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -7154,7 +7154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16faae4e-b002-4080-8321-e1f8a47f6a65")
-		(property "Reference" "TP169"
+		(property "Reference" "TP197"
 			(at 256.54 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7256,7 +7256,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "TP169")
+					(reference "TP197")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7276,7 +7276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19f39e60-c5b3-4457-8bc9-6fa126a79e36")
-		(property "Reference" "TP202"
+		(property "Reference" "TP185"
 			(at 62.23 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7378,7 +7378,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "TP202")
+					(reference "TP185")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7398,7 +7398,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2153bb65-a41a-4971-ba33-5136f438d17b")
-		(property "Reference" "TP168"
+		(property "Reference" "TP196"
 			(at 238.76 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7500,7 +7500,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "TP168")
+					(reference "TP196")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7521,7 +7521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cc91b6c-40c7-4b4c-9828-0c5a8b3e3e61")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0318"
 			(at 116.84 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -7582,7 +7582,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR095")
+					(reference "#PWR0318")
 					(unit 1)
 				)
 			)
@@ -7599,7 +7599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3038abb1-8f66-43e1-a91c-48fc610bee0a")
-		(property "Reference" "R172"
+		(property "Reference" "R231"
 			(at 209.55 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7694,7 +7694,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "R172")
+					(reference "R231")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -7715,7 +7715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "310d2c22-679d-4cf6-b9a9-d63e945a79bf")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0319"
 			(at 116.84 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7776,7 +7776,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR096")
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -7794,7 +7794,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "328ea331-9c1f-4532-9569-70c56cc23801")
-		(property "Reference" "J5"
+		(property "Reference" "J20"
 			(at 66.802 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7877,7 +7877,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "J5")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -7894,7 +7894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33fd55e7-ec52-42b8-b5bb-b09e49f49ded")
-		(property "Reference" "R180"
+		(property "Reference" "R235"
 			(at 223.266 42.164 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7989,7 +7989,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "R180")
+					(reference "R235")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8010,7 +8010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36a642ef-9cde-440a-81a1-e6648a49bf19")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0313"
 			(at 93.98 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8071,7 +8071,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR088")
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -8088,7 +8088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a0d1670-677f-4fe0-bd4b-bb8871bc32e0")
-		(property "Reference" "J10"
+		(property "Reference" "J22"
 			(at 77.47 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8183,7 +8183,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "J10")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -8200,7 +8200,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3afa533f-e7a3-4c00-9eb8-e1e6b26bc565")
-		(property "Reference" "R174"
+		(property "Reference" "R227"
 			(at 163.576 29.464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8295,7 +8295,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "R174")
+					(reference "R227")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8405,7 +8405,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42b36081-8c13-468b-a4a1-227cba5d7739")
-		(property "Reference" "R179"
+		(property "Reference" "R234"
 			(at 223.266 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8500,7 +8500,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "R179")
+					(reference "R234")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8521,7 +8521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "432a921c-c70a-4424-a40d-5a3fa314dc43")
-		(property "Reference" "U8"
+		(property "Reference" "U33"
 			(at 247.65 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8633,7 +8633,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "U8")
+					(reference "U33")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8653,7 +8653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f3376e2-3aaa-49ce-9f39-3f467bc43430")
-		(property "Reference" "R181"
+		(property "Reference" "R236"
 			(at 223.266 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8748,7 +8748,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "R181")
+					(reference "R236")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8858,7 +8858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ff4af07-9ea2-4297-8944-92539c5f5767")
-		(property "Reference" "R175"
+		(property "Reference" "R228"
 			(at 163.576 34.544 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8953,7 +8953,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "R175")
+					(reference "R228")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -8974,7 +8974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75fc4769-f537-45f4-a736-7158dfb06f1d")
-		(property "Reference" "TP170"
+		(property "Reference" "TP198"
 			(at 256.54 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9076,7 +9076,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "TP170")
+					(reference "TP198")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9096,7 +9096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7634eb69-dd2c-4828-9f6e-d520edbabf26")
-		(property "Reference" "TP167"
+		(property "Reference" "TP195"
 			(at 238.76 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9198,7 +9198,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "TP167")
+					(reference "TP195")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9219,7 +9219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77d37a9b-6000-4ccd-a5c6-6c8db0b150ad")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0330"
 			(at 236.22 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9280,7 +9280,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR0109")
+					(reference "#PWR0330")
 					(unit 1)
 				)
 			)
@@ -9394,7 +9394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b5f18fc-91bd-41ee-88fb-7f8c47cb4213")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0325"
 			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9455,7 +9455,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR0104")
+					(reference "#PWR0325")
 					(unit 1)
 				)
 			)
@@ -9562,7 +9562,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80a23fb2-5e48-4283-94f1-1ee3249a6bb6")
-		(property "Reference" "TP222"
+		(property "Reference" "TP186"
 			(at 62.23 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9664,7 +9664,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "TP222")
+					(reference "TP186")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -9775,7 +9775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9181838b-5d4d-42fa-a284-603a29d7ed1b")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0321"
 			(at 140.97 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9836,7 +9836,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR0100")
+					(reference "#PWR0321")
 					(unit 1)
 				)
 			)
@@ -9854,7 +9854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "918a16f5-d60a-4749-8221-7754d40198e9")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0312"
 			(at 81.28 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9915,7 +9915,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR0145")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -9932,7 +9932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "921b3a57-2aa4-4133-9942-5cb38ecee3fb")
-		(property "Reference" "TP201"
+		(property "Reference" "TP187"
 			(at 62.23 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10034,7 +10034,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "TP201")
+					(reference "TP187")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10145,7 +10145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98458102-fa9a-4428-8947-3afc37b78ef2")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0324"
 			(at 184.15 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10206,7 +10206,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR0105")
+					(reference "#PWR0324")
 					(unit 1)
 				)
 			)
@@ -10225,7 +10225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9926e10c-6edf-4ed3-a5e3-77126d2d7252")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0310"
 			(at 69.85 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10286,7 +10286,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR0147")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -10303,7 +10303,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0c9da18-c2ee-40b6-adff-626f546624d5")
-		(property "Reference" "R178"
+		(property "Reference" "R233"
 			(at 223.266 32.004 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10398,7 +10398,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "R178")
+					(reference "R233")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10418,7 +10418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2545c8a-73d2-4d73-86a0-71cce7088c70")
-		(property "Reference" "C76"
+		(property "Reference" "C135"
 			(at 238.252 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10513,7 +10513,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "C76")
+					(reference "C135")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10533,7 +10533,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4876504-4932-49ed-b268-90f15f196a61")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0329"
 			(at 236.22 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10593,7 +10593,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR0108")
+					(reference "#PWR0329")
 					(unit 1)
 				)
 			)
@@ -10706,7 +10706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aca574bd-6622-45d3-bfed-6d2dc86671a9")
-		(property "Reference" "TP166"
+		(property "Reference" "TP194"
 			(at 238.76 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10808,7 +10808,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "TP166")
+					(reference "TP194")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -10919,7 +10919,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b15dbeed-0ffa-4e5a-8734-cbedcd6a108d")
-		(property "Reference" "J8"
+		(property "Reference" "J23"
 			(at 193.04 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11056,7 +11056,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "J8")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -11074,7 +11074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b28313f5-9222-4c6e-a9db-678ef8f7c805")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0316"
 			(at 93.98 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -11135,7 +11135,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR091")
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -11243,7 +11243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b953819a-1260-43f5-bb65-281bb0bab6dd")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0322"
 			(at 140.97 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -11304,7 +11304,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR0101")
+					(reference "#PWR0322")
 					(unit 1)
 				)
 			)
@@ -11321,7 +11321,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb8c545b-d2f0-44e7-9413-b8be5289e16f")
-		(property "Reference" "R89"
+		(property "Reference" "R237"
 			(at 227.33 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11416,7 +11416,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "R89")
+					(reference "R237")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -11441,7 +11441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c35e9f1a-cf13-49b0-b98f-a26a4fa533c8")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0331"
 			(at 247.65 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11502,7 +11502,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR099")
+					(reference "#PWR0331")
 					(unit 1)
 				)
 			)
@@ -11520,7 +11520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3a4252b-6575-4a27-ba40-a0602c7969cd")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0317"
 			(at 116.84 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11581,7 +11581,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR094")
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -11599,7 +11599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c47350eb-ea6d-4ef0-b18a-f25c61da271e")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0314"
 			(at 93.98 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -11660,7 +11660,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR089")
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -11678,7 +11678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdbafddd-c7e1-42d9-a047-ae0fe7e31ef6")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0326"
 			(at 201.93 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11739,7 +11739,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR0106")
+					(reference "#PWR0326")
 					(unit 1)
 				)
 			)
@@ -11846,7 +11846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d232b73d-56c1-4f6c-a40b-1a5182c332ae")
-		(property "Reference" "TP165"
+		(property "Reference" "TP193"
 			(at 238.76 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11948,7 +11948,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "TP165")
+					(reference "TP193")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -11969,7 +11969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3a8cd66-b87e-4d8f-9c34-ef9ae9f008b3")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG012"
 			(at 193.04 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -12029,7 +12029,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#FLG01")
+					(reference "#FLG012")
 					(unit 1)
 				)
 			)
@@ -12047,7 +12047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4785c07-5576-4593-95b7-44a271346f39")
-		(property "Reference" "TP164"
+		(property "Reference" "TP192"
 			(at 146.05 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12149,7 +12149,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "TP164")
+					(reference "TP192")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12170,7 +12170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d58f61d3-411e-4cbd-8cbd-2166467ff31a")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0320"
 			(at 116.84 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -12231,7 +12231,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR097")
+					(reference "#PWR0320")
 					(unit 1)
 				)
 			)
@@ -12339,7 +12339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d886f2f3-b6fa-44f6-8df1-ff356d650adc")
-		(property "Reference" "TP163"
+		(property "Reference" "TP191"
 			(at 146.05 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12441,7 +12441,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "TP163")
+					(reference "TP191")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12462,7 +12462,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbb1ad84-d74c-454e-8750-3debb1339d51")
-		(property "Reference" "TP162"
+		(property "Reference" "TP190"
 			(at 146.05 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12564,7 +12564,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "TP162")
+					(reference "TP190")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12675,7 +12675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de46f945-f70f-4942-af61-91ebdffd85fa")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0327"
 			(at 204.47 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -12736,7 +12736,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR092")
+					(reference "#PWR0327")
 					(unit 1)
 				)
 			)
@@ -12754,7 +12754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e68ae377-abd2-4c30-a1fa-e0118cff2e2e")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0328"
 			(at 210.82 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12825,7 +12825,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR0107")
+					(reference "#PWR0328")
 					(unit 1)
 				)
 			)
@@ -12842,7 +12842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb17ba25-d332-4c07-a2ab-93b5ef43e929")
-		(property "Reference" "R88"
+		(property "Reference" "R232"
 			(at 218.44 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12937,7 +12937,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "R88")
+					(reference "R232")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -12962,7 +12962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edf87809-a829-437a-91a0-3a2d63d76170")
-		(property "Reference" "TP146"
+		(property "Reference" "TP189"
 			(at 146.05 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13064,7 +13064,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "TP146")
+					(reference "TP189")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -13084,7 +13084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee68c187-e780-45bf-843d-4ccf0ae7fb95")
-		(property "Reference" "R176"
+		(property "Reference" "R229"
 			(at 163.576 39.624 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13179,7 +13179,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "R176")
+					(reference "R229")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -13200,7 +13200,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fce8cc78-2895-46ce-8d56-f49c6cb3b3d5")
-		(property "Reference" "U7"
+		(property "Reference" "U32"
 			(at 204.47 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13312,7 +13312,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "U7")
+					(reference "U32")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -13332,7 +13332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe7a4408-c8e1-463a-b32b-d67349f82860")
-		(property "Reference" "TP203"
+		(property "Reference" "TP188"
 			(at 62.23 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13434,7 +13434,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "TP203")
+					(reference "TP188")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")

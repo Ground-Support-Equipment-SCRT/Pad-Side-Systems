@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.85,
-          "height": 2.775,
-          "width": 2.775
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 1.475
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,21 +52,21 @@
         "zones": {
           "border_display_style": 0,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.5,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.15,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 2,
-          "remove_islands": 1,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "min_thickness": 0.15,
+          "pad_connection": 3,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.2,
+          "thermal_relief_spoke_width": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -81,24 +81,7 @@
           "width": 0.235482
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|114330000|203000000|973bd943-cddb-4700-b8d3-812a62a90365|be9c9f17-1832-4733-8d76-4bf8643bc09a",
-          ""
-        ],
-        [
-          "hole_clearance|114530000|203000000|ffef6db5-1d6d-43af-a9b3-83e3ab6ca970|be9c9f17-1832-4733-8d76-4bf8643bc09a",
-          ""
-        ],
-        [
-          "hole_clearance|119930000|203000000|1792c50b-bab2-4e12-b70f-796626117bee|a7087324-b83b-4333-aa13-c573122d074d",
-          ""
-        ],
-        [
-          "hole_clearance|120130000|203000000|7b7a4144-d813-4545-8351-13f964c05bf6|a7087324-b83b-4333-aa13-c573122d074d",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -680,7 +663,7 @@
         },
         {
           "group_by": false,
-          "label": "IMAX",
+          "label": "Imax",
           "name": "IMAX",
           "show": false
         },
@@ -740,7 +723,7 @@
         },
         {
           "group_by": false,
-          "label": "VDS",
+          "label": "Vds",
           "name": "VDS",
           "show": false
         },
@@ -812,12 +795,6 @@
         },
         {
           "group_by": false,
-          "label": "Vds",
-          "name": "Vds",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Rating",
           "name": "Rating",
           "show": false
@@ -848,7 +825,7 @@
         },
         {
           "group_by": false,
-          "label": "Size",
+          "label": "size",
           "name": "Size",
           "show": false
         },
@@ -856,18 +833,6 @@
           "group_by": false,
           "label": "Storage",
           "name": "Storage",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Imax",
-          "name": "Imax",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "size",
-          "name": "size",
           "show": false
         },
         {
@@ -942,7 +907,7 @@
           "visible": true
         }
       ],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -1035,7 +1000,7 @@
         "uuid": "44c5d2b2-bdb6-4e6d-aa97-1dd3d67ec418"
       }
     ],
-    "used_designators": "#PWR1-360,#PWR365-385,#PWR396,D1-40,D42-62,R1-222,R242-278,#FLG1-14,BZ1,C1-120,C129-145,C163-164,F1-4,FB1,FB3,H1-12,J1-16,J18-22,J25-27,JP1,L1-2,Q1-26,SW1-2,TP1-226,TP228-234,TR1,U1-38,Y1-2,FID1-3,K1,NT1-2",
+    "used_designators": "D1-44,#PWR1-335,BZ1,R1-237,#FLG1-12,C1-135,FB1-2,F1,FID1-3,H1-10,J1-23,JP1,K1,L1-2,NT1-2,Q1-20,SW1-2,TP1-198,TR1,U1-33,Y1-2",
     "variants": [
       {
         "name": "My VARIANT DARNIT"

@@ -1589,15 +1589,11 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Protect against MOSFET avalanche"
-		(exclude_from_sim no)
-		(at 156.464 17.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dc54ca56-18af-4f1d-ad6a-7258ce9f61ee")
+	(junction
+		(at 170.18 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ecb3a6d-4305-4979-9949-c3f4edc7d748")
 	)
 	(junction
 		(at 102.87 114.3)
@@ -1612,7 +1608,7 @@
 		(uuid "31e8c925-a8b0-4ece-840e-261296c113f5")
 	)
 	(junction
-		(at 190.5 114.3)
+		(at 181.61 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "397a4d21-302a-4361-915f-e9cb5c730e8d")
@@ -1636,16 +1632,22 @@
 		(uuid "53b58a8f-f511-4edc-9ad0-616aa52636ad")
 	)
 	(junction
-		(at 132.08 34.29)
+		(at 137.16 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "676dd62b-ae4a-4139-bd65-9c45c08e23c4")
+		(uuid "66bc627f-aa74-4365-acaa-395050e140b0")
 	)
 	(junction
-		(at 116.84 114.3)
+		(at 109.22 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "75a4cd10-6767-4224-8a46-c6538e498a36")
+		(uuid "847fdd27-158e-4c32-acaf-59c57eb2d699")
+	)
+	(junction
+		(at 127 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a28f5ce-0acb-447c-ab23-d246c79265a2")
 	)
 	(junction
 		(at 81.28 153.67)
@@ -1660,10 +1662,10 @@
 		(uuid "90c6729b-633b-44fa-b5b1-6551a4a88ba3")
 	)
 	(junction
-		(at 132.08 114.3)
+		(at 110.49 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "98c7ec5d-2196-4757-8058-8223719f6758")
+		(uuid "a318f961-5b6e-4b4b-832f-b042ce4d83d7")
 	)
 	(junction
 		(at 102.87 147.32)
@@ -1678,6 +1680,12 @@
 		(uuid "a95535fb-e794-4947-98ab-ec905d05fdf8")
 	)
 	(junction
+		(at 184.15 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adde632d-57ed-44d1-9612-670146ce53e8")
+	)
+	(junction
 		(at 80.01 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1690,22 +1698,16 @@
 		(uuid "b7026ef6-7e4c-4016-a436-23817131e084")
 	)
 	(junction
-		(at 190.5 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b937c2cb-26d6-4ed7-8bee-7de31f852284")
-	)
-	(junction
 		(at 102.87 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbab2c2a-1d21-4cca-b1ac-547618c6f238")
 	)
 	(junction
-		(at 170.18 114.3)
+		(at 137.16 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d0a22050-36de-43d5-90b3-282e66eb68f5")
+		(uuid "c4bdf76f-2729-44d3-8d90-67d0e8c8057a")
 	)
 	(junction
 		(at 102.87 168.91)
@@ -1720,10 +1722,10 @@
 		(uuid "e7df918f-cec0-4faa-9ef4-ea5643461d50")
 	)
 	(junction
-		(at 118.11 34.29)
+		(at 125.73 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f2bcdb33-eb69-42f7-81bb-89e391828788")
+		(uuid "f1cdc36e-dade-4d45-9f8c-9c8f59ef0f69")
 	)
 	(wire
 		(pts
@@ -1747,7 +1749,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 114.3) (xy 215.9 114.3)
+			(xy 181.61 114.3) (xy 215.9 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1787,7 +1789,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 34.29) (xy 190.5 34.29)
+			(xy 171.45 34.29) (xy 184.15 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1807,7 +1809,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 34.29) (xy 132.08 40.64)
+			(xy 125.73 34.29) (xy 137.16 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a481386-ed05-465b-870f-89a7a7e354d3")
+	)
+	(wire
+		(pts
+			(xy 137.16 34.29) (xy 137.16 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1817,7 +1829,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 34.29) (xy 118.11 39.37)
+			(xy 109.22 34.29) (xy 109.22 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1837,7 +1849,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 34.29) (xy 190.5 36.83)
+			(xy 137.16 114.3) (xy 147.32 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3188c5e9-2ece-4b10-a0c5-ec5b4432914b")
+	)
+	(wire
+		(pts
+			(xy 184.15 34.29) (xy 184.15 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1847,13 +1869,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 114.3) (xy 116.84 118.11)
+			(xy 110.49 114.3) (xy 110.49 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3c9d94db-95c0-4eb5-a4b2-5c3f39a7f093")
+	)
+	(wire
+		(pts
+			(xy 109.22 44.45) (xy 109.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8435ce-8648-49ba-8372-d614b60d893e")
 	)
 	(wire
 		(pts
@@ -1897,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 114.3) (xy 190.5 116.84)
+			(xy 181.61 114.3) (xy 181.61 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1907,13 +1939,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 114.3) (xy 132.08 114.3)
+			(xy 110.49 114.3) (xy 127 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49c26072-747f-4292-a871-7dced5183d68")
+		(uuid "499601d6-5b96-4def-98d3-cef367175d23")
 	)
 	(wire
 		(pts
@@ -1937,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 114.3) (xy 116.84 114.3)
+			(xy 102.87 114.3) (xy 110.49 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1977,7 +2009,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 121.92) (xy 190.5 123.19)
+			(xy 181.61 121.92) (xy 181.61 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +2019,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 64.77) (xy 147.32 64.77)
+			(xy 137.16 64.77) (xy 147.32 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2007,7 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 125.73) (xy 116.84 128.27)
+			(xy 110.49 123.19) (xy 110.49 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2027,16 +2059,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 46.99) (xy 118.11 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69db3327-3a44-4279-a54e-a3120aaa6b20")
-	)
-	(wire
-		(pts
 			(xy 166.37 132.08) (xy 166.37 123.19)
 		)
 		(stroke
@@ -2044,6 +2066,16 @@
 			(type default)
 		)
 		(uuid "6ddeedde-54e4-44ef-8492-12d881e7f8a0")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa5ce37-5480-40d2-9d67-81f7d55afa63")
 	)
 	(wire
 		(pts
@@ -2117,16 +2149,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 114.3) (xy 147.32 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c3059d5-3605-40bb-a7fb-9899df577625")
-	)
-	(wire
-		(pts
 			(xy 102.87 67.31) (xy 102.87 68.58)
 		)
 		(stroke
@@ -2157,13 +2179,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 34.29) (xy 257.81 34.29)
+			(xy 137.16 34.29) (xy 148.59 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cd41a49-8695-440f-8bfc-f700435a4407")
+		(uuid "8a05cbb8-8605-4aa9-a001-4b272062aac2")
 	)
 	(wire
 		(pts
@@ -2177,7 +2199,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 144.78) (xy 146.05 144.78)
+			(xy 137.16 144.78) (xy 146.05 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2227,7 +2249,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 41.91) (xy 190.5 43.18)
+			(xy 184.15 41.91) (xy 184.15 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2244,16 +2266,6 @@
 			(type default)
 		)
 		(uuid "a7b444b8-705f-44a8-b30d-75516ae1ec33")
-	)
-	(wire
-		(pts
-			(xy 132.08 34.29) (xy 148.59 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab81e8c1-cf91-4e52-9f37-f845562fa295")
 	)
 	(wire
 		(pts
@@ -2277,16 +2289,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 34.29) (xy 132.08 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b664875a-9593-4d28-8e6f-12d4b72f7407")
-	)
-	(wire
-		(pts
 			(xy 167.64 43.18) (xy 171.45 43.18)
 		)
 		(stroke
@@ -2307,6 +2309,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 34.29) (xy 125.73 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc623867-a322-48a8-9a85-ae2c72f50ffc")
+	)
+	(wire
+		(pts
 			(xy 166.37 123.19) (xy 170.18 123.19)
 		)
 		(stroke
@@ -2317,7 +2329,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 125.73) (xy 132.08 144.78)
+			(xy 137.16 121.92) (xy 137.16 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2337,13 +2349,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 45.72) (xy 132.08 64.77)
+			(xy 137.16 41.91) (xy 137.16 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8194824-2f75-4b26-b040-9ba370e727b6")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc84c9fa-478c-4b86-9e52-133a429c8edb")
 	)
 	(wire
 		(pts
@@ -2354,6 +2376,16 @@
 			(type default)
 		)
 		(uuid "cf2d6182-e062-4e8a-a509-f842398b2489")
+	)
+	(wire
+		(pts
+			(xy 127 121.92) (xy 127 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62f2fc1-eb60-4e13-b792-7a63ffc59831")
 	)
 	(wire
 		(pts
@@ -2387,7 +2419,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 114.3) (xy 132.08 120.65)
+			(xy 137.16 114.3) (xy 137.16 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2439,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 34.29) (xy 118.11 34.29)
+			(xy 102.87 34.29) (xy 109.22 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2424,6 +2456,16 @@
 			(type default)
 		)
 		(uuid "ea396efe-73d4-4578-965c-842b94ce13cd")
+	)
+	(wire
+		(pts
+			(xy 125.73 41.91) (xy 125.73 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3859b0-6354-4ce9-998b-0303b8e1b5d3")
 	)
 	(wire
 		(pts
@@ -2467,13 +2509,33 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 114.3) (xy 190.5 114.3)
+			(xy 170.18 114.3) (xy 181.61 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f92a8c53-073e-4274-9059-249d4ba445b5")
+	)
+	(wire
+		(pts
+			(xy 125.73 34.29) (xy 125.73 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faef5898-4670-4064-8368-befb7d0d2ffa")
+	)
+	(wire
+		(pts
+			(xy 184.15 34.29) (xy 257.81 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8725d0-90a9-43d9-acf5-88eaf543a66d")
 	)
 	(label "VIN2_GATE"
 		(at 158.75 132.08 90)
@@ -2601,7 +2663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0744a895-474e-44a5-a44a-0155b995777e")
-		(property "Reference" "R11"
+		(property "Reference" "R20"
 			(at 81.28 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2696,7 +2758,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "R11")
+					(reference "R20")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -2717,7 +2779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c529e79-7991-40ee-b684-52686b7c363b")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG02"
 			(at 99.06 112.395 0)
 			(hide yes)
 			(show_name no)
@@ -2777,7 +2839,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "#FLG04")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -2795,7 +2857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1973d97b-d439-45ad-910d-766f69920b78")
-		(property "Reference" "U16"
+		(property "Reference" "U7"
 			(at 171.45 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2892,15 +2954,15 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "U16")
+					(reference "U7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 118.11 49.53 0)
+		(lib_id "Device:C_Small_US")
+		(at 125.73 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2908,32 +2970,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a28bd27-2c8a-4bc6-9fcc-703b45de85cd")
-		(property "Reference" "#PWR034"
-			(at 118.11 55.88 0)
-			(hide yes)
+		(uuid "216845f2-d840-4987-abbd-b9055c3bdc7c")
+		(property "Reference" "C17"
+			(at 127.508 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 118.11 54.61 0)
-			(hide yes)
+		(property "Value" "100nF"
+			(at 127.762 38.354 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 118.11 49.53 0)
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
+			(at 125.73 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2944,7 +3005,123 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 49.53 0)
+			(at 125.73 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±10% 0402 Capacitor"
+			(at 125.73 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "50V"
+			(at 129.54 40.132 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 125.73 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 130.048 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "293cb133-4652-4513-9061-85ff0288de80")
+		)
+		(pin "1"
+			(uuid "ffa7da1f-422d-4ace-94ec-15c15ccc8792")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
+					(reference "C17")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a28bd27-2c8a-4bc6-9fcc-703b45de85cd")
+		(property "Reference" "#PWR038"
+			(at 109.22 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2955,7 +3132,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 49.53 0)
+			(at 109.22 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2971,7 +3148,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "#PWR034")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2979,7 +3156,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 132.08 123.19 0)
+		(at 137.16 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2988,8 +3165,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39362086-914a-4fa6-9bcd-d1196bcd6192")
-		(property "Reference" "C145"
-			(at 133.858 120.396 0)
+		(property "Reference" "C20"
+			(at 138.938 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3000,7 +3177,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 134.112 122.174 0)
+			(at 139.192 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3011,7 +3188,7 @@
 			)
 		)
 		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
-			(at 132.08 123.19 0)
+			(at 137.16 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3022,7 +3199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 123.19 0)
+			(at 137.16 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3033,7 +3210,7 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0402 Capacitor"
-			(at 132.08 123.19 0)
+			(at 137.16 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3044,7 +3221,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 135.89 123.952 0)
+			(at 140.97 120.142 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3054,7 +3231,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C307331"
-			(at 132.08 123.19 0)
+			(at 137.16 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3065,7 +3242,7 @@
 			)
 		)
 		(property "Footprint_Size" "0402"
-			(at 136.398 125.73 0)
+			(at 141.478 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3083,7 +3260,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "C145")
+					(reference "C20")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -3093,9 +3270,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 116.84 121.92 270)
-		(mirror x)
+		(lib_id "Device:C_Small_US")
+		(at 127 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3103,9 +3279,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "40a0f27b-e17f-4e88-bee1-1c2d25d637a0")
-		(property "Reference" "D18"
-			(at 118.872 119.126 90)
+		(uuid "3b309a43-3934-4466-91e6-429f328ec369")
+		(property "Reference" "C18"
+			(at 128.778 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3115,8 +3291,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMAJ24A"
-			(at 118.872 120.904 90)
+		(property "Value" "100nF"
+			(at 129.032 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3126,8 +3302,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 116.84 121.92 0)
+		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
+			(at 127 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3138,7 +3314,123 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 121.92 0)
+			(at 127 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±10% 0402 Capacitor"
+			(at 127 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vmax" "50V"
+			(at 130.81 120.142 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 127 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "0402"
+			(at 131.318 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c65f5798-4378-443f-b101-3ddf45f911c1")
+		)
+		(pin "1"
+			(uuid "c9846007-4089-4921-98ec-ac8ead28ffbd")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
+					(reference "C18")
+					(unit 1)
+					(variant
+						(name "My VARIANT DARNIT")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 110.49 119.38 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40a0f27b-e17f-4e88-bee1-1c2d25d637a0")
+		(property "Reference" "D4"
+			(at 112.522 116.586 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ24A"
+			(at 112.522 118.364 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 110.49 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3149,7 +3441,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 24VWM 38.9VC DO214AC"
-			(at 116.84 121.92 0)
+			(at 110.49 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +3452,7 @@
 			)
 		)
 		(property "VR" "24V"
-			(at 120.904 122.682 90)
+			(at 114.554 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3170,7 +3462,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C10769"
-			(at 116.84 121.92 90)
+			(at 110.49 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3181,7 +3473,7 @@
 			)
 		)
 		(property "Footprint_Size" "DO214AC"
-			(at 123.444 124.46 90)
+			(at 117.094 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3199,7 +3491,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "D18")
+					(reference "D4")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -3220,7 +3512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "513e20c3-dc09-4a55-b6ed-ada4193d1b90")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR036"
 			(at 102.87 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3281,7 +3573,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "#PWR010")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3299,7 +3591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "515a792b-8b9c-4452-bad2-dbebcf42be85")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 160.02 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3360,7 +3652,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3377,7 +3669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59122faf-b155-4154-8ecf-f25d5eab10d9")
-		(property "Reference" "R13"
+		(property "Reference" "R21"
 			(at 81.534 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3472,7 +3764,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "R13")
+					(reference "R21")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -3483,7 +3775,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 43.18 0)
+		(at 184.15 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3493,8 +3785,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "608f1a44-7386-4603-9834-3ab0691a28d5")
-		(property "Reference" "#PWR049"
-			(at 190.5 49.53 0)
+		(property "Reference" "#PWR045"
+			(at 184.15 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3505,7 +3797,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 48.26 0)
+			(at 184.15 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3516,7 +3808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 43.18 0)
+			(at 184.15 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3527,7 +3819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 43.18 0)
+			(at 184.15 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3538,7 +3830,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 43.18 0)
+			(at 184.15 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3554,7 +3846,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "#PWR049")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3571,7 +3863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ba2caf7-5966-408f-b463-38437852311d")
-		(property "Reference" "R27"
+		(property "Reference" "R23"
 			(at 82.55 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3666,7 +3958,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "R27")
+					(reference "R23")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -3677,7 +3969,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 128.27 0)
+		(at 110.49 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3687,8 +3979,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e24a282-3ddf-417c-a5ab-72de5d42b336")
-		(property "Reference" "#PWR043"
-			(at 116.84 134.62 0)
+		(property "Reference" "#PWR039"
+			(at 110.49 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3699,7 +3991,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 133.35 0)
+			(at 110.49 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3710,7 +4002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 128.27 0)
+			(at 110.49 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3721,7 +4013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 128.27 0)
+			(at 110.49 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3732,7 +4024,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 128.27 0)
+			(at 110.49 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3748,7 +4040,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "#PWR043")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3765,7 +4057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e9a2381-1f80-417a-9a93-6ddd9f0da991")
-		(property "Reference" "Q6"
+		(property "Reference" "Q2"
 			(at 106.68 150.368 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,7 +4156,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "Q6")
+					(reference "Q2")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -3885,7 +4177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f6e3b51-ad8a-4b39-9102-a12a72e35a23")
-		(property "Reference" "Q21"
+		(property "Reference" "Q3"
 			(at 153.924 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3990,7 +4282,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "Q21")
+					(reference "Q3")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4010,7 +4302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83209a83-35e7-4276-8e17-623599086a15")
-		(property "Reference" "Q5"
+		(property "Reference" "Q1"
 			(at 106.426 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4109,7 +4401,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "Q5")
+					(reference "Q1")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4120,7 +4412,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 190.5 119.38 0)
+		(at 181.61 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4129,8 +4421,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9051a9c3-fb05-4b16-ad2e-d1e303cda84c")
-		(property "Reference" "C18"
-			(at 192.532 116.84 0)
+		(property "Reference" "C21"
+			(at 183.642 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4141,7 +4433,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 192.532 118.618 0)
+			(at 183.642 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4152,7 +4444,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 190.5 119.38 0)
+			(at 181.61 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4163,7 +4455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 119.38 0)
+			(at 181.61 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4174,7 +4466,7 @@
 			)
 		)
 		(property "Description" "GRM21BZ71H475ME15K"
-			(at 190.5 119.38 0)
+			(at 181.61 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4185,7 +4477,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 194.564 120.396 0)
+			(at 185.674 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4195,7 +4487,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C29823"
-			(at 190.5 119.38 0)
+			(at 181.61 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4206,7 +4498,7 @@
 			)
 		)
 		(property "Footprint_Size" "1206"
-			(at 195.326 122.174 0)
+			(at 186.436 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4224,7 +4516,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "C18")
+					(reference "C21")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4244,7 +4536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90bb43dc-d118-41bb-84e4-d66f95913dd8")
-		(property "Reference" "R39"
+		(property "Reference" "R24"
 			(at 104.394 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4339,7 +4631,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "R39")
+					(reference "R24")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4350,7 +4642,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 190.5 39.37 0)
+		(at 184.15 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4359,8 +4651,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "911d4a94-05f6-4a8a-b47e-05470a9a2abb")
-		(property "Reference" "C17"
-			(at 192.532 36.83 0)
+		(property "Reference" "C22"
+			(at 186.182 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4371,7 +4663,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 192.532 38.608 0)
+			(at 186.182 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4382,7 +4674,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 190.5 39.37 0)
+			(at 184.15 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4393,7 +4685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 39.37 0)
+			(at 184.15 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4404,7 +4696,7 @@
 			)
 		)
 		(property "Description" "GRM21BZ71H475ME15K"
-			(at 190.5 39.37 0)
+			(at 184.15 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4415,7 +4707,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 194.564 40.386 0)
+			(at 188.214 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4425,7 +4717,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C29823"
-			(at 190.5 39.37 0)
+			(at 184.15 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4436,7 +4728,7 @@
 			)
 		)
 		(property "Footprint_Size" "1206"
-			(at 195.326 42.164 0)
+			(at 188.976 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4454,7 +4746,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "C17")
+					(reference "C22")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4464,9 +4756,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 118.11 43.18 270)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 125.73 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4474,31 +4765,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9a19f8a2-2ce3-4ec7-b4a4-64e93c113b0d")
-		(property "Reference" "D17"
-			(at 120.142 40.386 90)
+		(fields_autoplaced yes)
+		(uuid "97ef8e7d-eae5-4c9b-abb8-369f46d8365b")
+		(property "Reference" "#PWR040"
+			(at 125.73 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "SMAJ24A"
-			(at 120.142 42.164 90)
+		(property "Value" "GND"
+			(at 125.73 49.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 118.11 43.18 0)
+		(property "Footprint" ""
+			(at 125.73 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4509,7 +4801,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 43.18 0)
+			(at 125.73 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2f5f081-db00-448a-a0b6-71acde70acf0")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 109.22 39.37 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a19f8a2-2ce3-4ec7-b4a4-64e93c113b0d")
+		(property "Reference" "D3"
+			(at 111.252 36.576 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ24A"
+			(at 111.252 38.354 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 109.22 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4520,7 +4891,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 24VWM 38.9VC DO214AC"
-			(at 118.11 43.18 0)
+			(at 109.22 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4531,7 +4902,7 @@
 			)
 		)
 		(property "VR" "24V"
-			(at 121.92 43.942 90)
+			(at 113.03 40.132 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4541,7 +4912,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C10769"
-			(at 118.11 43.18 90)
+			(at 109.22 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4552,7 +4923,7 @@
 			)
 		)
 		(property "Footprint_Size" "DO214AC"
-			(at 124.46 45.72 90)
+			(at 115.57 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4570,7 +4941,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "D17")
+					(reference "D3")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4590,7 +4961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a286a707-ef6a-4428-8e1a-70438eae779c")
-		(property "Reference" "R25"
+		(property "Reference" "R22"
 			(at 82.55 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4685,7 +5056,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "R25")
+					(reference "R22")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4706,7 +5077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a96984c3-86e8-4b76-a135-9fd14e49a2b7")
-		(property "Reference" "Q18"
+		(property "Reference" "Q4"
 			(at 155.194 31.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4811,7 +5182,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "Q18")
+					(reference "Q4")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4831,7 +5202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa0057e3-c71b-40b7-95b4-3a4fd3c265ac")
-		(property "Reference" "R41"
+		(property "Reference" "R25"
 			(at 104.14 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,7 +5297,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "R41")
+					(reference "R25")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -4937,7 +5308,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 132.08 43.18 0)
+		(at 137.16 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4946,8 +5317,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bad2c598-d639-4438-9bd9-2d688e99c3bb")
-		(property "Reference" "C144"
-			(at 133.858 40.386 0)
+		(property "Reference" "C19"
+			(at 138.938 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4958,7 +5329,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 134.112 42.164 0)
+			(at 139.192 38.354 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4969,7 +5340,7 @@
 			)
 		)
 		(property "Footprint" "valve_pcb_footprints:C_0402_1005Metric"
-			(at 132.08 43.18 0)
+			(at 137.16 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4980,7 +5351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 43.18 0)
+			(at 137.16 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4991,7 +5362,7 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0402 Capacitor"
-			(at 132.08 43.18 0)
+			(at 137.16 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5002,7 +5373,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 135.89 43.942 0)
+			(at 140.97 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5012,7 +5383,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C307331"
-			(at 132.08 43.18 0)
+			(at 137.16 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5023,7 +5394,7 @@
 			)
 		)
 		(property "Footprint_Size" "0402"
-			(at 136.398 45.72 0)
+			(at 141.478 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5041,7 +5412,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "C144")
+					(reference "C19")
 					(unit 1)
 					(variant
 						(name "My VARIANT DARNIT")
@@ -5052,7 +5423,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 123.19 0)
+		(at 181.61 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5062,8 +5433,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c12de036-ba22-4ae6-8548-d57ba04fcec4")
-		(property "Reference" "#PWR050"
-			(at 190.5 129.54 0)
+		(property "Reference" "#PWR044"
+			(at 181.61 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5074,7 +5445,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 128.27 0)
+			(at 181.61 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5085,7 +5456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 123.19 0)
+			(at 181.61 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5096,7 +5467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 123.19 0)
+			(at 181.61 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5107,7 +5478,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 123.19 0)
+			(at 181.61 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5123,7 +5494,86 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "#PWR050")
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c139694a-9cf1-4b20-ac1e-507181309a92")
+		(property "Reference" "#PWR041"
+			(at 127 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbe60d9b-2b72-4e4d-8b86-6cdbfb241bc4")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5141,7 +5591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c98c1c56-7d83-4c7f-937c-2bab3c5968e9")
-		(property "Reference" "U29"
+		(property "Reference" "U6"
 			(at 170.18 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5238,7 +5688,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "U29")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5256,7 +5706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d59c00aa-aa0b-4c94-ac2a-30ee0c265670")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR037"
 			(at 102.87 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -5317,7 +5767,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "#PWR032")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5335,7 +5785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dddb96f6-3da3-4773-9620-102117552a14")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR042"
 			(at 158.75 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -5396,7 +5846,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "#PWR046")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5414,7 +5864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0967d2b-27b2-43c5-8a80-6a38b5af0697")
-		(property "Reference" "#FLG012"
+		(property "Reference" "#FLG03"
 			(at 100.33 32.385 0)
 			(hide yes)
 			(show_name no)
@@ -5474,7 +5924,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/d4e8203a-d76f-4c3b-b909-1a52c35190e7/01d50d02-5b62-4d8b-8e75-b4ba93137eb3"
-					(reference "#FLG012")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

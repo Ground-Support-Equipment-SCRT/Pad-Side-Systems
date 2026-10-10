@@ -38,10 +38,10 @@
 		)
 		(uuid "7719f0e4-3747-44b3-acdf-55fad951c253")
 	)
-	(text_box "RESPONSIBLE ENGINEER: \nNICHOLAS ALVES\n\nREVIEWERS:"
+	(text_box "RESPONSIBLE ENGINEER: \nNICHOLAS ALVES\n\nREVIEWERS:\nETHAN EGGERT\nMAX LEIBOWITZ"
 		(exclude_from_sim no)
-		(at 176.53 124.46 0)
-		(size 46.99 14.1705)
+		(at 176.53 113.03 0)
+		(size 46.99 20.3044)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.508)
