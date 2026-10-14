@@ -1208,6 +1208,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LDO 3V3"
+		(exclude_from_sim no)
+		(at 147.32 52.578 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.016)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "0c73fb99-2d12-4e27-97df-acd15692dac3")
+	)
 	(junction
 		(at 180.34 93.98)
 		(diameter 0)

@@ -1589,6 +1589,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "INPUT MUX"
+		(exclude_from_sim no)
+		(at 233.68 144.526 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.016)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "7f995b98-0758-45f6-b0c0-54cd8f04ea2c")
+	)
 	(junction
 		(at 170.18 114.3)
 		(diameter 0)

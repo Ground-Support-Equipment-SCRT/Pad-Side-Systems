@@ -955,6 +955,19 @@
 		)
 		(uuid "3de21026-cd39-4c68-9f62-13e0612b6f46")
 	)
+	(text "LSW 5V"
+		(exclude_from_sim no)
+		(at 150.114 54.102 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.016)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "7df92763-6d48-4eac-850e-2eb5f637deb0")
+	)
 	(text "UVLO RISING: 4.85V\nUVLO FALLING: 4.45V"
 		(exclude_from_sim no)
 		(at 109.22 98.806 0)

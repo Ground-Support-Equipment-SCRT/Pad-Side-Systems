@@ -650,6 +650,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "MUX 3V3"
+		(exclude_from_sim no)
+		(at 153.416 53.34 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.016)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "20580ea6-912f-4745-a301-c697c58b245a")
+	)
 	(text "lower threshold for \nswitch to main board rail: 3V\n"
 		(exclude_from_sim no)
 		(at 116.586 93.218 0)

@@ -4119,8 +4119,8 @@
 		(uuid "9a89f2f3-023e-4352-9b2c-ab40c3cf2f25")
 	)
 	(rectangle
-		(start 54.61 63.5)
-		(end 147.955 86.36)
+		(start 41.91 55.88)
+		(end 147.955 88.9)
 		(stroke
 			(width 0)
 			(type default)
@@ -4131,7 +4131,7 @@
 		(uuid "a59e8bd0-ee0c-4854-aba2-aba9d2f031aa")
 	)
 	(rectangle
-		(start 149.86 55.245)
+		(start 149.86 55.88)
 		(end 276.86 105.41)
 		(stroke
 			(width 0)
@@ -4155,7 +4155,7 @@
 		(uuid "f8120345-130b-4e98-88b6-d2d0fc487bfb")
 	)
 	(rectangle
-		(start 54.61 90.805)
+		(start 41.91 90.805)
 		(end 147.955 140.97)
 		(stroke
 			(width 0)
@@ -4210,9 +4210,19 @@
 		)
 		(uuid "2eb4c047-989e-4345-811b-26e6b0aea287")
 	)
+	(text "BATTERY"
+		(exclude_from_sim no)
+		(at 54.61 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30342376-6a61-435e-8ad9-f4681975b142")
+	)
 	(text "SYSTEM POWER"
 		(exclude_from_sim no)
-		(at 123.952 82.042 0)
+		(at 124.714 85.344 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -4364,6 +4374,16 @@
 		)
 		(uuid "bd5a31f7-a1e1-4acb-81ea-7e55d54872bc")
 	)
+	(text "POWER SWITCH"
+		(exclude_from_sim no)
+		(at 51.562 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c4bb2548-534c-41f2-9d1a-660221c672f1")
+	)
 	(text "20"
 		(exclude_from_sim no)
 		(at 266.192 88.138 0)
@@ -4377,7 +4397,7 @@
 	)
 	(text "3"
 		(exclude_from_sim no)
-		(at 137.16 70.104 0)
+		(at 137.16 61.214 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4932,17 +4952,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 76.2) (xy 81.28 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3909ee42-e0db-4925-9a2a-6f1e606cd938")
-	)
-	(wire
-		(pts
-			(xy 72.39 69.85) (xy 128.27 69.85)
+			(xy 66.04 60.96) (xy 128.27 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5132,7 +5142,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 72.39) (xy 72.39 72.39)
+			(xy 81.28 63.5) (xy 66.04 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5259,6 +5269,16 @@
 			(type default)
 		)
 		(uuid "6fc58fd1-96ad-4429-9350-5560ab91168b")
+	)
+	(wire
+		(pts
+			(xy 81.28 76.2) (xy 66.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78790e3f-eae5-4b5c-affe-108b7555f555")
 	)
 	(wire
 		(pts
@@ -5542,6 +5562,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 78.74) (xy 66.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09b4e7a-21bf-4a2f-901a-e499c5d4f63f")
+	)
+	(wire
+		(pts
 			(xy 199.39 38.1) (xy 222.25 38.1)
 		)
 		(stroke
@@ -5679,6 +5709,16 @@
 			(type default)
 		)
 		(uuid "c7607f7e-3c9c-49b6-b22b-f085a5e3a928")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 81.28 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1357bf-cd99-4480-986b-2f61dd6a3601")
 	)
 	(wire
 		(pts
@@ -5912,6 +5952,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 63.5) (xy 81.28 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1cefdd8-cfd6-4cce-9e66-e893c8c1e971")
+	)
+	(wire
+		(pts
 			(xy 231.14 128.27) (xy 237.49 128.27)
 		)
 		(stroke
@@ -5939,6 +5989,16 @@
 			(type default)
 		)
 		(uuid "f5cc1ff4-f7be-4a13-a767-db93927d7529")
+	)
+	(label "VSYS_BAT+"
+		(at 67.31 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0307fa2a-843d-41de-9315-d94b5ffb87c6")
 	)
 	(label "PIN16"
 		(at 231.14 123.19 0)
@@ -6378,7 +6438,7 @@
 	)
 	(global_label "VSYS"
 		(shape output)
-		(at 128.27 69.85 0)
+		(at 128.27 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6388,7 +6448,7 @@
 		)
 		(uuid "d2239fa4-c880-423f-9dcb-57ff368ed81a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.8514 69.85 0)
+			(at 135.8514 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7041,7 +7101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10021534-af86-49fd-b008-95e8582bae0d")
-		(property "Reference" "J21"
+		(property "Reference" "J22"
 			(at 77.47 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7136,7 +7196,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "J21")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -7784,7 +7844,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 67.31 69.85 0)
+		(at 60.96 60.96 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7795,7 +7855,7 @@
 		(dnp no)
 		(uuid "328ea331-9c1f-4532-9569-70c56cc23801")
 		(property "Reference" "J20"
-			(at 66.802 67.056 0)
+			(at 61.468 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7805,7 +7865,7 @@
 			)
 		)
 		(property "Value" "0768290102"
-			(at 71.882 75.184 0)
+			(at 65.532 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7815,7 +7875,7 @@
 			)
 		)
 		(property "Footprint" "valve_pcb_footprints:768290102"
-			(at 67.31 69.85 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7826,7 +7886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 69.85 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7837,7 +7897,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 67.31 69.85 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7848,7 +7908,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 67.31 69.85 0)
+			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7859,7 +7919,7 @@
 			)
 		)
 		(property "Footprint_Size" "5.7mm"
-			(at 69.088 76.962 0)
+			(at 62.738 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7878,6 +7938,85 @@
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
 					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3352641b-d375-4f71-83fa-07f9fd73019a")
+		(property "Reference" "#PWR0312"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b5ea580-1b5f-4041-9133-385783be4097")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -8088,7 +8227,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a0d1670-677f-4fe0-bd4b-bb8871bc32e0")
-		(property "Reference" "J22"
+		(property "Reference" "J23"
 			(at 77.47 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8183,7 +8322,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "J22")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -9843,85 +9982,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 81.28 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "918a16f5-d60a-4749-8221-7754d40198e9")
-		(property "Reference" "#PWR0312"
-			(at 81.28 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "152a649d-c8ef-4709-90bc-9c8b5ff1df88")
-		)
-		(instances
-			(project "valve_control_pcb"
-				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "#PWR0312")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 69.85 120.65 90)
 		(unit 1)
@@ -10916,10 +10976,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b15dbeed-0ffa-4e5a-8734-cbedcd6a108d")
-		(property "Reference" "J23"
+		(property "Reference" "J24"
 			(at 193.04 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11056,7 +11116,7 @@
 		(instances
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
-					(reference "J23")
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -11661,6 +11721,107 @@
 			(project "valve_control_pcb"
 				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
 					(reference "#PWR0314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 60.96 76.2 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8e7668a-aac6-44c7-ac7c-fb3cf8d3e420")
+		(property "Reference" "J21"
+			(at 60.452 73.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0768290102"
+			(at 65.532 81.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "valve_pcb_footprints:768290102"
+			(at 60.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 60.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 60.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint_Size" "5.7mm"
+			(at 62.738 83.312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19def288-c58a-4152-b00d-caa16678536e")
+		)
+		(pin "2"
+			(uuid "cc0cf511-209f-4d99-b466-84b03b40664c")
+		)
+		(instances
+			(project "valve_control_pcb"
+				(path "/b7615ffe-ff75-4416-a90d-6549004210c5"
+					(reference "J21")
 					(unit 1)
 				)
 			)

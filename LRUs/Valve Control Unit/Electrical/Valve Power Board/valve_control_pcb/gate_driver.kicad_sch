@@ -843,6 +843,19 @@
 		)
 		(uuid "c619b8ff-9993-4ad1-bfa1-37dd833f6fb1")
 	)
+	(text "GATE DRIVERS"
+		(exclude_from_sim no)
+		(at 146.05 31.242 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.016)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4cf42b99-5f6b-4426-965e-226273ef2f53")
+	)
 	(text "Valve 3 & 4"
 		(exclude_from_sim no)
 		(at 102.87 97.282 0)

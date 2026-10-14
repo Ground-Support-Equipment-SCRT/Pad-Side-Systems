@@ -965,6 +965,19 @@
 		)
 		(uuid "8a5a8af0-6c16-45a9-8b9c-64af33ff8bdd")
 	)
+	(text "LSW 3V3"
+		(exclude_from_sim no)
+		(at 146.812 55.88 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.016)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "93d509d6-7d38-45b4-a0d0-865a5148a631")
+	)
 	(junction
 		(at 203.2 91.44)
 		(diameter 0)

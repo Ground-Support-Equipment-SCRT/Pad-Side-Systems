@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 4,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_00000117",
+    "visible_layers": "00000000_00000000_00000000_80000167",
     "zone_display_mode": 0
   },
   "git": {
@@ -131,6 +131,7 @@
   },
   "schematic": {
     "hierarchy_collapsed": [
+      "/",
       "/"
     ],
     "selection_filter": {

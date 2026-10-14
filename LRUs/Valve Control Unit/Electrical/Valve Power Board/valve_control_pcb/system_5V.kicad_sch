@@ -1553,6 +1553,19 @@
 		)
 		(uuid "9c358018-9404-445b-a00c-6d2bfcbbbba1")
 	)
+	(text "SYSTEM 5V"
+		(exclude_from_sim no)
+		(at 146.812 43.942 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.016)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d1e43ad0-6920-45f5-8c03-b0d45244e198")
+	)
 	(junction
 		(at 100.33 109.22)
 		(diameter 0)
