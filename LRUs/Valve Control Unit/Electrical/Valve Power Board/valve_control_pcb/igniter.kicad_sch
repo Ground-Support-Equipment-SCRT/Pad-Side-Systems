@@ -4449,6 +4449,16 @@
 		)
 		(uuid "6ca44a6f-61a4-4af7-a679-bef097d88b42")
 	)
+	(text "SW"
+		(exclude_from_sim no)
+		(at 199.644 47.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7afad62d-50f9-4135-92f8-94182c36f56c")
+	)
 	(text "IOUT MAX: 14.7A\n"
 		(exclude_from_sim no)
 		(at 183.134 83.058 0)
@@ -4458,6 +4468,16 @@
 			)
 		)
 		(uuid "9343d3ea-8932-4219-b01a-3a5366ddd8e8")
+	)
+	(text "LED"
+		(exclude_from_sim no)
+		(at 199.39 52.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98c84922-fc54-4ea4-bbd3-3539e734d3d2")
 	)
 	(text "20"
 		(exclude_from_sim no)
@@ -6565,6 +6585,16 @@
 			(type default)
 		)
 		(uuid "cf2e5bf1-b152-4128-a442-97e2da32d1be")
+	)
+	(polyline
+		(pts
+			(xy 195.58 49.53) (xy 200.66 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0437849-670f-446c-82f1-849ee93f390e")
 	)
 	(wire
 		(pts

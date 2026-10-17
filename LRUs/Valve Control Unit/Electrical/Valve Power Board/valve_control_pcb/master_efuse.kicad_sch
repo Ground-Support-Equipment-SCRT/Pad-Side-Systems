@@ -2019,6 +2019,16 @@
 		)
 		(uuid "3b77923c-8076-4e41-bd8f-0700c77f1ad7")
 	)
+	(label "VALVE_EN"
+		(at 113.03 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "657458ed-d2b0-41f1-bad5-a00d1cc5f298")
+	)
 	(label "ILIM"
 		(at 172.72 109.22 0)
 		(effects
